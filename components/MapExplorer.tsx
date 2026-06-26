@@ -92,22 +92,84 @@ export default function MapExplorer() {
     return arr;
   }, [filtered, userLoc, area]);
 
-  // Našeptávač: návrhy podle textu (název / obec / kraj).
-  const norm = (s: string) =>
-    s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-  const suggestions = useMemo(() => {
+  const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+  type Suggestion =
+    | { kind: "geo"; name: string; detail: string; lat: number; lng: number; isCity: boolean }
+    | { kind: "place"; l: (typeof allLocations)[number] };
+
+  // Naše lokality (okamžitě, bez sítě).
+  const localPlaces = useMemo<Suggestion[]>(() => {
     const q = norm(filters.query.trim());
     if (q.length < 2) return [];
-    return allLocations
-      .filter((l) => norm(`${l.name} ${l.municipality ?? ""} ${l.region}`).includes(q))
-      .slice(0, 8);
+    const scored: { l: (typeof allLocations)[number]; score: number }[] = [];
+    for (const l of allLocations) {
+      const name = norm(l.name);
+      let score = 0;
+      if (name.startsWith(q)) score = 100;
+      else if (name.includes(q)) score = 60;
+      if (score > 0) scored.push({ l, score: score + (l.monitored ? 5 : 0) });
+    }
+    scored.sort((a, b) => b.score - a.score || a.l.name.localeCompare(b.l.name, "cs"));
+    return scored.slice(0, 5).map((s): Suggestion => ({ kind: "place", l: s.l }));
   }, [filters.query]);
 
-  const pickSuggestion = (l: (typeof allLocations)[number]) => {
-    setFilters((f) => ({ ...f, query: l.name }));
+  // Geocoder Photon (obce, adresy, místa) – našeptávání jako u běžných map.
+  const [geo, setGeo] = useState<Suggestion[]>([]);
+  useEffect(() => {
+    const q = filters.query.trim();
+    if (q.length < 2) {
+      setGeo([]);
+      return;
+    }
+    const ctrl = new AbortController();
+    const t = setTimeout(async () => {
+      try {
+        const res = await fetch(
+          `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&lang=cs&limit=6&lat=49.8&lon=15.5`,
+          { signal: ctrl.signal },
+        );
+        const data = await res.json();
+        const out: Suggestion[] = (data.features ?? [])
+          .filter((f: { properties?: { countrycode?: string } }) => !f.properties?.countrycode || f.properties.countrycode === "CZ")
+          .map((f: { geometry: { coordinates: [number, number] }; properties: Record<string, string> }) => {
+            const p = f.properties;
+            const detail = [p.city, p.county, p.state].filter((x) => x && x !== p.name).slice(0, 2).join(", ");
+            const isCity = ["city", "town", "village", "municipality"].includes(p.type ?? "") || p.osm_key === "place";
+            return {
+              kind: "geo" as const,
+              name: p.name || p.street || q,
+              detail: detail || "Česko",
+              lat: f.geometry.coordinates[1],
+              lng: f.geometry.coordinates[0],
+              isCity,
+            };
+          });
+        setGeo(out);
+      } catch {
+        /* zrušeno / offline */
+      }
+    }, 220);
+    return () => {
+      clearTimeout(t);
+      ctrl.abort();
+    };
+  }, [filters.query]);
+
+  const suggestions = useMemo<Suggestion[]>(() => [...localPlaces, ...geo], [localPlaces, geo]);
+
+  const pickSuggestion = (s: Suggestion) => {
     setOpenSug(false);
-    setFocus({ id: l.id, lat: l.lat, lng: l.lng });
-    setArea({ lat: l.lat, lng: l.lng, km: 40 }); // přiblížit na ~40 km okolí
+    if (s.kind === "geo") {
+      setFilters((f) => ({ ...f, query: s.name }));
+      setFocus(null);
+      setArea({ lat: s.lat, lng: s.lng, km: s.isCity ? 25 : 8 });
+    } else {
+      setFilters((f) => ({ ...f, query: s.l.name }));
+      setFocus({ id: s.l.id, lat: s.l.lat, lng: s.l.lng });
+      setArea({ lat: s.l.lat, lng: s.l.lng, km: 15 });
+    }
+    setListOpen(true);
   };
 
   const handleNearby = () => {
@@ -149,21 +211,33 @@ export default function MapExplorer() {
             />
             {/* Našeptávač */}
             {openSug && suggestions.length > 0 && (
-              <ul className="absolute left-0 right-0 top-full z-30 mt-1 max-h-72 overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-xl">
-                {suggestions.map((s) => (
-                  <li key={s.id}>
-                    <button
-                      onMouseDown={(e) => e.preventDefault()}
-                      onClick={() => pickSuggestion(s)}
-                      className="flex w-full items-center gap-2 border-l-4 px-3 py-2 text-left hover:bg-slate-50"
-                      style={{ borderLeftColor: dotColor(s) }}
-                    >
-                      <span className="truncate text-sm font-medium text-slate-900">{s.name}</span>
-                      <span className="ml-auto shrink-0 text-[11px] text-slate-400">
-                        {TYPE_LABELS[s.type]}
-                        {s.municipality ? ` · ${s.municipality}` : s.region ? ` · ${s.region}` : ""}
-                      </span>
-                    </button>
+              <ul className="absolute left-0 right-0 top-full z-30 mt-1 max-h-80 overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-xl">
+                {suggestions.map((s, i) => (
+                  <li key={i}>
+                    {s.kind === "place" ? (
+                      <button
+                        onMouseDown={(e) => e.preventDefault()}
+                        onClick={() => pickSuggestion(s)}
+                        className="flex w-full items-center gap-2 border-l-4 px-3 py-2 text-left hover:bg-slate-50"
+                        style={{ borderLeftColor: dotColor(s.l) }}
+                      >
+                        <span className="truncate text-sm font-medium text-slate-900">{s.l.name}</span>
+                        <span className="ml-auto shrink-0 text-[11px] text-slate-400">
+                          {TYPE_LABELS[s.l.type]}
+                          {s.l.municipality ? ` · ${s.l.municipality}` : s.l.region ? ` · ${s.l.region}` : ""}
+                        </span>
+                      </button>
+                    ) : (
+                      <button
+                        onMouseDown={(e) => e.preventDefault()}
+                        onClick={() => pickSuggestion(s)}
+                        className="flex w-full items-center gap-2 px-3 py-2 text-left hover:bg-slate-50"
+                      >
+                        <span className="shrink-0 text-slate-400">{s.isCity ? "🏙️" : "📍"}</span>
+                        <span className="truncate text-sm text-slate-800">{s.name}</span>
+                        <span className="ml-auto shrink-0 text-[11px] text-slate-400">{s.detail}</span>
+                      </button>
+                    )}
                   </li>
                 ))}
               </ul>
