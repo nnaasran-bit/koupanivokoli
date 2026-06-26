@@ -239,10 +239,51 @@ export default async function LocationPage({
         </section>
       )}
 
-      {/* Praktické info: rok + vybavení */}
-      {(loc.since || (loc.amenities && loc.amenities.length > 0)) && (
+      {/* Praktické info: vstupné, web, otevírací doba, telefon, rok + vybavení */}
+      {(loc.since || loc.fee || loc.website || loc.openingHours || loc.phone || loc.operator ||
+        (loc.amenities && loc.amenities.length > 0)) && (
         <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
           <h2 className="text-sm font-bold text-slate-900">Vybavení a praktické info</h2>
+
+          <dl className="mt-2 space-y-1.5 text-sm">
+            {loc.fee && (
+              <div className="flex justify-between gap-2">
+                <dt className="text-slate-500">💰 Vstupné</dt>
+                <dd className="text-right font-medium text-slate-900">{loc.fee}</dd>
+              </div>
+            )}
+            {loc.openingHours && (
+              <div className="flex justify-between gap-2">
+                <dt className="text-slate-500">🕒 Otevírací doba</dt>
+                <dd className="text-right font-medium text-slate-900">{loc.openingHours}</dd>
+              </div>
+            )}
+            {loc.phone && (
+              <div className="flex justify-between gap-2">
+                <dt className="text-slate-500">📞 Telefon</dt>
+                <dd className="text-right font-medium text-slate-900">
+                  <a href={`tel:${loc.phone.replace(/\s/g, "")}`} className="text-brand hover:underline">{loc.phone}</a>
+                </dd>
+              </div>
+            )}
+            {loc.operator && (
+              <div className="flex justify-between gap-2">
+                <dt className="text-slate-500">🏢 Provozovatel</dt>
+                <dd className="text-right font-medium text-slate-900">{loc.operator}</dd>
+              </div>
+            )}
+            {loc.website && (
+              <div className="flex justify-between gap-2">
+                <dt className="text-slate-500">🌐 Web</dt>
+                <dd className="text-right font-medium">
+                  <a href={loc.website} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+                    oficiální stránky →
+                  </a>
+                </dd>
+              </div>
+            )}
+          </dl>
+
           {loc.since && (
             <p className="mt-2 text-sm text-slate-600">
               <span className="font-medium text-slate-900">V provozu / existuje od:</span> {loc.since}

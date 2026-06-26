@@ -172,7 +172,9 @@
       "obcerstveni",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.sport-jicin.cz/aquacentrum/",
+    "openingHours": "Mo-Fr 14:00-21:00"
   },
   {
     "id": "osm-way-1232143744",
@@ -198,7 +200,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.aquavparku.cz",
+    "phone": "+420 722 224 015"
   },
   {
     "id": "osm-node-11367029262",
@@ -250,7 +254,10 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bospor.info/cz/aquacentrum-bohumin",
+    "openingHours": "Fr 10:00-21:00; Mo-Th, Sa, Su 06:30-21:00",
+    "operator": "Bospor"
   },
   {
     "id": "osm-node-5254741379",
@@ -277,7 +284,10 @@
       "obcerstveni",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.aquajachymov.cz/",
+    "phone": "+42353836000",
+    "operator": "Léčebné lázně Jáchymov"
   },
   {
     "id": "osm-relation-18579027",
@@ -304,7 +314,9 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.aquapce.cz/",
+    "openingHours": "Mo-Fr 06:00-21:00; Sa,Su,PH 09:00-21:00"
   },
   {
     "id": "osm-node-4665966503",
@@ -330,7 +342,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://hotelslunce.jeseniky.com/7259/aquacentrum/",
+    "openingHours": "Mo-Fr 16:00-21:00; Sa,Su 10:00-21:00"
   },
   {
     "id": "osm-way-31784559",
@@ -356,7 +370,10 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.aquacentrum-teplice.cz/",
+    "openingHours": "Mo 13:00-21:30; Tu-Su 09:00-21:30",
+    "phone": "+420 417577164"
   },
   {
     "id": "osm-way-60611424",
@@ -410,7 +427,11 @@
       "obcerstveni",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.franzensbad.cz/cs/aquaforum/",
+    "openingHours": "Mo-Su 09:00-21:00; Dec 31 08:00-12:00; Jan 01,Dec 24-26 off",
+    "phone": "+420354206500",
+    "operator": "Lázně Františkovy Lázně a.s."
   },
   {
     "id": "osm-way-284891713",
@@ -437,7 +458,10 @@
       "wc",
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.aqualand-moravia.cz/",
+    "openingHours": "Mo-Su 10:00-21:00",
+    "operator": "ŽS REAL, a.s."
   },
   {
     "id": "osm-way-51555718",
@@ -464,7 +488,9 @@
       "obcerstveni"
     ],
     "since": "2010-09-08",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.aquapalace.cz/",
+    "openingHours": "Jan-Dec Mo-Su 10:00-22:00; Th-Sa 10:00-23:00; Jul-Aug Mo-Su 09:00-23:00"
   },
   {
     "id": "osm-way-31022935",
@@ -516,7 +542,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://szm.pb.cz/aquapark/#plavecky-bazen"
   },
   {
     "id": "osm-way-203845745",
@@ -544,7 +571,8 @@
       "obcerstveni",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://aquaparkspindl.cz/"
   },
   {
     "id": "osm-way-435189810",
@@ -682,7 +710,10 @@
       "obcerstveni"
     ],
     "since": "2007-08-23",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.aquaparkdecin.cz/aquapark-vnitrni-cast/",
+    "openingHours": "Mo 13:00-21:00; Tu-Sa 10:00-21:00; Su 10:00-20:00",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-115277489",
@@ -735,7 +766,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.bazenhorovice.cz/",
+    "openingHours": "Mo-Su 10:00-19:00"
   },
   {
     "id": "osm-way-366339766",
@@ -762,7 +795,8 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Sportovní areály města Kladna s.r.o."
   },
   {
     "id": "osm-way-81687288",
@@ -788,7 +822,11 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://aquapark.starez.cz/",
+    "openingHours": "Mo-Fr 06:00-20:30; Sa,Su 08:00-20:30",
+    "phone": "+420 533 033 863",
+    "operator": "starez"
   },
   {
     "id": "osm-relation-7658099",
@@ -814,7 +852,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.dsp-pv.cz/cz/m/aquapark-koupelky/"
   },
   {
     "id": "osm-way-53549179",
@@ -919,7 +958,8 @@
       "obcerstveni"
     ],
     "since": "1999-08-03",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.vshslany.cz/aquapark"
   },
   {
     "id": "osm-way-123949976",
@@ -946,7 +986,8 @@
       "obcerstveni"
     ],
     "since": "2004-11-24",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "Mo-Fr 06:00-07:45,10:00-21:30, Sa,Su 08:00-21:30"
   },
   {
     "id": "osm-way-947014996",
@@ -969,7 +1010,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.obec-uhrice.cz/aquapark/",
+    "phone": "+420 601 551 259",
+    "operator": "obec Uhřice"
   },
   {
     "id": "osm-way-114769454",
@@ -997,7 +1041,9 @@
       "parkovani"
     ],
     "since": "2002-02-01",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.aquaparkvyskov.cz",
+    "operator": "Správa majetku města Vyškova, p.o."
   },
   {
     "id": "osm-node-926348911",
@@ -1050,7 +1096,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "PH,Mo-Su 09:00-20:00,20:00-22:00"
   },
   {
     "id": "osm-way-467792465",
@@ -1077,7 +1124,11 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://aquaprak.cz/",
+    "phone": "+420313518500",
+    "operator": "Údržba městských komunikací Rakovník",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-230140123",
@@ -1104,7 +1155,8 @@
       "wc"
     ],
     "since": "2013-11-01",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "Mo 13:00-21:00; Tu-Su 09:00-21:00"
   },
   {
     "id": "osm-way-123691506",
@@ -1269,7 +1321,8 @@
     "description": "Kostel v Modré se nacházel v Modré u Velehradu. Někteří badatelé tvrdí, že je dílem iroskotských misií, a je tedy důkazem přítomnosti těchto misí na Moravě. Byl založen v době před příchodem soluňských bratří, Cyrila a Metoděje. Zprávy o tomto objektu publikoval ve své knize Josef Cibulka. Po vydání knihy se kostel stal předmětem sporů mnoha odborníků, hlavně o jeho původu a založení se vedly velice vášnivé diskuze.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Modr%C3%A1%2C_z%C3%A1klady_kostela.jpg/3840px-Modr%C3%A1%2C_z%C3%A1klady_kostela.jpg",
     "photoCredit": "Wikipedie / Kostel v Modré",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_v_Modr%C3%A9"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_v_Modr%C3%A9",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-node-2493539744",
@@ -1419,7 +1472,8 @@
     "amenities": [
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Hotel Sanccousi"
   },
   {
     "id": "osm-node-9913027670",
@@ -1547,7 +1601,9 @@
       "obcerstveni",
       "pitna_voda"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.hotelolsanka.cz/en/sports/swimming-pool/",
+    "openingHours": "Mo-Fr 06:00-22:00; Sa-Su 08:00-20:00"
   },
   {
     "id": "osm-way-245279662",
@@ -1573,7 +1629,9 @@
     "amenities": [
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bazenprimda.cz/",
+    "openingHours": "Mo-Fr 10:00-20:00"
   },
   {
     "id": "osm-way-273906830",
@@ -1597,7 +1655,8 @@
       "source": "OpenStreetMap"
     },
     "since": "2010-10-01",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bazenrk.cz/"
   },
   {
     "id": "osm-way-1023359879",
@@ -1623,7 +1682,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.bazenslovany.cz/",
+    "openingHours": "Mo-Fr 06:30-21:00; Sa-Su 09:00-20:00"
   },
   {
     "id": "osm-node-1723626177",
@@ -1942,7 +2003,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.koupalisteotaslavice.cz"
   },
   {
     "id": "osm-way-1223435844",
@@ -1972,7 +2034,8 @@
     "description": "Votice jsou obvod stanice Olbramovice ve východní části města Votice v okrese Benešov ve Středočeském kraji nedaleko Srbického potoka. Leží na dvoukolejné elektrifikované trati Praha – České Budějovice.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Votice%2C_train_station.jpg",
     "photoCredit": "Wikipedie / Votice (nádraží)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Votice_(n%C3%A1dra%C5%BE%C3%AD)"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Votice_(n%C3%A1dra%C5%BE%C3%AD)",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-50922495",
@@ -2092,7 +2155,8 @@
     "description": "Blučiňák je rybník v okresu Brno-venkov, nacházející se severovýchodně od obce Blučina, na jejím katastrálním území. Vodní plocha má rozlohu 3,6 ha.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Blu%C4%8Dina_-_rybn%C3%ADk_Blu%C4%8Di%C5%88%C3%A1k_2011.jpg",
     "photoCredit": "Wikipedie / Blučiňák",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Blu%C4%8Di%C5%88%C3%A1k"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Blu%C4%8Di%C5%88%C3%A1k",
+    "fee": "zdarma"
   },
   {
     "id": "osm-node-963990689",
@@ -2575,7 +2639,8 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://cablewakepark.cz/"
   },
   {
     "id": "osm-way-218504883",
@@ -2602,7 +2667,8 @@
       "wc"
     ],
     "since": "2010-11-24",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bazen-kdyne.cz/"
   },
   {
     "id": "osm-way-58724319",
@@ -2629,7 +2695,8 @@
       "parkovani",
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.centrum-zdravi-bohunovice.cz/"
   },
   {
     "id": "osm-way-50935770",
@@ -3060,7 +3127,9 @@
       "wc",
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bazen-olomouc.cz/kontakty-delfinek",
+    "openingHours": "Mo-Fr 08:00-20:00"
   },
   {
     "id": "osm-way-51214969",
@@ -3569,7 +3638,8 @@
       "parkovani",
       "pitna_voda"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://floret.cz/"
   },
   {
     "id": "osm-way-56687470",
@@ -4217,7 +4287,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Hotel Belaria Resort"
   },
   {
     "id": "osm-node-3726495693",
@@ -4244,7 +4315,8 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-54546985",
@@ -4423,7 +4495,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "mimo provoz"
   },
   {
     "id": "osm-way-724009593",
@@ -4480,7 +4553,8 @@
     "description": "Písníky u Roudnice jsou soustavou čtyř vodních ploch vzniklých těžbou štěrkopísku nalézající se u silnice II/611 na západním okraji obce Roudnice v okrese Hradec Králové. Výměra vodních ploch jednotlivých jezer v roce 2018 činila 13,0 ha u jezera I, 6,0 ha u jezera II, 15,0 ha u jezera III a 9,0 ha u jezera IV počítáno ve směru od obce Kratonohy. V roce 2018 probíhala těžba pouze na jezerech I a IV.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/P%C3%ADsn%C3%ADky_u_Roudnice_06.jpg/3840px-P%C3%ADsn%C3%ADky_u_Roudnice_06.jpg",
     "photoCredit": "Wikipedie / Písníky u Roudnice",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/P%C3%ADsn%C3%ADky_u_Roudnice"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/P%C3%ADsn%C3%ADky_u_Roudnice",
+    "website": "https://www.rybareni-roudnice.cz/"
   },
   {
     "id": "osm-way-701912956",
@@ -4779,7 +4853,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.jezerokonetopy.eu/"
   },
   {
     "id": "osm-way-51199834",
@@ -4883,7 +4958,8 @@
     "description": "Poutní cesta Říp – Blaník je poutní cesta propojující dva významné vrcholy v České republice: Říp a Blaník. Navazuje tak na poutní cestu Blaník – Říp, kterou vytvořil spolek Cesta Česka v roce 2019. Jedná se o projekt nejen v oblasti turistiky, ale i v oblasti sebepoznání a osobního rozvoje.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Pod_%C5%98%C3%ADpem_-_ukazatel.jpg",
     "photoCredit": "Wikipedie / Poutní cesta Říp – Blaník",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Poutn%C3%AD_cesta_%C5%98%C3%ADp_%E2%80%93_Blan%C3%ADk"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Poutn%C3%AD_cesta_%C5%98%C3%ADp_%E2%80%93_Blan%C3%ADk",
+    "website": "https://www.jezero.ooo/"
   },
   {
     "id": "osm-way-302619111",
@@ -5221,7 +5297,8 @@
     "description": "Kamencové jezero je jezero v Ústeckém kraji v České republice. Jako přírodní útvar je jedinečné a i ve světovém měřítku ojedinělé. Nachází se v nadmořské výšce 337 metrů na severovýchodním okraji Chomutova. Je široké 240 m a dlouhé 676 m. Zaujímá rozlohu 15,98 hektarů, maximální hloubka jsou čtyři metry a objem 322 958 m³.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kamencov%C3%A9_jezero_1.jpg",
     "photoCredit": "Wikipedie / Kamencové jezero",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Kamencov%C3%A9_jezero"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kamencov%C3%A9_jezero",
+    "website": "http://www.kamencovejezero.cz/"
   },
   {
     "id": "osm-way-51008828",
@@ -5326,7 +5403,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://aquaparkklasterec.cz/",
+    "operator": "Město Klášterec nad Ohří"
   },
   {
     "id": "osm-way-308344857",
@@ -5353,7 +5432,8 @@
     "description": "Písníky u Roudnice jsou soustavou čtyř vodních ploch vzniklých těžbou štěrkopísku nalézající se u silnice II/611 na západním okraji obce Roudnice v okrese Hradec Králové. Výměra vodních ploch jednotlivých jezer v roce 2018 činila 13,0 ha u jezera I, 6,0 ha u jezera II, 15,0 ha u jezera III a 9,0 ha u jezera IV počítáno ve směru od obce Kratonohy. V roce 2018 probíhala těžba pouze na jezerech I a IV.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/P%C3%ADsn%C3%ADky_u_Roudnice_06.jpg/3840px-P%C3%ADsn%C3%ADky_u_Roudnice_06.jpg",
     "photoCredit": "Wikipedie / Písníky u Roudnice",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/P%C3%ADsn%C3%ADky_u_Roudnice"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/P%C3%ADsn%C3%ADky_u_Roudnice",
+    "website": "https://www.rybareni-roudnice.cz/"
   },
   {
     "id": "osm-way-601376472",
@@ -5672,7 +5752,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "24/7"
   },
   {
     "id": "osm-way-51045391",
@@ -5726,7 +5807,10 @@
       "obcerstveni",
       "pitna_voda"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.koupak.eu",
+    "openingHours": "May-Sep Mo-Sa 09:00-20:00; May-Sep Su 09:00-19:00",
+    "phone": "737 594 590"
   },
   {
     "id": "osm-node-4952259878",
@@ -5970,7 +6054,9 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.velkeopatovice.cz/koupaliste-1/",
+    "operator": "Město Velké Opatovice"
   },
   {
     "id": "osm-node-3710349738",
@@ -5996,7 +6082,10 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.vratimov.cz/informace-o-meste/koupaliste/",
+    "openingHours": "Jun-Aug 09:00-19:30 open \"Otevřeno denně pokud teplota vzduchu dosáhne 20°C a neprší.\"; Sep 10:00-17:00 open \"Otevřeno denně pokud teplota vzduchu dosáhne 20°C a neprší.\"",
+    "phone": "+720 603 938 346"
   },
   {
     "id": "osm-node-4027591590",
@@ -6043,7 +6132,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "phone": "604 116 061"
   },
   {
     "id": "osm-node-12109947701",
@@ -6066,7 +6156,9 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://koupaliste.kostalov.cz/",
+    "phone": "731 157 369"
   },
   {
     "id": "osm-way-47198374",
@@ -6414,7 +6506,8 @@
     "amenities": [
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://tsmzatec.cz/index.php?p=koupaliste1"
   },
   {
     "id": "osm-way-1043111694",
@@ -6464,7 +6557,8 @@
       "wc",
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.bazen-melnik.cz/"
   },
   {
     "id": "osm-node-2306811286",
@@ -6687,7 +6781,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "9:00-20:00"
   },
   {
     "id": "osm-relation-18041882",
@@ -6715,7 +6810,8 @@
       "wc",
       "pitna_voda"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.aquapce.cz/"
   },
   {
     "id": "osm-node-1839135790",
@@ -6738,7 +6834,9 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://tshorice.cz/",
+    "phone": "+420 493 624 114"
   },
   {
     "id": "osm-way-51208407",
@@ -6833,7 +6931,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.duha.pozlovice.cz",
+    "openingHours": "Jun-Sep Mo-Fr 11:00-18:00; Jun-Sep Sa,Su 10:00-18:00; Jul-Aug 09:00-20:00",
+    "phone": "+420 724 179 343"
   },
   {
     "id": "osm-way-222005493",
@@ -6860,7 +6961,9 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.snhk.cz/flosna",
+    "openingHours": "mo-fr 06:00-20:00"
   },
   {
     "id": "osm-way-549283130",
@@ -6912,7 +7015,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.koupalistehodejice.cz"
   },
   {
     "id": "osm-way-274272325",
@@ -6987,7 +7091,9 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://koupaktejno.cz/",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-51006281",
@@ -7063,7 +7169,8 @@
       "obcerstveni",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "Jun-Aug Mo-Su 09:30-19:00"
   },
   {
     "id": "osm-way-50888682",
@@ -7090,7 +7197,8 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://koupalistekempklaster.cz/"
   },
   {
     "id": "osm-node-963990914",
@@ -7194,7 +7302,9 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.krtiny.cz/koupaliste/",
+    "openingHours": "Mo-Su 09:00-18:00"
   },
   {
     "id": "osm-way-50995437",
@@ -7365,7 +7475,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "PH,Tu-Su 09:00-19:00; Mo 12:00-19:00"
   },
   {
     "id": "osm-way-615992020",
@@ -7414,7 +7525,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Město Morkovice-Slížany"
   },
   {
     "id": "osm-way-368669630",
@@ -7440,7 +7552,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-73910603",
@@ -7463,7 +7576,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.sportovisteznojmo.cz/koupaliste-mramotice"
   },
   {
     "id": "osm-way-679836136",
@@ -7490,7 +7604,8 @@
       "obcerstveni",
       "pitna_voda"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.sportbilina.cz/koupaliste/"
   },
   {
     "id": "osm-way-127562608",
@@ -7513,7 +7628,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.sportvlasim.cz/zarizeni/koupaliste-na-lukach/"
   },
   {
     "id": "osm-way-50929004",
@@ -7540,7 +7656,8 @@
       "obcerstveni",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "24/7"
   },
   {
     "id": "osm-way-295844698",
@@ -7615,7 +7732,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "Jun-Aug 10:00-20:00"
   },
   {
     "id": "osm-way-51006650",
@@ -7887,7 +8005,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "Jun: Mo-Th 14:00-21:00; Jun: Fr 14:00-22:00; Jun: Sa 10:00-22:00; Su 10:00-21:00; Jul,Aug: Su-Th 09:00-21:00; Jul,Aug:Fr,Sa 09:00-22:00"
   },
   {
     "id": "osm-way-962388863",
@@ -7910,7 +8029,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Obec SH"
   },
   {
     "id": "osm-node-6769159006",
@@ -8031,7 +8151,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.koupaliste-bukovina.cz/"
   },
   {
     "id": "osm-node-1363513353",
@@ -8054,7 +8175,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-50889079",
@@ -8233,7 +8355,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.mhvodnany.cz/koupaliste"
   },
   {
     "id": "osm-way-395554276",
@@ -8364,7 +8487,8 @@
       "obcerstveni",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Radek Jelínek"
   },
   {
     "id": "osm-node-10076378130",
@@ -8387,7 +8511,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.hostinne.info/koupaliste/ds-1336",
+    "openingHours": "jun-sep",
+    "operator": "Město Hostinné"
   },
   {
     "id": "osm-way-51044910",
@@ -8516,7 +8643,10 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.aquapark-olesna.cz/",
+    "openingHours": "Mo 12:00-21:00; Tu-Fr 10:00-21:00; Sa,Su 09:00-21:00",
+    "operator": "Sportplex Frýdek-Místek, s.r.o."
   },
   {
     "id": "osm-way-66877258",
@@ -8595,7 +8725,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Sareza",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-96126957",
@@ -8647,7 +8779,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.krytybazen.cz/",
+    "operator": "Krytý bazén Rožnov"
   },
   {
     "id": "osm-node-1725267242",
@@ -8697,7 +8831,9 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bazenvm.cz/",
+    "phone": "+420571610740"
   },
   {
     "id": "osm-way-149649426",
@@ -8724,7 +8860,9 @@
       "obcerstveni"
     ],
     "since": "2027",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://vodnisvet-ceskaves.cz/",
+    "operator": "OBEC ČESKÁ VES"
   },
   {
     "id": "osm-way-287109790",
@@ -8773,7 +8911,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bazen-neratovice.cz/"
   },
   {
     "id": "osm-way-59737103",
@@ -8879,7 +9018,8 @@
     "amenities": [
       "bez_vstupneho"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "fee": "zdarma"
   },
   {
     "id": "osm-way-50949210",
@@ -8959,7 +9099,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.lagunatrebic.cz/",
+    "openingHours": "10:00-21:00"
   },
   {
     "id": "osm-way-58963730",
@@ -9064,7 +9206,9 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://zabrdovice.starez.cz/",
+    "openingHours": "Mo-Su,PH 09:00-19:30"
   },
   {
     "id": "osm-way-49169639",
@@ -9092,7 +9236,9 @@
       "pitna_voda",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.lazneevzenie.cz/",
+    "phone": "+420 474 698 770"
   },
   {
     "id": "osm-node-296553854",
@@ -9120,7 +9266,10 @@
       "pitna_voda",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://rasinova.starez.cz/",
+    "openingHours": "Mo-Fr 06:00-22:00; Sa-Su,PH 08:00-20:00",
+    "operator": "Starez Sport, a.s."
   },
   {
     "id": "osm-node-3856570749",
@@ -9146,7 +9295,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Novoměstské služby s.r.o."
   },
   {
     "id": "osm-way-419262540",
@@ -9208,7 +9358,11 @@
     "description": "Humboldtova výšina je jizerskohorské návrší nad Libercem u kamenolomu v Ruprechticích, na kterém v letech 1887–1902 a 1905–1932 stála rozhledna.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Humboldtova_v%C3%BD%C5%A1ina_%28hist.%29.jpg",
     "photoCredit": "Wikipedie / Humboldtova výšina",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Humboldtova_v%C3%BD%C5%A1ina"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Humboldtova_v%C3%BD%C5%A1ina",
+    "website": "https://lesnikoupaliste.cz/",
+    "openingHours": "07:00-22:00",
+    "operator": "spolek Lesní koupaliště z.s.",
+    "fee": "zdarma"
   },
   {
     "id": "osm-way-51002234",
@@ -9263,7 +9417,8 @@
       "pitna_voda"
     ],
     "since": "2001-05-03",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.letnanylagoon.cz/"
   },
   {
     "id": "osm-way-513087167",
@@ -9286,7 +9441,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.sareza.cz/letni-koupaliste-ostrava-poruba/koupaliste/",
+    "openingHours": "Mo-Su 09:00-18:30",
+    "phone": "+420596977611"
   },
   {
     "id": "osm-way-50991502",
@@ -9309,7 +9467,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "ZIKOS, příspěvková organizace"
   },
   {
     "id": "osm-way-51046316",
@@ -9387,7 +9546,8 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "fee": "80 CZK"
   },
   {
     "id": "osm-way-51003472",
@@ -9992,7 +10152,9 @@
     "amenities": [
       "bez_vstupneho"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.rybsvaz.cz/mo/-/plana",
+    "fee": "zdarma"
   },
   {
     "id": "osm-way-50993412",
@@ -10250,7 +10412,8 @@
     "description": "Okres Jeseník spadá do samosprávného Olomouckého kraje. Zřízen byl oproti ostatním okresům z roku 1960 dodatečně, a to od 1. ledna 1996 vyčleněním z okresu Šumperk. Sídlem okresního úřadu okresu Jeseník bylo město Jeseník, které je od roku 2003 obcí s rozšířenou působností a jehož správní obvod je totožný s okresem. Jde o co se týče počtu obyvatel nejmenší okres vůbec v České republice.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Okres_jesenik.PNG",
     "photoCredit": "Wikipedie / Okres Jeseník",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Okres_Jesen%C3%ADk"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Okres_Jesen%C3%ADk",
+    "website": "https://cs.wikipedia.org/wiki/Rychlebsk%C3%A9_zatopen%C3%A9_lomy"
   },
   {
     "id": "osm-way-50915306",
@@ -10448,7 +10611,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-50951085",
@@ -10914,7 +11078,8 @@
       "obcerstveni",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "openingHours": "Mo-Su 09:00-19:00"
   },
   {
     "id": "osm-way-304480729",
@@ -11121,7 +11286,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.plovarnatyn.cz/"
   },
   {
     "id": "osm-way-1157661042",
@@ -11148,7 +11314,8 @@
       "obcerstveni"
     ],
     "since": "2021-09-06",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bazenlouny.cz/"
   },
   {
     "id": "osm-node-10282725890",
@@ -11227,7 +11394,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://tskrnov.cz/provozovny/koupaliste/"
   },
   {
     "id": "osm-way-896199158",
@@ -11299,7 +11467,10 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://spsk.koprivnice.org/letni-koupaliste/",
+    "openingHours": "Jun-Aug: Mo-Su 09:00-20:00",
+    "operator": "Správa sportovišť Kopřivnice"
   },
   {
     "id": "osm-relation-14927490",
@@ -11327,7 +11498,8 @@
       "wc",
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://sportkralupy.cz/koupaliste/"
   },
   {
     "id": "osm-way-365906909",
@@ -11402,7 +11574,8 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "http://www.ssrz.cz/objekty~mestske-koupaliste/"
   },
   {
     "id": "osm-way-89008271",
@@ -11457,7 +11630,8 @@
       "obcerstveni"
     ],
     "since": "2010-10-18",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.bazen-litomysl.cz/"
   },
   {
     "id": "osm-way-76419947",
@@ -11486,7 +11660,8 @@
       "parkovani"
     ],
     "since": "2006-03-30",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "fee": "ano (vstupné)"
   },
   {
     "id": "osm-way-339307025",
@@ -11514,7 +11689,10 @@
       "wc"
     ],
     "since": "2015-03-18",
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://bazenmb.cz/",
+    "openingHours": "Mo,We,Th,Fr 10:00-24:00; Tu 12:00-24:00; Sa-Su 08:30-24:00",
+    "operator": "Městská společnost sportovní a rekreační areály, s.r.o"
   },
   {
     "id": "osm-way-371571326",
@@ -11898,7 +12076,8 @@
       "obcerstveni",
       "pitna_voda"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "website": "https://www.nafialce.cz/"
   },
   {
     "id": "osm-way-677237427",
@@ -12119,7 +12298,8 @@
     "description": "Písníky u Roudnice jsou soustavou čtyř vodních ploch vzniklých těžbou štěrkopísku nalézající se u silnice II/611 na západním okraji obce Roudnice v okrese Hradec Králové. Výměra vodních ploch jednotlivých jezer v roce 2018 činila 13,0 ha u jezera I, 6,0 ha u jezera II, 15,0 ha u jezera III a 9,0 ha u jezera IV počítáno ve směru od obce Kratonohy. V roce 2018 probíhala těžba pouze na jezerech I a IV.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/P%C3%ADsn%C3%ADky_u_Roudnice_06.jpg/3840px-P%C3%ADsn%C3%ADky_u_Roudnice_06.jpg",
     "photoCredit": "Wikipedie / Písníky u Roudnice",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/P%C3%ADsn%C3%ADky_u_Roudnice"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/P%C3%ADsn%C3%ADky_u_Roudnice",
+    "website": "https://www.rybareni-roudnice.cz/"
   },
   {
     "id": "osm-way-50957114",
@@ -12180,7 +12360,8 @@
     "description": "Římskokatolický farní kostel svatého Václava v Rychnově u Jablonce nad Nisou je barokní sakrální stavba stojící severně nad říčkou Mohelkou obklopená hřbitovem. Od roku 1963 je kostel chráněn jako kulturní památka.",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Kostel_rychnov_1.JPG",
     "photoCredit": "Wikipedie / Kostel svatého Václava (Rychnov u Jablonce nad Nisou)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Rychnov_u_Jablonce_nad_Nisou)"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Rychnov_u_Jablonce_nad_Nisou)",
+    "fee": "zdarma"
   },
   {
     "id": "osm-way-50950422",
@@ -12206,7 +12387,8 @@
     "amenities": [
       "bez_vstupneho"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "fee": "zdarma"
   },
   {
     "id": "osm-way-51209461",
@@ -12924,7 +13106,8 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "operator": "Penzion Heřmanice"
   },
   {
     "id": "osm-way-50991090",
