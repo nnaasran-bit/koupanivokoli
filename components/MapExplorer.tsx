@@ -126,7 +126,7 @@ export default function MapExplorer() {
     const t = setTimeout(async () => {
       try {
         const res = await fetch(
-          `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&lang=cs&limit=6&lat=49.8&lon=15.5`,
+          `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&limit=6&lat=49.8&lon=15.5`,
           { signal: ctrl.signal },
         );
         const data = await res.json();
