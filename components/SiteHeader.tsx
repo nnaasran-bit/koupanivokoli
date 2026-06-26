@@ -1,16 +1,18 @@
+import Image from "next/image";
 import Link from "next/link";
 import { SITE_NAME } from "@/lib/site";
 
 export function BrandLogo({ className = "" }: { className?: string }) {
   return (
-    <Link href="/" className={`group flex items-center gap-2.5 ${className}`}>
-      <span className="brand-gradient flex h-9 w-9 items-center justify-center rounded-xl text-lg shadow-sm ring-1 ring-black/5">
-        💧
-      </span>
-      <span className="flex flex-col leading-none">
-        <span className="text-[15px] font-extrabold tracking-tight text-slate-900">{SITE_NAME}</span>
-        <span className="text-[11px] font-medium text-slate-400">mapa kvality vody v ČR</span>
-      </span>
+    <Link href="/" className={`flex items-center ${className}`} aria-label={SITE_NAME}>
+      <Image
+        src="/logo.png"
+        alt={SITE_NAME}
+        width={520}
+        height={186}
+        priority
+        className="h-9 w-auto sm:h-10"
+      />
     </Link>
   );
 }

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { SITE_NAME } from "@/lib/site";
 
@@ -6,10 +7,7 @@ export default function Footer() {
     <footer className="mt-16 border-t border-slate-200 bg-white">
       <div className="mx-auto grid w-full max-w-6xl gap-8 px-4 py-10 sm:grid-cols-2 md:grid-cols-4">
         <div>
-          <div className="flex items-center gap-2">
-            <span className="brand-gradient flex h-8 w-8 items-center justify-center rounded-lg text-base">💧</span>
-            <span className="font-extrabold tracking-tight text-slate-900">{SITE_NAME}</span>
-          </div>
+          <Image src="/logo.png" alt={SITE_NAME} width={520} height={186} className="h-9 w-auto" />
           <p className="mt-3 text-sm text-slate-500">
             Aktuální stav koupání v Česku na jedné mapě – kvalita vody, přístup, rizika a počasí.
           </p>

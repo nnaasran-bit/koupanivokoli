@@ -31,6 +31,9 @@ function describe(loc: Location): string {
   const kde = [loc.region && `v kraji ${loc.region}`, loc.municipality && `(obec ${loc.municipality})`]
     .filter(Boolean)
     .join(" ");
+  if (loc.type === "bazen") {
+    return `${loc.name} je ${typ}${kde ? ` ${kde}` : ""}. Jde o umělou (chlorovanou) vodu, jejíž kvalitu kontroluje provozovatel. ${ACCESS_LABELS[loc.access.status]}.`;
+  }
   const sledovani = loc.monitored
     ? `Jakost vody zde sleduje ${loc.quality.source ?? "hygienická stanice"}.`
     : "Jakost vody zde není oficiálně sledována, koupání je na vlastní riziko.";
@@ -64,7 +67,13 @@ export async function generateMetadata({
     title: `${loc.name} – kvalita vody a přístup`,
     description,
     alternates: { canonical: `/lokalita/${loc.slug}` },
-    openGraph: { title: loc.name, description, url, type: "website" },
+    openGraph: {
+      title: loc.name,
+      description,
+      url,
+      type: "website",
+      ...(loc.photoUrl ? { images: [loc.photoUrl] } : {}),
+    },
     other: {
       "geo.position": `${loc.lat};${loc.lng}`,
       ICBM: `${loc.lat}, ${loc.lng}`,
@@ -136,6 +145,17 @@ export default async function LocationPage({
 
       {/* Hero */}
       <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+        {loc.photoUrl && (
+          <div className="relative">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={loc.photoUrl} alt={loc.name} className="h-52 w-full object-cover sm:h-64" />
+            {loc.photoCredit && (
+              <span className="absolute bottom-1 right-1 rounded bg-black/55 px-1.5 py-0.5 text-[10px] text-white">
+                © {loc.photoCredit}
+              </span>
+            )}
+          </div>
+        )}
         <div className="h-2.5" style={{ background: qColor }} />
         <div className="p-5 sm:p-6">
           <h1 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">{loc.name}</h1>
@@ -160,7 +180,12 @@ export default async function LocationPage({
                   {isPool ? "Bazén / aquapark" : QUALITY_LABELS[loc.quality.class]}
                 </span>
               </div>
-              {isPool && <div className="mt-1 text-xs text-slate-500">Umělá (chlorovaná) voda – jakost nesledujeme jako u přírodních vod.</div>}
+              {isPool && (
+                <div className="mt-1 text-xs text-slate-500">
+                  Umělá (chlorovaná) voda – kvalitu vody kontroluje provozovatel (majitel
+                  bazénu / aquaparku).
+                </div>
+              )}
               {loc.quality.cyanobacteria && (
                 <div className="mt-1 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-800">
                   ⚠ Výskyt sinic
@@ -218,6 +243,15 @@ export default async function LocationPage({
         <h2 className="text-sm font-bold text-slate-900">O lokalitě</h2>
         {loc.description && <p className="mt-2 text-sm leading-relaxed text-slate-700">{loc.description}</p>}
         <p className="mt-2 text-sm leading-relaxed text-slate-500">{describe(loc)}</p>
+        {loc.wikiUrl && (
+          <p className="mt-2 text-xs text-slate-400">
+            Zdroj popisu a fotky:{" "}
+            <a href={loc.wikiUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+              Wikipedie
+            </a>{" "}
+            (CC BY-SA)
+          </p>
+        )}
         {loc.since && (
           <p className="mt-2 text-sm text-slate-600">
             <span className="font-medium text-slate-900">V provozu / existuje od:</span> {loc.since}
