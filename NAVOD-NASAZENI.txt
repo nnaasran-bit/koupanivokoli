@@ -1,0 +1,118 @@
+============================================================
+ NÁVOD: JAK DOSTAT WEB ONLINE NA koupanivokoli.cz
+ (GitHub + Vercel + databáze)
+============================================================
+
+Doména: koupanivokoli.cz  (= „koupání v okolí“)
+V kódu už je doména nastavená (lib/site.ts). Stačí splnit kroky níže.
+
+
+------------------------------------------------------------
+ NEJDŮLEŽITĚJŠÍ VĚC NA ROVINU
+------------------------------------------------------------
+Web má DVĚ části:
+
+1) MAPA + lokality + kraje + SEO  → funguje na Vercelu HNED
+   (data jsou „zabudovaná“ v webu, nepotřebují databázi).
+
+2) KOMUNITA (login, hlášení, body, žebříček) → potřebuje DATABÁZI.
+   Teď totiž data ukládám do souboru u tebe na disku, a to na
+   Vercelu nefunguje (servery jsou dočasné). Proto:
+
+   FÁZE 1 (dnes): nahodíme celý web online. Mapa a všechno čtení
+                  funguje. Login/hlášení zatím vypneme/označíme.
+   FÁZE 2 (hned poté): vytvoříš databázi (5 minut), já ji v kódu
+                  napojím a komunita začne fungovat naostro.
+
+
+------------------------------------------------------------
+ CO MÁŠ ZALOŽIT (3 účty, vše zdarma na start)
+------------------------------------------------------------
+
+[1] GITHUB  (sem se uloží kód)
+    - Jdi na https://github.com  → Sign up (pokud účet nemáš).
+    - Víc dělat nemusíš – repozitář ti můžu založit a nahrát já
+      (viz sekce „NEJRYCHLEJŠÍ CESTA“ dole).
+
+[2] VERCEL  (tady web poběží)
+    - Jdi na https://vercel.com  → Sign up → „Continue with GitHub“.
+      (Tím se Vercel propojí s GitHubem – stejné jako u benzinmapa.)
+    - Stačí plán HOBBY (zdarma).
+
+[3] DATABÁZE POSTGRES  (pro FÁZI 2 – komunita)
+    - Nejjednodušší: ve Vercelu po nasazení projektu jdi do
+      záložky „Storage“ → „Create Database“ → „Postgres“ (Neon).
+      Vercel sám vytvoří a propojí připojení.
+    - Alternativa: https://neon.tech (zdarma) → vytvoř projekt →
+      zkopíruj „connection string“.
+
+[4] DOMÉNA (DNS u registrátora, kde jsi ji koupil)
+    - Ve Vercelu: projekt → Settings → Domains → přidej
+      „koupanivokoli.cz“ a „www.koupanivokoli.cz“.
+    - Vercel ti UKÁŽE přesné DNS záznamy. U registrátora je nastav:
+        * apex (koupanivokoli.cz):   A záznam → 76.76.21.21
+        * www:                       CNAME    → cname.vercel-dns.com
+      (Vercel vždy ukáže aktuální hodnoty – řiď se jimi.)
+    - Po pár minutách až hodinách se doména propojí (DNS propagace).
+
+
+------------------------------------------------------------
+ PROMĚNNÉ PROSTŘEDÍ (Environment Variables ve Vercelu)
+------------------------------------------------------------
+Vercel → projekt → Settings → Environment Variables:
+
+  NEXT_PUBLIC_SITE_URL = https://koupanivokoli.cz
+
+(FÁZE 2, až vznikne databáze – Vercel Postgres je nastaví sám,
+ u Neonu přidáš ručně:)
+  DATABASE_URL = postgres://...   (connection string z databáze)
+
+
+------------------------------------------------------------
+ NEJRYCHLEJŠÍ CESTA (necháš to na mně)
+------------------------------------------------------------
+1) V tomhle okně (Claude Code) napiš do řádku:
+       ! gh auth login
+   a přihlas se k GitHubu (vyber: GitHub.com → HTTPS → přihlášení
+   přes prohlížeč). Tím získám právo založit repozitář.
+
+2) Řekni mi „založ repo a pushni“. Já:
+   - založím GitHub repozitář,
+   - nahraju do něj projekt,
+   - dám ti odkaz.
+
+3) Ty v Vercelu: „Add New… → Project“ → vyber ten repozitář →
+   Deploy. Za ~2 minuty máš web na adrese *.vercel.app.
+
+4) Přidáš doménu (sekce [4]) a proměnnou NEXT_PUBLIC_SITE_URL.
+
+5) Napíšeš „pokračuj databází“ → já připravím napojení na Postgres,
+   ty jen vytvoříš databázi (sekce [3]) a komunita běží naostro.
+
+
+------------------------------------------------------------
+ RUČNÍ CESTA (kdybys chtěl pushovat sám)
+------------------------------------------------------------
+Na github.com vytvoř nový (prázdný) repozitář, např. „koupanivokoli“.
+Pak v této složce spusť:
+
+   git add -A
+   git commit -m "Mapa koupání – první verze"
+   git branch -M main
+   git remote add origin https://github.com/UZIVATEL/koupanivokoli.git
+   git push -u origin main
+
+(UZIVATEL nahraď svým GitHub jménem.)
+Pak v Vercelu importuj repozitář (krok 3 výše).
+
+
+------------------------------------------------------------
+ CO UŽ JE HOTOVÉ V KÓDU
+------------------------------------------------------------
+- Doména koupanivokoli.cz nastavená (lib/site.ts).
+- Build prochází čistě (npm run build), ~563 stránek.
+- SEO/geo na maximum (sitemap, robots, llms.txt, strukturovaná data, kraje).
+- .gitignore správně ignoruje node_modules, .next a lokální data.
+
+Otázky? Napiš a navedu tě krok po kroku.
+============================================================

@@ -1,0 +1,283 @@
+[
+  {
+    "id": "hostivar",
+    "slug": "hostivar",
+    "name": "Koupaliště Hostivař",
+    "type": "koupaliste",
+    "lat": 50.0469,
+    "lng": 14.5294,
+    "region": "Hlavní město Praha",
+    "district": "Praha",
+    "municipality": "Praha",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "cyanobacteria": false,
+      "sampledAt": "2026-06-22",
+      "source": "Hygienická stanice hl. m. Prahy",
+      "sourceUrl": "https://www.koupacivody.cz/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "provozovatel"
+    },
+    "updatedAt": "2026-06-24"
+  },
+  {
+    "id": "jezero-milada",
+    "slug": "jezero-milada",
+    "name": "Jezero Milada",
+    "type": "jezero",
+    "lat": 50.6447,
+    "lng": 13.945,
+    "region": "Ústecký kraj",
+    "district": "Ústí nad Labem",
+    "municipality": "Chabařovice",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "cyanobacteria": false,
+      "sampledAt": "2026-06-24",
+      "source": "KHS Ústeckého kraje",
+      "sourceUrl": "https://www.koupacivody.cz/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "note": "Návštěvní řád areálu DIAMO",
+      "source": "DIAMO / Jezero Milada"
+    },
+    "updatedAt": "2026-06-24"
+  },
+  {
+    "id": "brnenska-prehrada",
+    "slug": "brnenska-prehrada",
+    "name": "Brněnská přehrada",
+    "type": "prehrada",
+    "lat": 49.233,
+    "lng": 16.515,
+    "region": "Jihomoravský kraj",
+    "district": "Brno-město",
+    "municipality": "Brno",
+    "monitored": true,
+    "quality": {
+      "class": "zhorsena",
+      "cyanobacteria": true,
+      "sampledAt": "2026-06-23",
+      "source": "KHS Jihomoravského kraje",
+      "sourceUrl": "https://www.koupacivody.cz/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "obec"
+    },
+    "safety": [
+      {
+        "kind": "lodni_provoz",
+        "text": "Lodní doprava – plavte v označených zónách."
+      }
+    ],
+    "description": "Oblíbená brněnská rekreační nádrž na řece Svratce s loděmi, plážemi a koupáním. V létě se zde opakovaně objevují sinice, proto sleduj aktuální hodnocení hygienické stanice.",
+    "history": [
+      {
+        "date": "2026-05-25",
+        "class": "vhodna"
+      },
+      {
+        "date": "2026-06-08",
+        "class": "vhodna"
+      },
+      {
+        "date": "2026-06-16",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2026-06-23",
+        "class": "zhorsena"
+      }
+    ],
+    "updatedAt": "2026-06-24"
+  },
+  {
+    "id": "machovo-jezero",
+    "slug": "machovo-jezero",
+    "name": "Máchovo jezero",
+    "type": "koupaci_oblast",
+    "lat": 50.587,
+    "lng": 14.658,
+    "region": "Liberecký kraj",
+    "district": "Česká Lípa",
+    "municipality": "Doksy",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "cyanobacteria": false,
+      "sampledAt": "2026-06-21",
+      "source": "KHS Libereckého kraje",
+      "sourceUrl": "https://www.koupacivody.cz/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno"
+    },
+    "updatedAt": "2026-06-23"
+  },
+  {
+    "id": "dzban",
+    "slug": "dzban",
+    "name": "Koupací oblast Džbán",
+    "type": "koupaci_oblast",
+    "lat": 50.089,
+    "lng": 14.327,
+    "region": "Hlavní město Praha",
+    "district": "Praha",
+    "municipality": "Praha",
+    "monitored": true,
+    "quality": {
+      "class": "nevhodna",
+      "cyanobacteria": true,
+      "sampledAt": "2026-06-20",
+      "source": "Hygienická stanice hl. m. Prahy",
+      "sourceUrl": "https://www.koupacivody.cz/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno"
+    },
+    "safety": [
+      {
+        "kind": "sinice",
+        "text": "Zvýšený výskyt sinic – koupání nedoporučeno, zejména pro děti."
+      }
+    ],
+    "updatedAt": "2026-06-23"
+  },
+  {
+    "id": "lipno",
+    "slug": "lipno",
+    "name": "Lipno (koupací oblast)",
+    "type": "prehrada",
+    "lat": 48.64,
+    "lng": 14.22,
+    "region": "Jihočeský kraj",
+    "district": "Český Krumlov",
+    "municipality": "Lipno nad Vltavou",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "cyanobacteria": false,
+      "sampledAt": "2026-06-24",
+      "source": "KHS Jihočeského kraje",
+      "sourceUrl": "https://www.koupacivody.cz/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno"
+    },
+    "updatedAt": "2026-06-24"
+  },
+  {
+    "id": "velka-amerika",
+    "slug": "velka-amerika",
+    "name": "Lom Velká Amerika",
+    "type": "lom",
+    "lat": 49.9447,
+    "lng": 14.1894,
+    "region": "Středočeský kraj",
+    "district": "Beroun",
+    "municipality": "Mořina",
+    "monitored": false,
+    "quality": {
+      "class": "nesledovano",
+      "trust": 3,
+      "source": "OpenStreetMap"
+    },
+    "access": {
+      "status": "zakazano",
+      "reason": "nebezpečné srázy / přírodní památka",
+      "note": "Vstup do lomu a koupání jsou zakázány. Lokalita je zobrazena pouze informativně.",
+      "source": "správce lokality"
+    },
+    "safety": [
+      {
+        "kind": "prudky_sraz",
+        "text": "Vysoké kolmé stěny a hluboká voda – vysoké riziko úrazu."
+      }
+    ],
+    "description": "Bývalý vápencový lom zatopený spodní vodou s charakteristickými bílými stěnami. Patří mezi nejznámější lomy v Česku a je chráněn jako přírodní památka. Vstup do lomu i koupání jsou zakázané kvůli vysokým srázům a nestabilním stěnám – lokalitu uvádíme pouze informativně.",
+    "updatedAt": "2026-06-15"
+  },
+  {
+    "id": "nadrz-svihov-zelivka",
+    "slug": "nadrz-svihov-zelivka",
+    "name": "Vodárenská nádrž Švihov (Želivka)",
+    "type": "prehrada",
+    "lat": 49.73,
+    "lng": 15.11,
+    "region": "Středočeský kraj",
+    "district": "Pelhřimov",
+    "municipality": "Želiv",
+    "monitored": false,
+    "quality": {
+      "class": "nesledovano",
+      "trust": 3,
+      "source": "ISVS VODA"
+    },
+    "access": {
+      "status": "zakazano",
+      "reason": "ochranné pásmo vodního zdroje I. stupně",
+      "note": "Zdroj pitné vody. Zákaz vstupu i koupání ze zákona. Zobrazeno pouze jako varovná vrstva.",
+      "source": "Povodí Vltavy"
+    },
+    "updatedAt": "2026-06-10"
+  },
+  {
+    "id": "piskovna-lhota",
+    "slug": "piskovna-lhota",
+    "name": "Pískovna Lhota",
+    "type": "piskovna",
+    "lat": 50.185,
+    "lng": 14.68,
+    "region": "Středočeský kraj",
+    "district": "Praha-východ",
+    "municipality": "Lhota",
+    "monitored": false,
+    "quality": {
+      "class": "nesledovano",
+      "trust": 3,
+      "source": "OpenStreetMap"
+    },
+    "access": {
+      "status": "nezname",
+      "note": "Oblíbené koupání, ale kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
+      "source": "OpenStreetMap"
+    },
+    "updatedAt": "2026-06-12"
+  },
+  {
+    "id": "slapy",
+    "slug": "slapy",
+    "name": "Slapská přehrada – Ždáň",
+    "type": "prehrada",
+    "lat": 49.82,
+    "lng": 14.436,
+    "region": "Středočeský kraj",
+    "district": "Příbram",
+    "municipality": "Nová Rabyně",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "cyanobacteria": false,
+      "sampledAt": "2026-06-19",
+      "source": "KHS Středočeského kraje",
+      "sourceUrl": "https://www.koupacivody.cz/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno"
+    },
+    "updatedAt": "2026-06-22"
+  }
+]

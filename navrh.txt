@@ -1,0 +1,268 @@
+Výkonné shrnutí
+Nejlepší produktový směr není „česká mapa míst ke koupání“, ale mapa stavů koupání: pro každou lokalitu odděleně ukázat zdravotní stav vody, právní/přístupový status, bezpečnostní rizika, aktuálnost dat a míru důvěryhodnosti zdroje. To je zásadní, protože oficiálně sledované lokality jsou v ČR jen část reality: v rekreační sezóně 2025 orgány ochrany veřejného zdraví pravidelně hodnotily 290 míst, z toho 171 provozovaných přírodních koupališť a 119 koupacích oblastí, zatímco „ostatní vodní plochy“ používané ke koupání oficiálně monitorované nejsou a koupání na nich probíhá na vlastní riziko. Ministerstvo zdravotnictví navíc na oficiálních místech rozlišuje pět stupňů jakosti vody od „voda vhodná ke koupání“ po „voda nebezpečná ke koupání“ se zákazem koupání. 
+
+BenzinMapa.cz je velmi dobrý referenční vzor pro map-first UX, transparentní zobrazení čerstvosti dat, filtry, historii, kombinaci oficiálně-neoficiálních zdrojů a pro skromný, funkční monetizační model. Web veřejně uvádí, že páruje komunitní ceny z mbenzin.cz s databází stanic z OpenStreetMap, používá clustering markerů, filtry a odhady pro chybějící ceny; zároveň je to informační web bez placených služeb, s reklamními partnerstvími, analytikou GA4 a bez marketingových cookies. Přesně to je inspirativní. Co nelze převzít beze změny, je logika „dopočítáme chybějící údaj“: u cen paliv je odhad uživatelsky přijatelný, u koupání by odhadovaná kvalita vody nebo „asi povoleno“ představovaly nepřiměřené reputační i právní riziko. 
+
+Doporučený produktový rámec je proto třívrstvý: oficiálně sledované lokality, nesledované, ale fakticky navštěvované lokality, a místa s omezením nebo zákazem. Každá vrstva musí mít jiné disclaimerové a UX chování. U zákazů je vhodné zveřejňovat status a důvod, ale neoptimalizovat přístup „jak se tam dostat“. U neoficiálních lomů a divokých míst mají uživatelské reporty a sociální signály sloužit jen jako signál do moderace, nikoli jako zdroj „pravdy“. 
+
+Východisko z BenzinMapa.cz
+BenzinMapa.cz veřejně ukazuje pět produktových principů, které mají přímý přenos do projektu pro koupaliště a lomy. První je mapa jako primární rozhraní: nad mapou jsou základní KPI, pod ní seznamy a detailnější přehledy. Druhý je silná orientace na rozhodnutí uživatele v terénu: „moje poloha“, rychlé filtry, barevné značky a jednoduchý seznam nejrelevantnějších míst. Třetí je transparentnost čerstvosti: každá cena má čas poslední aktualizace a web opakovaně upozorňuje na orientační charakter dat. Čtvrtý je kombinace primárního a komunitního zdroje s vlastním párováním dat. Pátý je jednoduchá monetizace bez uzamčení základní funkce. 
+
+Oblast	Co je na BenzinMapa.cz silné	Co z toho převzít pro koupání
+UX	Interaktivní mapa, filtry, clustering, přehled nejlevnějších míst, práce s polohou uživatele. 
+Mapa musí být výchozí obrazovka; klíčové filtry: „vhodné dnes“, „oficiálně sledované“, „zákaz/omezení“, „lom“, „biotop“, „se psem“, „bez vstupného“, „bezpečné pro děti“.
+Data	Komunitní mbenzin.cz + OpenStreetMap + vlastní matching algoritmus. 
+Kombinovat oficiální statusy KHS/MZ s prostorovými vrstvami MZe/ISVS VODA, meteorologií ČHMÚ a moderovaným crowdsourcingem.
+Transparentnost	Web výslovně říká, že ceny jsou orientační, aktualizují se 3× denně, případně zhruba každých 6 hodin, a u chybějících cen používá odhad. 
+U koupání uvádět přesný čas posledního odběru, čas publikace a typ zdroje. Nedopočítávat zdravotní stav vody.
+Monetizace	Reklama a partnerský obsah; podmínky výslovně uvádějí, že web nenabízí placené služby. 
+Základ zdarma; příjmy spíše reklama, B2B widgety, datové API, granty, partnerství s obcemi a areály.
+Technologie	Ve veřejném prostoru je popsán datový matching, OSM a GA4; přesný FE/BE framework není specifikován. Cookies uvádějí GA4 a nepoužívání marketingových cookies. 
+Převzít princip „transparentní datový řetězec“. Detailní stack je pro vlastní projekt vhodné zvolit modernější a explicitně dokumentovaný.
+
+Analyticky je nejdůležitější jedno poučení: u koupání je rozhodovací chyba dražší než u tankování. BenzinMapa může na stanicích bez ceny ukázat kvalifikovaný odhad; u koupaliště by „odhadovaná kvalita vody“ nebo „pravděpodobně povoleno“ mohly uživatele navést do zdravotně nebo právně problematické situace. Proto musí být uživatelské UI založeno na statusu a důvěryhodnosti, nikoli na pseudojistotě. To je hlavní produktová odchylka od vzoru. 
+
+Za pozornost stojí i drobná veřejná nekonzistence v copy BenzinMapa.cz: FAQ mluví o aktualizaci „každých 6 hodin“, zatímco sekce „O projektu“ uvádí tři běhy denně v 5:00, 10:00 a 15:00. U vlastního projektu je proto vhodné publikovat jediný autoritativní údaj o frekvenci aktualizace, ideálně po zdrojích. 
+
+Zdrojová mapa a datový model
+Pro tento typ webu je vhodné zavést hierarchii zdrojů, ne jen jejich seznam. Oficiální zdroj musí mít přednost před komunitním signálem, ale komunitní signál je velmi cenný pro rychlé zachycení incidentů. Doporučená priorita je níže.
+
+Priorita	Zdroj	Konkrétní úřad / URL	Co z něj brát	Poznámka k použití
+Nejvyšší	Oficiální zdravotní status koupacích vod	Ministerstvo zdravotnictví https://mzd.gov.cz/category/ochrana-verejneho-zdravi/koupani-v-prirode/, portál https://www.koupaci-vody.cz/, seznam pro rok 2026 https://mzd.gov.cz/seznam-prirodnich-koupalist-na-povrchovych-vodach-ve-kterych-nabizi-sluzbu-koupani-provozovatel-a-dalsich-povrchovych-vod-ke-koupani-pro-rok-2026/	Aktuální hodnocení, historická řada, seznam sledovaných míst	Primární pravda pro oficiálně sledované lokality. MZ výslovně uvádí, že na koupacivody.cz je mapové zobrazení a historická řada. 
+Nejvyšší	Regionální operativní status	Krajské hygienické stanice, seznam KHS https://mzd.gov.cz/krajske-hygienicke-stanice/; např. Středočeský kraj https://khsstc.cz/koupaliste/	Aktuální regionální hodnocení, doplňující texty, lokální upozornění	KHS jsou pro koupací oblasti povinným monitorem a veřejně publikují průběžná hodnocení. 
+Nejvyšší	Právní/přístupový režim a profily	MZe povrchové vody využívané ke koupání https://mze.gov.cz/public/portal/mze/voda/prehledy-a-statistiky/povrchove-vody-vyuzivane-ke-koupani, ISVS VODA https://voda.gov.cz/, vyhláška 155/2011 https://mze.gov.cz/public/portal/mze/legislativa/pravni-predpisy-mze/uplna-zneni/vyhlaska-2011-155	Profily vod ke koupání, správci povodí, ochranná pásma, vodní nádrže, vodoprávní evidence	Primární zdroj pro povodí, ochranná pásma, hydrologické souvislosti a evidenci vod. 
+Vysoká	Lokální provozní pravidla vlastníků a provozovatelů	DIAMO https://www.diamo.cz/cs/milada-most/provozni-informace-dokumenty, Jezero Milada https://www.jezeromilada.cz/, správci povodí podle lokality	Návštěvní řády, sezónní omezení, provozní zákazy, teplota/průhlednost na vybraných lokalitách	Kritické hlavně pro lomy, rekultivovaná jezera a místa s vlastními pravidly. 
+Vysoká	Počasí a hydrologie	ČHMÚ https://www.chmi.cz/, open data https://opendata.chmi.cz, rozcestník naměřených dat https://www.chmi.cz/namerena-data	Srážky, teplota, vítr, hydrologie, radar, historické řady	Silný prediktor zhoršení průhlednosti, přítoků a komfortu návštěvy; otevřená data ČHMÚ jsou pod CC BY 4.0. 
+Střední	Remote sensing a odborné modely	VÚV TGM https://www.vuv.cz/dalkovy-pruzkum-zeme/, mapová aplikace https://geoportal.vuv.cz/aplikace/dpz-koupaci-vody-zeta/	Chlorofyl, sinice, prostorové anomálie nad standardní odběrová místa	Vhodné jako doplňkový „early warning“, ne jako náhrada hygienického rozhodnutí. 
+Střední	Evropská dlouhodobá srovnání	EEA https://www.eea.europa.eu/en/topics/in-depth/bathing-water	Dlouhodobá klasifikace, benchmarking, přeshraniční srovnání	Sekundární validace a marketingový obsah, ne operativní status. 
+Nižší	NKOD a regionální otevřená data	https://data.gov.cz/	Turistické body, lokální metadata, doprovodná infrastruktura	Dobré pro enrichment, nikoli pro zdravotní stav. 
+Nejnižší	Lokální fóra, sociální sítě, uživatelské reporty	Nespesifikované; sbírat jen jako moderovaný UGC	Fotky sinic, plnost, uzavřený vstup, rozbité sklo, zákazová cedule	Jen trigger pro moderaci a incident queue; nikdy ne autoritativní status. To je návrh.
+
+Datový model by měl z principu oddělovat „smí se tam“, „je to zdravotně vhodné“ a „je to bezpečné“. To jsou tři různé domény. Oficiální hodnocení vody v ČR sleduje mimo jiné E. coli, intestinální enterokoky, průhlednost, vodní květ, chlorofyl‑a, mikroskopický obraz, sinice, znečištění odpady, přírodní znečištění a v rizikových případech i původce cerkáriové dermatitidy. 
+
+Tabulka	Klíčová pole	Poznámka
+locations	id, name, alt_names, geometry_point, geometry_polygon, location_type (koupaliště, koupací_oblast, lom, biotop, řeka, nádrž, ostatní), official_monitoring (bool), owner_operator, region, district, entry_public (bool), entry_notes	Základní katalog lokalit.
+access_status	location_id, status (povoleno, omezeno, zakázáno, nespecifikováno), reason_code (ochranné_pásmo, návštěvní_řád, stavební_práce, soukromý_pozemek, sezónní_uzávěra…), authority_name, source_url, valid_from, valid_to	Odděleně od kvality vody.
+water_quality_observations	location_id, observed_at, published_at, parameter_code, parameter_name, value, unit, method, lab_name, sample_depth, source_id	Atomické parametry pro časové řady.
+water_quality_status	location_id, status_code (modrá, zelená, žlutá, červená, černá), status_text, health_risk_summary, valid_from, valid_to, source_id	Zobrazovaný status pro uživatele.
+risk_flags	location_id, risk_type (sinice, prudký_sráz, skoky_do_vody, koleje, lodní_provoz, zakázaný_vstup_mimo_pláž, chybí_dozor…), severity, description, source_id	Bezpečnostní vrstva nad rámec hygieny.
+profiles_context	location_id, catchment_id, pollution_sources, hydrological_context, manager_basin, protected_zone, profile_last_review	Z MZe profilů a ISVS VODA.
+weather_hydro_snapshots	location_id, station_id, timestamp, air_temp, water_temp, wind, precip_24h, precip_radar, water_level, transparency	ČHMÚ + případně provozní senzory areálů.
+ugc_reports	id, location_id, report_type, text, photo_object_id, reported_at, status (pending, approved, rejected), moderation_reason, reputation_score, geo_accuracy_m	Ne autoritativní; pouze moderovaný incident feed.
+sources	id, source_type, authority, url, license, trust_score, ingestion_type, last_seen_at	Povinné pro audit a vysvětlitelnost.
+change_log	entity_type, entity_id, previous_value, new_value, changed_at, changed_by, source_id, version	Nutné pro právní audit, rollback a vysvětlitelnost.
+
+has
+
+has
+
+has
+
+has
+
+has
+
+has
+
+has
+
+supports
+
+supports
+
+supports
+
+supports
+
+supports
+
+attributed_to
+
+LOCATIONS
+
+ACCESS_STATUS
+
+WATER_QUALITY_OBSERVATIONS
+
+WATER_QUALITY_STATUS
+
+RISK_FLAGS
+
+WEATHER_HYDRO_SNAPSHOTS
+
+UGC_REPORTS
+
+PROFILES_CONTEXT
+
+SOURCES
+
+CHANGE_LOG
+
+
+
+Ukázat kód
+Prakticky doporučuji zobrazovat v detailu lokality dvě velké kartičky vedle sebe: „Kvalita vody“ a „Přístup a pravidla“. To je pro lomy a zakázaná místa důležitější než jedna souhrnná hvězdička nebo jedno barvné kolečko.
+
+Aktualizace, právo a bezpečnost
+Mechanismus aktualizací musí respektovat rozdílnou dynamiku zdrojů. KHS podle metodiky a SZÚ začínají kontrolu krátce před sezónou; v sezóně se odběry dělají typicky jednou měsíčně, u vod s očekávaným zvýšeným výskytem sinic jednou za 14 dní, a při zhoršení se četnost zvyšuje. MZ publikuje v sezóně pravidelná souhrnná hlášení, KHS publikují operativní regionální stav a portál koupacích vod zobrazuje i historii. ČHMÚ poskytuje průběžná meteorologická a hydrologická data, ISVS VODA nabízí mapové služby, feature služby a WMS; u vybraných provozovaných jezer jsou k dispozici i provozní senzory typu teplota vody či průhlednost. 
+
+Zdrojová vrstva	Doporučená frekvence ingestu	Doporučený mechanismus
+KHS / MZ oficiální status	každé 2–4 hodiny v sezóně, 1× denně mimo sezónu	adaptér per zdroj, diff parsing, audit log
+ČHMÚ počasí / radar / hydrologie	10 min až 1 hodina podle feedu	API / open-data pull, cache, agregace po lokalitách
+ISVS VODA / profily / ochranná pásma	denně až týdně	synchronizace GIS vrstev, prostorové joiny
+Remote sensing	po dostupnosti nového snímku a bezoblačného okna	dávkové zpracování, neblokující enrichment
+Provozní senzory areálů	5–60 min podle partnera	partnerské API / CSV / MQTT / webhook
+UGC reporty	kontinuálně	fronta + moderace + reputační scoring
+
+Doporučené ETL je jednoduché, ale disciplinované: ingest → normalizace → geokóding/spatial match → validace → publikace → verzování. Validace má mít tři úrovně: syntaktickou, doménovou a reputační. Doménová validace je kritická například u zákazů: „černý status“ smí vzniknout jen z autoritativního zdroje KHS/MZ nebo z publikovaného provozního/úředního dokumentu, nikdy z uživatelského reportu. Uživatelský report může maximálně vyvolat interní stav „čeká na ověření“. To je návrh vyplývající z povahy oficiálních zákazů koupání a z faktu, že KHS mají pro zákaz veřejnoprávní roli. 
+
+Právně je potřeba rozlišit minimálně čtyři režimy. Oficiální zákaz koupání vyhlašuje KHS, pokud voda představuje akutní zdravotní riziko. Nevhodná voda ještě nemusí být formální zákaz, ale je zdravotně riziková. Ostatní vodní plochy mohou být fakticky oblíbené, ale kvalitu na nich nikdo nesleduje. A vedle toho existují přístupová omezení z jiných důvodů: ochranné pásmo vodního zdroje, návštěvní řád provozovatele, stavební práce, soukromý pozemek nebo sezónní uzávěra. Vodní zákon u ochranného pásma vodního zdroje I. stupně výslovně uvádí zákaz vstupu a vjezdu, s omezenými výjimkami. 
+
+Autorská a licenční stránka není detail navíc, ale architektonická podmínka. ČHMÚ uvádí, že otevřená data lze bezplatně využívat při respektování licence CC BY 4.0. OpenStreetMap data jsou pod ODbL, která vyžaduje atribuci a při některých formách odvozených databází i share-alike logiku. BenzinMapa.cz sama rozlišuje mezi licencí OSM a vlastní chráněnou agregací. U vašeho projektu je proto vhodné vést u každého zdroje pole license, attribution_text a reuse_constraints. 
+
+GDPR dopadá hlavně na uživatelské reporty, fotografie a případně účty. ÚOOÚ připomíná, že GDPR se vztahuje na zpracování osobních údajů fyzických osob a že správce i zpracovatel nesou povinnosti z obecného nařízení. Prakticky to znamená minimální sběr: pro report incidentu obvykle stačí pseudonymní identifikátor, čas, obsah reportu a volitelně fotka; není důvod povinně ukládat plné jméno ani přesnou historii polohy uživatele. U fotek je vhodné automaticky stripovat EXIF, nepovolovat veřejné zobrazení obličejů a SPZ bez moderace a nastavit krátké retenční lhůty pro zamítnuté podklady. 
+
+Bezpečnost a moderace doporučuji postavit na těchto pravidlech. První, žádný neověřený report nesmí měnit oficiální status. Druhé, zakázaná nebo právně omezená místa lze zobrazit, ale bez navigace na „tajný vstup“ a bez tipů, jak zákaz obejít. Třetí, u lokalit s vysokým rizikem zranění použít geofencing UX: hrubší pin, prominentní varování, případně zákaz zobrazení přesného nástupního bodu. Čtvrté, přebrat z komunitních projektů princip „pravdivý report, jinak rate limit / blokace“. Přesně tento typ technické ochrany veřejně uvádí i BenzinMapa.cz pro hlášení cen. 
+
+Architektura a ekonomika
+Pro tento produkt je vhodnější GIS-first, ale webově lehká architektura, nikoli těžký enterprise GIS portál. Doporučený stack pro MVP: Next.js + TypeScript + MapLibre GL JS na frontendu, FastAPI/Python na backendu a ETL, PostgreSQL + PostGIS pro geodata, Redis pro cache a rate-limity, objektové úložiště typu R2/S3 pro fotky a exporty a Cloudflare CDN/WAF před aplikací. Pro mapové podklady lze začít s OSM + MapTiler nebo obdobným poskytovatelem; při růstu lze přejít na self-hosted tiles pro větší kontrolu nákladů. To je návrh, nikoli veřejně daný standard. Cenová dostupnost podobného stacku dnes není problém; problémem je spíš datová a moderátorská disciplína. 
+
+Zdroje MZ KHS MZe ČHMÚ VÚV DIAMO UGC
+
+ETL adaptéry
+
+Normalizace a validace
+
+PostgreSQL + PostGIS
+
+Object Storage
+
+API vrstva FastAPI
+
+Cache Redis
+
+Web/PWA Next.js + MapLibre
+
+Admin a moderace
+
+Partner API a exporty
+
+Monitoring a audit
+
+
+
+Ukázat kód
+Pro rychlost načítání je kritické neřešit vše na klientu. Doporučuji: SSR/edge rendering pro landing a SEO stránky, předpočítané dlaždice nebo generalizované GeoJSON pro overview zoomy, lazy-loading detailních vrstev, CDN cache pro statické mapové styly a image thumbnails. Mobilní UX má mít tři priority: rychlé otevření mapy, jeden dominantní status lokality a jednoduché nahlášení incidentu jednou rukou. Offline režim v plném smyslu není pro MVP nutný; stačí PWA cache posledně otevřených lokalit a základních detailů. To je rozumný předpoklad.
+
+Ekonomicky je dobré oddělit software infrastrukturu od lidského provozu. Oficiální cloudové položky pro malé až střední nasazení jsou relativně nízké: MapTiler má Flex tarif od 25 USD měsíčně, Vercel Pro od 20 USD měsíčně s usage kreditem, Supabase u Pro/Team zahrnuje základní databázové kvóty a Cloudflare R2 účtuje nízké jednotkové ceny za storage a requesty bez egress poplatků. Z toho plyne, že u MVP tvoří hlavní náklad vývoj, QA, data ops a moderace, nikoli samotná infrastruktura. 
+
+Nákladová varianta	Předpoklady	Odhad
+Počáteční MVP	1 země, pouze web/PWA, oficiální zdroje + základní UGC, bez nativních aplikací, malý tým	450–900 tis. Kč
+Počáteční veřejný launch	MVP + robustní ETL, moderace, právní review, design systém, observabilita, partner API	1,2–2,4 mil. Kč
+Provoz měsíčně infra-only	nízké až střední návštěvnosti, mapy, DB, storage, monitoring	8–30 tis. Kč / měsíc
+Provoz měsíčně realistický	infra + částečná moderace + data ops + support + drobné právní/obsahové práce	40–150 tis. Kč / měsíc
+
+Monetizace by měla být diverzifikovaná. Nejrealističtější kombinace: display reklama a sponzorované lokální služby v bezplatné vrstvě, B2B/API licence pro turistické portály a obce, prémiové funkce spíše pro power users než pro širokou veřejnost, a u části projektu i grantové nebo municipální financování. Dobrý produktový kompromis je neprodávat „bezpečnost“, ale prodávat komfort: personalizované notifikace, oblíbené lokality, exporty, trasy, detailnější historické grafy, white-label widget pro obec nebo areál.
+
+Rizika, roadmapa a UX návrh
+Rizika jsou zde hlavně čtyři: právní, reputační, technická a datová. Největší průšvih není downtime, ale chybná interpretace statusu. Pokud uživatel nepozná rozdíl mezi „zákaz z důvodu sinic“, „právně zakázaný vstup“ a „nesledovaná voda na vlastní riziko“, produkt selhal, i kdyby byl technicky bezchybný. Tento problém je třeba řešit datovým modelem i UI zároveň. 
+
+Riziko	Dopad	Mitigace
+Smíchání zdravotního a právního statusu	vysoký	dvě oddělené statusové karty, samostatná pole a samostatné badge
+Zveřejnění „tajného přístupu“ na zakázané místo	vysoký	geofencing, bez navigace, bez vstupních bodů, jen důvod omezení
+Chybný crowdsourcing	střední až vysoký	moderace, reputační scoring, rate limit, audit log
+Scraping/licenční spor	střední	používat otevřená data, evidovat licence, uzavřít partnerství tam, kde licence chybí
+Pomalá mapa na mobilu	vysoký	generalizace dat, clustering, CDN, lazy layers
+Zastaralý status	vysoký	u každé karty zobrazit zdroj + čas odběru + čas publikace + čas ingestu
+Sezónnost návštěvnosti	střední	nízké fixní náklady, B2B a dotační noha financování
+
+Implementačně dává smysl krátká, fázová roadmapa. Nejdřív postavit spolehlivý oficiální backbone, teprve potom přidávat divoká místa, remote sensing a komunitu.
+
+Fáze	Hlavní úkoly	Odpovědnost	Odhad
+Discovery	právní rozbor, zdrojová inventura, datový model, UX koncept, seznam pilotních lokalit	PM + data/analytik + právník + UX	2–3 týdny
+Backbone MVP	ingest MZ/KHS, katalog lokalit, mapa, detail lokality, statusy, audit log, PWA základ	FE + BE + data engineer	4–6 týdnů
+Bezpečnostní vrstva	přístupové statusy, ochranná pásma, návštěvní řády, DIAMO/Povodí/obce	BE + data engineer + editor	3–4 týdny
+UGC a moderace	report incidentu, admin fronta, foto workflow, anonymizace, reputační pravidla	FE + BE + content/moderátor	3–5 týdnů
+Enrichment	ČHMÚ, historické grafy, remote sensing, notifikace, partner widgety	data engineer + FE	4–6 týdnů
+Public launch	performance, observability, SEO, analýza chování, monetizace, support procesy	celý tým	2–3 týdny
+
+Celkově je realistický pilot za 8–12 týdnů a veřejně uvěřitelný produkt za 4–5 měsíců, pokud nejsou nespesifikované integrační překážky u partnerů.
+
+Návrh klíčových obrazovek je následující:
+
+Mapa
+
+full-screen mapa
+horní sticky search + filtry
+spodní swipeable seznam lokalit
+výchozí barva podle zdravotního stavu
+sekundární badge podle přístupového režimu
+třetí vrstva: rizika a čerstvost
+Detail lokality
+
+hero se dvěma hlavními kartami: „Kvalita vody“ a „Přístup a pravidla“
+pod tím: počasí / vítr / srážky / průhlednost / historie
+teprve níže galerie, služby, komentáře, reporty
+výrazný blok „Důvěryhodnost zdrojů“
+Report incidentu
+
+tři kroky: typ incidentu → foto/poznámka → odeslat
+před odesláním upozornění, že nejde o oficiální změnu statusu
+volba „nechci zveřejnit přesné místo“ u citlivých hlášení
+text
+Zkopírovat
+[ MAPA ]
+┌──────────────────────────────────────────────┐
+│ Hledat lokalitu...      [Filtry] [Moje poloha] │
+├──────────────────────────────────────────────┤
+│                                              │
+│                interaktivní mapa             │
+│     ● modrá  ● žlutá  ● červená  ⛔ zákaz     │
+│                                              │
+├──────────────────────────────────────────────┤
+│ Dnes vhodné • Oficiálně sledované • Lomy     │
+│ Zákazy/omezení • Se psem • Bez vstupného     │
+├──────────────────────────────────────────────┤
+│ Jezero X   MODRÁ   Povolený vstup   2 km     │
+│ Lom Y      NESLED. Omezený vstup    7 km     │
+└──────────────────────────────────────────────┘
+text
+Zkopírovat
+[ DETAIL LOKALITY ]
+┌──────────────────────────────────────────────┐
+│ Název lokality                    [Uložit]   │
+│ Typ: lom / koupací oblast / biotop          │
+├──────────────────────────────────────────────┤
+│ KVALITA VODY        | PŘÍSTUP A PRAVIDLA     │
+│ Žlutá               | Omezeno                │
+│ odběr: 15.06. 09:20 | mimo pláže zákaz vstupu│
+│ zdroj: KHS          | zdroj: návštěvní řád   │
+├──────────────────────────────────────────────┤
+│ Počasí  Voda  Historie  Rizika  Zdrojová karta│
+│ 26 °C   22 °C  graf      skoky  KHS + DIAMO   │
+├──────────────────────────────────────────────┤
+│ [Nahlásit incident] [Sdílet] [Navigace*]     │
+│ * pouze pokud není právní omezení            │
+└──────────────────────────────────────────────┘
+text
+Zkopírovat
+[ REPORT INCIDENTU ]
+┌──────────────────────────────────────────────┐
+│ Co se stalo?                                 │
+│ ( ) sinice / zelená voda                     │
+│ ( ) rozbité sklo / odpad                     │
+│ ( ) zákazová cedule / uzavření               │
+│ ( ) úrazové riziko                           │
+│ ( ) jiné                                     │
+├──────────────────────────────────────────────┤
+│ Přidat fotku    Přidat poznámku              │
+│ [upload]        [text]                       │
+├──────────────────────────────────────────────┤
+│ Tento report je neoficiální a čeká na ověření│
+│ [Odeslat]                                    │
+└──────────────────────────────────────────────┘
+Pro inspiraci k vizuálu a UX stačí čtyři referenční body:
+https://benzinmapa.cz/
+https://www.koupaci-vody.cz/
+https://voda.gov.cz/
+https://www.jezeromilada.cz/

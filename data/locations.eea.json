@@ -1,0 +1,6324 @@
+[
+  {
+    "id": "eea-CZPK320251",
+    "slug": "babylon-pk320251",
+    "name": "Babylon",
+    "type": "reka",
+    "lat": 49.4039,
+    "lng": 12.8614,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128020/PK320251_Babylon_2018.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810101",
+    "slug": "bilovecky-rybnik-udoli-mladych-ko810101",
+    "name": "Bílovecký Rybník - Údolí Mladých",
+    "type": "reka",
+    "lat": 49.7646,
+    "lng": 18.0266,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128318/Bilovecky_rybnik.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610401",
+    "slug": "brevnicka-nadrz-ko610401",
+    "name": "Břevnická Nádrž",
+    "type": "prehrada",
+    "lat": 49.7018,
+    "lng": 15.6661,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/465997/KO610401_Brevnicka_nadrz_2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK520451",
+    "slug": "dachova-u-horic-pk520451",
+    "name": "Dachova U Hořic",
+    "type": "reka",
+    "lat": 50.3826,
+    "lng": 15.6421,
+    "region": "Královéhradecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127910/Profil_Dachovy.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO611301",
+    "slug": "dalesicka-prehrada-konesinska-plaz-ko611301",
+    "name": "Dalešická Přehrada - Koněšínská Pláž",
+    "type": "prehrada",
+    "lat": 49.1793,
+    "lng": 16.0431,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/403849/Dalesicka_prehrada___Konesinska_plaz.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610101",
+    "slug": "domaninsky-rybnik-ko610101",
+    "name": "Domanínský Rybník",
+    "type": "reka",
+    "lat": 49.5451,
+    "lng": 16.2054,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128573/Domaninsky_rybnik.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO421402",
+    "slug": "chlumecky-rybnik-ko421402",
+    "name": "Chlumecký Rybník",
+    "type": "reka",
+    "lat": 50.6989,
+    "lng": 13.9497,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128505/_02_Chlumecky_rybnik_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK210353",
+    "slug": "jezero-konetopy-pk210353",
+    "name": "Jezero Konětopy",
+    "type": "reka",
+    "lat": 50.2681,
+    "lng": 14.6515,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/170722/Profil_Konetopy.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK410751",
+    "slug": "jezero-michal-sokolov-pk410751",
+    "name": "Jezero Michal Sokolov",
+    "type": "reka",
+    "lat": 50.1649,
+    "lng": 12.6886,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128448/Jezero_Michal_Sokolov.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO421403",
+    "slug": "jezero-milada-ko421403",
+    "name": "Jezero Milada",
+    "type": "jezero",
+    "lat": 50.6563,
+    "lng": 13.9661,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/466000/_30_jezero_Milada_2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO420903",
+    "slug": "jezero-most-plaz-leva-cast-ko420903",
+    "name": "Jezero Most - Pláž Levá Část",
+    "type": "jezero",
+    "lat": 50.527,
+    "lng": 13.6465,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/mze/voda/prehledy-a-statistiky/povrchove-vody-vyuzivane-ke-koupani/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO420904",
+    "slug": "jezero-most-plaz-prava-cast-ko420904",
+    "name": "Jezero Most - Pláž Pravá Část",
+    "type": "jezero",
+    "lat": 50.52835,
+    "lng": 13.64926,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/mze/voda/prehledy-a-statistiky/povrchove-vody-vyuzivane-ke-koupani/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK211951",
+    "slug": "jezero-podebrady-pk211951",
+    "name": "Jezero Poděbrady",
+    "type": "reka",
+    "lat": 50.1368,
+    "lng": 15.1189,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/170727/Profil_Podebrady.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810201",
+    "slug": "kalisovo-jezero-ko810201",
+    "name": "Kališovo Jezero",
+    "type": "reka",
+    "lat": 49.9268,
+    "lng": 18.3467,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/653971/Kalisovo_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK420351",
+    "slug": "kamencove-jezero-pk420351",
+    "name": "Kamencové Jezero",
+    "type": "reka",
+    "lat": 50.4724,
+    "lng": 13.4248,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128502/Kamencove_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320902",
+    "slug": "kamenny-rybnik-ko320902",
+    "name": "Kamenný Rybník",
+    "type": "reka",
+    "lat": 49.7902,
+    "lng": 13.3827,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128059/_04_KO320902_Kamenny_r._2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO106001",
+    "slug": "koupaliste-dzban-ko106001",
+    "name": "Koupaliště Džbán",
+    "type": "reka",
+    "lat": 50.09322,
+    "lng": 14.3336,
+    "region": "Hlavní město Praha",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128141/PK106051___Dzban_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK410251",
+    "slug": "koupaliste-jesenice-drenice-pk410251",
+    "name": "Koupaliště Jesenice - Dřenice",
+    "type": "jezero",
+    "lat": 50.0663,
+    "lng": 12.4394,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128451/VN_Jesenice_2018.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK510551",
+    "slug": "koupaliste-kristyna-pk510551",
+    "name": "Koupaliště Kristýna",
+    "type": "reka",
+    "lat": 50.8581,
+    "lng": 14.8239,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127916/Profil_Kristyna.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK621951",
+    "slug": "koupaliste-lulec-pk621951",
+    "name": "Koupaliště Luleč",
+    "type": "reka",
+    "lat": 49.2579,
+    "lng": 16.9229,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128613/Koupaliste_Lulec.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK510253",
+    "slug": "koupaliste-nove-mesto-pod-smrkem-pk510253",
+    "name": "Koupaliště Nové Město Pod Smrkem",
+    "type": "reka",
+    "lat": 50.9258,
+    "lng": 15.2452,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127921/Profil_Nove_Mesto_pod_Smrkem.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK410351",
+    "slug": "koupaliste-rolava-karlovy-vary-pk410351",
+    "name": "Koupaliště Rolava - Karlovy Vary",
+    "type": "reka",
+    "lat": 50.2367,
+    "lng": 12.8453,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128487/_03_Koupaliste_Rolava_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK510953",
+    "slug": "koupaliste-sedmihorky-pk510953",
+    "name": "Koupaliště Sedmihorky",
+    "type": "reka",
+    "lat": 50.5592,
+    "lng": 15.1899,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127924/Profil_Sedmihorky.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO104001",
+    "slug": "koupaliste-seberak-ko104001",
+    "name": "Koupaliště Šeberák",
+    "type": "reka",
+    "lat": 50.0097,
+    "lng": 14.4979,
+    "region": "Hlavní město Praha",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128124/PK104052___Seberak_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK106051",
+    "slug": "koupaliste-ve-volne-prirode-dzban-pk106051",
+    "name": "Koupaliště Ve Volné Přírodě Džbán",
+    "type": "reka",
+    "lat": 50.0952,
+    "lng": 14.3312,
+    "region": "Hlavní město Praha",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128141/PK106051___Dzban_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK110051",
+    "slug": "koupaliste-ve-volne-prirode-hostivar-pk110051",
+    "name": "Koupaliště Ve Volné Přírodě Hostivař",
+    "type": "reka",
+    "lat": 50.0379,
+    "lng": 14.5402,
+    "region": "Hlavní město Praha",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128138/PK110051___Hostivar_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK105051",
+    "slug": "koupaliste-ve-volne-prirode-motol-pk105051",
+    "name": "Koupaliště Ve Volné Přírodě Motol",
+    "type": "reka",
+    "lat": 50.0693,
+    "lng": 14.3381,
+    "region": "Hlavní město Praha",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128113/PK105051___Motol_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK410551",
+    "slug": "lido-hamrniky-marianske-lazne-pk410551",
+    "name": "Lido Hamrníky Mariánské Lázně",
+    "type": "reka",
+    "lat": 49.9415,
+    "lng": 12.6907,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128056/PK410551_Lido.Hamrniky.Marianske.Lazne_2019.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320901",
+    "slug": "lom-jezirko-kosutka-ko320901",
+    "name": "Lom - Jezírko Košutka",
+    "type": "reka",
+    "lat": 49.7724,
+    "lng": 13.3571,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "zhorsena",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128053/_03_KO320901_lom_jezirko_Kosutka_2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810301",
+    "slug": "lom-svobodne-hermanice-ko810301",
+    "name": "Lom - Svobodné Heřmanice",
+    "type": "reka",
+    "lat": 49.9433,
+    "lng": 17.6576,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128308/Lom_Sv._Hermanice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO611001",
+    "slug": "lom-horni-cerekev-ko611001",
+    "name": "Lom Horní Cerekev",
+    "type": "reka",
+    "lat": 49.3128,
+    "lng": 15.3308,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/403846/Lom_Horni_Cerekev.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK510151",
+    "slug": "machovo-jezero-borny-pk510151",
+    "name": "Máchovo Jezero - Borný",
+    "type": "jezero",
+    "lat": 50.5888,
+    "lng": 14.6537,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128478/Machovo_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK510152",
+    "slug": "machovo-jezero-doksy-pk510152",
+    "name": "Máchovo Jezero - Doksy",
+    "type": "jezero",
+    "lat": 50.5755,
+    "lng": 14.6468,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128478/Machovo_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK510153",
+    "slug": "machovo-jezero-klucek-pk510153",
+    "name": "Máchovo Jezero - Klůček",
+    "type": "jezero",
+    "lat": 50.5791,
+    "lng": 14.654,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128478/Machovo_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK510161",
+    "slug": "machovo-jezero-plaz-hotelu-port-pk510161",
+    "name": "Máchovo Jezero - Pláž Hotelu Port",
+    "type": "jezero",
+    "lat": 50.5775,
+    "lng": 14.6427,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128478/Machovo_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK510154",
+    "slug": "machovo-jezero-plaz-stare-splavy-pk510154",
+    "name": "Máchovo Jezero - Pláž Staré Splavy",
+    "type": "jezero",
+    "lat": 50.5839,
+    "lng": 14.6418,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128478/Machovo_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO611201",
+    "slug": "maly-parezity-rybnik-ko611201",
+    "name": "Malý Pařezitý Rybník",
+    "type": "reka",
+    "lat": 49.2426,
+    "lng": 15.3947,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128567/Maly_parezity_rybnik.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO721203",
+    "slug": "novy-hrozenkov-ko721203",
+    "name": "Nový Hrozenkov",
+    "type": "reka",
+    "lat": 49.3443,
+    "lng": 18.2182,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128610/Novy_Hrozenkov.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO520701",
+    "slug": "oborsky-rybnik-ko520701",
+    "name": "Oborský Rybník",
+    "type": "reka",
+    "lat": 50.4719,
+    "lng": 15.3089,
+    "region": "Královéhradecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127927/Profil_Oborsky.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO520702",
+    "slug": "oborsky-rybnik-u-rz-eden-ko520702",
+    "name": "Oborský Rybník - U Rz Eden",
+    "type": "reka",
+    "lat": 50.4741,
+    "lng": 15.3089,
+    "region": "Královéhradecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127927/Profil_Oborsky.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO720501",
+    "slug": "pahrbek-napajedla-ko720501",
+    "name": "Pahrbek Napajedla",
+    "type": "reka",
+    "lat": 49.1567,
+    "lng": 17.5114,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128595/Slepe_rameno_Moravy.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK211551",
+    "slug": "pisnik-bakov-nad-jizerou-pk211551",
+    "name": "Písník Bakov Nad Jizerou",
+    "type": "reka",
+    "lat": 50.4856,
+    "lng": 14.9433,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127934/Profil_Bakov_nad_Jizerou.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO530901",
+    "slug": "pisnik-brezhrad-ko530901",
+    "name": "Písník Březhrad",
+    "type": "reka",
+    "lat": 50.1656,
+    "lng": 15.7936,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127937/Profil_Brezhrad.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO211001",
+    "slug": "pisnik-hradistko-ko211001",
+    "name": "Písník Hradišťko",
+    "type": "reka",
+    "lat": 50.0573,
+    "lng": 15.1958,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127940/Hradistko.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK210351",
+    "slug": "pisnik-lhota-pk210351",
+    "name": "Písník Lhota",
+    "type": "reka",
+    "lat": 50.2447,
+    "lng": 14.6678,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127943/Profil_Lhota.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK531151",
+    "slug": "pisnik-melice-pk531151",
+    "name": "Písník Mělice",
+    "type": "reka",
+    "lat": 50.0454,
+    "lng": 15.6107,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127946/Profil_Melice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "nevhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO710702",
+    "slug": "podebrady-plane-loucky-ko710702",
+    "name": "Poděbrady - Plané Loučky",
+    "type": "reka",
+    "lat": 49.6278,
+    "lng": 17.23,
+    "region": "Olomoucký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128607/Podebrady.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO710701",
+    "slug": "podebrady-u-pristaviste-ko710701",
+    "name": "Poděbrady - U Přístaviště",
+    "type": "reka",
+    "lat": 49.6231,
+    "lng": 17.2266,
+    "region": "Olomoucký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128607/Podebrady.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK212051",
+    "slug": "pribram-novy-rybnik-pk212051",
+    "name": "Příbram - Nový Rybník",
+    "type": "reka",
+    "lat": 49.6746,
+    "lng": 14.004,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128047/_04_PK212051_Pribram.Novy.rybnik_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK720751",
+    "slug": "prirodni-koupaliste-albatros-pk720751",
+    "name": "Přírodní Koupaliště Albatros",
+    "type": "reka",
+    "lat": 49.0116,
+    "lng": 17.4331,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128616/Koupaliste_Kamen.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO530601",
+    "slug": "rybnik-dlouhy-u-lanskrouna-ko530601",
+    "name": "Rybník Dlouhý U Lanškrouna",
+    "type": "reka",
+    "lat": 49.9189,
+    "lng": 16.5917,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128601/Rybnik_Dlouhy.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO812002",
+    "slug": "rybnik-edrovice-ko812002",
+    "name": "Rybník Edrovice",
+    "type": "reka",
+    "lat": 49.9367,
+    "lng": 17.2629,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128304/_620015_Rybnik_Edrovice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "zhorsena"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO311401",
+    "slug": "rybnik-hejtman-ko311401",
+    "name": "Rybník Hejtman",
+    "type": "reka",
+    "lat": 48.9594,
+    "lng": 14.9394,
+    "region": "Jihočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128169/_09_KO311401_rybnik.Hejtman_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO530301",
+    "slug": "rybnik-hluboky-ko530301",
+    "name": "Rybník Hluboký",
+    "type": "reka",
+    "lat": 50.0888,
+    "lng": 15.9722,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127952/Profil_Hluboky.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320501",
+    "slug": "rybnik-hnacov-ko320501",
+    "name": "Rybník Hnačov",
+    "type": "reka",
+    "lat": 49.3586,
+    "lng": 13.4874,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/mze/voda/prehledy-a-statistiky/povrchove-vody-vyuzivane-ke-koupani/",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK420551",
+    "slug": "rybnik-chmelar-pk420551",
+    "name": "Rybník Chmelař",
+    "type": "reka",
+    "lat": 50.5913,
+    "lng": 14.335,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128463/Rybnik_Chmelar.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "zhorsena"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610201",
+    "slug": "rybnik-kachlicka-ko610201",
+    "name": "Rybník Kachlička",
+    "type": "reka",
+    "lat": 49.5501,
+    "lng": 15.4313,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128116/KO610201___Kachlicka_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610803",
+    "slug": "rybnik-koupaliste-nove-mesto-na-morave-ko610803",
+    "name": "Rybník Koupaliště Nové Město Na Moravě",
+    "type": "reka",
+    "lat": 49.579,
+    "lng": 16.0663,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/467753/Rybnik_Koupaliste.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610801",
+    "slug": "rybnik-medlov-ko610801",
+    "name": "Rybník Medlov",
+    "type": "reka",
+    "lat": 49.6169,
+    "lng": 16.0527,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128559/Rybnik_Medlov.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO811401",
+    "slug": "rybnik-pod-hradem-ko811401",
+    "name": "Rybník Pod Hradem",
+    "type": "reka",
+    "lat": 50.2368,
+    "lng": 17.7062,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128314/Bohusovicky_rybnik.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO531201",
+    "slug": "rybnik-rosnicka-ko531201",
+    "name": "Rybník Rosnička",
+    "type": "reka",
+    "lat": 49.7715,
+    "lng": 16.4545,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128553/Rybnik_Rosnicka.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610202",
+    "slug": "rybnik-redkovec-ko610202",
+    "name": "Rybník Ředkovec",
+    "type": "reka",
+    "lat": 49.6337,
+    "lng": 15.4481,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128110/KO610202___Redkovec_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610802",
+    "slug": "rybnik-sykovec-ko610802",
+    "name": "Rybník Sykovec",
+    "type": "reka",
+    "lat": 49.6097,
+    "lng": 16.037,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128550/Rybnik_Sykovec.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "zhorsena"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO812001",
+    "slug": "rybnik-tvrdkov-ko812001",
+    "name": "Rybník Tvrdkov",
+    "type": "reka",
+    "lat": 49.8983,
+    "lng": 17.1885,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128598/Rybnik_Tvrdkov.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO611501",
+    "slug": "rybnik-velke-darko-ko611501",
+    "name": "Rybník Velké Dářko",
+    "type": "jezero",
+    "lat": 49.6322,
+    "lng": 15.9018,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128106/KO611501_rybnik.Velke.Darko_2018.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320903",
+    "slug": "senecky-rybnik-ko320903",
+    "name": "Senecký Rybník",
+    "type": "reka",
+    "lat": 49.7851,
+    "lng": 13.3902,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128038/_05_KO320903_Senecky_r._2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO311403",
+    "slug": "stankovsky-rybnik-ko311403",
+    "name": "Staňkovský Rybník",
+    "type": "jezero",
+    "lat": 48.97165,
+    "lng": 14.94481,
+    "region": "Jihočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128159/_01_KO311402_Stankovsky.rybnik_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO811701",
+    "slug": "stribrne-jezero-ko811701",
+    "name": "Stříbrné Jezero",
+    "type": "reka",
+    "lat": 49.9546,
+    "lng": 17.8939,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128301/Stribrne_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK620251",
+    "slug": "suchy-rybnik-pk620251",
+    "name": "Suchý Rybník",
+    "type": "reka",
+    "lat": 49.4822,
+    "lng": 16.7578,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128547/Suchy_rybnik.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320904",
+    "slug": "sidlovsky-rybnik-ko320904",
+    "name": "Šídlovský Rybník",
+    "type": "reka",
+    "lat": 49.785,
+    "lng": 13.378,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128035/_06_KO320904_Sidlovsky_r._2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO720502",
+    "slug": "sterkac-otrokovice-ko720502",
+    "name": "Štěrkáč Otrokovice",
+    "type": "reka",
+    "lat": 49.2265,
+    "lng": 17.513,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128619/Bahnak_sterkoviste.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK810951",
+    "slug": "sterkovna-hlucin-pk810951",
+    "name": "Štěrkovna Hlučín",
+    "type": "reka",
+    "lat": 49.8943,
+    "lng": 18.1711,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128297/Sterkovna_Hlucin.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO321401",
+    "slug": "velhartice-rybnik-busek-ko321401",
+    "name": "Velhartice Rybník Bušek",
+    "type": "reka",
+    "lat": 49.2565,
+    "lng": 13.38,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128172/_08_KO321401_Velhartice_rybnik_Busek_2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320905",
+    "slug": "velky-bolevecky-rybnik-hraz-ko320905",
+    "name": "Velký Bolevecký Rybník - Hráz",
+    "type": "reka",
+    "lat": 49.7728,
+    "lng": 13.3952,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128029/_07_KO320905_KO320906_Velky_Bolevecky_r._2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320906",
+    "slug": "velky-bolevecky-rybnik-ostende-ko320906",
+    "name": "Velký Bolevecký Rybník - Ostende",
+    "type": "reka",
+    "lat": 49.7753,
+    "lng": 13.3994,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128029/_07_KO320905_KO320906_Velky_Bolevecky_r._2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO611202",
+    "slug": "velky-parezity-rybnik-ko611202",
+    "name": "Velký Pařezitý Rybník",
+    "type": "reka",
+    "lat": 49.2272,
+    "lng": 15.3795,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128544/Velky_parezity_rybnik.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO410601",
+    "slug": "velky-rybnik-ko410601",
+    "name": "Velký Rybník",
+    "type": "reka",
+    "lat": 50.29,
+    "lng": 12.871,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128454/_04_Velky_rybnik_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810601",
+    "slug": "vn-baska-ko810601",
+    "name": "VN Baška",
+    "type": "prehrada",
+    "lat": 49.649,
+    "lng": 18.3819,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128294/VN_Baska.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO620304",
+    "slug": "vn-brnenska-prehrada-kozi-horka-ko620304",
+    "name": "VN Brněnská Přehrada - Kozí Horka",
+    "type": "prehrada",
+    "lat": 49.2378,
+    "lng": 16.5064,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128541/VN_Brnenska_prehrada.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO620305",
+    "slug": "vn-brnenska-prehrada-osada-ko620305",
+    "name": "VN Brněnská Přehrada - Osada",
+    "type": "prehrada",
+    "lat": 49.247,
+    "lng": 16.4993,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128541/VN_Brnenska_prehrada.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO620301",
+    "slug": "vn-brnenska-prehrada-rakovec-ko620301",
+    "name": "VN Brněnská Přehrada - Rakovec",
+    "type": "prehrada",
+    "lat": 49.2285,
+    "lng": 16.5102,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128541/VN_Brnenska_prehrada.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO620302",
+    "slug": "vn-brnenska-prehrada-rokle-ko620302",
+    "name": "VN Brněnská Přehrada - Rokle",
+    "type": "prehrada",
+    "lat": 49.2485,
+    "lng": 16.494,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128541/VN_Brnenska_prehrada.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO620303",
+    "slug": "vn-brnenska-prehrada-sokolske-koupaliste-ko620303",
+    "name": "VN Brněnská Přehrada - Sokolské Koupaliště",
+    "type": "prehrada",
+    "lat": 49.2422,
+    "lng": 16.5108,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128541/VN_Brnenska_prehrada.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810602",
+    "slug": "vn-brusperk-i-ko810602",
+    "name": "VN Brušperk I",
+    "type": "prehrada",
+    "lat": 49.6992,
+    "lng": 18.2389,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "zhorsena",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128291/Brusperk_I.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO530801",
+    "slug": "vn-brezina-ko530801",
+    "name": "VN Březina",
+    "type": "prehrada",
+    "lat": 49.651,
+    "lng": 16.6045,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128592/VN_Brezina.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO812201",
+    "slug": "vn-budisov-nad-budisovkou-ko812201",
+    "name": "VN Budišov Nad Budišovkou",
+    "type": "prehrada",
+    "lat": 49.7897,
+    "lng": 17.6326,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128311/VN_Budisov_nad_Budisovkou.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO721201",
+    "slug": "vn-bystricka-u-hraze-ko721201",
+    "name": "VN Bystřička - U Hráze",
+    "type": "prehrada",
+    "lat": 49.4216,
+    "lng": 18.0209,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128589/VN_Bystricka.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO721202",
+    "slug": "vn-bystricka-u-plaze-ko721202",
+    "name": "VN Bystřička - U Pláže",
+    "type": "prehrada",
+    "lat": 49.4239,
+    "lng": 18.0249,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128589/VN_Bystricka.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO811501",
+    "slug": "vn-certak-ko811501",
+    "name": "VN Čerťák",
+    "type": "prehrada",
+    "lat": 49.5674,
+    "lng": 17.9994,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128288/VN_Certak.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO510501",
+    "slug": "vn-harcov-hraz-ko510501",
+    "name": "VN Harcov - Hráz",
+    "type": "prehrada",
+    "lat": 50.7687,
+    "lng": 15.0713,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127964/Profil_Harcov.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO510502",
+    "slug": "vn-harcov-plaz-ko510502",
+    "name": "VN Harcov - Pláž",
+    "type": "prehrada",
+    "lat": 50.7709,
+    "lng": 15.0747,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127964/Profil_Harcov.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO720601",
+    "slug": "vn-horni-becva-ko720601",
+    "name": "VN Horní Bečva",
+    "type": "prehrada",
+    "lat": 49.4207,
+    "lng": 18.3158,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128586/VN_Horni_Becva.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320802",
+    "slug": "vn-hracholusky-hraz-ko320802",
+    "name": "VN Hracholusky - Hráz",
+    "type": "prehrada",
+    "lat": 49.7929,
+    "lng": 13.1677,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128026/_02_KO320801_KO320802_VN_Hracholusky_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO320801",
+    "slug": "vn-hracholusky-na-radosti-ko320801",
+    "name": "VN Hracholusky - Na Radosti",
+    "type": "prehrada",
+    "lat": 49.7955,
+    "lng": 13.1394,
+    "region": "Plzeňský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128026/_02_KO320801_KO320802_VN_Hracholusky_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO410201",
+    "slug": "vn-jesenice-u-atc-rybarska-basta-ko410201",
+    "name": "VN Jesenice - U Atc Rybářská Bašta",
+    "type": "prehrada",
+    "lat": 50.0825,
+    "lng": 12.4687,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128451/VN_Jesenice_2018.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO410202",
+    "slug": "vn-jesenice-u-atc-vaclav-ko410202",
+    "name": "VN Jesenice - U Atc Václav",
+    "type": "prehrada",
+    "lat": 50.055,
+    "lng": 12.4206,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128451/VN_Jesenice_2018.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO811502",
+    "slug": "vn-kacabaja-ko811502",
+    "name": "VN Kacabaja",
+    "type": "prehrada",
+    "lat": 49.5259,
+    "lng": 18.0184,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128285/_620012_VN_Kacabaja.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO620201",
+    "slug": "vn-letovice-svitavice-ko620201",
+    "name": "VN Letovice - Svitavice",
+    "type": "prehrada",
+    "lat": 49.5584,
+    "lng": 16.5432,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128538/VN_Letovice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO620202",
+    "slug": "vn-letovice-vranova-ko620202",
+    "name": "VN Letovice - Vranová",
+    "type": "prehrada",
+    "lat": 49.5562,
+    "lng": 16.5377,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128538/VN_Letovice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO310301",
+    "slug": "vn-lipno-plaz-cerna-v-posumavi-ko310301",
+    "name": "VN Lipno - Pláž Černá V Pošumaví",
+    "type": "prehrada",
+    "lat": 48.7371,
+    "lng": 14.0987,
+    "region": "Jihočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128156/KO310301_VN.Lipno.plaz.Cerna.v.Posumavi_2019.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO310302",
+    "slug": "vn-lipno-plaz-horni-plana-ko310302",
+    "name": "VN Lipno - Pláž Horní Planá",
+    "type": "prehrada",
+    "lat": 48.7594,
+    "lng": 14.0225,
+    "region": "Jihočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "zhorsena",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128153/KO310302___VN_Lipno___Horni_plana_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "zhorsena"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO310303",
+    "slug": "vn-lipno-plaz-lipno-nad-vltavou-ko310303",
+    "name": "VN Lipno - Pláž Lipno Nad Vltavou",
+    "type": "prehrada",
+    "lat": 48.6376,
+    "lng": 14.222,
+    "region": "Jihočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128148/KO310303_VN.Lipno.plaz.Lipno.nad.Vltavou_2019.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO621802",
+    "slug": "vn-lucina-ko621802",
+    "name": "VN Lučina",
+    "type": "prehrada",
+    "lat": 48.862,
+    "lng": 17.3931,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128583/VN_Lucina.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO720402",
+    "slug": "vn-luhacovice-kemp-ko720402",
+    "name": "VN Luhačovice - Kemp",
+    "type": "prehrada",
+    "lat": 49.1251,
+    "lng": 17.7843,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128580/VN_Luhacovice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "zhorsena"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO720401",
+    "slug": "vn-luhacovice-u-hraze-ko720401",
+    "name": "VN Luhačovice - U Hráze",
+    "type": "prehrada",
+    "lat": 49.1214,
+    "lng": 17.7752,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128580/VN_Luhacovice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO510301",
+    "slug": "vn-mseno-plaz-u-kiosku-ko510301",
+    "name": "VN Mšeno - Pláž \"u Kiosku\"",
+    "type": "prehrada",
+    "lat": 50.7345,
+    "lng": 15.1753,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127967/Profil_Mseno.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO510302",
+    "slug": "vn-mseno-plaz-u-prutu-ko510302",
+    "name": "VN Mšeno - Pláž \"u Prutu\"",
+    "type": "prehrada",
+    "lat": 50.737,
+    "lng": 15.1715,
+    "region": "Liberecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127967/Profil_Mseno.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO420401",
+    "slug": "vn-nechranice-kemp-u-hraze-ko420401",
+    "name": "VN Nechranice - Kemp U Hráze",
+    "type": "prehrada",
+    "lat": 50.3493,
+    "lng": 13.4094,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128445/_05_VN_Nechranice_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO420301",
+    "slug": "vn-nechranice-tusimice-ko420301",
+    "name": "VN Nechranice - Tušimice",
+    "type": "prehrada",
+    "lat": 50.3573,
+    "lng": 13.3597,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128445/_05_VN_Nechranice_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK621351",
+    "slug": "vn-nove-mlyny-horni-nadrz-laguna-1-pk621351",
+    "name": "VN Nové Mlýny - Horní Nádrž - Laguna 1",
+    "type": "prehrada",
+    "lat": 48.8996,
+    "lng": 16.5734,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128535/VN_Nove_Mlyny___horni_nadrz___laguny.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZPK621352",
+    "slug": "vn-nove-mlyny-horni-nadrz-laguna-2-pk621352",
+    "name": "VN Nové Mlýny - Horní Nádrž - Laguna 2",
+    "type": "prehrada",
+    "lat": 48.896,
+    "lng": 16.5649,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128535/VN_Nove_Mlyny___horni_nadrz___laguny.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810603",
+    "slug": "vn-olesna-mistek-ko810603",
+    "name": "VN Olešná - Místek",
+    "type": "prehrada",
+    "lat": 49.6639,
+    "lng": 18.3139,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128282/VN_Olesna.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810604",
+    "slug": "vn-olesna-palkovice-ko810604",
+    "name": "VN Olešná - Palkovice",
+    "type": "prehrada",
+    "lat": 49.6588,
+    "lng": 18.3173,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128282/VN_Olesna.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO310701",
+    "slug": "vn-orlik-atc-radava-ko310701",
+    "name": "VN Orlík - Atc Radava",
+    "type": "prehrada",
+    "lat": 49.5314,
+    "lng": 14.1714,
+    "region": "Jihočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128097/_08_KO212301_KO310701_VN.Orlik.stred_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO212001",
+    "slug": "vn-orlik-lavicky-ko212001",
+    "name": "VN Orlík - Lavičky",
+    "type": "prehrada",
+    "lat": 49.5864,
+    "lng": 14.1597,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128103/_07_KO212001_KO212302_KO212303_VN.Orlik.dolni.cast_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO212301",
+    "slug": "vn-orlik-podskali-ko212301",
+    "name": "VN Orlík - Podskalí",
+    "type": "prehrada",
+    "lat": 49.5439,
+    "lng": 14.1725,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128097/_08_KO212301_KO310701_VN.Orlik.stred_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO212302",
+    "slug": "vn-orlik-popeliky-ko212302",
+    "name": "VN Orlík - Popelíky",
+    "type": "prehrada",
+    "lat": 49.5987,
+    "lng": 14.1916,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128103/_07_KO212001_KO212302_KO212303_VN.Orlik.dolni.cast_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO212303",
+    "slug": "vn-orlik-trhovky-ko212303",
+    "name": "VN Orlík - Trhovky",
+    "type": "prehrada",
+    "lat": 49.58,
+    "lng": 14.1697,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128103/_07_KO212001_KO212302_KO212303_VN.Orlik.dolni.cast_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO310801",
+    "slug": "vn-orlik-verejne-taboriste-podolsko-ko310801",
+    "name": "VN Orlík - Veřejné Tábořiště Podolsko",
+    "type": "prehrada",
+    "lat": 49.3605,
+    "lng": 14.274,
+    "region": "Jihočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128100/KO310801___VN_Orlik___Podolsko_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO620101",
+    "slug": "vn-palava-ko620101",
+    "name": "VN Palava",
+    "type": "prehrada",
+    "lat": 49.3667,
+    "lng": 16.6581,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128529/VN_Palava.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO531501",
+    "slug": "vn-pastviny-panelovka-ko531501",
+    "name": "VN Pastviny - Panelovka",
+    "type": "prehrada",
+    "lat": 50.0805,
+    "lng": 16.5619,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127970/Profil_Pastviny.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO531502",
+    "slug": "vn-pastviny-slechtuv-palouk-ko531502",
+    "name": "VN Pastviny - Šlechtův Palouk",
+    "type": "prehrada",
+    "lat": 50.088,
+    "lng": 16.5614,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127970/Profil_Pastviny.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO611502",
+    "slug": "vn-pilska-ko611502",
+    "name": "VN Pilská",
+    "type": "prehrada",
+    "lat": 49.5897,
+    "lng": 15.9293,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128091/_03_KO611502_VN_Pilska_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO710801",
+    "slug": "vn-plumlov-ko710801",
+    "name": "VN Plumlov",
+    "type": "prehrada",
+    "lat": 49.4675,
+    "lng": 17.0304,
+    "region": "Olomoucký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128577/VN_Plumlov.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO520902",
+    "slug": "vn-rozkos-velka-jesenice-ko520902",
+    "name": "VN Rozkoš – Velká Jesenice",
+    "type": "prehrada",
+    "lat": 50.36455,
+    "lng": 16.06127,
+    "region": "Královéhradecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/587262/Profil_Rozkos.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO530402",
+    "slug": "vn-sec-hojesin-ko530402",
+    "name": "VN Seč Hoješín",
+    "type": "prehrada",
+    "lat": 49.8238,
+    "lng": 15.6431,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127976/Profil_Sec.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO530401",
+    "slug": "vn-sec-semtin-ko530401",
+    "name": "VN Seč Semtín",
+    "type": "prehrada",
+    "lat": 49.8387,
+    "lng": 15.6436,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127976/Profil_Sec.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO530403",
+    "slug": "vn-sec-ustupky-ko530403",
+    "name": "VN Seč Ústupky",
+    "type": "prehrada",
+    "lat": 49.8231,
+    "lng": 15.6493,
+    "region": "Pardubický kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/127976/Profil_Sec.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610302",
+    "slug": "vn-sedlice-ko610302",
+    "name": "VN Sedlice",
+    "type": "prehrada",
+    "lat": 49.5128,
+    "lng": 15.2653,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128088/KO610302___Sedlice_2021.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO410203",
+    "slug": "vn-skalka-u-atc-podhori-ko410203",
+    "name": "VN Skalka - U Atc Podhoří",
+    "type": "prehrada",
+    "lat": 50.0857,
+    "lng": 12.3229,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128442/_06_VN_Skalka_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO210101",
+    "slug": "vn-slapy-merin-ko210101",
+    "name": "VN Slapy - Měřín",
+    "type": "prehrada",
+    "lat": 49.7917,
+    "lng": 14.4141,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128085/KO210101_KO210102_KO210501_VN.Slapy.dolni.cast_2019.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO210102",
+    "slug": "vn-slapy-nova-rabyne-ko210102",
+    "name": "VN Slapy - Nová Rabyně",
+    "type": "prehrada",
+    "lat": 49.8088,
+    "lng": 14.4247,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128085/KO210101_KO210102_KO210501_VN.Slapy.dolni.cast_2019.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO210103",
+    "slug": "vn-slapy-nova-zivohost-ko210103",
+    "name": "VN Slapy - Nová Živohošť",
+    "type": "prehrada",
+    "lat": 49.7546,
+    "lng": 14.4144,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128082/KO210103_KO210701_VN.Slapy.stred_2018.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO210501",
+    "slug": "vn-slapy-zdan-ko210501",
+    "name": "VN Slapy - Ždáň",
+    "type": "prehrada",
+    "lat": 49.7968,
+    "lng": 14.4273,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128085/KO210101_KO210102_KO210501_VN.Slapy.dolni.cast_2019.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO210701",
+    "slug": "vn-slapy-zivohost-ko210701",
+    "name": "VN Slapy - Živohošť",
+    "type": "prehrada",
+    "lat": 49.7585,
+    "lng": 14.425,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vhodna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128082/KO210103_KO210701_VN.Slapy.stred_2018.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vhodna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO210702",
+    "slug": "vn-slapy-zupanovice-ko210702",
+    "name": "VN Slapy - Županovice",
+    "type": "prehrada",
+    "lat": 49.7051,
+    "lng": 14.2967,
+    "region": "Středočeský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128079/VN.Slapy.horni.cast_2017.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810303",
+    "slug": "vn-slezska-harta-leskovec-nad-moravici-ko810303",
+    "name": "VN Slezská Harta - Leskovec Nad Moravicí",
+    "type": "prehrada",
+    "lat": 49.9044,
+    "lng": 17.5643,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128279/VN_Slezska_Harta.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810304",
+    "slug": "vn-slezska-harta-nova-plan-ko810304",
+    "name": "VN Slezská Harta - Nová Pláň",
+    "type": "prehrada",
+    "lat": 49.9256,
+    "lng": 17.4768,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128279/VN_Slezska_Harta.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810306",
+    "slug": "vn-slezska-harta-roudno-i-ko810306",
+    "name": "VN Slezská Harta - Roudno I",
+    "type": "prehrada",
+    "lat": 49.9004,
+    "lng": 17.5477,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128279/VN_Slezska_Harta.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO410702",
+    "slug": "vn-tatrovice-ko410702",
+    "name": "VN Tatrovice",
+    "type": "prehrada",
+    "lat": 50.276,
+    "lng": 12.68,
+    "region": "Karlovarský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128436/VN_Tatrovice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810801",
+    "slug": "vn-terlicko-pacaluvka-ko810801",
+    "name": "VN Těrlicko - Pacalůvka",
+    "type": "prehrada",
+    "lat": 49.7694,
+    "lng": 18.4985,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128276/VN_Terlicko.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810802",
+    "slug": "vn-terlicko-pod-motelem-ko810802",
+    "name": "VN Těrlicko - Pod Motelem",
+    "type": "prehrada",
+    "lat": 49.7533,
+    "lng": 18.4982,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128276/VN_Terlicko.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810803",
+    "slug": "vn-terlicko-terlicko-stred-ko810803",
+    "name": "VN Těrlicko - Těrlicko Střed",
+    "type": "prehrada",
+    "lat": 49.7567,
+    "lng": 18.4933,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128276/VN_Terlicko.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO610303",
+    "slug": "vn-trnavka-ko610303",
+    "name": "VN Trnávka",
+    "type": "prehrada",
+    "lat": 49.5126,
+    "lng": 15.2003,
+    "region": "Kraj Vysočina",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128076/_09_KO610303_VN_Trnavka_2020.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO811201",
+    "slug": "vn-vetrkovice-ko811201",
+    "name": "VN Větřkovice",
+    "type": "prehrada",
+    "lat": 49.6163,
+    "lng": 18.19,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128273/VN_Vetrkovice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO420902",
+    "slug": "vn-vrbensky-kemp-matylda-ko420902",
+    "name": "VN Vrbenský - Kemp Matylda",
+    "type": "prehrada",
+    "lat": 50.5261,
+    "lng": 13.6188,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128438/_07_VN_Vrbensky___kemp_Matylda_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO721101",
+    "slug": "vn-vsemina-ko721101",
+    "name": "VN Všemina",
+    "type": "prehrada",
+    "lat": 49.2898,
+    "lng": 17.8578,
+    "region": "Zlínský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128604/Retencni_nadrz_Vsemina.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO622004",
+    "slug": "vn-vyrovice-ko622004",
+    "name": "VN Výrovice",
+    "type": "prehrada",
+    "lat": 48.929,
+    "lng": 16.1062,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128526/VN_Vyrovice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810605",
+    "slug": "vn-zermanice-dolni-domaslavice-ko810605",
+    "name": "VN Žermanice - Dolní Domaslavice",
+    "type": "prehrada",
+    "lat": 49.7205,
+    "lng": 18.4687,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128267/VN_Zermanice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810606",
+    "slug": "vn-zermanice-lucina-ko810606",
+    "name": "VN Žermanice - Lučina",
+    "type": "prehrada",
+    "lat": 49.7248,
+    "lng": 18.4515,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128267/VN_Zermanice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810607",
+    "slug": "vn-zermanice-sobesovice-ko810607",
+    "name": "VN Žermanice - Soběšovice",
+    "type": "prehrada",
+    "lat": 49.723,
+    "lng": 18.458,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128267/VN_Zermanice.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO622003",
+    "slug": "vranovska-prehrada-plaz-vranov-ko622003",
+    "name": "Vranovská Přehrada - Pláž Vranov",
+    "type": "prehrada",
+    "lat": 48.9124,
+    "lng": 15.8163,
+    "region": "Jihomoravský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "nesledovano",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128523/Vranovska_prehrada.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO810202",
+    "slug": "vrbicke-jezero-ko810202",
+    "name": "Vrbické Jezero",
+    "type": "reka",
+    "lat": 49.8817,
+    "lng": 18.3123,
+    "region": "Moravskoslezský kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/653974/Vrbicke_jezero.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO421301",
+    "slug": "zbytkova-jama-dolu-barbora-ko421301",
+    "name": "Zbytková Jáma Dolu Barbora",
+    "type": "jezero",
+    "lat": 50.6437,
+    "lng": 13.755,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128433/_08_Zbytkova_jama_dolu_Barbora_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO420901",
+    "slug": "zbytkova-jama-dolu-benedikt-ko420901",
+    "name": "Zbytková Jáma Dolu Benedikt",
+    "type": "reka",
+    "lat": 50.4942,
+    "lng": 13.668,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "https://eagri.cz/public/web/file/128430/_09_Zbytkova_jama_dolu_Benedikt_2022.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vyborna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "eea-CZKO421401",
+    "slug": "zbytkova-jama-dolu-varvazov-ko421401",
+    "name": "Zbytková Jáma Dolu Varvažov",
+    "type": "reka",
+    "lat": 50.7133,
+    "lng": 13.9524,
+    "region": "Ústecký kraj",
+    "district": "",
+    "municipality": "",
+    "monitored": true,
+    "quality": {
+      "class": "vyborna",
+      "sampledAt": "2022-09-15",
+      "source": "EEA – koupací vody (sezóna 2022)",
+      "sourceUrl": "http://eagri.cz/public/web/file/128427/Zbytkova_jama_dolu_Varvazov_2018.pdf",
+      "trust": 5
+    },
+    "access": {
+      "status": "povoleno",
+      "source": "EEA / koupací vody"
+    },
+    "history": [
+      {
+        "date": "2022-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2021-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2020-09-15",
+        "class": "vyborna"
+      },
+      {
+        "date": "2019-09-15",
+        "class": "vhodna"
+      }
+    ],
+    "updatedAt": "2026-06-26"
+  }
+]
