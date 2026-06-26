@@ -7,6 +7,8 @@ import CommunityInfo from "@/components/CommunityInfo";
 import ContentLayout from "@/components/ContentLayout";
 import ShareButtons from "@/components/ShareButtons";
 import GpsNavigation from "@/components/GpsNavigation";
+import PlacePhoto from "@/components/PlacePhoto";
+import CheckInButton from "@/components/CheckInButton";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { slugForRegion } from "@/lib/regions";
 import { amenityDef } from "@/lib/gamify";
@@ -147,17 +149,12 @@ export default async function LocationPage({
 
       {/* Hero */}
       <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-        {loc.photoUrl && (
-          <div className="relative">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={loc.photoUrl} alt={loc.name} className="h-52 w-full object-cover sm:h-64" />
-            {loc.photoCredit && (
-              <span className="absolute bottom-1 right-1 rounded bg-black/55 px-1.5 py-0.5 text-[10px] text-white">
-                © {loc.photoCredit}
-              </span>
-            )}
-          </div>
-        )}
+        <PlacePhoto
+          slug={loc.slug}
+          name={loc.name}
+          officialPhoto={loc.photoUrl}
+          officialCredit={loc.photoCredit}
+        />
         <div className="h-2.5" style={{ background: qColor }} />
         <div className="p-5 sm:p-6">
           <h1 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">{loc.name}</h1>
@@ -309,6 +306,9 @@ export default async function LocationPage({
           )}
         </section>
       )}
+
+      {/* Byl jsem tady – check-in + soutěž */}
+      <CheckInButton slug={loc.slug} typeLabel={TYPE_LABELS[loc.type]} />
 
       {/* GPS a navigace */}
       <GpsNavigation lat={loc.lat} lng={loc.lng} name={loc.name} url={url} />

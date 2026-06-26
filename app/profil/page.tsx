@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getCurrentUser } from "@/lib/auth";
-import { reportsByUser } from "@/lib/store";
+import { reportsByUser, visitCount } from "@/lib/store";
 import { badgesFor, kindDef, levelFor } from "@/lib/gamify";
 import AuthForms from "@/components/AuthForms";
 import LogoutButton from "@/components/LogoutButton";
@@ -50,9 +50,9 @@ async function Profile({
   points: number;
   reportCount: number;
 }) {
-  const reports = await reportsByUser(userId);
+  const [reports, visits] = await Promise.all([reportsByUser(userId), visitCount(userId)]);
   const lvl = levelFor(points);
-  const badges = badgesFor({ points, reportCount }, reports);
+  const badges = badgesFor({ points, reportCount, visitCount: visits }, reports);
 
   return (
     <div className="mt-4">
@@ -79,6 +79,9 @@ async function Profile({
           {lvl.next
             ? `Do úrovně „${lvl.next.name}" zbývá ${lvl.next.min - points} bodů.`
             : "Maximální úroveň! 👑"}
+        </div>
+        <div className="mt-2 inline-block rounded-full bg-white/20 px-3 py-1 text-xs font-semibold">
+          🥾 Navštívená místa: {visits}
         </div>
       </div>
 

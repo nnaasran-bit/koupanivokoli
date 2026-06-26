@@ -52,14 +52,14 @@ export function amenityDef(id: string): AmenityDef | undefined {
   return AMENITIES.find((a) => a.id === id);
 }
 
-export const CONTRIB_POINTS = { amenity: 5, tip: 10 };
+export const CONTRIB_POINTS = { amenity: 5, tip: 10, photo: 20, visit: 15 };
 
 export interface Contribution {
   id: string;
   locationSlug: string;
   userId: string;
   nick: string;
-  kind: "amenity" | "tip";
+  kind: "amenity" | "tip" | "photo" | "visit";
   amenity?: string;
   text?: string;
   createdAt: string;
@@ -131,7 +131,7 @@ export interface Badge {
 }
 
 export function badgesFor(
-  user: { points: number; reportCount: number },
+  user: { points: number; reportCount: number; visitCount?: number },
   reports: Report[],
 ): Badge[] {
   const b: Badge[] = [];
@@ -140,6 +140,10 @@ export function badgesFor(
   if (user.reportCount >= 20) b.push({ id: "veteran", name: "Veterán", emoji: "🎖️", desc: "20 hlášení." });
   if (reports.some((r) => r.kind === "nove_misto")) b.push({ id: "objevitel", name: "Objevitel", emoji: "🧭", desc: "Navrhl jsi nové místo." });
   if (reports.some((r) => r.kind === "sinice")) b.push({ id: "radar", name: "Sinicový radar", emoji: "🦠", desc: "Nahlásil jsi sinice." });
+  const visits = user.visitCount ?? 0;
+  if (visits >= 1) b.push({ id: "cestovatel", name: "Cestovatel", emoji: "🏖️", desc: "Navštívil jsi první místo." });
+  if (visits >= 10) b.push({ id: "tulak", name: "Tulák", emoji: "🥾", desc: "10 navštívených míst." });
+  if (visits >= 30) b.push({ id: "dobrodruh", name: "Dobrodruh", emoji: "🏆", desc: "30 navštívených míst." });
   if (user.points >= 100) b.push({ id: "stovkar", name: "Stovkař", emoji: "💯", desc: "100 bodů." });
   return b;
 }

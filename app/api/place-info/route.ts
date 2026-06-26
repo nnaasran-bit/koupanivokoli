@@ -8,9 +8,10 @@ import {
   countContributionsSince,
   getUserById,
   hasAmenityContribution,
+  hasContributionKind,
 } from "@/lib/store";
 
-// GET /api/place-info?slug=... → agregované vybavení + tipy od komunity
+// GET /api/place-info?slug=... → vybavení, tipy, fotky a počet návštěv od komunity
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const slug = searchParams.get("slug");
@@ -24,8 +25,12 @@ export async function GET(req: Request) {
   const tips = contribs
     .filter((c) => c.kind === "tip")
     .map((c) => ({ nick: c.nick, text: c.text, createdAt: c.createdAt }));
+  const photos = contribs
+    .filter((c) => c.kind === "photo" && c.text)
+    .map((c) => ({ nick: c.nick, url: c.text, createdAt: c.createdAt }));
+  const visits = contribs.filter((c) => c.kind === "visit").length;
 
-  return NextResponse.json({ amenities, tips });
+  return NextResponse.json({ amenities, tips, photos, visits });
 }
 
 export async function POST(req: Request) {
@@ -42,7 +47,8 @@ export async function POST(req: Request) {
   if (isBot(body)) return NextResponse.json({ error: "Detekován spam." }, { status: 400 });
 
   const slug = String(body.slug ?? "").trim();
-  const kind = body.kind === "tip" ? "tip" : "amenity";
+  const allowed = ["amenity", "tip", "photo", "visit"];
+  const kind = allowed.includes(String(body.kind)) ? (String(body.kind) as "amenity" | "tip" | "photo" | "visit") : "amenity";
   if (!slug) return NextResponse.json({ error: "Chybí lokalita." }, { status: 400 });
 
   // Limit příspěvků za hodinu
@@ -57,11 +63,21 @@ export async function POST(req: Request) {
   if (kind === "amenity") {
     amenity = String(body.amenity ?? "");
     if (!amenityDef(amenity)) return NextResponse.json({ error: "Neznámé vybavení." }, { status: 400 });
-    // Zákaz farmení bodů: stejné vybavení může uživatel potvrdit jen jednou.
     if (await hasAmenityContribution(user.id, slug, amenity)) {
       return NextResponse.json({ error: "Tohle vybavení už jsi tu potvrdil." }, { status: 409 });
     }
     points = CONTRIB_POINTS.amenity;
+  } else if (kind === "photo") {
+    const url = String(body.photoUrl ?? body.text ?? "").trim();
+    if (!/^https?:\/\/.+/i.test(url)) return NextResponse.json({ error: "Zadej platný odkaz na fotku (http/https)." }, { status: 400 });
+    text = url.slice(0, 500);
+    points = CONTRIB_POINTS.photo;
+  } else if (kind === "visit") {
+    // Check-in „byl jsem tady" – jen jednou na místo.
+    if (await hasContributionKind(user.id, slug, "visit")) {
+      return NextResponse.json({ error: "Tady už máš návštěvu zaznamenanou." }, { status: 409 });
+    }
+    points = CONTRIB_POINTS.visit;
   } else {
     text = String(body.text ?? "").trim().slice(0, 500);
     if (text.length < LIMITS.minTipLength) return NextResponse.json({ error: "Napiš aspoň pár slov." }, { status: 400 });

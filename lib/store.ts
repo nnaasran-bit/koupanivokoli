@@ -327,6 +327,46 @@ export async function hasAmenityContribution(
   );
 }
 
+// Už uživatel u tohoto místa udělal příspěvek daného druhu? (dedup pro 'visit')
+export async function hasContributionKind(userId: string, slug: string, kind: string): Promise<boolean> {
+  if (sql) {
+    await ensureSchema();
+    const r = await sql`SELECT 1 FROM contributions WHERE user_id = ${userId} AND location_slug = ${slug} AND kind = ${kind} LIMIT 1`;
+    return r.length > 0;
+  }
+  return readFile().contributions.some(
+    (c) => c.userId === userId && c.locationSlug === slug && c.kind === kind,
+  );
+}
+
+// Počet navštívených míst uživatele (check-iny 'visit') – pro soutěž/odznaky.
+export async function visitCount(userId: string): Promise<number> {
+  if (sql) {
+    await ensureSchema();
+    const r = await sql`SELECT count(*)::int AS n FROM contributions WHERE user_id = ${userId} AND kind = 'visit'`;
+    return r[0]?.n ?? 0;
+  }
+  return readFile().contributions.filter((c) => c.userId === userId && c.kind === "visit").length;
+}
+
+// Žebříček návštěvníků (kdo navštívil nejvíc míst).
+export async function visitLeaderboard(limit = 50): Promise<{ nick: string; visits: number }[]> {
+  if (sql) {
+    await ensureSchema();
+    const rows = await sql`SELECT nick, count(*)::int AS visits FROM contributions
+      WHERE kind = 'visit' GROUP BY nick ORDER BY visits DESC LIMIT ${limit}`;
+    return rows.map((r) => ({ nick: String(r.nick), visits: Number(r.visits) }));
+  }
+  const counts = new Map<string, number>();
+  for (const c of readFile().contributions) {
+    if (c.kind === "visit") counts.set(c.nick, (counts.get(c.nick) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([nick, visits]) => ({ nick, visits }))
+    .sort((a, b) => b.visits - a.visits)
+    .slice(0, limit);
+}
+
 export async function reportsByLocation(slug: string): Promise<Report[]> {
   if (sql) {
     await ensureSchema();
