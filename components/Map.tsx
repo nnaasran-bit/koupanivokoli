@@ -74,21 +74,34 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
     const markers: any[] = [];
     for (const l of locationsRef.current) {
       const color = markerColor(l);
-      const ban =
-        l.access.status === "zakazano"
-          ? `<circle cx="13" cy="13" r="5.5" fill="none" stroke="#111827" stroke-width="2"/>`
-          : "";
-      const icon = L.divIcon({
-        className: "koupani-pin",
-        html: `<svg width="28" height="40" viewBox="0 0 26 38" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 2px 2.5px rgba(0,0,0,.45))">
-          <path d="M13 0C6.1 0 .5 5.6 .5 12.5 .5 22 13 37 13 37s12.5-15 12.5-24.5C25.5 5.6 19.9 0 13 0z" fill="${color}" stroke="#ffffff" stroke-width="2.5"/>
-          <circle cx="13" cy="13" r="5" fill="#ffffff"/>${ban}
-        </svg>`,
-        iconSize: [28, 40],
-        iconAnchor: [14, 39],
-        popupAnchor: [0, -34],
-      });
-      const m = L.marker([l.lat, l.lng], { icon });
+      const isPool = l.type === "bazen";
+      let icon;
+      if (isPool) {
+        // Bazény/aquaparky: menší a méně výrazná značka (kolečko), ale stále viditelná.
+        icon = L.divIcon({
+          className: "koupani-pin-pool",
+          html: `<span style="display:block;width:13px;height:13px;border-radius:50%;background:${color};border:2px solid #ffffff;box-shadow:0 1px 2px rgba(0,0,0,.4);opacity:.9;"></span>`,
+          iconSize: [13, 13],
+          iconAnchor: [7, 7],
+          popupAnchor: [0, -7],
+        });
+      } else {
+        const ban =
+          l.access.status === "zakazano"
+            ? `<circle cx="13" cy="13" r="5.5" fill="none" stroke="#111827" stroke-width="2"/>`
+            : "";
+        icon = L.divIcon({
+          className: "koupani-pin",
+          html: `<svg width="28" height="40" viewBox="0 0 26 38" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 2px 2.5px rgba(0,0,0,.45))">
+            <path d="M13 0C6.1 0 .5 5.6 .5 12.5 .5 22 13 37 13 37s12.5-15 12.5-24.5C25.5 5.6 19.9 0 13 0z" fill="${color}" stroke="#ffffff" stroke-width="2.5"/>
+            <circle cx="13" cy="13" r="5" fill="#ffffff"/>${ban}
+          </svg>`,
+          iconSize: [28, 40],
+          iconAnchor: [14, 39],
+          popupAnchor: [0, -34],
+        });
+      }
+      const m = L.marker([l.lat, l.lng], { icon, zIndexOffset: isPool ? -500 : 0 });
       m.bindPopup(popupHtml(l), { minWidth: 210 });
       markers.push(m);
       markersById.current.set(l.id, m);
