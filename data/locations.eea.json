@@ -39,11 +39,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Babylon je obec v okrese Domažlice v Plzeňském kraji. Žije v ní 388 obyvatel. Leží osm kilometrů jihozápadně od Domažlic, 55 kilometrů jihozápadně od Plzně a 137 kilometrů jihozápadně od Prahy.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Gemeindeamt_von_Babylon.jpg/3840px-Gemeindeamt_von_Babylon.jpg",
-    "photoCredit": "Wikipedie / Babylon (okres Domažlice)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Babylon_(okres_Doma%C5%BElice)"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO810101",
@@ -223,11 +219,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Koněšín je obec v okrese Třebíč v Kraji Vysočina. Leží asi čtrnáct kilometrů východně od Třebíče na levém břehu řeky Jihlavy. Žije zde 507 obyvatel. K obci přísluší osada Prachovna u řeky Jihlavy, která je autem dostupná z Vladislavi.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Village_center_of_Kon%C4%9B%C5%A1%C3%ADn%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg/3840px-Village_center_of_Kon%C4%9B%C5%A1%C3%ADn%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg",
-    "photoCredit": "Wikipedie / Koněšín",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Kon%C4%9B%C5%A1%C3%ADn"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO610101",
@@ -269,7 +261,9 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Drážní objekt v Rozsochách je památkově chráněná vedlejší budova někdejší železniční stanice Rozsochy na trati Žďár nad Sázavou – Tišnov.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Dr%C3%A1%C5%BEn%C3%AD_objekt_(Rozsochy)"
   },
   {
     "id": "eea-CZKO421402",
@@ -357,7 +351,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Prutník je přírodní památka v katastrálním území Dřísy, vyhlášená roku 1972 kvůli ochraně vzácných rostlin, zejména vstavače vojenského, bradáčku vejčitého a hadího jazyka. Bohatá je i fauna, zejména hmyz (brouci). V devatenáctém století se v důsledku činnosti člověka z lokality vytratily některé druhy rostlin a jiné zde naopak byly vysazeny.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Les_les%2C_Proutn%C3%ADk%2C_chr%C3%A1n%C4%9Bn%C3%A9_%C3%BAzem%C3%AD.jpg",
+    "photoCredit": "Wikipedie / Prutník (přírodní památka)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Prutn%C3%ADk_(p%C5%99%C3%ADrodn%C3%AD_pam%C3%A1tka)"
   },
   {
     "id": "eea-CZPK410751",
@@ -446,10 +444,8 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Bitva u Ústí nad Labem se odehrála 16. června 1426 na vyvýšenině Na Běhání poblíž vsí Hrbovice a Předlice, zhruba 5 km západně od Ústí nad Labem. Ozbrojené síly většiny husitských svazů zde porazily početně silnější armádu římskoněmeckých[zdroj?] žoldnéřů, kteří se pokoušeli vyprostit Ústí z téměř dva měsíce trvajícího obležení. Vítězství nejenže umožnilo husitům ovládnout obléhané město, ale současně si otevřeli cestu ke vpádům do Saska, Durynska a Horní Lužice. Na českém území to bylo naposled, kdy těžká jízda napadla vozovou hradbu čelním útokem, neboť v dalších letech se již zahraniční nepřítel pokoušel přizpůsobit novému pojetí válečnictví za použití vlastní vozové formace.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bitva_u_%C3%9Ast%C3%AD_nad_Labem.jpg",
-    "photoCredit": "Wikipedie / Bitva u Ústí nad Labem",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Bitva_u_%C3%9Ast%C3%AD_nad_Labem"
+    "description": "Důl Albert byl hnědouhelný hlubinný důl v katastrálním území Tuchomyšl v okrese Ústí nad Labem v mostecké pánvi. Důl založil hrabě Albert Nostic a byl provozován v letech 1870–1966.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/D%C5%AFl_Albert_(Tuchomy%C5%A1l)"
   },
   {
     "id": "eea-CZKO420903",
@@ -582,10 +578,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Osada Šunychl je část města Bohumína, která sestává ze dvou základních sídelních jednotek: Jednou je sama vesnice Šunychl, ležící v katastrálním území Nový Bohumín, druhou pak vesnice Kopytov s vlastním katastrálním územím (2,18 km²). Šunychl se nachází v okrese Karviná v Moravskoslezském kraji.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bohum%C3%ADn%2C_%C5%A0unychl%2C_k%C5%99%C3%AD%C5%BE.JPG",
-    "photoCredit": "Wikipedie / Šunychl",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%A0unychl"
+    "description": "Hraniční meandry Odry jsou přírodní památka, která byla vyhlášena 6. září 2006 a veřejnosti otevřena 25. května roku 2007. Vyznačuje se samovolnými korytotvornými pochody řeky Odry, do kterých nezasahuje člověk. Patří mezi unikáty ve střední Evropě. Korytotvornými procesy se tvoří štěrkové náplavy, které neustále mění směr toku a tím tedy i lehce posunují státní hranice mezi Polskem a Českou republikou. Nachází se v částech Starý Bohumín a Šunychl v okrese Karviná. Geograficky patří do nížiny Ostravská pánev a Moravskoslezského kraje a do Horního Slezska.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Graniczne_meandry_Odry_-_Hrani%C4%8Dn%C3%AD_meandry_Odry.jpg/3840px-Graniczne_meandry_Odry_-_Hrani%C4%8Dn%C3%AD_meandry_Odry.jpg",
+    "photoCredit": "Wikipedie / Hraniční meandry Odry",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Hrani%C4%8Dn%C3%AD_meandry_Odry"
   },
   {
     "id": "eea-CZPK420351",
@@ -747,7 +743,9 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Dřenice jsou pozůstatky pravěkého hradiště nebo opevněného středověkého objektu u stejnojmenné vesnice v okrese Cheb. Nachází se na ostrožně nad levým břehem vodní nádrže Jesenice na západním okraji vesnice. Jeho pozůstatky jsou chráněné jako kulturní památka ČR.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/D%C5%99enice_(hradi%C5%A1t%C4%9B)"
   },
   {
     "id": "eea-CZPK510551",
@@ -835,11 +833,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Luleč je obec v okrese Vyškov v Jihomoravském kraji. Žije v ní 983 obyvatel. Nachází se sedm kilometrů jihozápadně od města Vyškov na úpatí Drahanské vrchoviny, na rozhraní Hané, Litenčické pahorkatiny a Brněnské nížiny v nadmořské výšce 302 metrů. Obec je půdorysně trojúhelníková zastavěná náves s kostelem situovaným na severozápadní straně obce. Výraznou dominantou okolí je kopec s kostelem svatého Martina s křížovou cestou.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lule%C4%8D_007.JPG/3840px-Lule%C4%8D_007.JPG",
-    "photoCredit": "Wikipedie / Luleč",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Lule%C4%8D"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZPK510253",
@@ -1266,10 +1260,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Svobodné Heřmanice jsou obec v okrese Bruntál v Moravskoslezském kraji. Žije zde 552 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Svobodn%C3%A9_He%C5%99manice%2C_n%C3%A1ves_%282019-08-14%3B_02%29.jpg/3840px-Svobodn%C3%A9_He%C5%99manice%2C_n%C3%A1ves_%282019-08-14%3B_02%29.jpg",
-    "photoCredit": "Wikipedie / Svobodné Heřmanice",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Svobodn%C3%A9_He%C5%99manice"
+    "description": "Svobodné Heřmanice jsou dopravna D3, která se nachází u zatopeného lomu Šífr západně od zástavby obce Svobodné Heřmanice v okrese Bruntál. Dopravna leží v km 25,052 jednokolejné Opava východ – Svobodné Heřmanice. Jedná se o koncovou dopravnu této trati, která v minulosti pokračovala dále do Horního Benešova.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%C5%BDelezni%C4%8Dn%C3%AD_stanice_Svobodn%C3%A9_He%C5%99manice_%28z%C3%A1%C5%99%C3%AD_2022%29.jpg/3840px-%C5%BDelezni%C4%8Dn%C3%AD_stanice_Svobodn%C3%A9_He%C5%99manice_%28z%C3%A1%C5%99%C3%AD_2022%29.jpg",
+    "photoCredit": "Wikipedie / Svobodné Heřmanice (nádraží)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Svobodn%C3%A9_He%C5%99manice_(n%C3%A1dra%C5%BE%C3%AD)"
   },
   {
     "id": "eea-CZKO611001",
@@ -1312,10 +1306,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Horní Cerekev je město v okrese Pelhřimov v Kraji Vysočina. Žije zde přibližně 1 900 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Horn%C3%AD_Cerekev_2-2.jpg",
-    "photoCredit": "Wikipedie / Horní Cerekev",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Horn%C3%AD_Cerekev"
+    "description": "Horní Cerekev je železniční stanice v okrese Pelhřimov, v jižní části obce Horní Cerekev v Kraji Vysočina nedaleko soustavy rybníků na řece Jihlavě. Leží na jednokolejných tratích Tábor – Horní Cerekev a Havlíčkův Brod – Veselí nad Lužnicí. Stanice je elektrizovaná.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Station_Horni_Cerekev_-_Tsjechi%C3%AB.jpg",
+    "photoCredit": "Wikipedie / Horní Cerekev (nádraží)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Horn%C3%AD_Cerekev_(n%C3%A1dra%C5%BE%C3%AD)"
   },
   {
     "id": "eea-CZPK510151",
@@ -1767,7 +1761,11 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Napajedla jsou železniční stanice, která se nachází v jihozápadní části města Napajedla v okrese Zlín. Stanice leží v km 149,500 dvoukolejné železniční trati Přerov–Břeclav mezi stanicemi Otrokovice a Huštěnovice.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Napajedla.jpg",
+    "photoCredit": "Wikipedie / Napajedla (nádraží)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Napajedla_(n%C3%A1dra%C5%BE%C3%AD)"
   },
   {
     "id": "eea-CZPK211551",
@@ -1810,10 +1808,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Bakov nad Jizerou je město v okrese Mladá Boleslav. Žije zde přibližně 5 400 obyvatel. V minulosti ho proslavily výrobky z rákosu a orobince, např. pantofle, tašky, holubovky, rohože a mnoho dalších. Městem či v jeho bezprostřední blízkosti protékají řeka Jizera a říčky Kněžmostka a Bělá, které se zde do Jizery i vlévají.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bakov_nad_Jizerou%2C_n%C3%A1m%C4%9Bst%C3%AD_z%C3%A1pad.jpg/3840px-Bakov_nad_Jizerou%2C_n%C3%A1m%C4%9Bst%C3%AD_z%C3%A1pad.jpg",
-    "photoCredit": "Wikipedie / Bakov nad Jizerou",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Bakov_nad_Jizerou"
+    "description": "Zálučí je odbočka, která se nachází v km 84,471 trati Praha–Vysočany – Turnov a v km 37,412 trati Bakov nad Jizerou – Kopidlno. Tato dopravna je současně hláskou pro úsek Bakov nad Jizerou – Mnichova Hradiště. Nachází se severovýchodně od města Bakov nad Jizerou, na jehož katastrálním území leží.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Odbo%C4%8Dka_Z%C3%A1lu%C4%8D%C3%AD.jpg/3840px-Odbo%C4%8Dka_Z%C3%A1lu%C4%8D%C3%AD.jpg",
+    "photoCredit": "Wikipedie / Zálučí (odbočka)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Z%C3%A1lu%C4%8D%C3%AD_(odbo%C4%8Dka)"
   },
   {
     "id": "eea-CZKO530901",
@@ -1901,11 +1899,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Hradišťko I je vesnice a část obce Veltruby v okrese Kolín ve Středočeském kraji. Nachází se asi 1,4 kilometru jihovýchodně od Veltrub, nedaleko od řeky Labe. Hradišťko I je také název katastrálního území o rozloze 2,89 km².",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Hradistko_I_f._ObecniHospoda.jpg/3840px-Hradistko_I_f._ObecniHospoda.jpg",
-    "photoCredit": "Wikipedie / Hradišťko I",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Hradi%C5%A1%C5%A5ko_I"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZPK210351",
@@ -2262,10 +2256,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Edrovice jsou vesnice, která je částí města Rýmařov v okrese Bruntál.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Edrovice_-_n%C3%A1ves.JPG",
-    "photoCredit": "Wikipedie / Edrovice",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Edrovice"
+    "description": "Kostel svatého Michala v Rýmařově se nachází v okrese Bruntál. Filiální kostel náleží k Diecézi ostravsko-opavské, Děkanát Bruntál, Římskokatolická farnost Rýmařov. Kostel se nachází na Školním náměstí v nadmořské výšce 605 m n. m. v severní části historického jádra.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/V%C4%9B%C5%BE_kostela_svat%C3%A9ho_Michaela_02.jpg",
+    "photoCredit": "Wikipedie / Kostel svatého Michala (Rýmařov)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Michala_(R%C3%BDma%C5%99ov)"
   },
   {
     "id": "eea-CZKO311401",
@@ -2381,11 +2375,7 @@
       "status": "povoleno",
       "source": "EEA / koupací vody"
     },
-    "updatedAt": "2026-06-26",
-    "description": "Hnačov je obec v okrese Klatovy v Plzeňském kraji. Žije zde 86 obyvatel. Jižně od obce leží Hnačovský rybník s plochou 68,38 hektarů, který byl založen v roce 1613. Je to třetí největší rybník v Plzeňském kraji.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hna%C4%8Dov%2C_silnice.jpg/3840px-Hna%C4%8Dov%2C_silnice.jpg",
-    "photoCredit": "Wikipedie / Hnačov",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Hna%C4%8Dov"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZPK420551",
@@ -2427,11 +2417,7 @@
         "class": "zhorsena"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Zelená Ves, někdy zmiňovaná jako Zelená Ves u Habřiny, je zaniklá ves na pomezí Českého Předměstí a Českolipského Předměstí v Úštěku v okrese Litoměřice. Jádro bývalé vsi je situováno na druhou pláž rybníka Chmelař, na jeho severovýchodním okraji, u kempů Oáza a Na konci.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Detail_img_%284%29_Zelen%C3%A1_Ves.jpg",
-    "photoCredit": "Wikipedie / Zelená Ves (Úštěk)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Zelen%C3%A1_Ves_(%C3%9A%C5%A1t%C4%9Bk)"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO610201",
@@ -2788,10 +2774,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Obec Tvrdkov se nachází v okrese Bruntál v Moravskoslezském kraji. Žije zde 238 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Tvrdkov.jpg",
-    "photoCredit": "Wikipedie / Tvrdkov",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Tvrdkov"
+    "description": "Kostel svatého Antonína Paduánského v obci Tvrdkov je filiální kostel postavený v roce 1768–1776 a kulturní památka České republiky.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/TvrdkovKostel.jpg",
+    "photoCredit": "Wikipedie / Kostel svatého Antonína Paduánského (Tvrdkov)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Anton%C3%ADna_Padu%C3%A1nsk%C3%A9ho_(Tvrdkov)"
   },
   {
     "id": "eea-CZKO611501",
@@ -2953,7 +2939,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Městský stadion v Opavě, Stadion v Městských sadech či od roku 2025 sponzorským názvem Simply Arena je částečně zastřešený fotbalový stadion anglického typu nacházející se v Městských sadech v Opavě. Stadion byl postaven v roce 1973 na místě původního hřiště DSV Troppau.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Sfcopava_stadion.jpg",
+    "photoCredit": "Wikipedie / Městský stadion Opava",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_stadion_Opava"
   },
   {
     "id": "eea-CZPK620251",
@@ -2996,10 +2986,8 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Suchý je obec v okrese Blansko v Jihomoravském kraji. Žije zde 471 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Obecn%C3%AD_%C3%BA%C5%99ad%2C_Such%C3%BD%2C_okres_Blansko.jpg",
-    "photoCredit": "Wikipedie / Suchý",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Such%C3%BD"
+    "description": "Velenka byla plánovaná rozhledna u obce Velenov v okrese Blansko.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velenka_(rozhledna)"
   },
   {
     "id": "eea-CZKO320904",
@@ -3087,7 +3075,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Baťov je čtvrť města Otrokovice v okrese Zlín, přibližně 1,8 km severozápadně od centra. Leží na severní části města, mezi areálem bývalé továrny Baťa a řekou Moravou. Mezi rekreační místa patří například Štěrkoviště. Dopravní obsluhu Baťova zajišťuje trolejbusová linka 2 a několik městských a regionálních autobusových linek.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Otrokovice_hotel.jpg",
+    "photoCredit": "Wikipedie / Baťov (Otrokovice)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Ba%C5%A5ov_(Otrokovice)"
   },
   {
     "id": "eea-CZPK810951",
@@ -3176,10 +3168,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Velhartice jsou obec v okrese Klatovy v Plzeňském kraji. Její součástí je i bývalé samostatné horní město Hory Matky Boží. Celkem zde žije 845 obyvatel. Obec Velhartice je součástí Dobrovolného svazku obcí Ostružná, jehož dalšími členy jsou městys Kolinec a obce Mokrosuky, Chlistov, Hlavňovice a Číhaň.Historické jádro Velhartic bylo na základě vyhlášky Ministerstva kultury ČR č. 476/1992 Sb. ze dne 10. září 1992 zařazeno mezi městské památkové zóny.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Velhartice_-_kostel_Narozen%C3%AD_Panny_Marie_03.jpg",
-    "photoCredit": "Wikipedie / Velhartice",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Velhartice"
+    "description": "Židovský hřbitov ve Velharticích leží jihozápadně od obce Velhartice u chatové osady na okraji lesa po odbočení za řekou Ostružnou po zkratce ke Kouklovně na Chotěšov při modře značené turistické stezce a cyklotrase číslo 2095. Je chráněn jako kulturní památka České republiky.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/%C5%BDH_Velhartice_12.jpg",
+    "photoCredit": "Wikipedie / Židovský hřbitov ve Velharticích",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%BDidovsk%C3%BD_h%C5%99bitov_ve_Velhartic%C3%ADch"
   },
   {
     "id": "eea-CZKO320905",
@@ -3355,11 +3347,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Velký Rybník je velká vesnice, část města Hroznětín v okrese Karlovy Vary v Karlovarském kraji. Nachází se asi 2,5 kilometru jižně od Hroznětína. Vede jím železniční trať Karlovy Vary – Merklín. Velký Rybník leží v katastrálním území Hroznětín o výměře 11,52 km².",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Velky_Rybnik_Domaci_Pivovarek.JPG",
-    "photoCredit": "Wikipedie / Velký Rybník (Hroznětín)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Velk%C3%BD_Rybn%C3%ADk_(Hrozn%C4%9Bt%C3%ADn)"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO810601",
@@ -3539,7 +3527,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Hotel Santon, celým jménem OREA Resort Santon Brno, dříve Dům rekreace ROH, je hotel a restaurace v Brně v městské části Bystrc. Stojí v nadmořské výšce 230 metrů na vyvýšenině mezi přístavištěm a hrází Brněnské přehrady. Jeho adresa je Přístavní 1064/38. Byl uveden do provozu v roce 1985.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Brno%2C_Bystrc%2C_hotel_Santon.JPG",
+    "photoCredit": "Wikipedie / Hotel Santon",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Hotel_Santon"
   },
   {
     "id": "eea-CZKO620302",
@@ -3756,10 +3748,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Budišov nad Budišovkou je město ležící v okrese Opava. Žije zde přibližně 2 800 obyvatel. Ve vzdálenosti 11 km jihovýchodně leží město Vítkov, 21 km jihovýchodně město Odry, 23 km jihovýchodně město Fulnek a 24 km západně město Šternberk. Historické jádro Budišova nad Budišovkou je od roku 2003 městskou památkovou zónou.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Budi%C5%A1ov_nad_Budi%C5%A1ovkou%2C_celkov%C3%BD_pohled_%282%29.jpg/3840px-Budi%C5%A1ov_nad_Budi%C5%A1ovkou%2C_celkov%C3%BD_pohled_%282%29.jpg",
-    "photoCredit": "Wikipedie / Budišov nad Budišovkou",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Budi%C5%A1ov_nad_Budi%C5%A1ovkou"
+    "description": "Kamenný most se sochou svatého Jana Nepomuckého vede přes řeku Budišovku v Budišově nad Budišovkou v okrese Opava a byl zapsán do Ústředního seznamu kulturních památek ČR.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kamenn%C3%BD_most_se_sochou.jpg",
+    "photoCredit": "Wikipedie / Kamenný most se sochou svatého Jana Nepomuckého (Budišov nad Budišovkou)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kamenn%C3%BD_most_se_sochou_svat%C3%A9ho_Jana_Nepomuck%C3%A9ho_(Budi%C5%A1ov_nad_Budi%C5%A1ovkou)"
   },
   {
     "id": "eea-CZKO721201",
@@ -3875,7 +3867,11 @@
       "status": "povoleno",
       "source": "EEA / koupací vody"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Kojetín je jednou z místních částí města Nového Jičína.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Kojet%C3%ADn_NJ_n%C3%A1ves.JPG",
+    "photoCredit": "Wikipedie / Kojetín (Nový Jičín)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kojet%C3%ADn_(Nov%C3%BD_Ji%C4%8D%C3%ADn)"
   },
   {
     "id": "eea-CZKO510501",
@@ -4101,7 +4097,9 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Luhov je pravěké hradiště jihozápadně od stejnojmenné vesnice u Líšťan v okrese Plzeň-sever. Nachází se na ostrožně nad vodní nádrží Hracholusky na levém břehu Mže v místech zvaných Vojenský tábor. Pozůstatky hradiště jsou chráněny jako kulturní památka ČR.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Luhov_(hradi%C5%A1t%C4%9B)"
   },
   {
     "id": "eea-CZKO410201",
@@ -4245,7 +4243,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Letovice je údolní nádrž vybudovaná na říčce Křetínce v letech 1972–1976, do plného provozu byla následně předána v roce 1978. Hlavním posláním tohoto vodního díla je vylepšení průtoků řeky Svitavy po vybudování II. Březovského vodovodu, jehož čerpání vody ze studní a jímacích vrtů u Muzlova v bezprostřední blízkosti Svitavy mohlo způsobit snížení průtoku v řece. Dále je přehrada využívána pro rekreaci, rybolov a vodní sporty. Rekreaci zajišťuje středisko Svitavice, vodní sporty Jachetní oddíl TJ Sokol Letovice.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Vodn%C3%AD_n%C3%A1dr%C5%BE_Letovice_%28by_Pudelek%29.JPG",
+    "photoCredit": "Wikipedie / Vodní nádrž Letovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Letovice"
   },
   {
     "id": "eea-CZKO620202",
@@ -4279,11 +4281,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Vranová je obec v okrese Blansko v Jihomoravském kraji. Žije zde 404 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Vranova14.JPG",
-    "photoCredit": "Wikipedie / Vranová",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Vranov%C3%A1"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO310301",
@@ -4325,11 +4323,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Černá v Pošumaví je obec v okrese Český Krumlov v Jihočeském kraji. Leží zhruba osmnáct kilometrů jihozápadně od Českého Krumlova u vodní nádrže Lipno. Rozkládá se na obou březích Vltavy. Žije zde 856 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/CernaVPosumavi-kostel4.jpg",
-    "photoCredit": "Wikipedie / Černá v Pošumaví",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO310302",
@@ -4371,11 +4365,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Horní Planá je město v okrese Český Krumlov v Jihočeském kraji, ležící na jihovýchodní Šumavě u Lipenské vodní nádrže. Žije zde přibližně 1 900 obyvatel. S rozlohou přes 127 km² je Horní Planá jednou z plošně největších obcí v Česku. Zdejší městský úřad je jedním z pověřených úřadů obvodu ORP Český Krumlov, spadají pod něj ještě obce Černá v Pošumaví a Frymburk.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Horn%C3%AD_Plan%C3%A1.JPG",
-    "photoCredit": "Wikipedie / Horní Planá",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Horn%C3%AD_Plan%C3%A1"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO310303",
@@ -4831,7 +4821,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Královská hrobka u Mušova je germánský hrob pocházející z období markomanských válek nacházející se u Mušova na levém břehu řeky Dyje, nedaleko římské vojenské pevnosti legií Marca Aurelia.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mu%C5%A1ov_Cauldron.jpg",
+    "photoCredit": "Wikipedie / Královská hrobka u Mušova",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kr%C3%A1lovsk%C3%A1_hrobka_u_Mu%C5%A1ova"
   },
   {
     "id": "eea-CZKO810603",
@@ -4965,11 +4959,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Radava byla obec, která zanikla po stavbě Orlické přehrady. Stála na pravém břehu Vltavy, přibližně pět kilometrů po proudu řeky od zámku Orlík. Pravý břeh byl regulován, mj. pro přivazování vorů. Na protějším břehu Vltavy bývala vesnice Velký Vír. Obě vesnice dnes připomínají jen názvy kempů na březích vodní nádrže Orlík.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kemp_Radava_-_okres_P%C3%ADsek_%28011%29.jpg/3840px-Kemp_Radava_-_okres_P%C3%ADsek_%28011%29.jpg",
-    "photoCredit": "Wikipedie / Radava",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Radava"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO212001",
@@ -5195,11 +5185,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Podolsko je osada, část obce Podolí I v okrese Písek v Jihočeském kraji. Většina původní vesnice zanikla na konci 50. let 20. století v souvislosti s výstavbou orlické vodní nádrže. Nachází se asi 2,5 kilometru západně od Podolí I. Prochází zde silnice I/29. Je zde evidováno 97 adres. V roce 2011 zde trvale žilo 27 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Podolsko_%28011%29.jpg/3840px-Podolsko_%28011%29.jpg",
-    "photoCredit": "Wikipedie / Podolsko",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Podolsko"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO620101",
@@ -5241,7 +5227,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Nemocnice Blansko je zdravotnické zařízení v Blansku v Jihomoravském kraji. Sídlí v ulici Sadové a disponuje 183 lůžky. Nemocnice funguje jako příspěvková organizace města Blansko.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Nemocnice_Blansko_01.jpg/3840px-Nemocnice_Blansko_01.jpg",
+    "photoCredit": "Wikipedie / Nemocnice Blansko",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Nemocnice_Blansko"
   },
   {
     "id": "eea-CZKO531501",
@@ -5283,7 +5273,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Přehradní nádrž Pastviny se nachází ve stejnojmenné obci Pastviny v podhůří Orlických hor, asi 7 km východně od Žamberka. Napájí ji řeka Divoká Orlice. Přehrada se stavěla v letech 1933–1938. V zatopené oblasti muselo být zbouráno\n74 domů. Vodní plochu překlenuje železobetonový viadukt se dvěma oblouky, po němž prochází silnice II/312 spojující města Žamberk a Králíky.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Pastvinska_prehrada.JPG",
+    "photoCredit": "Wikipedie / Vodní nádrž Pastviny",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Pastviny"
   },
   {
     "id": "eea-CZKO531502",
@@ -5417,11 +5411,7 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Plumlov je město v okrese Prostějov v Olomouckém kraji. Žije zde přibližně 2 300 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Z%C3%A1mek_Plumlov%2C_okres_Prost%C4%9Bjov_%2804%29.jpg",
-    "photoCredit": "Wikipedie / Plumlov",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Plumlov"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO520902",
@@ -5771,11 +5761,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Obec Rabyně se nachází v okrese Benešov, kraj Středočeský. Žije zde 294 obyvatel. Součástí obce jsou i vesnice Blaženice, Loutí, Měřín a Nedvězí.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Rabyn%C4%9B%2C_statek.jpg/3840px-Rabyn%C4%9B%2C_statek.jpg",
-    "photoCredit": "Wikipedie / Rabyně",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Rabyn%C4%9B"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO210103",
@@ -5817,11 +5803,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Živohošť je osada, část obce Chotilsko v okrese Příbram ve Středočeském kraji. Je z větší části zaniklá vesnice v Povltaví, jejíž původní hlavní sídelní část, rozložená po obou březích Vltavy, byla v červnu 1954 zatopená Slapskou přehradní nádrží. V roce 2011 zde trvale žilo třináct obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sv.%C5%A0ebesti%C3%A1n_-_%C5%BDivoho%C5%A1%C5%A5.jpg",
-    "photoCredit": "Wikipedie / Živohošť",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%BDivoho%C5%A1%C5%A5"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO210501",
@@ -5905,11 +5887,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Živohošť je osada, část obce Chotilsko v okrese Příbram ve Středočeském kraji. Je z větší části zaniklá vesnice v Povltaví, jejíž původní hlavní sídelní část, rozložená po obou březích Vltavy, byla v červnu 1954 zatopená Slapskou přehradní nádrží. V roce 2011 zde trvale žilo třináct obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sv.%C5%A0ebesti%C3%A1n_-_%C5%BDivoho%C5%A1%C5%A5.jpg",
-    "photoCredit": "Wikipedie / Živohošť",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%BDivoho%C5%A1%C5%A5"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO210702",
@@ -5952,10 +5930,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Županovice jsou obec v okrese Příbram ve Středočeském kraji, asi 12 km jihovýchodně od Dobříše. Žije zde 80 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/%C5%BDupanovice_%28okres_P%C5%99%C3%ADbram%29_%2816%29.jpg/3840px-%C5%BDupanovice_%28okres_P%C5%99%C3%ADbram%29_%2816%29.jpg",
-    "photoCredit": "Wikipedie / Županovice (okres Příbram)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%BDupanovice_(okres_P%C5%99%C3%ADbram)"
+    "description": "Zvírotice jsou vesnice, část obce Dublovice v okrese Příbram ve Středočeském kraji. Nachází se asi pět kilometrů severozápadně od Dublovic. Vesnicí protéká Vltava. Je zde evidováno 109 adres. V roce 2011 zde trvale žilo 149 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Zv%C3%ADrotice_-_okres_P%C5%99%C3%ADbram_%289%29.jpg/3840px-Zv%C3%ADrotice_-_okres_P%C5%99%C3%ADbram_%289%29.jpg",
+    "photoCredit": "Wikipedie / Zvírotice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Zv%C3%ADrotice"
   },
   {
     "id": "eea-CZKO810303",
@@ -5997,11 +5975,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Leskovec nad Moravicí je obec ležící v okrese Bruntál v Moravskoslezském kraji. Žije v ní 443 obyvatel. Téměř celé území obce leží ve Slezsku.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kostel_sv._Vav%C5%99ince%2C_Leskovec_nad_Moravic%C3%AD_04.jpg/3840px-Kostel_sv._Vav%C5%99ince%2C_Leskovec_nad_Moravic%C3%AD_04.jpg",
-    "photoCredit": "Wikipedie / Leskovec nad Moravicí",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Leskovec_nad_Moravic%C3%AD"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO810304",
@@ -6043,11 +6017,7 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26",
-    "description": "Nová Pláň je obec ležící v okrese Bruntál. Její katastrální území má rozlohu 171 ha. Žije zde 66 obyvatel, čímž se obec řadí mezi obce v Česku s nejnižším počtem obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Nov%C3%A1_Pl%C3%A1%C5%88_-_rybn%C3%ADk.jpg",
-    "photoCredit": "Wikipedie / Nová Pláň",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Nov%C3%A1_Pl%C3%A1%C5%88"
+    "updatedAt": "2026-06-26"
   },
   {
     "id": "eea-CZKO810306",
@@ -6132,10 +6102,10 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Tatrovice jsou obec v okrese Sokolov v Karlovarském kraji. Žije zde 162 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tatrovice_kostel_sv._Erharta_kv%C4%9Bten_2020_%281%29.jpg/3840px-Tatrovice_kostel_sv._Erharta_kv%C4%9Bten_2020_%281%29.jpg",
-    "photoCredit": "Wikipedie / Tatrovice",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Tatrovice"
+    "description": "Vodní nádrž Tatrovice je přehradní nádrž ležící 600 m západně od obce Tatrovice (hráz), 3 km jihovýchodně od Jindřichovic. Hráz je přímá, sypaná. Vodní dílo Tatrovice je postaveno na Tatrovickém potoce v okrese Sokolov v Karlovarském kraji. Vlastníkem i provozovatelem je Sokolovská uhelná p.n. a.s., 200 metrů dlouhá hráz přehrady je volně přístupná pro pěší. Je zde možnost přírodního koupání, okolní pláže jsou písčité a travnaté, jedna z pláží slouží jako nudistická. Nádrž začala být budována v roce 1966 a dokončena byla v roce 1969. V nejhlubším místě dosahuje voda 25 metrů.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tatrovice_vodn%C3%AD_n%C3%A1dr%C5%BE_kv%C4%9Bten_2022.jpg/3840px-Tatrovice_vodn%C3%AD_n%C3%A1dr%C5%BE_kv%C4%9Bten_2022.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Tatrovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Tatrovice"
   },
   {
     "id": "eea-CZKO810801",
@@ -6484,10 +6454,8 @@
       }
     ],
     "updatedAt": "2026-06-26",
-    "description": "Výrovice jsou obec v okrese Znojmo v Jihomoravském kraji. Žije zde 174 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Zvonice_V%C3%BDrovice1.JPG/3840px-Zvonice_V%C3%BDrovice1.JPG",
-    "photoCredit": "Wikipedie / Výrovice",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/V%C3%BDrovice"
+    "description": "Vodní nádrž Výrovice je přehradní nádrž na řece Jevišovka v obci Výrovice v Jihomoravském kraji, nachází se 13 km od Znojma. Rozloha nádrže je 3,9 km². Hráz je přímá, sypaná zemní se středním širokým těsnicím jádrem z místních sprašových hlín a stabilizačními částmi ze štěrkopískových zemin Byla vybudována v letech 1979-1983. Maximální hloubka v nádrži je 13,15 m a průměrná hloubka je 6,82. Zatopená plocha čítá 62,1 ha a maximální objem 4 230 000 m³.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_V%C3%BDrovice"
   },
   {
     "id": "eea-CZKO810605",
@@ -6575,7 +6543,11 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Rozhledna Soběšovice, nazývaná také rozhledna na Husarůvce, je rozhledna postavená ze dřeva a konstrukční oceli v Soběšovicích v okrese Frýdek-Místek. Geograficky se nachází u vrcholu kopce Husarůvka u silnice nad vodní nádrží Žermanice v pohoří Podbeskydská pahorkatina v Horním Slezsku v Moravskoslezském kraji.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Sob%C4%9B%C5%A1ovice%2C_Rozhledna.jpg/1920px-Sob%C4%9B%C5%A1ovice%2C_Rozhledna.jpg",
+    "photoCredit": "Wikipedie / Rozhledna Soběšovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Rozhledna_Sob%C4%9B%C5%A1ovice"
   },
   {
     "id": "eea-CZKO810607",

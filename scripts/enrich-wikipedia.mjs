@@ -35,16 +35,24 @@ async function summary(title) {
   return r.json();
 }
 
-function pickArticle(loc, hits) {
+// Vyřadí články o sídlech (obec, vesnice, část města…). Hlídá vazbu „je … obec",
+// aby zmínka názvu (např. „Rybník") v textu nezmátla detekci.
+function isSettlement(extract) {
+  return /\b(je|byla|leží|nachází)\b[^.]{0,40}\b(obec|vesnice|městská část|část města|město|osada|samota|zaniklá ves|sídlo|katastrální území)\b/i.test(
+    extract || "",
+  );
+}
+
+// Z geosearch hitů seřadí kandidáty: nejdřív shoda názvu, pak podle vzdálenosti.
+function rankCandidates(loc, hits) {
   const n = norm(loc.name);
-  // Preferuj článek, jehož název odpovídá lokalitě; jinak nejbližší do 600 m.
-  const byName = hits.find((h) => {
-    const t = norm(h.title);
-    return t.includes(n) || n.includes(t);
-  });
-  if (byName) return byName;
-  const near = hits.filter((h) => h.dist <= 600).sort((a, b) => a.dist - b.dist);
-  return near[0] || null;
+  return [...hits]
+    .filter((h) => h.dist <= 1200)
+    .sort((a, b) => {
+      const am = norm(a.title).includes(n) || n.includes(norm(a.title)) ? 0 : 1;
+      const bm = norm(b.title).includes(n) || n.includes(norm(b.title)) ? 0 : 1;
+      return am - bm || a.dist - b.dist;
+    });
 }
 
 async function enrichFile(file) {
@@ -57,28 +65,35 @@ async function enrichFile(file) {
   let i = 0;
   for (const loc of list) {
     if (loc.type !== TARGET_TYPE) continue;
+    // Pokud je stávající popis o sídle (špatná shoda), vyresetuj a zkus znovu.
+    if (isSettlement(loc.description)) {
+      loc.description = undefined;
+      loc.photoUrl = undefined;
+      loc.photoCredit = undefined;
+      loc.wikiUrl = undefined;
+    }
     if (loc.photoUrl && loc.description) continue;
     i++;
     try {
       const hits = await geosearch(loc.lat, loc.lng);
-      const art = pickArticle(loc, hits);
-      if (art) {
-        const s = await summary(art.title);
-        if (s && s.type !== "disambiguation") {
-          if (!loc.description && s.extract && s.extract.length > 40) loc.description = s.extract;
-          if (!loc.photoUrl && s.thumbnail?.source) {
-            loc.photoUrl = s.originalimage?.source || s.thumbnail.source;
-            loc.photoCredit = `Wikipedie / ${art.title}`;
-          }
-          loc.wikiUrl = s.content_urls?.desktop?.page || `https://cs.wikipedia.org/wiki/${encodeURIComponent(art.title)}`;
-          if (loc.description || loc.photoUrl) enriched++;
+      for (const cand of rankCandidates(loc, hits)) {
+        const s = await summary(cand.title);
+        if (!s || s.type === "disambiguation") continue;
+        if (isSettlement(s.extract)) continue; // přeskoč obce/vesnice
+        if (!loc.description && s.extract && s.extract.length > 40) loc.description = s.extract;
+        if (!loc.photoUrl && s.thumbnail?.source) {
+          loc.photoUrl = s.originalimage?.source || s.thumbnail.source;
+          loc.photoCredit = `Wikipedie / ${cand.title}`;
         }
+        loc.wikiUrl = s.content_urls?.desktop?.page || `https://cs.wikipedia.org/wiki/${encodeURIComponent(cand.title)}`;
+        if (loc.description || loc.photoUrl) enriched++;
+        break;
       }
     } catch (e) {
       console.warn(`    ${loc.name}: ${e.message}`);
     }
     if (i % 25 === 0) console.log(`    …${i}/${targets.length} (obohaceno ${enriched})`);
-    await sleep(250);
+    await sleep(200);
   }
   writeFileSync(file, JSON.stringify(list, null, 2) + "\n", "utf8");
   return enriched;

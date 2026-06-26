@@ -49,6 +49,15 @@ export default function ShareButtons({ url, title }: { url: string; title: strin
       <a className={btn} href={`https://api.whatsapp.com/send?text=${t}%20${u}`} target="_blank" rel="noopener noreferrer">
         🟢 WhatsApp
       </a>
+      <a className={btn} href={`https://t.me/share/url?url=${u}&text=${t}`} target="_blank" rel="noopener noreferrer">
+        ✈️ Telegram
+      </a>
+      <a className={btn} href={`https://www.facebook.com/dialog/send?link=${u}&app_id=140586622674265&redirect_uri=${u}`} target="_blank" rel="noopener noreferrer">
+        💬 Messenger
+      </a>
+      <a className={btn} href={`sms:?&body=${t}%20${u}`}>
+        📱 SMS
+      </a>
       <a className={btn} href={`mailto:?subject=${t}&body=${u}`}>
         ✉️ E-mail
       </a>

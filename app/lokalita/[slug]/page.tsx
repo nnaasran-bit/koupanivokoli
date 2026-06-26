@@ -6,6 +6,7 @@ import CommunityReports from "@/components/CommunityReports";
 import CommunityInfo from "@/components/CommunityInfo";
 import ContentLayout from "@/components/ContentLayout";
 import ShareButtons from "@/components/ShareButtons";
+import GpsNavigation from "@/components/GpsNavigation";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { slugForRegion } from "@/lib/regions";
 import { amenityDef } from "@/lib/gamify";
@@ -238,43 +239,37 @@ export default async function LocationPage({
         </section>
       )}
 
-      {/* O lokalitě */}
-      <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <h2 className="text-sm font-bold text-slate-900">O lokalitě</h2>
-        {loc.description && <p className="mt-2 text-sm leading-relaxed text-slate-700">{loc.description}</p>}
-        <p className="mt-2 text-sm leading-relaxed text-slate-500">{describe(loc)}</p>
-        {loc.wikiUrl && (
-          <p className="mt-2 text-xs text-slate-400">
-            Zdroj popisu a fotky:{" "}
-            <a href={loc.wikiUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
-              Wikipedie
-            </a>{" "}
-            (CC BY-SA)
-          </p>
-        )}
-        {loc.since && (
-          <p className="mt-2 text-sm text-slate-600">
-            <span className="font-medium text-slate-900">V provozu / existuje od:</span> {loc.since}
-          </p>
-        )}
-        {loc.amenities && loc.amenities.length > 0 && (
-          <div className="mt-3">
-            <div className="text-xs font-semibold uppercase tracking-wide text-slate-400">
-              Vybavení na místě <span className="font-normal normal-case text-slate-400">(z OpenStreetMap)</span>
+      {/* Praktické info: rok + vybavení */}
+      {(loc.since || (loc.amenities && loc.amenities.length > 0)) && (
+        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h2 className="text-sm font-bold text-slate-900">Vybavení a praktické info</h2>
+          {loc.since && (
+            <p className="mt-2 text-sm text-slate-600">
+              <span className="font-medium text-slate-900">V provozu / existuje od:</span> {loc.since}
+            </p>
+          )}
+          {loc.amenities && loc.amenities.length > 0 && (
+            <div className="mt-3">
+              <div className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                Vybavení na místě <span className="font-normal normal-case text-slate-400">(z OpenStreetMap)</span>
+              </div>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {loc.amenities.map((id) => {
+                  const a = amenityDef(id);
+                  return (
+                    <span key={id} className="rounded-full bg-sky-50 px-3 py-1 text-sm text-sky-800">
+                      {a?.emoji ?? "•"} {a?.label ?? id}
+                    </span>
+                  );
+                })}
+              </div>
             </div>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {loc.amenities.map((id) => {
-                const a = amenityDef(id);
-                return (
-                  <span key={id} className="rounded-full bg-sky-50 px-3 py-1 text-sm text-sky-800">
-                    {a?.emoji ?? "•"} {a?.label ?? id}
-                  </span>
-                );
-              })}
-            </div>
-          </div>
-        )}
-      </section>
+          )}
+        </section>
+      )}
+
+      {/* GPS a navigace */}
+      <GpsNavigation lat={loc.lat} lng={loc.lng} name={loc.name} url={url} />
 
       {/* Historie kvality vody */}
       {loc.history && loc.history.length > 0 && (
@@ -301,25 +296,33 @@ export default async function LocationPage({
       {/* Komunitní hlášení */}
       <CommunityReports slug={loc.slug} name={loc.name} />
 
-      {/* GPS + zdroj */}
-      <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 text-sm text-slate-600 shadow-sm">
-        <div className="flex justify-between gap-2">
-          <span>📍 GPS</span>
-          <span className="font-medium text-slate-900">
-            {loc.lat.toFixed(5)}, {loc.lng.toFixed(5)}
-          </span>
-        </div>
-        {loc.quality.sourceUrl && (
-          <div className="mt-1.5 flex justify-between gap-2">
-            <span>Oficiální zdroj</span>
-            <a href={loc.quality.sourceUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-brand hover:underline">
-              odkaz →
-            </a>
-          </div>
-        )}
-      </section>
-
       <ShareButtons url={url} title={`${loc.name} – kvalita vody a přístup | Koupání v okolí`} />
+
+      {/* O lokalitě – popis a zdroje (úplně dole) */}
+      <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+        <h2 className="text-sm font-bold text-slate-900">O lokalitě</h2>
+        {loc.description && <p className="mt-2 text-sm leading-relaxed text-slate-700">{loc.description}</p>}
+        <p className="mt-2 text-sm leading-relaxed text-slate-500">{describe(loc)}</p>
+        <div className="mt-3 space-y-1 text-xs text-slate-400">
+          {loc.wikiUrl && (
+            <p>
+              Zdroj popisu a fotky:{" "}
+              <a href={loc.wikiUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+                Wikipedie
+              </a>{" "}
+              (CC BY-SA)
+            </p>
+          )}
+          {loc.quality.sourceUrl && (
+            <p>
+              Oficiální zdroj kvality vody:{" "}
+              <a href={loc.quality.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+                odkaz
+              </a>
+            </p>
+          )}
+        </div>
+      </section>
 
       <p className="mt-6 text-xs leading-relaxed text-slate-400">
         Informace jsou orientační. Rozhodující jsou oficiální zdroje (KHS, SZÚ). U nesledovaných
