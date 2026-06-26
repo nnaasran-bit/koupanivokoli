@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import MapView from "./Map";
 import { allLocations } from "@/lib/data";
 import { DEFAULT_FILTERS, distanceKm, filterLocations, type Filters } from "@/lib/filters";
@@ -115,11 +115,19 @@ export default function MapExplorer() {
   }, [filters.query]);
 
   // Geocoder Photon (obce, adresy, místa) – našeptávání jako u běžných map.
+  // Cache výsledků v paměti → opakovaný/mazaný dotaz je okamžitý.
   const [geo, setGeo] = useState<Suggestion[]>([]);
+  const geoCache = useRef<Map<string, Suggestion[]>>(new Map());
   useEffect(() => {
     const q = filters.query.trim();
     if (q.length < 2) {
       setGeo([]);
+      return;
+    }
+    const key = q.toLowerCase();
+    const cached = geoCache.current.get(key);
+    if (cached) {
+      setGeo(cached); // okamžitě z cache, žádná síť
       return;
     }
     const ctrl = new AbortController();
@@ -145,11 +153,12 @@ export default function MapExplorer() {
               isCity,
             };
           });
+        geoCache.current.set(key, out);
         setGeo(out);
       } catch {
         /* zrušeno / offline */
       }
-    }, 220);
+    }, 120);
     return () => {
       clearTimeout(t);
       ctrl.abort();
