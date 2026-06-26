@@ -77,6 +77,7 @@ export interface Location {
   history?: QualitySample[]; // historie kvality vody
   amenities?: string[]; // vybavení z OSM (id dle gamify.AMENITIES): wc, parkovani, obcerstveni…
   since?: string; // rok vzniku / otevření (pokud známé)
+  abroad?: boolean; // místo za hranicemi ČR (příhraničí do 50 km)
   photoUrl?: string; // hlavní fotka (např. z Wikimedia Commons)
   photoCredit?: string; // popisek/autor fotky (atribuce)
   photoUncertain?: boolean; // fotka jen podle GPS (nemusí být přímo toto místo)
