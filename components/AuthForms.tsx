@@ -10,6 +10,7 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
   const [password, setPassword] = useState("");
   const [consentTerms, setConsentTerms] = useState(false);
   const [consentMarketing, setConsentMarketing] = useState(false);
+  const [website, setWebsite] = useState(""); // honeypot
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
@@ -20,7 +21,7 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
     try {
       const payload =
         mode === "register"
-          ? { nick, email, password, consentTerms, consentMarketing }
+          ? { nick, email, password, consentTerms, consentMarketing, website }
           : { email, password };
       const res = await fetch(`/api/auth/${mode}`, {
         method: "POST",
@@ -81,6 +82,17 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
       </div>
 
       <form onSubmit={submit} className="space-y-3">
+        {/* honeypot – skryté pole pro boty */}
+        <input
+          type="text"
+          name="website"
+          value={website}
+          onChange={(e) => setWebsite(e.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          className="absolute left-[-9999px] h-0 w-0 opacity-0"
+        />
         {mode === "register" && (
           <div>
             <label className="mb-1 block text-xs font-medium text-slate-600">Přezdívka (zobrazí se ostatním)</label>

@@ -1,7 +1,15 @@
 import { NextResponse } from "next/server";
 import { getCurrentUser } from "@/lib/auth";
 import { kindDef } from "@/lib/gamify";
-import { addReport, getUserById, recentReports, reportsByLocation } from "@/lib/store";
+import { isBot, LIMITS, looksSpammy } from "@/lib/antispam";
+import {
+  addReport,
+  countReportsSince,
+  getUserById,
+  recentDuplicateReport,
+  recentReports,
+  reportsByLocation,
+} from "@/lib/store";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
@@ -21,8 +29,24 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Neplatný požadavek." }, { status: 400 });
   }
 
+  if (isBot(body)) return NextResponse.json({ error: "Detekován spam." }, { status: 400 });
+
   const def = kindDef(String(body.kind ?? ""));
   if (!def) return NextResponse.json({ error: "Neznámý typ hlášení." }, { status: 400 });
+
+  if (looksSpammy(body.text ? String(body.text) : undefined)) {
+    return NextResponse.json({ error: "Text vypadá jako spam (odkazy)." }, { status: 400 });
+  }
+
+  // Limit počtu hlášení za hodinu
+  if ((await countReportsSince(user.id, 3600_000)) >= LIMITS.reportsPerHour) {
+    return NextResponse.json({ error: "Příliš mnoho hlášení za krátkou dobu. Zkus to za chvíli." }, { status: 429 });
+  }
+  // Stejné hlášení téže lokality v krátké době = duplicita
+  const slugForDup = body.locationSlug ? String(body.locationSlug) : undefined;
+  if (await recentDuplicateReport(user.id, slugForDup, def.id, LIMITS.duplicateReportWindowMs)) {
+    return NextResponse.json({ error: "Tohle už jsi u tohoto místa nedávno nahlásil." }, { status: 429 });
+  }
 
   const locationName = String(body.locationName ?? "").trim();
   const newPlaceName = String(body.newPlaceName ?? "").trim();

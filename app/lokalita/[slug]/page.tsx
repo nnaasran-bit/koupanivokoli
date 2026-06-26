@@ -5,11 +5,13 @@ import { allLocations, getLocationBySlug } from "@/lib/data";
 import CommunityReports from "@/components/CommunityReports";
 import CommunityInfo from "@/components/CommunityInfo";
 import ContentLayout from "@/components/ContentLayout";
+import ShareButtons from "@/components/ShareButtons";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { slugForRegion } from "@/lib/regions";
 import { amenityDef } from "@/lib/gamify";
 import {
   ACCESS_LABELS,
+  POOL_COLOR,
   QUALITY_COLORS,
   QUALITY_LABELS,
   TYPE_LABELS,
@@ -82,7 +84,8 @@ export default async function LocationPage({
   if (!loc) notFound();
 
   const f = freshness(loc.quality.sampledAt);
-  const qColor = QUALITY_COLORS[loc.quality.class];
+  const isPool = loc.type === "bazen";
+  const qColor = isPool ? POOL_COLOR : QUALITY_COLORS[loc.quality.class];
   const aColor = ACCESS_COLOR[loc.access.status];
   const url = `${SITE_URL}/lokalita/${loc.slug}`;
   const regionSlug = loc.region ? slugForRegion(loc.region) : undefined;
@@ -148,11 +151,16 @@ export default async function LocationPage({
               className="rounded-2xl border p-4"
               style={{ backgroundColor: qColor + "12", borderColor: qColor + "33" }}
             >
-              <div className="text-[11px] font-bold uppercase tracking-wide text-slate-500">💧 Kvalita vody</div>
+              <div className="text-[11px] font-bold uppercase tracking-wide text-slate-500">
+                {isPool ? "🏊 Typ" : "💧 Kvalita vody"}
+              </div>
               <div className="mt-1.5 flex items-center gap-2">
                 <span className="inline-block h-4 w-4 rounded-full ring-2 ring-white" style={{ background: qColor }} />
-                <span className="text-lg font-bold text-slate-900">{QUALITY_LABELS[loc.quality.class]}</span>
+                <span className="text-lg font-bold text-slate-900">
+                  {isPool ? "Bazén / aquapark" : QUALITY_LABELS[loc.quality.class]}
+                </span>
               </div>
+              {isPool && <div className="mt-1 text-xs text-slate-500">Umělá (chlorovaná) voda – jakost nesledujeme jako u přírodních vod.</div>}
               {loc.quality.cyanobacteria && (
                 <div className="mt-1 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-800">
                   ⚠ Výskyt sinic
@@ -276,6 +284,8 @@ export default async function LocationPage({
           </div>
         )}
       </section>
+
+      <ShareButtons url={url} title={`${loc.name} – kvalita vody a přístup | Koupání v okolí`} />
 
       <p className="mt-6 text-xs leading-relaxed text-slate-400">
         Informace jsou orientační. Rozhodující jsou oficiální zdroje (KHS, SZÚ). U nesledovaných

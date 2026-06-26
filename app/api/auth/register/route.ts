@@ -1,16 +1,25 @@
 import { NextResponse } from "next/server";
 import { COOKIE_OPTS, SESSION_COOKIE, hashPassword } from "@/lib/auth";
+import { isBot } from "@/lib/antispam";
 import { createSession, createUser, findUserByEmail, findUserByNick, toPublic } from "@/lib/store";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export async function POST(req: Request) {
-  let body: { nick?: string; email?: string; password?: string; consentTerms?: boolean; consentMarketing?: boolean };
+  let body: {
+    nick?: string;
+    email?: string;
+    password?: string;
+    consentTerms?: boolean;
+    consentMarketing?: boolean;
+    website?: string;
+  };
   try {
     body = await req.json();
   } catch {
     return NextResponse.json({ error: "Neplatný požadavek." }, { status: 400 });
   }
+  if (isBot(body)) return NextResponse.json({ error: "Detekován spam." }, { status: 400 });
   const nick = String(body.nick ?? "").trim();
   const email = String(body.email ?? "").trim();
   const password = String(body.password ?? "");

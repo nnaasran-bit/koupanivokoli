@@ -15,6 +15,7 @@ export default function ReportForm({
   const [newPlaceName, setNewPlaceName] = useState("");
   const [text, setText] = useState("");
   const [photoUrl, setPhotoUrl] = useState("");
+  const [website, setWebsite] = useState(""); // honeypot
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<{ earned: number; points: number } | null>(null);
@@ -46,6 +47,7 @@ export default function ReportForm({
           lng: coords?.lng,
           text,
           photoUrl,
+          website,
         }),
       });
       const data = await res.json();
@@ -87,6 +89,17 @@ export default function ReportForm({
 
   return (
     <form onSubmit={submit} className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+      {/* honeypot */}
+      <input
+        type="text"
+        name="website"
+        value={website}
+        onChange={(e) => setWebsite(e.target.value)}
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="absolute left-[-9999px] h-0 w-0 opacity-0"
+      />
       <div className="mb-1 text-sm font-medium text-zinc-700">Co chceš nahlásit?</div>
       <div className="mb-4 flex flex-wrap gap-2">
         {REPORT_KINDS.map((k) => (

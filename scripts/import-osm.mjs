@@ -126,11 +126,13 @@ function amenityIds(tags) {
 
 function classify(t) {
   const name = (t.name || "").toLowerCase();
+  // Bazény a aquaparky (umělá voda) – samostatný typ.
+  if (t.leisure === "water_park") return "bazen";
+  if (t.sport === "swimming" || t.leisure === "swimming_pool") return "bazen";
+  if (name.includes("aquapark") || name.includes("akvapark") || name.includes("bazén")) return "bazen";
   if (name.includes("pískov") || name.includes("piskov")) return "piskovna";
   if (name.includes("lom") || name.includes("amerika")) return "lom";
   if (t.landuse === "quarry" || t.man_made === "quarry") return "lom";
-  if (t.leisure === "water_park") return "koupaliste";
-  if (t.sport === "swimming" || t.leisure === "swimming_pool") return "koupaliste";
   if (t.natural === "beach") return "prirodni_koupaliste";
   if (t.leisure === "swimming_area") return "prirodni_koupaliste";
   if (t.landuse === "reservoir") return "prehrada";
@@ -213,7 +215,17 @@ async function main() {
   const candidates = [];
   for (const a of swimAnchors) candidates.push(a);
   for (const w of waterBodies) {
-    const type = classify(w.t);
+    const t = w.t;
+    const name = (t.name || "").toLowerCase();
+    // Aktivní kamenolom (těžba kamene) – koupat se nedá → vynechat.
+    if (name.includes("kamenolom")) continue;
+    const isQuarryTag = t.landuse === "quarry" || t.man_made === "quarry";
+    const hasWater = t.natural === "water" || !!t.water;
+    // Lom/pískovna ponecháme jen pokud je ZATOPENÝ (má vodu) nebo je u koupací zóny.
+    // Aktivní těžba (suchá jáma) se zahodí.
+    if (isQuarryTag && !hasWater && near(anchorGrid, w, 400) == null) continue;
+
+    const type = classify(t);
     const keep = type === "lom" || type === "piskovna" || near(anchorGrid, w, 400) != null;
     if (keep) candidates.push(w);
   }

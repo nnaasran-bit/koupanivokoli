@@ -4,18 +4,20 @@ import { useEffect, useMemo, useState } from "react";
 import MapView from "./Map";
 import { allLocations } from "@/lib/data";
 import { DEFAULT_FILTERS, distanceKm, filterLocations, type Filters } from "@/lib/filters";
-import { ACCESS_LABELS, QUALITY_COLORS, QUALITY_LABELS, TYPE_LABELS, freshness } from "@/lib/quality";
-import type { LocationType } from "@/lib/types";
+import { ACCESS_LABELS, POOL_COLOR, QUALITY_COLORS, QUALITY_LABELS, TYPE_LABELS, freshness } from "@/lib/quality";
+import type { Location, LocationType } from "@/lib/types";
+
+const dotColor = (l: Location) => (l.type === "bazen" ? POOL_COLOR : QUALITY_COLORS[l.quality.class]);
 
 const TYPE_CHIPS: LocationType[] = [
-  "koupaliste",
   "koupaci_oblast",
+  "prirodni_koupaliste",
   "jezero",
   "prehrada",
   "lom",
   "piskovna",
   "rybnik",
-  "reka",
+  "bazen",
 ];
 
 const LEGEND = [
@@ -25,6 +27,7 @@ const LEGEND = [
   { color: "#dc2626", label: "Nevhodná" },
   { color: "#111827", label: "Zákaz" },
   { color: "#9ca3af", label: "Nesledováno" },
+  { color: "#a855f7", label: "Bazén / aquapark" },
 ];
 
 function Chip({
@@ -169,7 +172,7 @@ export default function MapExplorer() {
                   <button
                     onClick={() => setFocus({ id: l.id, lat: l.lat, lng: l.lng })}
                     className="block w-full border-l-4 px-4 py-2.5 text-left transition hover:bg-slate-50"
-                    style={{ borderLeftColor: QUALITY_COLORS[l.quality.class] }}
+                    style={{ borderLeftColor: dotColor(l) }}
                   >
                     <div className="flex items-center justify-between gap-2">
                       <span className="truncate text-sm font-semibold text-slate-900">{l.name}</span>
@@ -182,9 +185,9 @@ export default function MapExplorer() {
                     <div className="mt-0.5 flex items-center gap-1.5 text-xs text-slate-600">
                       <span
                         className="inline-block h-2.5 w-2.5 rounded-full ring-1 ring-black/10"
-                        style={{ background: QUALITY_COLORS[l.quality.class] }}
+                        style={{ background: dotColor(l) }}
                       />
-                      {QUALITY_LABELS[l.quality.class]}
+                      {l.type === "bazen" ? "Bazén / aquapark" : QUALITY_LABELS[l.quality.class]}
                     </div>
                     <div className="text-[11px] text-slate-400">
                       {TYPE_LABELS[l.type]} · {l.region || "ČR"}

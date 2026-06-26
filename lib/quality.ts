@@ -38,8 +38,13 @@ export const TYPE_LABELS: Record<LocationType, string> = {
   prehrada: "Přehrada",
   reka: "Řeka",
   biotop: "Biotop",
+  bazen: "Bazén / aquapark",
   neoficialni: "Neoficiální místo",
 };
+
+// Bazény a aquaparky = umělá (chlorovaná) voda → odlišíme fialovou,
+// barvou, která se k přírodní vodě nehodí.
+export const POOL_COLOR = "#a855f7";
 
 export type FreshnessLevel = "fresh" | "recent" | "old" | "none";
 

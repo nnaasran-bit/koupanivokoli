@@ -272,6 +272,61 @@ export async function addReport(input: ReportInput): Promise<Report> {
   return report;
 }
 
+// ---- Ochrana proti spamu (počty za časové okno, deduplikace) ----
+
+export async function countReportsSince(userId: string, sinceMs: number): Promise<number> {
+  const iso = new Date(Date.now() - sinceMs).toISOString();
+  if (sql) {
+    await ensureSchema();
+    const r = await sql`SELECT count(*)::int AS n FROM reports WHERE user_id = ${userId} AND created_at >= ${iso}::timestamptz`;
+    return r[0]?.n ?? 0;
+  }
+  return readFile().reports.filter((x) => x.userId === userId && x.createdAt >= iso).length;
+}
+
+export async function recentDuplicateReport(
+  userId: string,
+  slug: string | undefined,
+  kind: string,
+  sinceMs: number,
+): Promise<boolean> {
+  if (!slug) return false;
+  const iso = new Date(Date.now() - sinceMs).toISOString();
+  if (sql) {
+    await ensureSchema();
+    const r = await sql`SELECT 1 FROM reports WHERE user_id = ${userId} AND location_slug = ${slug} AND kind = ${kind} AND created_at >= ${iso}::timestamptz LIMIT 1`;
+    return r.length > 0;
+  }
+  return readFile().reports.some(
+    (x) => x.userId === userId && x.locationSlug === slug && x.kind === kind && x.createdAt >= iso,
+  );
+}
+
+export async function countContributionsSince(userId: string, sinceMs: number): Promise<number> {
+  const iso = new Date(Date.now() - sinceMs).toISOString();
+  if (sql) {
+    await ensureSchema();
+    const r = await sql`SELECT count(*)::int AS n FROM contributions WHERE user_id = ${userId} AND created_at >= ${iso}::timestamptz`;
+    return r[0]?.n ?? 0;
+  }
+  return readFile().contributions.filter((x) => x.userId === userId && x.createdAt >= iso).length;
+}
+
+export async function hasAmenityContribution(
+  userId: string,
+  slug: string,
+  amenity: string,
+): Promise<boolean> {
+  if (sql) {
+    await ensureSchema();
+    const r = await sql`SELECT 1 FROM contributions WHERE user_id = ${userId} AND location_slug = ${slug} AND kind = 'amenity' AND amenity = ${amenity} LIMIT 1`;
+    return r.length > 0;
+  }
+  return readFile().contributions.some(
+    (c) => c.userId === userId && c.locationSlug === slug && c.kind === "amenity" && c.amenity === amenity,
+  );
+}
+
 export async function reportsByLocation(slug: string): Promise<Report[]> {
   if (sql) {
     await ensureSchema();

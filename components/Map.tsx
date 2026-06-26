@@ -7,6 +7,7 @@ import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import {
   ACCESS_LABELS,
+  POOL_COLOR,
   QUALITY_COLORS,
   QUALITY_LABELS,
   TYPE_LABELS,
@@ -15,9 +16,14 @@ import {
 } from "@/lib/quality";
 import type { Location } from "@/lib/types";
 
+// Barva bodu: bazény/aquaparky fialově (umělá voda), jinak podle kvality vody.
+function markerColor(l: Location): string {
+  return l.type === "bazen" ? POOL_COLOR : QUALITY_COLORS[l.quality.class];
+}
+
 function popupHtml(l: Location): string {
   const f = freshness(l.quality.sampledAt);
-  const color = QUALITY_COLORS[l.quality.class];
+  const color = markerColor(l);
   const cyano = l.quality.cyanobacteria
     ? `<div style="margin-top:4px;color:#b45309;font-weight:600;">⚠ Výskyt sinic</div>`
     : "";
@@ -67,7 +73,7 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
     markersById.current.clear();
     const markers: any[] = [];
     for (const l of locationsRef.current) {
-      const color = QUALITY_COLORS[l.quality.class];
+      const color = markerColor(l);
       const ban =
         l.access.status === "zakazano"
           ? `<circle cx="13" cy="13" r="5.5" fill="none" stroke="#111827" stroke-width="2"/>`
