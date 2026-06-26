@@ -1,0 +1,36 @@
+name: Automatická aktualizace kvality vody
+
+# Spouští se automaticky každý den v 5:00 UTC (v sezóně i mimo).
+# Stáhne nejnovější oficiální klasifikaci z EEA, aktualizuje data a commitne.
+# Vercel po commitu sám nasadí novou verzi. Lze spustit i ručně (workflow_dispatch).
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Aktualizace kvality vody z EEA
+        run: node scripts/update-quality.mjs
+
+      - name: Commit změn (pokud nějaké jsou)
+        run: |
+          git config user.name "koupani-bot"
+          git config user.email "bot@koupanivokoli.cz"
+          if ! git diff --quiet; then
+            git add data/locations.eea.json
+            git commit -m "Auto: aktualizace kvality vody z EEA"
+            git push
+          else
+            echo "Žádné změny."
+          fi
