@@ -4,20 +4,19 @@ import { useEffect, useMemo, useState } from "react";
 import MapView from "./Map";
 import { allLocations } from "@/lib/data";
 import { DEFAULT_FILTERS, distanceKm, filterLocations, type Filters } from "@/lib/filters";
-import { ACCESS_LABELS, POOL_COLOR, QUALITY_COLORS, QUALITY_LABELS, TYPE_LABELS, freshness } from "@/lib/quality";
+import { ACCESS_LABELS, CAMP_COLOR, POOL_COLOR, QUALITY_COLORS, QUALITY_LABELS, TYPE_LABELS, freshness } from "@/lib/quality";
 import type { Location, LocationType } from "@/lib/types";
 
-const dotColor = (l: Location) => (l.type === "bazen" ? POOL_COLOR : QUALITY_COLORS[l.quality.class]);
+const dotColor = (l: Location) =>
+  l.type === "bazen" ? POOL_COLOR : l.type === "kemp" ? CAMP_COLOR : QUALITY_COLORS[l.quality.class];
 
-const TYPE_CHIPS: LocationType[] = [
-  "koupaci_oblast",
-  "prirodni_koupaliste",
-  "jezero",
-  "prehrada",
-  "lom",
-  "piskovna",
-  "rybnik",
-  "bazen",
+// Sjednocené skupiny typů (jeden filtr = více typů).
+const TYPE_GROUPS: { label: string; types: LocationType[] }[] = [
+  { label: "Koupaliště a oblasti", types: ["koupaliste", "koupaci_oblast", "prirodni_koupaliste"] },
+  { label: "Lomy, pískovny, jezera", types: ["lom", "piskovna", "jezero"] },
+  { label: "Rybníky a přehrady", types: ["rybnik", "prehrada"] },
+  { label: "Bazény", types: ["bazen"] },
+  { label: "Kempy", types: ["kemp"] },
 ];
 
 const LEGEND = [
@@ -28,6 +27,7 @@ const LEGEND = [
   { color: "#111827", label: "Zákaz" },
   { color: "#9ca3af", label: "Nesledováno" },
   { color: "#a855f7", label: "Bazén / aquapark" },
+  { color: "#a3b314", label: "Kemp" },
 ];
 
 function Chip({
@@ -66,11 +66,17 @@ export default function MapExplorer() {
   }, []);
 
   const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
-  const toggleType = (t: LocationType) =>
-    setFilters((f) => ({
-      ...f,
-      types: f.types.includes(t) ? f.types.filter((x) => x !== t) : [...f.types, t],
-    }));
+  const groupActive = (types: LocationType[]) => types.every((t) => filters.types.includes(t));
+  const toggleGroup = (types: LocationType[]) =>
+    setFilters((f) => {
+      const on = types.every((t) => f.types.includes(t));
+      return {
+        ...f,
+        types: on
+          ? f.types.filter((x) => !types.includes(x))
+          : [...new Set([...f.types, ...types])],
+      };
+    });
 
   const filtered = useMemo(() => filterLocations(allLocations, filters), [filters]);
   const listed = useMemo(() => {
@@ -117,9 +123,12 @@ export default function MapExplorer() {
           </button>
         </div>
         <div className="flex flex-wrap items-center gap-1.5">
-          <Chip active={filters.suitableToday} onClick={() => set({ suitableToday: !filters.suitableToday })}>
-            ✅ Vhodné dnes
-          </Chip>
+          {TYPE_GROUPS.map((g) => (
+            <Chip key={g.label} active={groupActive(g.types)} onClick={() => toggleGroup(g.types)}>
+              {g.label}
+            </Chip>
+          ))}
+          <span className="mx-1 hidden h-5 w-px bg-slate-200 sm:block" />
           <Chip active={filters.monitoredOnly} onClick={() => set({ monitoredOnly: !filters.monitoredOnly })}>
             Jen sledované
           </Chip>
@@ -129,22 +138,6 @@ export default function MapExplorer() {
           <Chip active={filters.restrictedOnly} onClick={() => set({ restrictedOnly: !filters.restrictedOnly })}>
             ⛔ Zákazy
           </Chip>
-          <span className="mx-1 hidden h-5 w-px bg-slate-200 sm:block" />
-          {TYPE_CHIPS.map((t) => (
-            <Chip key={t} active={filters.types.includes(t)} onClick={() => toggleType(t)}>
-              {TYPE_LABELS[t]}
-            </Chip>
-          ))}
-          <select
-            value={filters.freshness}
-            onChange={(e) => set({ freshness: e.target.value as Filters["freshness"] })}
-            className="rounded-full border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-600 outline-none"
-          >
-            <option value="all">Stáří: vše</option>
-            <option value="24h">do 24 h</option>
-            <option value="7d">do 7 dní</option>
-            <option value="30d">do měsíce</option>
-          </select>
         </div>
         {geoMsg && <div className="text-xs text-slate-500">{geoMsg}</div>}
       </div>
@@ -187,7 +180,11 @@ export default function MapExplorer() {
                         className="inline-block h-2.5 w-2.5 rounded-full ring-1 ring-black/10"
                         style={{ background: dotColor(l) }}
                       />
-                      {l.type === "bazen" ? "Bazén / aquapark" : QUALITY_LABELS[l.quality.class]}
+                      {l.type === "bazen"
+                        ? "Bazén / aquapark"
+                        : l.type === "kemp"
+                          ? "Kemp / tábořiště"
+                          : QUALITY_LABELS[l.quality.class]}
                     </div>
                     <div className="text-[11px] text-slate-400">
                       {TYPE_LABELS[l.type]} · {l.region || "ČR"}

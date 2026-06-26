@@ -67,3 +67,22 @@ export function formatDateCz(iso?: string): string {
   if (!iso) return "—";
   return new Date(iso).toLocaleDateString("cs-CZ", { day: "numeric", month: "numeric", year: "numeric" });
 }
+
+// Překlad otevírací doby z formátu OSM (anglické zkratky) do češtiny.
+const OH_DAYS: Record<string, string> = {
+  Mo: "Po", Tu: "Út", We: "St", Th: "Čt", Fr: "Pá", Sa: "So", Su: "Ne",
+};
+const OH_MONTHS: Record<string, string> = {
+  Jan: "led", Feb: "úno", Mar: "bře", Apr: "dub", May: "kvě", Jun: "čvn",
+  Jul: "čvc", Aug: "srp", Sep: "zář", Oct: "říj", Nov: "lis", Dec: "pro",
+};
+
+export function openingHoursCz(oh?: string): string {
+  if (!oh) return "";
+  let s = oh;
+  if (/^24\/7$/.test(s.trim())) return "nonstop";
+  for (const [en, cz] of Object.entries(OH_DAYS)) s = s.replace(new RegExp(`\\b${en}\\b`, "g"), cz);
+  for (const [en, cz] of Object.entries(OH_MONTHS)) s = s.replace(new RegExp(`\\b${en}\\b`, "g"), cz);
+  s = s.replace(/\boff\b/gi, "zavřeno").replace(/\bPH\b/g, "svátky").replace(/\bSH\b/g, "prázdniny");
+  return s;
+}

@@ -7,6 +7,7 @@ import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import {
   ACCESS_LABELS,
+  CAMP_COLOR,
   POOL_COLOR,
   QUALITY_COLORS,
   QUALITY_LABELS,
@@ -16,9 +17,11 @@ import {
 } from "@/lib/quality";
 import type { Location } from "@/lib/types";
 
-// Barva bodu: bazény/aquaparky fialově (umělá voda), jinak podle kvality vody.
+// Barva bodu: bazény fialově (umělá voda), kempy zelenožlutě, jinak podle kvality vody.
 function markerColor(l: Location): string {
-  return l.type === "bazen" ? POOL_COLOR : QUALITY_COLORS[l.quality.class];
+  if (l.type === "bazen") return POOL_COLOR;
+  if (l.type === "kemp") return CAMP_COLOR;
+  return QUALITY_COLORS[l.quality.class];
 }
 
 function popupHtml(l: Location): string {
@@ -28,11 +31,14 @@ function popupHtml(l: Location): string {
     ? `<div style="margin-top:4px;color:#b45309;font-weight:600;">⚠ Výskyt sinic</div>`
     : "";
   const reason = l.access.reason ? `<div style="color:#6b7280;">Důvod: ${l.access.reason}</div>` : "";
-  return `
-    <div style="font-family:system-ui,sans-serif;min-width:210px;max-width:250px;">
-      <div style="font-weight:700;font-size:15px;line-height:1.2;">${l.name}</div>
-      <div style="color:#6b7280;font-size:12px;margin-bottom:8px;">${TYPE_LABELS[l.type]} · ${l.region || "ČR"}</div>
-      <div style="display:flex;align-items:center;gap:6px;font-weight:600;">
+  const special = l.type === "bazen" || l.type === "kemp";
+  const statusLine = special
+    ? `<div style="display:flex;align-items:center;gap:6px;font-weight:600;">
+        <span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:${color};border:1px solid #00000022;"></span>
+        ${TYPE_LABELS[l.type]}
+      </div>
+      ${l.type === "bazen" ? '<div style="font-size:12px;color:#6b7280;margin-top:2px;">Umělá voda – kvalitu kontroluje provozovatel.</div>' : ""}`
+    : `<div style="display:flex;align-items:center;gap:6px;font-weight:600;">
         <span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:${color};border:1px solid #00000022;"></span>
         ${QUALITY_LABELS[l.quality.class]}
       </div>
@@ -40,7 +46,12 @@ function popupHtml(l: Location): string {
       <div style="font-size:12px;color:#6b7280;margin-top:2px;">
         ${l.quality.sampledAt ? `Odběr: ${formatDateCz(l.quality.sampledAt)} (${f.label})` : "Bez měření"}
         ${l.quality.source ? `<br/>Zdroj: ${l.quality.source}` : ""}
-      </div>
+      </div>`;
+  return `
+    <div style="font-family:system-ui,sans-serif;min-width:210px;max-width:250px;">
+      <div style="font-weight:700;font-size:15px;line-height:1.2;">${l.name}</div>
+      <div style="color:#6b7280;font-size:12px;margin-bottom:8px;">${TYPE_LABELS[l.type]} · ${l.region || "ČR"}</div>
+      ${statusLine}
       <div style="margin-top:8px;padding-top:8px;border-top:1px solid #eee;font-weight:600;">
         ${ACCESS_LABELS[l.access.status]}
       </div>
@@ -74,12 +85,12 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
     const markers: any[] = [];
     for (const l of locationsRef.current) {
       const color = markerColor(l);
-      const isPool = l.type === "bazen";
+      const small = l.type === "bazen" || l.type === "kemp";
       let icon;
-      if (isPool) {
-        // Bazény/aquaparky: menší a méně výrazná značka (kolečko), ale stále viditelná.
+      if (small) {
+        // Bazény a kempy: menší méně výrazná tečka, ale stále viditelná.
         icon = L.divIcon({
-          className: "koupani-pin-pool",
+          className: "koupani-pin-small",
           html: `<span style="display:block;width:13px;height:13px;border-radius:50%;background:${color};border:2px solid #ffffff;box-shadow:0 1px 2px rgba(0,0,0,.4);opacity:.9;"></span>`,
           iconSize: [13, 13],
           iconAnchor: [7, 7],
@@ -101,7 +112,7 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
           popupAnchor: [0, -34],
         });
       }
-      const m = L.marker([l.lat, l.lng], { icon, zIndexOffset: isPool ? -500 : 0 });
+      const m = L.marker([l.lat, l.lng], { icon, zIndexOffset: small ? -500 : 0 });
       m.bindPopup(popupHtml(l), { minWidth: 210 });
       markers.push(m);
       markersById.current.set(l.id, m);

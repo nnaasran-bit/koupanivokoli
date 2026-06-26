@@ -18,6 +18,7 @@ import {
   TYPE_LABELS,
   formatDateCz,
   freshness,
+  openingHoursCz,
 } from "@/lib/quality";
 import type { Location } from "@/lib/types";
 
@@ -255,7 +256,7 @@ export default async function LocationPage({
             {loc.openingHours && (
               <div className="flex justify-between gap-2">
                 <dt className="text-slate-500">🕒 Otevírací doba</dt>
-                <dd className="text-right font-medium text-slate-900">{loc.openingHours}</dd>
+                <dd className="text-right font-medium text-slate-900">{openingHoursCz(loc.openingHours)}</dd>
               </div>
             )}
             {loc.phone && (
@@ -312,6 +313,9 @@ export default async function LocationPage({
       {/* GPS a navigace */}
       <GpsNavigation lat={loc.lat} lng={loc.lng} name={loc.name} url={url} />
 
+      {/* Sdílení – hned pod navigací */}
+      <ShareButtons url={url} title={`${loc.name} – kvalita vody a přístup | Koupání v okolí`} />
+
       {/* Historie kvality vody */}
       {loc.history && loc.history.length > 0 && (
         <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
@@ -336,8 +340,6 @@ export default async function LocationPage({
 
       {/* Komunitní hlášení */}
       <CommunityReports slug={loc.slug} name={loc.name} />
-
-      <ShareButtons url={url} title={`${loc.name} – kvalita vody a přístup | Koupání v okolí`} />
 
       {/* O lokalitě – popis a zdroje (úplně dole) */}
       <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
