@@ -39,6 +39,8 @@ export const AMENITIES: AmenityDef[] = [
   { id: "wc", label: "WC", emoji: "🚻" },
   { id: "sprchy", label: "Sprchy", emoji: "🚿" },
   { id: "obcerstveni", label: "Občerstvení", emoji: "🍔" },
+  { id: "stanek", label: "Stánek", emoji: "🥤" },
+  { id: "kemp", label: "Kemp / tábořiště", emoji: "⛺" },
   { id: "pitna_voda", label: "Pitná voda", emoji: "🚰" },
   { id: "deti", label: "Vhodné pro děti", emoji: "🧒" },
   { id: "psi", label: "Psi povoleni", emoji: "🐕" },

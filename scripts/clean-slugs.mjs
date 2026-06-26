@@ -13,6 +13,7 @@ function slugify(s) {
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
+    .replace(/\bu\b/g, " ") // vynech předložku „u" (Zatopený lom u Pavlova → zatopeny-lom-pavlova)
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .slice(0, 70);

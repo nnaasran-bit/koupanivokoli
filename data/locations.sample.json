@@ -22,7 +22,11 @@
       "status": "povoleno",
       "source": "provozovatel"
     },
-    "updatedAt": "2026-06-24"
+    "updatedAt": "2026-06-24",
+    "amenities": [
+      "parkovani",
+      "obcerstveni"
+    ]
   },
   {
     "id": "jezero-milada",
@@ -98,7 +102,12 @@
         "class": "zhorsena"
       }
     ],
-    "updatedAt": "2026-06-24"
+    "updatedAt": "2026-06-24",
+    "amenities": [
+      "wc",
+      "parkovani",
+      "obcerstveni"
+    ]
   },
   {
     "id": "machovo-jezero",
@@ -122,7 +131,13 @@
     "access": {
       "status": "povoleno"
     },
-    "updatedAt": "2026-06-23"
+    "updatedAt": "2026-06-23",
+    "amenities": [
+      "kemp",
+      "obcerstveni",
+      "wc",
+      "parkovani"
+    ]
   },
   {
     "id": "dzban",
@@ -152,7 +167,11 @@
         "text": "Zvýšený výskyt sinic – koupání nedoporučeno, zejména pro děti."
       }
     ],
-    "updatedAt": "2026-06-23"
+    "updatedAt": "2026-06-23",
+    "amenities": [
+      "parkovani",
+      "obcerstveni"
+    ]
   },
   {
     "id": "lipno",
@@ -176,7 +195,14 @@
     "access": {
       "status": "povoleno"
     },
-    "updatedAt": "2026-06-24"
+    "updatedAt": "2026-06-24",
+    "amenities": [
+      "obcerstveni",
+      "wc",
+      "stanek",
+      "parkovani",
+      "kemp"
+    ]
   },
   {
     "id": "velka-amerika",
@@ -254,7 +280,10 @@
       "note": "Oblíbené koupání, ale kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-12"
+    "updatedAt": "2026-06-12",
+    "amenities": [
+      "stanek"
+    ]
   },
   {
     "id": "slapy",
