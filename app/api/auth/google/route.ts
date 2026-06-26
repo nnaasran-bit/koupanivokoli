@@ -2,6 +2,9 @@ import { randomBytes } from "node:crypto";
 import { NextResponse } from "next/server";
 import { GOOGLE_CLIENT_ID, OAUTH_STATE_COOKIE, googleRedirectUri } from "@/lib/google";
 
+// Nikdy necachovat – každý uživatel musí dostat čerstvý state.
+export const dynamic = "force-dynamic";
+
 // Zahájení přihlášení přes Google – přesměruje uživatele na souhlasnou obrazovku Google.
 export function GET(req: Request) {
   const origin = new URL(req.url).origin;
@@ -24,5 +27,6 @@ export function GET(req: Request) {
     path: "/",
     maxAge: 600,
   });
+  res.headers.set("Cache-Control", "no-store, max-age=0");
   return res;
 }
