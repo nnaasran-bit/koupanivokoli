@@ -64,9 +64,10 @@ interface MapProps {
   locations: Location[];
   userLocation?: { lat: number; lng: number } | null;
   focus?: { id: string; lat: number; lng: number } | null;
+  area?: { lat: number; lng: number; km: number } | null;
 }
 
-export default function MapView({ locations, userLocation, focus }: MapProps) {
+export default function MapView({ locations, userLocation, focus, area }: MapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const LRef = useRef<any>(null);
   const mapRef = useRef<any>(null);
@@ -223,6 +224,20 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
       m.openPopup();
     }
   }, [focus]);
+
+  // Přiblížení na oblast (~X km kolem bodu) – všechny body zůstávají na mapě.
+  useEffect(() => {
+    const L = LRef.current;
+    const map = mapRef.current;
+    if (!L || !map || !area) return;
+    const dLat = area.km / 111;
+    const dLng = area.km / (111 * Math.cos((area.lat * Math.PI) / 180));
+    const bounds = L.latLngBounds(
+      [area.lat - dLat, area.lng - dLng],
+      [area.lat + dLat, area.lng + dLng],
+    );
+    map.fitBounds(bounds, { padding: [40, 40] });
+  }, [area]);
 
   return <div ref={containerRef} className="absolute inset-0" style={{ background: "#e8eef2" }} />;
 }

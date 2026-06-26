@@ -57,12 +57,12 @@ export default function MapExplorer() {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
   const [userLoc, setUserLoc] = useState<{ lat: number; lng: number } | null>(null);
   const [focus, setFocus] = useState<{ id: string; lat: number; lng: number } | null>(null);
+  const [area, setArea] = useState<{ lat: number; lng: number; km: number } | null>(null);
   const [listOpen, setListOpen] = useState(false); // na mobilu výchozí skrytý (ať je vidět mapa)
   const [geoMsg, setGeoMsg] = useState<string | null>(null);
+  const [openSug, setOpenSug] = useState(false);
 
   useEffect(() => {
-    const q = new URLSearchParams(window.location.search).get("q");
-    if (q) setFilters((f) => ({ ...f, query: q }));
     // Na větších obrazovkách seznam rovnou otevřeme.
     if (typeof window !== "undefined" && window.innerWidth >= 768) setListOpen(true);
   }, []);
@@ -80,12 +80,35 @@ export default function MapExplorer() {
       };
     });
 
-  const filtered = useMemo(() => filterLocations(allLocations, filters), [filters]);
+  // Mapa zobrazuje VŠECHNO (jen filtry typů/atributů) – text ji nefiltruje.
+  const filtered = useMemo(
+    () => filterLocations(allLocations, { ...filters, query: "" }),
+    [filters],
+  );
   const listed = useMemo(() => {
-    const arr = filtered.map((l) => ({ l, d: userLoc ? distanceKm(userLoc, l) : null }));
-    if (userLoc) arr.sort((a, b) => (a.d ?? 0) - (b.d ?? 0));
+    const center = userLoc || area;
+    const arr = filtered.map((l) => ({ l, d: center ? distanceKm(center, l) : null }));
+    if (center) arr.sort((a, b) => (a.d ?? 0) - (b.d ?? 0));
     return arr;
-  }, [filtered, userLoc]);
+  }, [filtered, userLoc, area]);
+
+  // Našeptávač: návrhy podle textu (název / obec / kraj).
+  const norm = (s: string) =>
+    s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const suggestions = useMemo(() => {
+    const q = norm(filters.query.trim());
+    if (q.length < 2) return [];
+    return allLocations
+      .filter((l) => norm(`${l.name} ${l.municipality ?? ""} ${l.region}`).includes(q))
+      .slice(0, 8);
+  }, [filters.query]);
+
+  const pickSuggestion = (l: (typeof allLocations)[number]) => {
+    setFilters((f) => ({ ...f, query: l.name }));
+    setOpenSug(false);
+    setFocus({ id: l.id, lat: l.lat, lng: l.lng });
+    setArea({ lat: l.lat, lng: l.lng, km: 40 }); // přiblížit na ~40 km okolí
+  };
 
   const handleNearby = () => {
     if (typeof navigator === "undefined" || !navigator.geolocation) {
@@ -95,7 +118,10 @@ export default function MapExplorer() {
     setGeoMsg("Zjišťuji polohu…");
     navigator.geolocation.getCurrentPosition(
       (pos) => {
-        setUserLoc({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        const loc = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        setUserLoc(loc);
+        setArea({ ...loc, km: 40 }); // přiblížit na ~40 km okolí
+        setListOpen(true);
         setGeoMsg(null);
       },
       () => setGeoMsg("Polohu se nepodařilo zjistit."),
@@ -112,10 +138,36 @@ export default function MapExplorer() {
             <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">🔍</span>
             <input
               value={filters.query}
-              onChange={(e) => set({ query: e.target.value })}
-              placeholder="Hledat lokalitu, obec, kraj…"
+              onChange={(e) => {
+                set({ query: e.target.value });
+                setOpenSug(true);
+              }}
+              onFocus={() => setOpenSug(true)}
+              onBlur={() => setTimeout(() => setOpenSug(false), 150)}
+              placeholder="Hledat lokalitu nebo obec…"
               className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-9 pr-3 text-sm outline-none transition focus:border-sky-400 focus:bg-white focus:ring-2 focus:ring-sky-100"
             />
+            {/* Našeptávač */}
+            {openSug && suggestions.length > 0 && (
+              <ul className="absolute left-0 right-0 top-full z-30 mt-1 max-h-72 overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-xl">
+                {suggestions.map((s) => (
+                  <li key={s.id}>
+                    <button
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => pickSuggestion(s)}
+                      className="flex w-full items-center gap-2 border-l-4 px-3 py-2 text-left hover:bg-slate-50"
+                      style={{ borderLeftColor: dotColor(s) }}
+                    >
+                      <span className="truncate text-sm font-medium text-slate-900">{s.name}</span>
+                      <span className="ml-auto shrink-0 text-[11px] text-slate-400">
+                        {TYPE_LABELS[s.type]}
+                        {s.municipality ? ` · ${s.municipality}` : s.region ? ` · ${s.region}` : ""}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
           <button
             onClick={handleNearby}
@@ -146,7 +198,7 @@ export default function MapExplorer() {
 
       {/* Mapa + seznam + legenda */}
       <div className="relative min-h-[60vh] flex-1">
-        <MapView locations={filtered} userLocation={userLoc} focus={focus} />
+        <MapView locations={filtered} userLocation={userLoc} focus={focus} area={area} />
 
         {listOpen ? (
           <aside className="absolute bottom-3 left-3 top-3 z-10 flex w-[340px] max-w-[86vw] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white/95 shadow-xl ring-1 ring-black/5 backdrop-blur">

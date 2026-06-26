@@ -18,6 +18,9 @@ export default function Footer() {
           <ul className="mt-3 space-y-2 text-sm text-slate-500">
             <li><Link href="/" className="hover:text-brand">Mapa</Link></li>
             <li><Link href="/koupani" className="hover:text-brand">Koupání podle krajů</Link></li>
+            <li><Link href="/seznam/lomy" className="hover:text-brand">Lomy ke koupání</Link></li>
+            <li><Link href="/seznam/prehrady" className="hover:text-brand">Přehrady ke koupání</Link></li>
+            <li><Link href="/seznam/koupaliste" className="hover:text-brand">Koupaliště</Link></li>
             <li><Link href="/kvalita-vody" className="hover:text-brand">Kvalita vody</Link></li>
           </ul>
         </div>

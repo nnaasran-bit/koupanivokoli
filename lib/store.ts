@@ -55,6 +55,10 @@ function ensureSchema(): Promise<void> {
       await db`CREATE TABLE IF NOT EXISTS contributions (
         id text PRIMARY KEY, location_slug text NOT NULL, user_id text NOT NULL, nick text NOT NULL,
         kind text NOT NULL, amenity text, text text, created_at timestamptz NOT NULL DEFAULT now())`;
+      await db`CREATE TABLE IF NOT EXISTS ratings (
+        location_slug text NOT NULL, ip_hash text NOT NULL, value smallint NOT NULL,
+        created_at timestamptz NOT NULL DEFAULT now(),
+        PRIMARY KEY (location_slug, ip_hash))`;
     })();
   }
   return schemaReady;
@@ -109,14 +113,20 @@ function toContribution(r: any): Contribution {
 /* ---------- file fallback (lokální vývoj bez DB) ---------- */
 
 const FILE = join(process.cwd(), ".data", "community.json");
+interface Rating {
+  location_slug: string;
+  ip_hash: string;
+  value: number;
+}
 interface DB {
   users: StoredUser[];
   sessions: { token: string; userId: string; createdAt: string }[];
   reports: Report[];
   contributions: Contribution[];
+  ratings: Rating[];
 }
 function readFile(): DB {
-  const empty: DB = { users: [], sessions: [], reports: [], contributions: [] };
+  const empty: DB = { users: [], sessions: [], reports: [], contributions: [], ratings: [] };
   try {
     if (!existsSync(FILE)) return empty;
     const db = JSON.parse(readFileSync(FILE, "utf8"));
@@ -125,6 +135,7 @@ function readFile(): DB {
       sessions: db.sessions ?? [],
       reports: db.reports ?? [],
       contributions: db.contributions ?? [],
+      ratings: db.ratings ?? [],
     };
   } catch {
     return empty;
@@ -339,6 +350,58 @@ export async function hasContributionKind(userId: string, slug: string, kind: st
   );
 }
 
+/* ---------- Hodnocení (1 IP = 1 hlas) ---------- */
+
+export async function addRating(slug: string, ipHash: string, value: number): Promise<void> {
+  const v = Math.max(1, Math.min(5, Math.round(value)));
+  if (sql) {
+    await ensureSchema();
+    await sql`INSERT INTO ratings (location_slug, ip_hash, value) VALUES (${slug}, ${ipHash}, ${v})
+      ON CONFLICT (location_slug, ip_hash) DO UPDATE SET value = ${v}, created_at = now()`;
+    return;
+  }
+  const db = readFile();
+  const ex = db.ratings.find((r) => r.location_slug === slug && r.ip_hash === ipHash);
+  if (ex) ex.value = v;
+  else db.ratings.push({ location_slug: slug, ip_hash: ipHash, value: v });
+  writeFile(db);
+}
+
+export async function getRating(slug: string, ipHash?: string): Promise<{ avg: number; count: number; mine: number | null }> {
+  if (sql) {
+    await ensureSchema();
+    const rows = await sql`SELECT avg(value)::float AS avg, count(*)::int AS count FROM ratings WHERE location_slug = ${slug}`;
+    let mine: number | null = null;
+    if (ipHash) {
+      const m = await sql`SELECT value FROM ratings WHERE location_slug = ${slug} AND ip_hash = ${ipHash} LIMIT 1`;
+      mine = m[0] ? Number(m[0].value) : null;
+    }
+    return { avg: rows[0]?.avg ? Number(rows[0].avg) : 0, count: rows[0]?.count ?? 0, mine };
+  }
+  const rs = readFile().ratings.filter((r) => r.location_slug === slug);
+  const avg = rs.length ? rs.reduce((s, r) => s + r.value, 0) / rs.length : 0;
+  const mine = ipHash ? rs.find((r) => r.ip_hash === ipHash)?.value ?? null : null;
+  return { avg, count: rs.length, mine };
+}
+
+// Hodnocení pro více lokalit najednou (typové seznamy).
+export async function ratingStats(): Promise<Map<string, { avg: number; count: number }>> {
+  const map = new Map<string, { avg: number; count: number }>();
+  if (sql) {
+    await ensureSchema();
+    const rows = await sql`SELECT location_slug, avg(value)::float AS avg, count(*)::int AS count FROM ratings GROUP BY location_slug`;
+    for (const r of rows) map.set(String(r.location_slug), { avg: Number(r.avg), count: Number(r.count) });
+    return map;
+  }
+  const agg = new Map<string, number[]>();
+  for (const r of readFile().ratings) {
+    if (!agg.has(r.location_slug)) agg.set(r.location_slug, []);
+    agg.get(r.location_slug)!.push(r.value);
+  }
+  for (const [slug, vals] of agg) map.set(slug, { avg: vals.reduce((s, v) => s + v, 0) / vals.length, count: vals.length });
+  return map;
+}
+
 // Počet navštívených míst uživatele (check-iny 'visit') – pro soutěž/odznaky.
 export async function visitCount(userId: string): Promise<number> {
   if (sql) {
@@ -404,7 +467,7 @@ export async function wipeAllUsers(): Promise<void> {
     await sql`DELETE FROM users`;
     return;
   }
-  writeFile({ users: [], sessions: [], reports: [], contributions: [] });
+  writeFile({ users: [], sessions: [], reports: [], contributions: [], ratings: readFile().ratings });
 }
 
 export async function leaderboard(limit = 50): Promise<PublicUser[]> {

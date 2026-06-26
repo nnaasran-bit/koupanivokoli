@@ -20,11 +20,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly",
     priority: 0.7,
   }));
+  const lists: MetadataRoute.Sitemap = [
+    "lomy", "piskovny", "prehrady", "jezera", "rybniky", "koupaliste", "bazeny", "kempy",
+  ].map((t) => ({
+    url: `${SITE_URL}/seznam/${t}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
   const locations: MetadataRoute.Sitemap = allLocations.map((l) => ({
     url: `${SITE_URL}/lokalita/${l.slug}`,
     lastModified: l.updatedAt ? new Date(l.updatedAt) : now,
     changeFrequency: "weekly",
     priority: l.monitored ? 0.8 : 0.6,
   }));
-  return [...statics, ...regions, ...locations];
+  return [...statics, ...regions, ...lists, ...locations];
 }

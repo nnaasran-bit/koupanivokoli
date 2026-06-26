@@ -9,6 +9,7 @@ import ShareButtons from "@/components/ShareButtons";
 import GpsNavigation from "@/components/GpsNavigation";
 import PlacePhoto from "@/components/PlacePhoto";
 import CheckInButton from "@/components/CheckInButton";
+import RatingWidget from "@/components/RatingWidget";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { slugForRegion } from "@/lib/regions";
 import { amenityDef } from "@/lib/gamify";
@@ -308,9 +309,6 @@ export default async function LocationPage({
         </section>
       )}
 
-      {/* Byl jsem tady – check-in + soutěž */}
-      <CheckInButton slug={loc.slug} typeLabel={TYPE_LABELS[loc.type]} />
-
       {/* GPS a navigace */}
       <GpsNavigation lat={loc.lat} lng={loc.lng} name={loc.name} url={url} />
 
@@ -335,6 +333,12 @@ export default async function LocationPage({
           </ol>
         </section>
       )}
+
+      {/* Byl jsem tady – check-in + soutěž (pod historií kvality vody) */}
+      <CheckInButton slug={loc.slug} typeLabel={TYPE_LABELS[loc.type]} />
+
+      {/* Hodnocení místa (1 IP = 1 hlas) */}
+      <RatingWidget slug={loc.slug} />
 
       {/* Vybavení a tipy od komunity */}
       <CommunityInfo slug={loc.slug} />
