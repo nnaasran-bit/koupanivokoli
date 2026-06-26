@@ -43,9 +43,14 @@ function unique(base, municipality) {
 const sample = JSON.parse(readFileSync(join(dataDir, "locations.sample.json"), "utf8"));
 for (const l of sample) taken.add(l.slug);
 
-// 2) EEA pak OSM – přegenerujeme čisté slugy.
+// 2) EEA → OSM → kempy → příhraničí – přegenerujeme čisté a GLOBÁLNĚ unikátní slugy.
 let changed = 0;
-for (const fn of ["locations.eea.json", "locations.osm.json"]) {
+for (const fn of [
+  "locations.eea.json",
+  "locations.osm.json",
+  "locations.kemp.json",
+  "locations.border.json",
+]) {
   const path = join(dataDir, fn);
   const list = JSON.parse(readFileSync(path, "utf8"));
   for (const l of list) {

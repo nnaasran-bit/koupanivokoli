@@ -2332,39 +2332,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada"
   },
   {
-    "id": "osm-way-967007567",
-    "slug": "brnenska-prehrada-kozi-horka-2",
-    "name": "Brněnská přehrada - Kozí horka",
-    "type": "prirodni_koupaliste",
-    "lat": 49.238953,
-    "lng": 16.50557,
-    "region": "Jihomoravský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "parkovani",
-      "stanek",
-      "wc"
-    ],
-    "updatedAt": "2026-06-26",
-    "description": "Brněnská přehrada nebo vodní nádrž Brno, zastarale též Kníničská přehrada či vodní nádrž Kníničky, je rozlohou největší vodní dílo na řece Svratce. Vznikla vystavěním hráze na 56. říčním kilometru Svratky a zatopením údolí s obcí Kníničky. Původně sloužila jako zásobárna vody pro Brno. Pro pitnou vodu se nyní využívá vody z Vírské přehrady a vody z vrtů v Březové. V současnosti přehrada slouží rekreaci a také jako zdroj elektrické energie. Většina plochy přehrady je součástí přírodního parku Podkomorské lesy.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada.JPG",
-    "photoCredit": "Wikipedie / Brněnská přehrada",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada"
-  },
-  {
     "id": "osm-way-942690763",
     "slug": "brnenska-prehrada-osada",
     "name": "Brněnská přehrada - Osada",
@@ -5285,33 +5252,6 @@
       "source": "OpenStreetMap"
     },
     "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-51772784",
-    "slug": "jezuitska-jezera",
-    "name": "Jezuitská jezera",
-    "type": "jezero",
-    "lat": 50.209556,
-    "lng": 15.862553,
-    "region": "Královéhradecký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Jezuitská jezera  jsou soustavou sestávající ze dvou větších jezírek o rozloze vodní plochy 0,28 ha jezero I a 0,45 ha jezero II a dvou malých jezírek vzniklých jako mrtvé rameno řeky Orlice po provedení regulace Orlice v dvacátých letech 20. století. Jedná se o rybářskou lokalitu téměř v centru města Hradec Králové. Nachází se v blízkosti II silničního okruhu u Malšovického jezu.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Jezuitsk%C3%A1_jezera_04.jpg/3840px-Jezuitsk%C3%A1_jezera_04.jpg",
-    "photoCredit": "Wikipedie / Jezuitská jezera",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Jezuitsk%C3%A1_jezera"
   },
   {
     "id": "osm-way-51772794",
@@ -10601,33 +10541,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Lipiny_(Ne%C4%8D%C3%ADn)"
   },
   {
-    "id": "osm-way-52069133",
-    "slug": "lom-kosov",
-    "name": "Lom Kosov",
-    "type": "lom",
-    "lat": 49.937974,
-    "lng": 14.052161,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Lom Kosov je opuštěný vytěžený vápencovo–břidlicový lom nacházející ve středočeském kraji asi 3,5 kilometrů od vlakového nádraží v Berouně nedaleko od osady Jarov. Lokalita je tvořena sedmi lomovými patry a silně elipticky protaženým jezerem na dně. Ačkoliv zde byla těžba kamene ukončena, vstup do lokality není široké veřejnosti povolen a v jezírku platí zákaz koupání. Lom byl založen nedalekou cementárnou v Králově Dvoře v roce 1909 a její provoz dlouhou dobu zásoboval zde těženými silurskými vápenci a břidlicemi, které byly používány jako korekční surovina při výrobě cementu. Vápence se nacházely v horních etážích lomu, zatímco břidlice se vyskytovala převážně v okolí jezera. Lokalita je paleontologicky známá výskytem zkamenělin hlavonožců a pravěké mořské fauny. Provozovatelem lomu Kosov je Velkolom Čertovy schody, a.s. se sídlem v Tmani.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Lom_Kosov_Celkovy_Pohled_2008.jpg",
-    "photoCredit": "Wikipedie / Kosov (lom)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Kosov_(lom)"
-  },
-  {
     "id": "osm-way-52656103",
     "slug": "lom-milicin",
     "name": "lom Miličín",
@@ -15673,30 +15586,6 @@
     "operator": "Pláž"
   },
   {
-    "id": "osm-way-177387806",
-    "slug": "bazen-suchdol-nad-luznici-2",
-    "name": "Bazén Suchdol nad Lužnicí",
-    "type": "bazen",
-    "lat": 48.89553,
-    "lng": 14.906164,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Suchdol nad Lužnicí",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "operator": "Pláž"
-  },
-  {
     "id": "osm-way-383762295",
     "slug": "bazen-brezovik",
     "name": "Bazén Březovík",
@@ -15896,117 +15785,12 @@
     "operator": "Pláž"
   },
   {
-    "id": "osm-way-1411635396",
-    "slug": "bazen-lucina-3",
-    "name": "Bazén Lučina",
-    "type": "bazen",
-    "lat": 49.720509,
-    "lng": 18.475819,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "Lučina",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "operator": "Pláž"
-  },
-  {
     "id": "osm-way-1411635397",
     "slug": "bazen-lucina-4",
     "name": "Bazén Lučina",
     "type": "bazen",
     "lat": 49.720955,
     "lng": 18.469945,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "Lučina",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni"
-    ],
-    "updatedAt": "2026-06-26",
-    "operator": "Pláž"
-  },
-  {
-    "id": "osm-way-1411635398",
-    "slug": "bazen-lucina-5",
-    "name": "Bazén Lučina",
-    "type": "bazen",
-    "lat": 49.721892,
-    "lng": 18.466825,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "Lučina",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni"
-    ],
-    "updatedAt": "2026-06-26",
-    "operator": "Pláž"
-  },
-  {
-    "id": "osm-way-1411635399",
-    "slug": "bazen-lucina-6",
-    "name": "Bazén Lučina",
-    "type": "bazen",
-    "lat": 49.723223,
-    "lng": 18.458803,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "Lučina",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni"
-    ],
-    "updatedAt": "2026-06-26",
-    "operator": "Pláž"
-  },
-  {
-    "id": "osm-way-1411635401",
-    "slug": "bazen-lucina-7",
-    "name": "Bazén Lučina",
-    "type": "bazen",
-    "lat": 49.726492,
-    "lng": 18.455487,
     "region": "Moravskoslezský kraj",
     "district": "",
     "municipality": "Lučina",
@@ -16379,36 +16163,6 @@
     ]
   },
   {
-    "id": "osm-node-5788908462",
-    "slug": "plaz-melice-melice",
-    "name": "Pláž u Mělice",
-    "type": "prirodni_koupaliste",
-    "lat": 50.047128,
-    "lng": 15.619093,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Mělice",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Mělické písníky jsou vodní plochy vzniklé zatopením lomu po těžbě štěrkopísku ležící asi pět kilometrů východně od města Přelouč mezi obcemi Lohenice a Mělice v okrese Pardubice.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/M%C4%9Blick%C3%A9_p%C3%ADsn%C3%ADky_14.jpg/3840px-M%C4%9Blick%C3%A9_p%C3%ADsn%C3%ADky_14.jpg",
-    "photoCredit": "Wikipedie / Mělické písníky",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/M%C4%9Blick%C3%A9_p%C3%ADsn%C3%ADky",
-    "amenities": [
-      "kemp"
-    ]
-  },
-  {
     "id": "osm-node-5788908464",
     "slug": "plaz-lohenice",
     "name": "Pláž u Lohenice",
@@ -16587,36 +16341,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/P%C3%ADse%C4%8Dn%C3%BD_p%C5%99esyp_u_Vlkova"
   },
   {
-    "id": "osm-node-9332490195",
-    "slug": "plaz-mlekojedy",
-    "name": "Pláž u Mlékojedy",
-    "type": "prirodni_koupaliste",
-    "lat": 50.268669,
-    "lng": 14.543888,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "Mlékojedy",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písčina u Tišic je přírodní památka na západním okraji obce Tišice v okrese Mělník. Správa AOPK Praha. Důvodem ochrany je lokalita kriticky ohrožených druhů. Z živočichů jde o hrabulku Byrsinus flavicornis, z rostlin o sinokvět chrpovitý.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ti%C5%A1ice%2C_P%C3%ADs%C4%8Dina_u_Ti%C5%A1ic_NR_2.jpg",
-    "photoCredit": "Wikipedie / Písčina u Tišic",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/P%C3%ADs%C4%8Dina_u_Ti%C5%A1ic",
-    "amenities": [
-      "kemp"
-    ]
-  },
-  {
     "id": "osm-node-9332490196",
     "slug": "plaz-sadska",
     "name": "Pláž u Sadská",
@@ -16706,29 +16430,6 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Zimn%C3%AD_stadion_Eden_interi%C3%A9r_%282%29.jpg/3840px-Zimn%C3%AD_stadion_Eden_interi%C3%A9r_%282%29.jpg",
     "photoCredit": "Wikipedie / Zimní stadion Eden",
     "wikiUrl": "https://cs.wikipedia.org/wiki/Zimn%C3%AD_stadion_Eden"
-  },
-  {
-    "id": "osm-node-9332490200",
-    "slug": "plaz-nahorany-nahorany",
-    "name": "Pláž u Nahořany",
-    "type": "prirodni_koupaliste",
-    "lat": 50.359472,
-    "lng": 16.069972,
-    "region": "Královéhradecký kraj",
-    "district": "",
-    "municipality": "Nahořany",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
   },
   {
     "id": "osm-node-9332490202",
@@ -17370,29 +17071,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Blatno_u_Jesenice_(n%C3%A1dra%C5%BE%C3%AD)"
   },
   {
-    "id": "osm-node-13779864614",
-    "slug": "plaz-jesenice",
-    "name": "Pláž u Jesenice",
-    "type": "prirodni_koupaliste",
-    "lat": 50.066545,
-    "lng": 12.467819,
-    "region": "Karlovarský kraj",
-    "district": "",
-    "municipality": "Jesenice",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-node-13818717166",
     "slug": "plaz-cerna-ricka",
     "name": "Pláž u Černá Říčka",
@@ -17529,74 +17207,6 @@
       "source": "OpenStreetMap"
     },
     "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-88879900",
-    "slug": "plaz-hradek-nad-nisou",
-    "name": "Pláž u Hrádek nad Nisou",
-    "type": "prirodni_koupaliste",
-    "lat": 50.857934,
-    "lng": 14.824354,
-    "region": "Liberecký kraj",
-    "district": "",
-    "municipality": "Hrádek nad Nisou",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "wc",
-      "kemp",
-      "stanek",
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26",
-    "description": "Kristýna je jezero na severu České republiky, v Libereckém kraji, asi 1,5 km severozápadně od Hrádku nad Nisou a 1 km od trojstyku hranic České republiky, Německa a Polska. Jedná se o zatopený lignitový důl o rozloze cca 14 ha, největší hloubka je asi 28 m.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Krist%C3%BDna.JPG",
-    "photoCredit": "Wikipedie / Kristýna (jezero)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Krist%C3%BDna_(jezero)"
-  },
-  {
-    "id": "osm-way-89003316",
-    "slug": "plaz-hradek-nad-nisou-hradek-nad-nisou",
-    "name": "Pláž u Hrádek nad Nisou",
-    "type": "prirodni_koupaliste",
-    "lat": 50.860617,
-    "lng": 14.827697,
-    "region": "Liberecký kraj",
-    "district": "",
-    "municipality": "Hrádek nad Nisou",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "wc",
-      "kemp",
-      "stanek",
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26",
-    "description": "Kristýna je jezero na severu České republiky, v Libereckém kraji, asi 1,5 km severozápadně od Hrádku nad Nisou a 1 km od trojstyku hranic České republiky, Německa a Polska. Jedná se o zatopený lignitový důl o rozloze cca 14 ha, největší hloubka je asi 28 m.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Krist%C3%BDna.JPG",
-    "photoCredit": "Wikipedie / Kristýna (jezero)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Krist%C3%BDna_(jezero)"
   },
   {
     "id": "osm-way-98665750",
@@ -17824,56 +17434,6 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/M%C4%9Bln%C3%ADk_Intermodal_Terminal.jpg",
     "photoCredit": "Wikipedie / Kontejnerový terminál Mělník",
     "wikiUrl": "https://cs.wikipedia.org/wiki/Kontejnerov%C3%BD_termin%C3%A1l_M%C4%9Bln%C3%ADk"
-  },
-  {
-    "id": "osm-way-198806769",
-    "slug": "plaz-hradistko-i",
-    "name": "Pláž u Hradišťko I",
-    "type": "prirodni_koupaliste",
-    "lat": 50.05744,
-    "lng": 15.195894,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "Hradišťko I",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-198808395",
-    "slug": "plaz-hradistko-i-hradistko-i",
-    "name": "Pláž u Hradišťko I",
-    "type": "prirodni_koupaliste",
-    "lat": 50.055741,
-    "lng": 15.189841,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "Hradišťko I",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hradistko_I_e._Krizek.jpg/1280px-Hradistko_I_e._Krizek.jpg",
-    "photoCredit": "Stribrohorak (CC BY-SA 3.0) / Wikimedia Commons",
-    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Hradistko_I_e._Krizek.jpg",
-    "photoUncertain": true
   },
   {
     "id": "osm-way-218250124",
@@ -18114,32 +17674,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-291217035",
-    "slug": "plaz-nova-ves-nad-luznici-nova-ves-nad-luznici",
-    "name": "Pláž u Nová Ves nad Lužnicí",
-    "type": "prirodni_koupaliste",
-    "lat": 48.835503,
-    "lng": 14.941652,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Nová Ves nad Lužnicí",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-305480504",
     "slug": "plaz-kladky",
     "name": "Pláž u Kladky",
@@ -18232,41 +17766,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Jezero_Pod%C4%9Bbrady"
   },
   {
-    "id": "osm-way-318922120",
-    "slug": "plaz-podebrady-podebrady",
-    "name": "Pláž u Poděbrady",
-    "type": "prirodni_koupaliste",
-    "lat": 50.136112,
-    "lng": 15.120501,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "Poděbrady",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "pitna_voda",
-      "stanek",
-      "wc",
-      "parkovani",
-      "kemp"
-    ],
-    "updatedAt": "2026-06-26",
-    "description": "Jezero Poděbrady je písník – antropogenní jezero, které vzniklo zatopením pískovny po ukončení těžby. Nachází se 100 m severovýchodně od městské části Kluk na území města Poděbrady v okrese Nymburk ve Středočeském kraji v Česku. Jezero má rozlohu 31,06 ha. Je 900 m dlouhé a 660 m široké. Leží v nadmořské výšce 186 m. Hloubka jezera dosahuje místy 8 m.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/JezeroPdyPl%C3%A1%C5%BE05.JPG",
-    "photoCredit": "Wikipedie / Jezero Poděbrady",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Jezero_Pod%C4%9Bbrady"
-  },
-  {
     "id": "osm-way-321181359",
     "slug": "plaz-osek",
     "name": "Pláž u Osek",
@@ -18326,37 +17825,6 @@
     "photoCredit": "Wikipedie / Ovčáry (okres Mělník)",
     "wikiUrl": "https://cs.wikipedia.org/wiki/Ov%C4%8D%C3%A1ry_(okres_M%C4%9Bln%C3%ADk)",
     "amenities": [
-      "parkovani"
-    ]
-  },
-  {
-    "id": "osm-way-361463439",
-    "slug": "plaz-ustupky",
-    "name": "Pláž u Ústupky",
-    "type": "prirodni_koupaliste",
-    "lat": 49.820057,
-    "lng": 15.652432,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Ústupky",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Ústupky jsou vesnice, část města Seč v okrese Chrudim v Pardubickém kraji. Nachází se asi 2,5 kilometru jižně od Seče. Ústupky leží v katastrálním území Proseč u Seče o výměře 6,33 km².",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Se%C4%8D%2C_%C3%9Astupky_%282017-07-06%3B_03%29.jpg/3840px-Se%C4%8D%2C_%C3%9Astupky_%282017-07-06%3B_03%29.jpg",
-    "photoCredit": "Wikipedie / Ústupky",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/%C3%9Astupky",
-    "amenities": [
-      "kemp",
       "parkovani"
     ]
   },
@@ -18455,40 +17923,6 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Brand%C3%BDs_nad_Labem%2C_Ostr%C5%AFvek.png",
     "photoCredit": "Wikipedie / Ostrůvek (Brandýs nad Labem)",
     "wikiUrl": "https://cs.wikipedia.org/wiki/Ostr%C5%AFvek_(Brand%C3%BDs_nad_Labem)"
-  },
-  {
-    "id": "osm-way-398278076",
-    "slug": "plaz-slupecna",
-    "name": "Pláž u Slupečná",
-    "type": "prirodni_koupaliste",
-    "lat": 48.640832,
-    "lng": 14.217946,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Slupečná",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "wc",
-      "kemp",
-      "parkovani",
-      "stanek"
-    ],
-    "updatedAt": "2026-06-26",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lipno_nad_Vltavou_-_panoramio_%281%29.jpg",
-    "photoCredit": "Pavel Vlček (CC BY-SA 3.0) / Wikimedia Commons",
-    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Lipno_nad_Vltavou_-_panoramio_(1).jpg",
-    "photoUncertain": true
   },
   {
     "id": "osm-way-405179819",
@@ -18964,39 +18398,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Zlenice_(hrad)"
   },
   {
-    "id": "osm-way-538976597",
-    "slug": "plaz-zdarec-sece-zdarec-sece",
-    "name": "Pláž u Žďárec u Seče",
-    "type": "prirodni_koupaliste",
-    "lat": 49.840065,
-    "lng": 15.650421,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Žďárec u Seče",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "wc",
-      "kemp",
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26",
-    "description": "Vildštejn je zřícenina hradu jeden kilometr jižně od Seče v okrese Chrudim v Pardubickém kraji, na skále nad hrází Sečské přehrady na Chrudimce, která geomorfologicky náleží Železným horám. Jeho zbytky jsou chráněny jako kulturní památka České republiky.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vildstejn.jpg/1920px-Vildstejn.jpg",
-    "photoCredit": "Wikipedie / Vildštejn (hrad, okres Chrudim)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Vild%C5%A1tejn_(hrad%2C_okres_Chrudim)"
-  },
-  {
     "id": "osm-way-538976599",
     "slug": "plaz-ustupky-2",
     "name": "Pláž u Ústupky",
@@ -19027,39 +18428,6 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vildstejn.jpg/1920px-Vildstejn.jpg",
     "photoCredit": "Wikipedie / Vildštejn (hrad, okres Chrudim)",
     "wikiUrl": "https://cs.wikipedia.org/wiki/Vild%C5%A1tejn_(hrad%2C_okres_Chrudim)"
-  },
-  {
-    "id": "osm-way-538976600",
-    "slug": "plaz-zdarec-sece-2",
-    "name": "Pláž u Žďárec u Seče",
-    "type": "prirodni_koupaliste",
-    "lat": 49.837364,
-    "lng": 15.641659,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Žďárec u Seče",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Bučina je vrchol v České republice ležící v Železných horách.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Vodn%C3%AD_n%C3%A1dr%C5%BE_Se%C4%8D.jpg",
-    "photoCredit": "Wikipedie / Bučina (Železné hory, 534 m)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Bu%C4%8Dina_(%C5%BDelezn%C3%A9_hory%2C_534_m)",
-    "amenities": [
-      "obcerstveni",
-      "parkovani",
-      "stanek",
-      "kemp"
-    ]
   },
   {
     "id": "osm-way-538976601",
@@ -19204,33 +18572,6 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Vodn%C3%AD_n%C3%A1dr%C5%BE_Se%C4%8D.jpg",
     "photoCredit": "Wikipedie / Bučina (Železné hory, 534 m)",
     "wikiUrl": "https://cs.wikipedia.org/wiki/Bu%C4%8Dina_(%C5%BDelezn%C3%A9_hory%2C_534_m)"
-  },
-  {
-    "id": "osm-way-570682477",
-    "slug": "plaz-opatovice-nad-labem",
-    "name": "Pláž u Opatovice nad Labem",
-    "type": "prirodni_koupaliste",
-    "lat": 50.16303,
-    "lng": 15.796106,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Opatovice nad Labem",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Opatovický písník je vodní plocha o rozloze 30 ha vzniklá po těžbě štěrkopísku ukončené v roce 2001. Písník se nalézá v okrese Pardubice, převážně v katastrálním území Pohřebačka obce Opatovice nad Labem, v bezprostřední blízkosti severního břehu se nachází katastrální území Březhrad města Hradce Králové.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Opatovicky_pisnik.jpg",
-    "photoCredit": "Wikipedie / Opatovický písník",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Opatovick%C3%BD_p%C3%ADsn%C3%ADk"
   },
   {
     "id": "osm-way-578913619",
@@ -19385,39 +18726,6 @@
       "parkovani",
       "kemp"
     ]
-  },
-  {
-    "id": "osm-way-702625690",
-    "slug": "plaz-posudov-posudov",
-    "name": "Pláž u Posudov",
-    "type": "prirodni_koupaliste",
-    "lat": 48.664228,
-    "lng": 14.162936,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Posudov",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "wc",
-      "obcerstveni",
-      "bez_vstupneho",
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26",
-    "description": "Pranýř se nalézá v severní části náměstí v městečku Frymburk v okrese Český Krumlov.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sloup_s_pran%C3%BD%C5%99em_na_n%C3%A1m%C4%9Bst%C3%AD_ve_Frymburku_%28Q37269504%29_02.jpg",
-    "photoCredit": "Wikipedie / Pranýř v Frymburku",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Pran%C3%BD%C5%99_v_Frymburku"
   },
   {
     "id": "osm-way-708292002",
@@ -19697,66 +19005,6 @@
     ]
   },
   {
-    "id": "osm-way-857786257",
-    "slug": "plaz-blizna-blizna",
-    "name": "Pláž u Bližná",
-    "type": "prirodni_koupaliste",
-    "lat": 48.737566,
-    "lng": 14.099589,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Bližná",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "wc",
-      "kemp",
-      "stanek",
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-857786258",
-    "slug": "plaz-radslav",
-    "name": "Pláž u Radslav",
-    "type": "prirodni_koupaliste",
-    "lat": 48.736157,
-    "lng": 14.098494,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Radslav",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "kemp",
-      "parkovani",
-      "stanek",
-      "wc"
-    ],
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-857786260",
     "slug": "plaz-radslav-radslav",
     "name": "Pláž u Radslav",
@@ -19850,70 +19098,6 @@
     "type": "prirodni_koupaliste",
     "lat": 48.741077,
     "lng": 14.08862,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Stará Hůrka",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "kemp",
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg/1280px-%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg",
-    "photoCredit": "Vojtěch Dostál (CC BY-SA 3.0) / Wikimedia Commons",
-    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg",
-    "photoUncertain": true
-  },
-  {
-    "id": "osm-way-857877499",
-    "slug": "plaz-stara-hurka-2",
-    "name": "Pláž u Stará Hůrka",
-    "type": "prirodni_koupaliste",
-    "lat": 48.741348,
-    "lng": 14.086484,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Stará Hůrka",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "kemp",
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg/1280px-%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg",
-    "photoCredit": "Vojtěch Dostál (CC BY-SA 3.0) / Wikimedia Commons",
-    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg",
-    "photoUncertain": true
-  },
-  {
-    "id": "osm-way-857877502",
-    "slug": "plaz-stara-hurka-3",
-    "name": "Pláž u Stará Hůrka",
-    "type": "prirodni_koupaliste",
-    "lat": 48.742231,
-    "lng": 14.084748,
     "region": "Jihočeský kraj",
     "district": "",
     "municipality": "Stará Hůrka",
@@ -20378,38 +19562,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Filipa_a_Jakuba_(Zadn%C3%AD_V%C3%BDto%C5%88)"
   },
   {
-    "id": "osm-way-1030908260",
-    "slug": "plaz-predni-vyton-2",
-    "name": "Pláž u Přední Výtoň",
-    "type": "prirodni_koupaliste",
-    "lat": 48.632938,
-    "lng": 14.171567,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Přední Výtoň",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "wc",
-      "parkovani"
-    ],
-    "updatedAt": "2026-06-26",
-    "description": "Kostel svatého Filipa a Jakuba je novogotický kostel v části obce Přední Výtoň Zadní Výtoň v okrese Český Krumlov poblíž vodní nádrže Lipno. Spadá pod římskokatolickou farnost Přední Výtoň. Byl zapsán do Ústředního seznamu kulturních památek České republiky před rokem 1988.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/PredniVyton.jpg",
-    "photoCredit": "Wikipedie / Kostel svatého Filipa a Jakuba (Zadní Výtoň)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Filipa_a_Jakuba_(Zadn%C3%AD_V%C3%BDto%C5%88)"
-  },
-  {
     "id": "osm-way-1064038481",
     "slug": "plaz-cervene-dvorce",
     "name": "Pláž u Červené Dvorce",
@@ -20470,33 +19622,6 @@
     "amenities": [
       "parkovani"
     ]
-  },
-  {
-    "id": "osm-way-1064601476",
-    "slug": "plaz-radslav-4",
-    "name": "Pláž u Radslav",
-    "type": "prirodni_koupaliste",
-    "lat": 48.713165,
-    "lng": 14.071899,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Radslav",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Radslav je zaniklá osada, od 1. ledna 1973 součást osady Bližná, která je částí obce Černá v Pošumaví v okrese Český Krumlov. Je zde rekreační oblast. Nachází se na pravém břehu vodní nádrže Lipno, jižně od Jestřábí.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Dub_v-radslavi-08-2018-radslav.jpg/3840px-Dub_v-radslavi-08-2018-radslav.jpg",
-    "photoCredit": "Wikipedie / Radslav",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Radslav"
   },
   {
     "id": "osm-way-1068559695",
@@ -21000,37 +20125,6 @@
     "photoUncertain": true
   },
   {
-    "id": "osm-way-1195618118",
-    "slug": "plaz-bolevec",
-    "name": "Pláž u Bolevec",
-    "type": "prirodni_koupaliste",
-    "lat": 49.771482,
-    "lng": 13.397532,
-    "region": "Plzeňský kraj",
-    "district": "",
-    "municipality": "Bolevec",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Duby u Velkého rybníka jsou památné stromy v Plzni. Tři duby letní jsou zbytkem původního osázení hráze Velkého Boleveckého rybníka z 15. století. Největší z nich s obvodem kmene 710 cm dosahuje výšky 29 m. Dva menší duby stejné výšky 17 m mají měřené obvody kmene 570 cm a 460 cm. Za památné byly uznány vyhláškou Národního výboru města Plzně ze dne 22. září 1987, chráněny jsou pro svůj věk a vzrůst.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Dub_u_Velkeho_rybnika.jpg",
-    "photoCredit": "Wikipedie / Duby u Velkého rybníka",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Duby_u_Velk%C3%A9ho_rybn%C3%ADka",
-    "amenities": [
-      "parkovani",
-      "obcerstveni"
-    ]
-  },
-  {
     "id": "osm-way-1195618121",
     "slug": "plaz-severni-predmesti",
     "name": "Pláž u Severní Předměstí",
@@ -21150,87 +20244,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Laguna_(K%C3%A1ran%C3%BD)"
   },
   {
-    "id": "osm-way-1207837679",
-    "slug": "plaz-karany-karany",
-    "name": "Pláž u Káraný",
-    "type": "prirodni_koupaliste",
-    "lat": 50.173074,
-    "lng": 14.733354,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "Káraný",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vod%C3%A1rna_K%C3%A1ran%C3%BD_2020_01.jpg/1280px-Vod%C3%A1rna_K%C3%A1ran%C3%BD_2020_01.jpg",
-    "photoCredit": "Hubert Kororo (CC BY-SA 4.0) / Wikimedia Commons",
-    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Vod%C3%A1rna_K%C3%A1ran%C3%BD_2020_01.jpg",
-    "photoUncertain": true
-  },
-  {
-    "id": "osm-way-1207837680",
-    "slug": "plaz-karany-2",
-    "name": "Pláž u Káraný",
-    "type": "prirodni_koupaliste",
-    "lat": 50.174045,
-    "lng": 14.731518,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "Káraný",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Vodní zdroj Káraný je druhý nejvýznamnější zdroj pitné vody pro Prahu, na rozdíl od ostatních zdrojů se jedná o podzemní vodu.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Karany_CZ_water_treatment_facility_01.JPG",
-    "photoCredit": "Wikipedie / Vodní zdroj Káraný",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_zdroj_K%C3%A1ran%C3%BD"
-  },
-  {
-    "id": "osm-way-1207837681",
-    "slug": "plaz-karany-3",
-    "name": "Pláž u Káraný",
-    "type": "prirodni_koupaliste",
-    "lat": 50.174021,
-    "lng": 14.729285,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "Káraný",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Vodní zdroj Káraný je druhý nejvýznamnější zdroj pitné vody pro Prahu, na rozdíl od ostatních zdrojů se jedná o podzemní vodu.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Karany_CZ_water_treatment_facility_01.JPG",
-    "photoCredit": "Wikipedie / Vodní zdroj Káraný",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_zdroj_K%C3%A1ran%C3%BD"
-  },
-  {
     "id": "osm-way-1228586067",
     "slug": "plaz-pernek",
     "name": "Pláž u Pernek",
@@ -21289,96 +20302,12 @@
     ]
   },
   {
-    "id": "osm-way-1282235181",
-    "slug": "plaz-stare-zdanice-stare-zdanice",
-    "name": "Pláž u Staré Ždánice",
-    "type": "prirodni_koupaliste",
-    "lat": 50.10399,
-    "lng": 15.72379,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Staré Ždánice",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písník Hrádek je velká vodní plocha o rozloze cca 55 ha vzniklá po těžbě štěrkopísku ukončené v 90. letech 20. století. Písník se nalézá na katastru obce Stéblová v okrese Pardubice asi 2 km západně od centra obce u silnice II/333 spojující Lázně Bohdaneč s Hradcem Králové. Písník je v letním období využíván jako přírodní koupaliště a naturistický kemp. Písník Hrádek je oddělen od sousedního písníku Oplatil I úzkou písečnou hrází. V roce 2012 získala písník do svého majetku společnost Marina Kemp Stéblová, která má v úmyslu vybudovat zde v budoucnu jachtařské středisko.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/P%C3%ADsn%C3%ADk_Hr%C3%A1dek_15.jpg/3840px-P%C3%ADsn%C3%ADk_Hr%C3%A1dek_15.jpg",
-    "photoCredit": "Wikipedie / Hrádek (písník)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Hr%C3%A1dek_(p%C3%ADsn%C3%ADk)",
-    "amenities": [
-      "kemp"
-    ]
-  },
-  {
     "id": "osm-way-1286706861",
     "slug": "plaz-steblova",
     "name": "Pláž u Stéblová",
     "type": "prirodni_koupaliste",
     "lat": 50.106344,
     "lng": 15.728675,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Stéblová",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písník Oplatil I je velká vodní plocha o rozloze cca 90 ha vzniklá po těžbě štěrkopísku ukončené v 90. letech 20. století. Písník se nalézá v okrese Pardubice převážně v katastrálním území Stéblová asi 2,5 km severozápadně od centra obce; severozápadní cíp leží v k.ú. Staré Ždánice. Písník je v současné době využíván jako rybářský revír a záložní vodní zdroj pro Pardubické vodárny.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/P%C3%ADsn%C3%ADk_Oplatil_I_02.jpg/3840px-P%C3%ADsn%C3%ADk_Oplatil_I_02.jpg",
-    "photoCredit": "Wikipedie / Oplatil I",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Oplatil_I"
-  },
-  {
-    "id": "osm-way-1286706865",
-    "slug": "plaz-steblova-steblova",
-    "name": "Pláž u Stéblová",
-    "type": "prirodni_koupaliste",
-    "lat": 50.107655,
-    "lng": 15.729515,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Stéblová",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písník Oplatil I je velká vodní plocha o rozloze cca 90 ha vzniklá po těžbě štěrkopísku ukončené v 90. letech 20. století. Písník se nalézá v okrese Pardubice převážně v katastrálním území Stéblová asi 2,5 km severozápadně od centra obce; severozápadní cíp leží v k.ú. Staré Ždánice. Písník je v současné době využíván jako rybářský revír a záložní vodní zdroj pro Pardubické vodárny.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/P%C3%ADsn%C3%ADk_Oplatil_I_02.jpg/3840px-P%C3%ADsn%C3%ADk_Oplatil_I_02.jpg",
-    "photoCredit": "Wikipedie / Oplatil I",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Oplatil_I"
-  },
-  {
-    "id": "osm-way-1286706866",
-    "slug": "plaz-steblova-2",
-    "name": "Pláž u Stéblová",
-    "type": "prirodni_koupaliste",
-    "lat": 50.104796,
-    "lng": 15.72746,
     "region": "Pardubický kraj",
     "district": "",
     "municipality": "Stéblová",
@@ -21419,33 +20348,6 @@
       "status": "omezeno",
       "reason": "soukromý pozemek / omezený vstup",
       "note": "Dle OpenStreetMap je vstup soukromý nebo omezený. Respektuj prosím zákaz vstupu.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písník Oplatil II je velká vodní plocha o rozloze cca 50 ha vzniklá po těžbě štěrkopísku ukončené v 90. letech 20. století. Písník se nalézá na katastru obce Stéblová v okrese Pardubice asi 2 km severozápadně od centra obce. Písník je v současné době využíván jako rybářský revír a záložní vodní zdroj pro Pardubické vodárny. V jeho těsné blízkosti se nalézají písníky Oplatil I a písník Hrádek.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg/3840px-P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg",
-    "photoCredit": "Wikipedie / Oplatil II",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Oplatil_II"
-  },
-  {
-    "id": "osm-way-1286938794",
-    "slug": "plaz-mala-ceperka-mala-ceperka",
-    "name": "Pláž u Malá Čeperka",
-    "type": "prirodni_koupaliste",
-    "lat": 50.109975,
-    "lng": 15.731134,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Malá Čeperka",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
     "updatedAt": "2026-06-26",
@@ -21607,93 +20509,6 @@
     ]
   },
   {
-    "id": "osm-way-1293287186",
-    "slug": "plaz-mala-ceperka-3",
-    "name": "Pláž u Malá Čeperka",
-    "type": "prirodni_koupaliste",
-    "lat": 50.111074,
-    "lng": 15.733871,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Malá Čeperka",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "omezeno",
-      "reason": "soukromý pozemek / omezený vstup",
-      "note": "Dle OpenStreetMap je vstup soukromý nebo omezený. Respektuj prosím zákaz vstupu.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písník Oplatil II je velká vodní plocha o rozloze cca 50 ha vzniklá po těžbě štěrkopísku ukončené v 90. letech 20. století. Písník se nalézá na katastru obce Stéblová v okrese Pardubice asi 2 km severozápadně od centra obce. Písník je v současné době využíván jako rybářský revír a záložní vodní zdroj pro Pardubické vodárny. V jeho těsné blízkosti se nalézají písníky Oplatil I a písník Hrádek.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg/3840px-P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg",
-    "photoCredit": "Wikipedie / Oplatil II",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Oplatil_II"
-  },
-  {
-    "id": "osm-way-1293507966",
-    "slug": "plaz-mala-ceperka-4",
-    "name": "Pláž u Malá Čeperka",
-    "type": "prirodni_koupaliste",
-    "lat": 50.112809,
-    "lng": 15.739176,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Malá Čeperka",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "omezeno",
-      "reason": "soukromý pozemek / omezený vstup",
-      "note": "Dle OpenStreetMap je vstup soukromý nebo omezený. Respektuj prosím zákaz vstupu.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písník Oplatil II je velká vodní plocha o rozloze cca 50 ha vzniklá po těžbě štěrkopísku ukončené v 90. letech 20. století. Písník se nalézá na katastru obce Stéblová v okrese Pardubice asi 2 km severozápadně od centra obce. Písník je v současné době využíván jako rybářský revír a záložní vodní zdroj pro Pardubické vodárny. V jeho těsné blízkosti se nalézají písníky Oplatil I a písník Hrádek.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg/3840px-P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg",
-    "photoCredit": "Wikipedie / Oplatil II",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Oplatil_II",
-    "amenities": [
-      "parkovani"
-    ]
-  },
-  {
-    "id": "osm-way-1293943283",
-    "slug": "plaz-mala-ceperka-5",
-    "name": "Pláž u Malá Čeperka",
-    "type": "prirodni_koupaliste",
-    "lat": 50.109261,
-    "lng": 15.740549,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Malá Čeperka",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "omezeno",
-      "reason": "soukromý pozemek / omezený vstup",
-      "note": "Dle OpenStreetMap je vstup soukromý nebo omezený. Respektuj prosím zákaz vstupu.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písník Oplatil II je velká vodní plocha o rozloze cca 50 ha vzniklá po těžbě štěrkopísku ukončené v 90. letech 20. století. Písník se nalézá na katastru obce Stéblová v okrese Pardubice asi 2 km severozápadně od centra obce. Písník je v současné době využíván jako rybářský revír a záložní vodní zdroj pro Pardubické vodárny. V jeho těsné blízkosti se nalézají písníky Oplatil I a písník Hrádek.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg/3840px-P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg",
-    "photoCredit": "Wikipedie / Oplatil II",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Oplatil_II"
-  },
-  {
     "id": "osm-way-1295834917",
     "slug": "plaz-radotin",
     "name": "Pláž u Radotín",
@@ -21723,86 +20538,6 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/H%C5%99bitov_Radot%C3%ADn_02.jpg/3840px-H%C5%99bitov_Radot%C3%ADn_02.jpg",
     "photoCredit": "Wikipedie / Radotínský hřbitov",
     "wikiUrl": "https://cs.wikipedia.org/wiki/Radot%C3%ADnsk%C3%BD_h%C5%99bitov"
-  },
-  {
-    "id": "osm-way-1302759671",
-    "slug": "plaz-karlovy-dvory-4",
-    "name": "Pláž u Karlovy Dvory",
-    "type": "prirodni_koupaliste",
-    "lat": 48.752031,
-    "lng": 14.029323,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Karlovy Dvory",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Pod Borkovou je přírodní rezervace poblíž města Horní Planá v okrese Český Krumlov. Důvodem ochrany jsou biotopy rašelinišť, slatinišť, nevápnitých mokřadů, periodicky zaplavovaných ploch a křovin a ochrana před škodlivými zásahy do přirozeného vývoje zvláště chráněných druhů rostlin a živočichů.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Pod_Borkovou",
-    "amenities": [
-      "obcerstveni",
-      "parkovani"
-    ]
-  },
-  {
-    "id": "osm-way-1302759672",
-    "slug": "plaz-pernek-pernek",
-    "name": "Pláž u Pernek",
-    "type": "prirodni_koupaliste",
-    "lat": 48.778827,
-    "lng": 13.978299,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Pernek",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "omezeno",
-      "reason": "soukromý pozemek / omezený vstup",
-      "note": "Dle OpenStreetMap je vstup soukromý nebo omezený. Respektuj prosím zákaz vstupu.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Hory jsou vesnice, část města Horní Planá v okrese Český Krumlov v Jihočeském kraji. Nachází se asi 4,5 kilometru severozápadně od Horní Plané. U vsi se nachází železniční stanice Pernek na Šumavě, a to na železniční trati České Budějovice – Černý Kříž. Hory leží v katastrálním území Pernek o výměře 11,25 km².",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Hory_%28Horn%C3%AD_Plan%C3%A1%29_01.jpg",
-    "photoCredit": "Wikipedie / Hory (Horní Planá)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Hory_(Horn%C3%AD_Plan%C3%A1)"
-  },
-  {
-    "id": "osm-way-1302759684",
-    "slug": "plaz-karlovy-dvory-5",
-    "name": "Pláž u Karlovy Dvory",
-    "type": "prirodni_koupaliste",
-    "lat": 48.742024,
-    "lng": 14.038134,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Karlovy Dvory",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
   },
   {
     "id": "osm-way-1302766623",
@@ -21855,39 +20590,6 @@
       "kemp",
       "stanek",
       "parkovani"
-    ],
-    "updatedAt": "2026-06-26",
-    "description": "Kristýna je jezero na severu České republiky, v Libereckém kraji, asi 1,5 km severozápadně od Hrádku nad Nisou a 1 km od trojstyku hranic České republiky, Německa a Polska. Jedná se o zatopený lignitový důl o rozloze cca 14 ha, největší hloubka je asi 28 m.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Krist%C3%BDna.JPG",
-    "photoCredit": "Wikipedie / Kristýna (jezero)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Krist%C3%BDna_(jezero)"
-  },
-  {
-    "id": "osm-way-1303467600",
-    "slug": "plaz-hradek-nad-nisou-3",
-    "name": "Pláž u Hrádek nad Nisou",
-    "type": "prirodni_koupaliste",
-    "lat": 50.859223,
-    "lng": 14.827061,
-    "region": "Liberecký kraj",
-    "district": "",
-    "municipality": "Hrádek nad Nisou",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "wc",
-      "kemp",
-      "stanek"
     ],
     "updatedAt": "2026-06-26",
     "description": "Kristýna je jezero na severu České republiky, v Libereckém kraji, asi 1,5 km severozápadně od Hrádku nad Nisou a 1 km od trojstyku hranic České republiky, Německa a Polska. Jedná se o zatopený lignitový důl o rozloze cca 14 ha, největší hloubka je asi 28 m.",
@@ -22201,40 +20903,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Bitva_u_Dr%C3%A1chova"
   },
   {
-    "id": "osm-way-1414895559",
-    "slug": "plaz-blizna-2",
-    "name": "Pláž u Bližná",
-    "type": "prirodni_koupaliste",
-    "lat": 48.739202,
-    "lng": 14.106495,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Bližná",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni",
-      "kemp",
-      "stanek",
-      "parkovani",
-      "wc"
-    ],
-    "updatedAt": "2026-06-26",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG/1280px-%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG",
-    "photoCredit": "Jacquesverlaeken (CC BY-SA 4.0) / Wikimedia Commons",
-    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG",
-    "photoUncertain": true
-  },
-  {
     "id": "osm-way-1422832316",
     "slug": "plaz-rozany",
     "name": "Pláž u Rožany",
@@ -22359,36 +21027,6 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/L%C3%A1vka_Emila_Pittera"
   },
   {
-    "id": "osm-way-1433375271",
-    "slug": "plaz-ceske-vrbne-ceske-vrbne",
-    "name": "Pláž u České Vrbné",
-    "type": "prirodni_koupaliste",
-    "lat": 48.999933,
-    "lng": 14.457573,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "České Vrbné",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Sídliště Vltava je druhé největší českobudějovické sídliště a druhé nejmladší z panelových sídlišť městské části Čtyři Dvory ve městě České Budějovice. Vystavěno bylo v sedmdesátých a osmdesátých letech 20. století. V roce 2011 mělo podle trvalého bydliště 10 224 obyvatel, podle obvyklého pobytu 9 943 obyvatel.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/%C4%8Cesk%C3%A9_Bud%C4%9Bjovice%2C_s%C3%ADdli%C5%A1t%C4%9B_Vltava.JPG",
-    "photoCredit": "Wikipedie / Sídliště Vltava",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/S%C3%ADdli%C5%A1t%C4%9B_Vltava",
-    "amenities": [
-      "parkovani"
-    ]
-  },
-  {
     "id": "osm-way-1434427125",
     "slug": "plaz-depoltovice",
     "name": "Pláž u Děpoltovice",
@@ -22418,60 +21056,6 @@
       "obcerstveni",
       "parkovani"
     ]
-  },
-  {
-    "id": "osm-way-1434492929",
-    "slug": "plaz-depoltovice-depoltovice",
-    "name": "Pláž u Děpoltovice",
-    "type": "prirodni_koupaliste",
-    "lat": 50.281395,
-    "lng": 12.8297,
-    "region": "Karlovarský kraj",
-    "district": "",
-    "municipality": "Děpoltovice",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Děpoltovice jsou zámek ve stejnojmenné vesnici v okrese Karlovy Vary. Tvoří ho areál poplužního dvora s tzv. starým a novým zámkem. Od roku 1964 je chráněn jako kulturní památka.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/D%C4%9Bpoltovice_2016-08-14_Nov%C3%BD_z%C3%A1mek_1.jpg/3840px-D%C4%9Bpoltovice_2016-08-14_Nov%C3%BD_z%C3%A1mek_1.jpg",
-    "photoCredit": "Wikipedie / Děpoltovice (zámek)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/D%C4%9Bpoltovice_(z%C3%A1mek)"
-  },
-  {
-    "id": "osm-way-1434677166",
-    "slug": "plaz-cep-cep",
-    "name": "Pláž u Cep",
-    "type": "prirodni_koupaliste",
-    "lat": 48.917689,
-    "lng": 14.887651,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "Cep",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Na Ivance je přírodní rezervace v úseku řeky Lužnice mezi Suchdolem nad Lužnicí a jezem Pilař, resp. Majdalenou, v okrese Jindřichův Hradec, severozápadně od vesnice Klikov. Oblast spravuje AOPK ČR Správa CHKO Třeboňsko. Důvodem ochrany je meandrující tok řeky Lužnice s rameny a s oblastí ústí řeky Dračice, lužní a smíšené porosty s borovicí. Rybníky Cep, Cep I. a Cep II. na západní straně od řeky nejsou součástí rezervace.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Luznice.jpg",
-    "photoCredit": "Wikipedie / Na Ivance",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Na_Ivance"
   },
   {
     "id": "osm-way-1435378275",
@@ -22710,34 +21294,6 @@
       "obcerstveni",
       "parkovani"
     ]
-  },
-  {
-    "id": "osm-relation-20191012",
-    "slug": "plaz-steblova-3",
-    "name": "Pláž u Stéblová",
-    "type": "prirodni_koupaliste",
-    "lat": 50.103571,
-    "lng": 15.73012,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Stéblová",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "omezeno",
-      "reason": "soukromý pozemek / omezený vstup",
-      "note": "Dle OpenStreetMap je vstup soukromý nebo omezený. Respektuj prosím zákaz vstupu.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Písník Oplatil II je velká vodní plocha o rozloze cca 50 ha vzniklá po těžbě štěrkopísku ukončené v 90. letech 20. století. Písník se nalézá na katastru obce Stéblová v okrese Pardubice asi 2 km severozápadně od centra obce. Písník je v současné době využíván jako rybářský revír a záložní vodní zdroj pro Pardubické vodárny. V jeho těsné blízkosti se nalézají písníky Oplatil I a písník Hrádek.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg/3840px-P%C3%ADsn%C3%ADk_Oplatil_II_07.jpg",
-    "photoCredit": "Wikipedie / Oplatil II",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Oplatil_II"
   },
   {
     "id": "osm-way-1338805837",
@@ -25813,36 +24369,6 @@
     "operator": "Šídlovský rybník"
   },
   {
-    "id": "osm-way-144986474",
-    "slug": "sifr",
-    "name": "Šífr",
-    "type": "lom",
-    "lat": 49.943866,
-    "lng": 17.659366,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "description": "Svobodné Heřmanice jsou dopravna D3, která se nachází u zatopeného lomu Šífr západně od zástavby obce Svobodné Heřmanice v okrese Bruntál. Dopravna leží v km 25,052 jednokolejné Opava východ – Svobodné Heřmanice. Jedná se o koncovou dopravnu této trati, která v minulosti pokračovala dále do Horního Benešova.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%C5%BDelezni%C4%8Dn%C3%AD_stanice_Svobodn%C3%A9_He%C5%99manice_%28z%C3%A1%C5%99%C3%AD_2022%29.jpg/3840px-%C5%BDelezni%C4%8Dn%C3%AD_stanice_Svobodn%C3%A9_He%C5%99manice_%28z%C3%A1%C5%99%C3%AD_2022%29.jpg",
-    "photoCredit": "Wikipedie / Svobodné Heřmanice (nádraží)",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Svobodn%C3%A9_He%C5%99manice_(n%C3%A1dra%C5%BE%C3%AD)",
-    "amenities": [
-      "parkovani"
-    ]
-  },
-  {
     "id": "osm-way-50969688",
     "slug": "smejkal",
     "name": "Šmejkal",
@@ -28592,30 +27118,6 @@
     "operator": "VN Rozkoš – u autokepinku"
   },
   {
-    "id": "osm-node-963990439",
-    "slug": "bazen-sec",
-    "name": "Bazén Seč",
-    "type": "bazen",
-    "lat": 49.82377,
-    "lng": 15.643118,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "Seč",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "operator": "VN Seč – Hoješín"
-  },
-  {
     "id": "osm-node-963990598",
     "slug": "bazen-sec-sec",
     "name": "Bazén Seč",
@@ -28972,30 +27474,6 @@
     "operator": "VN Těrlicko – Pacalůvka"
   },
   {
-    "id": "osm-node-963990530",
-    "slug": "bazen-terlicko",
-    "name": "Bazén Těrlicko",
-    "type": "bazen",
-    "lat": 49.753336,
-    "lng": 18.498246,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "Těrlicko",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "operator": "VN Těrlicko – Pod motelem"
-  },
-  {
     "id": "osm-node-963990608",
     "slug": "bazen-terlicko-terlicko",
     "name": "Bazén Těrlicko",
@@ -29120,81 +27598,6 @@
     },
     "updatedAt": "2026-06-26",
     "operator": "VN Výrovice"
-  },
-  {
-    "id": "osm-node-963990587",
-    "slug": "bazen-lucina-9",
-    "name": "Bazén Lučina",
-    "type": "bazen",
-    "lat": 49.717792,
-    "lng": 18.470908,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "Lučina",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "operator": "VN Žermanice – Dolní Domaslavice"
-  },
-  {
-    "id": "osm-node-963990665",
-    "slug": "bazen-lucina-10",
-    "name": "Bazén Lučina",
-    "type": "bazen",
-    "lat": 49.720424,
-    "lng": 18.457325,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "Lučina",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26",
-    "operator": "VN Žermanice – Lučina"
-  },
-  {
-    "id": "osm-node-963990919",
-    "slug": "bazen-lucina-11",
-    "name": "Bazén Lučina",
-    "type": "bazen",
-    "lat": 49.727796,
-    "lng": 18.454026,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "Lučina",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
-      "source": "OpenStreetMap"
-    },
-    "amenities": [
-      "obcerstveni"
-    ],
-    "updatedAt": "2026-06-26",
-    "operator": "VN Žermanice – Soběšovice"
   },
   {
     "id": "osm-way-59985133",

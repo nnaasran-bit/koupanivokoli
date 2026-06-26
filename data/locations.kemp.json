@@ -227,58 +227,12 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-233081072",
-    "slug": "antygl",
-    "name": "Antýgl",
-    "type": "kemp",
-    "lat": 49.057461,
-    "lng": 13.511515,
-    "region": "Plzeňský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-233081075",
-    "slug": "antygl",
+    "slug": "antygl-2",
     "name": "Antýgl",
     "type": "kemp",
     "lat": 49.058296,
     "lng": 13.511205,
-    "region": "Plzeňský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "website": "http://www.sumava.net/antygl/",
-    "phone": "+420 376 599 331",
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-518547823",
-    "slug": "antygl",
-    "name": "Antýgl",
-    "type": "kemp",
-    "lat": 49.05803,
-    "lng": 13.512923,
     "region": "Plzeňský kraj",
     "district": "",
     "municipality": "",
@@ -738,28 +692,6 @@
     "type": "kemp",
     "lat": 49.968989,
     "lng": 14.075542,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-203647376",
-    "slug": "autocamp-na-hrazi",
-    "name": "Autocamp Na Hrázi",
-    "type": "kemp",
-    "lat": 49.969783,
-    "lng": 14.074539,
     "region": "Středočeský kraj",
     "district": "",
     "municipality": "",
@@ -1678,30 +1610,8 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-2370878933",
-    "slug": "autokemp-bunkov",
-    "name": "Autokemp Buňkov",
-    "type": "kemp",
-    "lat": 50.054507,
-    "lng": 15.587194,
-    "region": "Pardubický kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-224682928",
-    "slug": "autokemp-bunkov",
+    "slug": "autokemp-bunkov-2",
     "name": "Autokemp Buňkov",
     "type": "kemp",
     "lat": 50.054296,
@@ -2006,28 +1916,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-656657914",
-    "slug": "autokemp-klucek",
-    "name": "Autokemp Klůček",
-    "type": "kemp",
-    "lat": 50.574638,
-    "lng": 14.661291,
-    "region": "Liberecký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-node-411250816",
     "slug": "autokemp-kokorin",
     "name": "Autokemp Kokořín",
@@ -2075,7 +1963,7 @@
   },
   {
     "id": "osm-node-2443593828",
-    "slug": "autokemp-komornik",
+    "slug": "autokemp-komornik-2",
     "name": "Autokemp Komorník",
     "type": "kemp",
     "lat": 49.149004,
@@ -2260,7 +2148,7 @@
   },
   {
     "id": "osm-way-77771185",
-    "slug": "autokemp-merkur-pasohlavky",
+    "slug": "autokemp-merkur-pasohlavky-2",
     "name": "Autokemp Merkur Pasohlávky",
     "type": "kemp",
     "lat": 48.898524,
@@ -3554,30 +3442,8 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-176204959",
-    "slug": "autokempink-straznice",
-    "name": "Autokempink Strážnice",
-    "type": "kemp",
-    "lat": 48.908172,
-    "lng": 17.311149,
-    "region": "Jihomoravský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-176206041",
-    "slug": "autokempink-straznice",
+    "slug": "autokempink-straznice-2",
     "name": "Autokempink Strážnice",
     "type": "kemp",
     "lat": 48.909543,
@@ -3828,28 +3694,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-2629824158",
-    "slug": "bezdrev",
-    "name": "Bezdrev",
-    "type": "kemp",
-    "lat": 49.032735,
-    "lng": 14.401827,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-node-13094986701",
     "slug": "bezkempu",
     "name": "bezKempu",
@@ -3874,7 +3718,7 @@
   },
   {
     "id": "osm-node-13964502960",
-    "slug": "bezkempu",
+    "slug": "bezkempu-2",
     "name": "bezKempu",
     "type": "kemp",
     "lat": 49.07581,
@@ -3897,7 +3741,7 @@
   },
   {
     "id": "osm-node-13836598390",
-    "slug": "bezkempu",
+    "slug": "bezkempu-3",
     "name": "BezKempu",
     "type": "kemp",
     "lat": 50.088676,
@@ -4209,7 +4053,7 @@
   },
   {
     "id": "osm-way-1070506189",
-    "slug": "broumar",
+    "slug": "broumar-3",
     "name": "Broumar",
     "type": "kemp",
     "lat": 50.269785,
@@ -4366,30 +4210,8 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-2378319088",
-    "slug": "camp-borny",
-    "name": "Camp Borný",
-    "type": "kemp",
-    "lat": 50.591669,
-    "lng": 14.652737,
-    "region": "Liberecký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-229864708",
-    "slug": "camp-borny",
+    "slug": "camp-borny-2",
     "name": "Camp Borný",
     "type": "kemp",
     "lat": 50.590493,
@@ -4710,30 +4532,6 @@
     },
     "website": "https://www.landekpark.cz/cs/ubytovani/a-30/",
     "phone": "+420 702 206 683;+420724539719",
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-370383675",
-    "slug": "camp-landek-park",
-    "name": "Camp Landek Park",
-    "type": "kemp",
-    "lat": 49.866565,
-    "lng": 18.263008,
-    "region": "Moravskoslezský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "website": "https://www.landekpark.cz/cs/ubytovani/a-30/",
-    "phone": "+420 724 539 719",
     "updatedAt": "2026-06-26"
   },
   {
@@ -6476,30 +6274,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-146486775",
-    "slug": "cyklocamp",
-    "name": "Cyklocamp",
-    "type": "kemp",
-    "lat": 49.013534,
-    "lng": 15.252617,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "website": "https://cyklocamp.cz/",
-    "phone": "+420739667575",
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-173030813",
     "slug": "cyklokemp-cerny-potok",
     "name": "Cyklokemp Černý Potok",
@@ -6728,7 +6502,7 @@
   },
   {
     "id": "osm-node-2645549303",
-    "slug": "dalava",
+    "slug": "dalava-2",
     "name": "Dálava",
     "type": "kemp",
     "lat": 49.772097,
@@ -6839,7 +6613,7 @@
   },
   {
     "id": "osm-node-4731986628",
-    "slug": "detsky-tabor",
+    "slug": "detsky-tabor-2",
     "name": "Dětský tábor",
     "type": "kemp",
     "lat": 49.02655,
@@ -6861,7 +6635,7 @@
   },
   {
     "id": "osm-node-5158323796",
-    "slug": "detsky-tabor",
+    "slug": "detsky-tabor-3",
     "name": "Dětský tábor",
     "type": "kemp",
     "lat": 48.801975,
@@ -6883,7 +6657,7 @@
   },
   {
     "id": "osm-node-5796738953",
-    "slug": "detsky-tabor",
+    "slug": "detsky-tabor-4",
     "name": "Dětský tábor",
     "type": "kemp",
     "lat": 49.080514,
@@ -6905,7 +6679,7 @@
   },
   {
     "id": "osm-way-314065449",
-    "slug": "detsky-tabor",
+    "slug": "detsky-tabor-5",
     "name": "Dětský tábor",
     "type": "kemp",
     "lat": 50.046083,
@@ -6927,7 +6701,7 @@
   },
   {
     "id": "osm-way-351822334",
-    "slug": "detsky-tabor",
+    "slug": "detsky-tabor-6",
     "name": "Dětský tábor",
     "type": "kemp",
     "lat": 50.057921,
@@ -6949,7 +6723,7 @@
   },
   {
     "id": "osm-way-715789764",
-    "slug": "detsky-tabor",
+    "slug": "detsky-tabor-7",
     "name": "Dětský tábor",
     "type": "kemp",
     "lat": 49.679751,
@@ -7267,7 +7041,7 @@
   },
   {
     "id": "osm-way-365359592",
-    "slug": "dzban",
+    "slug": "dzban-praha-6",
     "name": "Džbán",
     "type": "kemp",
     "lat": 50.099026,
@@ -8262,7 +8036,7 @@
   },
   {
     "id": "osm-way-364800543",
-    "slug": "jadran",
+    "slug": "jadran-2",
     "name": "Jadran",
     "type": "kemp",
     "lat": 50.696515,
@@ -8449,7 +8223,7 @@
   },
   {
     "id": "osm-node-1279234179",
-    "slug": "jordan",
+    "slug": "jordan-2",
     "name": "Jordán",
     "type": "kemp",
     "lat": 50.542521,
@@ -8541,7 +8315,7 @@
   },
   {
     "id": "osm-node-440232889",
-    "slug": "kamencove-jezero",
+    "slug": "kamencove-jezero-3",
     "name": "Kamencové jezero",
     "type": "kemp",
     "lat": 50.469485,
@@ -8788,7 +8562,7 @@
   },
   {
     "id": "osm-node-6519107985",
-    "slug": "kemp",
+    "slug": "kemp-2",
     "name": "Kemp",
     "type": "kemp",
     "lat": 50.086183,
@@ -9359,28 +9133,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-2378336859",
-    "slug": "kemp-horka-ii",
-    "name": "Kemp Horka II",
-    "type": "kemp",
-    "lat": 49.73821,
-    "lng": 15.130346,
-    "region": "Středočeský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-node-1781910500",
     "slug": "kemp-horni-becva",
     "name": "Kemp Horni Becva",
@@ -9726,30 +9478,8 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-2327717922",
-    "slug": "kemp-kyselka",
-    "name": "Kemp Kyselka",
-    "type": "kemp",
-    "lat": 50.539891,
-    "lng": 13.760758,
-    "region": "Ústecký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-node-2327717927",
-    "slug": "kemp-kyselka",
+    "slug": "kemp-kyselka-2",
     "name": "Kemp Kyselka",
     "type": "kemp",
     "lat": 50.539901,
@@ -10374,7 +10104,7 @@
   },
   {
     "id": "osm-way-89688025",
-    "slug": "kemp-pod-hrazi",
+    "slug": "kemp-pod-hrazi-vyssi-brod",
     "name": "Kemp Pod Hrází",
     "type": "kemp",
     "lat": 48.624377,
@@ -10743,28 +10473,6 @@
     "type": "kemp",
     "lat": 49.079728,
     "lng": 17.316602,
-    "region": "Zlínský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-node-5796739153",
-    "slug": "kemp-smradavka",
-    "name": "Kemp Smraďavka",
-    "type": "kemp",
-    "lat": 49.079412,
-    "lng": 17.317102,
     "region": "Zlínský kraj",
     "district": "",
     "municipality": "",
@@ -11715,28 +11423,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-2374537121",
-    "slug": "kemp-zvule",
-    "name": "Kemp Zvůle",
-    "type": "kemp",
-    "lat": 49.095719,
-    "lng": 15.238413,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-node-5777067262",
     "slug": "kemp-zebrakov",
     "name": "kemp Žebrakov",
@@ -11811,50 +11497,6 @@
     "type": "kemp",
     "lat": 50.430139,
     "lng": 14.261268,
-    "region": "Ústecký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-1087183519",
-    "slug": "kk-roudnice-nad-labem",
-    "name": "KK Roudnice nad Labem",
-    "type": "kemp",
-    "lat": 50.430668,
-    "lng": 14.260972,
-    "region": "Ústecký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-1087183521",
-    "slug": "kk-roudnice-nad-labem",
-    "name": "KK Roudnice nad Labem",
-    "type": "kemp",
-    "lat": 50.430657,
-    "lng": 14.259542,
     "region": "Ústecký kraj",
     "district": "",
     "municipality": "",
@@ -12297,7 +11939,7 @@
   },
   {
     "id": "osm-node-385718364",
-    "slug": "kristyna",
+    "slug": "kristyna-2",
     "name": "Kristýna",
     "type": "kemp",
     "lat": 50.863757,
@@ -12343,7 +11985,7 @@
   },
   {
     "id": "osm-node-806797193",
-    "slug": "kristanovicky-rybnik",
+    "slug": "kristanovicky-rybnik-2",
     "name": "Křišťanovický rybník",
     "type": "kemp",
     "lat": 48.968381,
@@ -12728,7 +12370,7 @@
   },
   {
     "id": "osm-node-2245000299",
-    "slug": "letni-tabor",
+    "slug": "letni-tabor-2",
     "name": "Letní tábor",
     "type": "kemp",
     "lat": 49.860767,
@@ -13310,30 +12952,8 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-3694108513",
-    "slug": "marina-labe",
-    "name": "Marina Labe",
-    "type": "kemp",
-    "lat": 50.519404,
-    "lng": 14.067118,
-    "region": "Ústecký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-719277224",
-    "slug": "marina-labe",
+    "slug": "marina-labe-2",
     "name": "Marina Labe",
     "type": "kemp",
     "lat": 50.51947,
@@ -13967,7 +13587,7 @@
   },
   {
     "id": "osm-node-11246889016",
-    "slug": "nahoda",
+    "slug": "nahoda-2",
     "name": "Náhoda",
     "type": "kemp",
     "lat": 50.595313,
@@ -14099,7 +13719,7 @@
   },
   {
     "id": "osm-node-4472738196",
-    "slug": "nouzove-nocoviste",
+    "slug": "nouzove-nocoviste-2",
     "name": "nouzové nocoviště",
     "type": "kemp",
     "lat": 48.786476,
@@ -14212,7 +13832,7 @@
   },
   {
     "id": "osm-node-2378241964",
-    "slug": "novy-rybnik",
+    "slug": "novy-rybnik-4",
     "name": "Nový Rybník",
     "type": "kemp",
     "lat": 49.485656,
@@ -14280,7 +13900,7 @@
   },
   {
     "id": "osm-relation-8315787",
-    "slug": "obora",
+    "slug": "obora-2",
     "name": "Obora",
     "type": "kemp",
     "lat": 49.256803,
@@ -14437,7 +14057,7 @@
   },
   {
     "id": "osm-node-4381825706",
-    "slug": "ostende",
+    "slug": "ostende-2",
     "name": "Ostende",
     "type": "kemp",
     "lat": 49.870002,
@@ -14459,7 +14079,7 @@
   },
   {
     "id": "osm-way-337429514",
-    "slug": "ostende",
+    "slug": "ostende-plzen",
     "name": "Ostende",
     "type": "kemp",
     "lat": 49.77762,
@@ -15131,7 +14751,7 @@
   },
   {
     "id": "osm-node-1278741778",
-    "slug": "pod-mostem",
+    "slug": "pod-mostem-2",
     "name": "Pod Mostem",
     "type": "kemp",
     "lat": 49.958827,
@@ -15452,28 +15072,6 @@
     "type": "kemp",
     "lat": 50.584953,
     "lng": 14.661596,
-    "region": "Liberecký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-229943338",
-    "slug": "preciosa",
-    "name": "Preciosa",
-    "type": "kemp",
-    "lat": 50.583861,
-    "lng": 14.662907,
     "region": "Liberecký kraj",
     "district": "",
     "municipality": "",
@@ -17125,7 +16723,7 @@
   },
   {
     "id": "osm-way-701146836",
-    "slug": "skautske-taboriste",
+    "slug": "skautske-taboriste-2",
     "name": "skautské tábořiště",
     "type": "kemp",
     "lat": 49.377906,
@@ -17170,7 +16768,7 @@
   },
   {
     "id": "osm-node-11040423791",
-    "slug": "skautsky-tabor",
+    "slug": "skautsky-tabor-2",
     "name": "skautský tábor",
     "type": "kemp",
     "lat": 49.478596,
@@ -17192,7 +16790,7 @@
   },
   {
     "id": "osm-node-13390035701",
-    "slug": "skautsky-tabor",
+    "slug": "skautsky-tabor-3",
     "name": "Skautský tábor",
     "type": "kemp",
     "lat": 49.894742,
@@ -17824,29 +17422,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-1258874615",
-    "slug": "stellplatz-hipodrom-holoubek",
-    "name": "Stellplatz Hipodrom Holoubek",
-    "type": "kemp",
-    "lat": 50.226257,
-    "lng": 12.837085,
-    "region": "Karlovarský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "website": "https://stellplatzholoubek.cz/",
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-1529933496",
     "slug": "stellplatz-nemcovice",
     "name": "Stellplatz Němčovice",
@@ -18169,7 +17744,7 @@
   },
   {
     "id": "osm-node-11691928439",
-    "slug": "swamp",
+    "slug": "swamp-2",
     "name": "Swamp",
     "type": "kemp",
     "lat": 49.830672,
@@ -18213,7 +17788,7 @@
   },
   {
     "id": "osm-node-436390868",
-    "slug": "sycherak",
+    "slug": "sycherak-2",
     "name": "Sycherák",
     "type": "kemp",
     "lat": 49.630893,
@@ -18323,7 +17898,7 @@
   },
   {
     "id": "osm-way-433420928",
-    "slug": "tabor",
+    "slug": "tabor-2",
     "name": "Tábor",
     "type": "kemp",
     "lat": 50.535466,
@@ -18666,7 +18241,7 @@
   },
   {
     "id": "osm-way-179065849",
-    "slug": "taboriste",
+    "slug": "taboriste-2",
     "name": "tábořiště",
     "type": "kemp",
     "lat": 50.410901,
@@ -18688,7 +18263,7 @@
   },
   {
     "id": "osm-node-3678492074",
-    "slug": "taboriste",
+    "slug": "taboriste-zdice",
     "name": "Tábořiště",
     "type": "kemp",
     "lat": 50.005127,
@@ -18850,7 +18425,7 @@
   },
   {
     "id": "osm-relation-19571278",
-    "slug": "taboriste-hamr",
+    "slug": "taboriste-hamr-2",
     "name": "Tábořiště Hamr",
     "type": "kemp",
     "lat": 48.870373,
@@ -19308,28 +18883,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-360077088",
-    "slug": "taboriste-soukenik",
-    "name": "Tábořiště Soukeník",
-    "type": "kemp",
-    "lat": 49.373298,
-    "lng": 14.683003,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-relation-4684465",
     "slug": "taboriste-soumarsky-most",
     "name": "Tábořiště Soumarský Most",
@@ -19760,30 +19313,8 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-506167280",
-    "slug": "tj-vltava",
-    "name": "TJ Vltava",
-    "type": "kemp",
-    "lat": 48.955162,
-    "lng": 13.753044,
-    "region": "Jihočeský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-87822025",
-    "slug": "tj-vltava",
+    "slug": "tj-vltava-2",
     "name": "TJ Vltava",
     "type": "kemp",
     "lat": 48.955609,
@@ -19980,31 +19511,6 @@
       "source": "OpenStreetMap"
     },
     "website": "https://www.triocamp.cz/",
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-node-2916999630",
-    "slug": "triocamp",
-    "name": "TRIOCAMP",
-    "type": "kemp",
-    "lat": 50.152279,
-    "lng": 14.450019,
-    "region": "Hlavní město Praha",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "website": "https://www.triocamp.com",
-    "phone": "+420 283 850 793",
-    "operator": "TRIOCAMP, s.r.o.",
     "updatedAt": "2026-06-26"
   },
   {
@@ -20416,7 +19922,7 @@
   },
   {
     "id": "osm-node-12997209279",
-    "slug": "kaplicky",
+    "slug": "kaplicky-2",
     "name": "U Kapličky",
     "type": "kemp",
     "lat": 49.144174,
@@ -21070,28 +20576,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-8486506176",
-    "slug": "ubytovani",
-    "name": "ubytování",
-    "type": "kemp",
-    "lat": 49.214105,
-    "lng": 13.6233,
-    "region": "Plzeňský kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-1088164914",
     "slug": "ubytovani-drstekryje",
     "name": "Ubytování Drštěkryje",
@@ -21386,7 +20870,7 @@
   },
   {
     "id": "osm-node-4990198056",
-    "slug": "valcha",
+    "slug": "valcha-2",
     "name": "Valcha",
     "type": "kemp",
     "lat": 49.640189,
@@ -21608,28 +21092,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-1298191642",
-    "slug": "vila-haj",
-    "name": "Vila Háj",
-    "type": "kemp",
-    "lat": 49.802892,
-    "lng": 16.939201,
-    "region": "Olomoucký kraj",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "povoleno",
-      "source": "OpenStreetMap"
-    },
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-node-2408614238",
     "slug": "villa-bohemia",
     "name": "Villa Bohemia",
@@ -21745,7 +21207,7 @@
   },
   {
     "id": "osm-way-250764121",
-    "slug": "vodacke-taboriste",
+    "slug": "vodacke-taboriste-2",
     "name": "Vodácké tábořiště",
     "type": "kemp",
     "lat": 49.790268,
@@ -21767,7 +21229,7 @@
   },
   {
     "id": "osm-way-250764663",
-    "slug": "vodacke-taboriste",
+    "slug": "vodacke-taboriste-3",
     "name": "Vodácké tábořiště",
     "type": "kemp",
     "lat": 49.83217,
@@ -21789,7 +21251,7 @@
   },
   {
     "id": "osm-way-598791278",
-    "slug": "vodacke-taboriste",
+    "slug": "vodacke-taboriste-4",
     "name": "Vodácké tábořiště",
     "type": "kemp",
     "lat": 50.150735,
@@ -22156,7 +21618,7 @@
   },
   {
     "id": "osm-way-87828429",
-    "slug": "zahradky",
+    "slug": "zahradky-2",
     "name": "Zahrádky",
     "type": "kemp",
     "lat": 48.972205,

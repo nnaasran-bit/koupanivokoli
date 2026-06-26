@@ -337,7 +337,7 @@
   },
   {
     "id": "osm-node-3282995301",
-    "slug": "aquapark",
+    "slug": "aquapark-2",
     "name": "Aquapark",
     "type": "bazen",
     "lat": 50.900591,
@@ -630,30 +630,6 @@
     "type": "bazen",
     "lat": 50.449385,
     "lng": 11.643558,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "Bad Lobenstein",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-26737918",
-    "slug": "ardesia-therme",
-    "name": "ARDESIA-Therme",
-    "type": "bazen",
-    "lat": 50.449345,
-    "lng": 11.643458,
     "region": "Příhraničí (mimo ČR)",
     "district": "",
     "municipality": "Bad Lobenstein",
@@ -1201,35 +1177,11 @@
   },
   {
     "id": "osm-node-2451823219",
-    "slug": "badestelle",
+    "slug": "badestelle-2",
     "name": "Badestelle",
     "type": "bazen",
     "lat": 51.14527,
     "lng": 13.717666,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-node-4813775973",
-    "slug": "badestelle",
-    "name": "Badestelle",
-    "type": "bazen",
-    "lat": 51.194542,
-    "lng": 13.641201,
     "region": "Příhraničí (mimo ČR)",
     "district": "",
     "municipality": "",
@@ -1417,7 +1369,7 @@
   },
   {
     "id": "osm-way-138971444",
-    "slug": "badeteich",
+    "slug": "badeteich-2",
     "name": "Badeteich",
     "type": "bazen",
     "lat": 48.532091,
@@ -1561,7 +1513,7 @@
   },
   {
     "id": "osm-way-40329809",
-    "slug": "badeweiher",
+    "slug": "badeweiher-2",
     "name": "Badeweiher",
     "type": "bazen",
     "lat": 50.219507,
@@ -1609,35 +1561,11 @@
   },
   {
     "id": "osm-way-1064256085",
-    "slug": "basen",
+    "slug": "basen-2",
     "name": "Basen",
     "type": "bazen",
     "lat": 50.430327,
     "lng": 18.119328,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-1064256086",
-    "slug": "basen",
-    "name": "Basen",
-    "type": "bazen",
-    "lat": 50.430059,
-    "lng": 18.119734,
     "region": "Příhraničí (mimo ČR)",
     "district": "",
     "municipality": "",
@@ -1873,7 +1801,7 @@
   },
   {
     "id": "osm-way-250096498",
-    "slug": "basen-miejski",
+    "slug": "basen-miejski-2",
     "name": "Basen Miejski",
     "type": "bazen",
     "lat": 50.625291,
@@ -1897,7 +1825,7 @@
   },
   {
     "id": "osm-way-343453651",
-    "slug": "basen-miejski",
+    "slug": "basen-miejski-pieszyce",
     "name": "Basen Miejski",
     "type": "bazen",
     "lat": 50.705328,
@@ -1953,30 +1881,6 @@
     "region": "Příhraničí (mimo ČR)",
     "district": "",
     "municipality": "Nowa Ruda",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-54288298",
-    "slug": "basen-miejski-odkryty",
-    "name": "Basen miejski odkryty",
-    "type": "bazen",
-    "lat": 50.580909,
-    "lng": 16.49377,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
     "monitored": false,
     "quality": {
       "class": "nesledovano",
@@ -2473,7 +2377,7 @@
   },
   {
     "id": "osm-node-5894866608",
-    "slug": "delfinek",
+    "slug": "delfinek-2",
     "name": "Delfinek",
     "type": "bazen",
     "lat": 50.685245,
@@ -2569,7 +2473,7 @@
   },
   {
     "id": "osm-way-1378564206",
-    "slug": "donaustrand-winterhafen",
+    "slug": "donaustrand-winterhafen-2",
     "name": "Donaustrand Winterhafen",
     "type": "prirodni_koupaliste",
     "lat": 48.319842,
@@ -2982,30 +2886,6 @@
     "type": "bazen",
     "lat": 51.095514,
     "lng": 14.514301,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "Cunewalde",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-1354652294",
-    "slug": "erlebnisbad-cunewalde",
-    "name": "Erlebnisbad Cunewalde",
-    "type": "bazen",
-    "lat": 51.095643,
-    "lng": 14.514742,
     "region": "Příhraničí (mimo ČR)",
     "district": "",
     "municipality": "Cunewalde",
@@ -3577,7 +3457,7 @@
   },
   {
     "id": "osm-way-352386902",
-    "slug": "fkk",
+    "slug": "fkk-2",
     "name": "FKK",
     "type": "prirodni_koupaliste",
     "lat": 50.974901,
@@ -3601,7 +3481,7 @@
   },
   {
     "id": "osm-way-682915798",
-    "slug": "fkk",
+    "slug": "fkk-3",
     "name": "FKK",
     "type": "prirodni_koupaliste",
     "lat": 50.888096,
@@ -3625,7 +3505,7 @@
   },
   {
     "id": "osm-way-1119576420",
-    "slug": "fkk",
+    "slug": "fkk-4",
     "name": "FKK",
     "type": "prirodni_koupaliste",
     "lat": 50.572619,
@@ -4057,7 +3937,7 @@
   },
   {
     "id": "osm-node-582480109",
-    "slug": "freibad",
+    "slug": "freibad-2",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.570879,
@@ -4081,7 +3961,7 @@
   },
   {
     "id": "osm-node-1449918066",
-    "slug": "freibad",
+    "slug": "freibad-3",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.669601,
@@ -4105,7 +3985,7 @@
   },
   {
     "id": "osm-node-2052455328",
-    "slug": "freibad",
+    "slug": "freibad-4",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.452531,
@@ -4129,7 +4009,7 @@
   },
   {
     "id": "osm-way-15490740",
-    "slug": "freibad",
+    "slug": "freibad-5",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.147399,
@@ -4153,7 +4033,7 @@
   },
   {
     "id": "osm-way-34380855",
-    "slug": "freibad",
+    "slug": "freibad-6",
     "name": "Freibad",
     "type": "bazen",
     "lat": 51.018132,
@@ -4177,7 +4057,7 @@
   },
   {
     "id": "osm-way-40027347",
-    "slug": "freibad",
+    "slug": "freibad-7",
     "name": "Freibad",
     "type": "bazen",
     "lat": 50.129896,
@@ -4201,7 +4081,7 @@
   },
   {
     "id": "osm-way-55950150",
-    "slug": "freibad",
+    "slug": "freibad-8",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.386076,
@@ -4225,7 +4105,7 @@
   },
   {
     "id": "osm-way-73813054",
-    "slug": "freibad",
+    "slug": "freibad-9",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.733308,
@@ -4249,7 +4129,7 @@
   },
   {
     "id": "osm-way-140405751",
-    "slug": "freibad",
+    "slug": "freibad-hellmonsodt",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.431362,
@@ -4273,7 +4153,7 @@
   },
   {
     "id": "osm-way-194902654",
-    "slug": "freibad",
+    "slug": "freibad-10",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.278494,
@@ -4297,7 +4177,7 @@
   },
   {
     "id": "osm-way-194903936",
-    "slug": "freibad",
+    "slug": "freibad-11",
     "name": "Freibad",
     "type": "bazen",
     "lat": 48.607776,
@@ -4321,7 +4201,7 @@
   },
   {
     "id": "osm-way-227342235",
-    "slug": "freibad",
+    "slug": "freibad-12",
     "name": "Freibad",
     "type": "bazen",
     "lat": 50.433213,
@@ -4345,7 +4225,7 @@
   },
   {
     "id": "osm-way-232551100",
-    "slug": "freibad",
+    "slug": "freibad-13",
     "name": "Freibad",
     "type": "bazen",
     "lat": 49.351528,
@@ -4369,7 +4249,7 @@
   },
   {
     "id": "osm-way-719020809",
-    "slug": "freibad",
+    "slug": "freibad-14",
     "name": "Freibad",
     "type": "bazen",
     "lat": 50.363686,
@@ -5665,7 +5545,7 @@
   },
   {
     "id": "osm-way-368830135",
-    "slug": "freibad-hofkirchen",
+    "slug": "freibad-hofkirchen-2",
     "name": "Freibad Hofkirchen",
     "type": "bazen",
     "lat": 48.679814,
@@ -7968,30 +7848,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-167095483",
-    "slug": "freibad-vilshofen",
-    "name": "Freibad Vilshofen",
-    "type": "bazen",
-    "lat": 48.626025,
-    "lng": 13.176622,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-96569176",
     "slug": "freibad-vorderwei-enbach",
     "name": "Freibad Vorderweißenbach",
@@ -8401,7 +8257,7 @@
   },
   {
     "id": "osm-way-126388702",
-    "slug": "freibecken",
+    "slug": "freibecken-2",
     "name": "Freibecken",
     "type": "bazen",
     "lat": 48.506207,
@@ -8425,7 +8281,7 @@
   },
   {
     "id": "osm-way-181419498",
-    "slug": "freibecken",
+    "slug": "freibecken-3",
     "name": "Freibecken",
     "type": "bazen",
     "lat": 48.278703,
@@ -8622,30 +8478,6 @@
     "type": "bazen",
     "lat": 48.559418,
     "lng": 14.489622,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-82080567",
-    "slug": "freizeitanlage-rainbach-i-m",
-    "name": "Freizeitanlage Rainbach i.M",
-    "type": "bazen",
-    "lat": 48.559763,
-    "lng": 14.489217,
     "region": "Příhraničí (mimo ČR)",
     "district": "",
     "municipality": "",
@@ -9097,7 +8929,7 @@
   },
   {
     "id": "osm-way-360300886",
-    "slug": "gmunder-strandbad",
+    "slug": "gmunder-strandbad-2",
     "name": "Gmünder Strandbad",
     "type": "prirodni_koupaliste",
     "lat": 48.812974,
@@ -9289,7 +9121,7 @@
   },
   {
     "id": "osm-way-30111765",
-    "slug": "hallenbad",
+    "slug": "hallenbad-traun",
     "name": "Hallenbad",
     "type": "bazen",
     "lat": 48.214836,
@@ -9313,7 +9145,7 @@
   },
   {
     "id": "osm-way-232805837",
-    "slug": "hallenbad",
+    "slug": "hallenbad-2",
     "name": "Hallenbad",
     "type": "bazen",
     "lat": 49.3488,
@@ -9337,7 +9169,7 @@
   },
   {
     "id": "osm-way-330331203",
-    "slug": "hallenbad",
+    "slug": "hallenbad-3",
     "name": "Hallenbad",
     "type": "bazen",
     "lat": 48.704515,
@@ -9361,7 +9193,7 @@
   },
   {
     "id": "osm-way-1098451824",
-    "slug": "hallenbad",
+    "slug": "hallenbad-passau",
     "name": "Hallenbad",
     "type": "bazen",
     "lat": 48.55926,
@@ -9793,7 +9625,7 @@
   },
   {
     "id": "osm-node-5518332519",
-    "slug": "hundestrand",
+    "slug": "hundestrand-2",
     "name": "Hundestrand",
     "type": "prirodni_koupaliste",
     "lat": 50.544576,
@@ -9817,7 +9649,7 @@
   },
   {
     "id": "osm-node-5518332520",
-    "slug": "hundestrand",
+    "slug": "hundestrand-3",
     "name": "Hundestrand",
     "type": "prirodni_koupaliste",
     "lat": 50.532239,
@@ -9841,7 +9673,7 @@
   },
   {
     "id": "osm-node-5518334221",
-    "slug": "hundestrand",
+    "slug": "hundestrand-4",
     "name": "Hundestrand",
     "type": "prirodni_koupaliste",
     "lat": 50.551895,
@@ -9865,7 +9697,7 @@
   },
   {
     "id": "osm-node-5518343856",
-    "slug": "hundestrand",
+    "slug": "hundestrand-5",
     "name": "Hundestrand",
     "type": "prirodni_koupaliste",
     "lat": 50.524236,
@@ -9888,32 +9720,8 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-node-5518343857",
-    "slug": "hundestrand",
-    "name": "Hundestrand",
-    "type": "prirodni_koupaliste",
-    "lat": 50.528058,
-    "lng": 12.209324,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-25946291",
-    "slug": "hundestrand",
+    "slug": "hundestrand-7",
     "name": "Hundestrand",
     "type": "prirodni_koupaliste",
     "lat": 50.97832,
@@ -10297,7 +10105,7 @@
   },
   {
     "id": "osm-way-178747159",
-    "slug": "kapielisko-lesne",
+    "slug": "kapielisko-lesne-2",
     "name": "Kąpielisko Leśne",
     "type": "bazen",
     "lat": 50.328492,
@@ -10321,7 +10129,7 @@
   },
   {
     "id": "osm-way-1073606727",
-    "slug": "kapielisko-lesne",
+    "slug": "kapielisko-lesne-3",
     "name": "Kąpielisko Leśne",
     "type": "prirodni_koupaliste",
     "lat": 50.32821,
@@ -10449,30 +10257,6 @@
     "region": "Příhraničí (mimo ČR)",
     "district": "",
     "municipality": "Waldkirchen",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-741118340",
-    "slug": "karoli-badepark",
-    "name": "Karoli-Badepark",
-    "type": "bazen",
-    "lat": 48.721112,
-    "lng": 13.603487,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
     "monitored": false,
     "quality": {
       "class": "nesledovano",
@@ -10993,7 +10777,7 @@
   },
   {
     "id": "osm-way-85768890",
-    "slug": "kryta-p-ywalnia",
+    "slug": "kryta-p-ywalnia-k-odzko",
     "name": "Kryta pływalnia",
     "type": "bazen",
     "lat": 50.437282,
@@ -11017,7 +10801,7 @@
   },
   {
     "id": "osm-way-564435123",
-    "slug": "kryta-p-ywalnia",
+    "slug": "kryta-p-ywalnia-prudnik",
     "name": "Kryta pływalnia",
     "type": "bazen",
     "lat": 50.320217,
@@ -11473,7 +11257,7 @@
   },
   {
     "id": "osm-node-1763410447",
-    "slug": "laguna",
+    "slug": "laguna-3",
     "name": "Laguna",
     "type": "bazen",
     "lat": 49.956049,
@@ -11856,32 +11640,8 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-364581401",
-    "slug": "liegewiese",
-    "name": "Liegewiese",
-    "type": "prirodni_koupaliste",
-    "lat": 49.414609,
-    "lng": 12.598347,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-423868213",
-    "slug": "liegewiese",
+    "slug": "liegewiese-3",
     "name": "Liegewiese",
     "type": "prirodni_koupaliste",
     "lat": 50.431939,
@@ -12169,7 +11929,7 @@
   },
   {
     "id": "osm-way-303245462",
-    "slug": "mestska-plavaren",
+    "slug": "mestska-plavaren-2",
     "name": "Mestská plaváreň",
     "type": "bazen",
     "lat": 49.212321,
@@ -12217,7 +11977,7 @@
   },
   {
     "id": "osm-way-737478839",
-    "slug": "mestske-kupalisko",
+    "slug": "mestske-kupalisko-2",
     "name": "Mestské kúpalisko",
     "type": "bazen",
     "lat": 49.440345,
@@ -12601,7 +12361,7 @@
   },
   {
     "id": "osm-way-291637224",
-    "slug": "naturbad-erzengler-teich",
+    "slug": "naturbad-erzengler-teich-2",
     "name": "Naturbad \"Erzengler Teich\"",
     "type": "prirodni_koupaliste",
     "lat": 50.852565,
@@ -13392,30 +13152,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-956989701",
-    "slug": "nei-ebad",
-    "name": "Neißebad",
-    "type": "bazen",
-    "lat": 51.141546,
-    "lng": 14.975232,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "Görlitz",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-162236781",
     "slug": "nixeninsel",
     "name": "Nixeninsel",
@@ -13513,7 +13249,7 @@
   },
   {
     "id": "osm-way-832250861",
-    "slug": "nudisticka-plaz",
+    "slug": "nudisticka-plaz-2",
     "name": "Nudistická pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.782682,
@@ -13897,7 +13633,7 @@
   },
   {
     "id": "osm-way-23180208",
-    "slug": "parkbad",
+    "slug": "parkbad-2",
     "name": "Parkbad",
     "type": "bazen",
     "lat": 48.304585,
@@ -14137,7 +13873,7 @@
   },
   {
     "id": "osm-way-216534111",
-    "slug": "plaza-miejska",
+    "slug": "plaza-miejska-2",
     "name": "Plaża miejska",
     "type": "prirodni_koupaliste",
     "lat": 50.046777,
@@ -14233,7 +13969,7 @@
   },
   {
     "id": "osm-node-5409949260",
-    "slug": "plaz",
+    "slug": "plaz-2",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.345443,
@@ -14257,7 +13993,7 @@
   },
   {
     "id": "osm-node-5518343858",
-    "slug": "plaz",
+    "slug": "plaz-3",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.536826,
@@ -14281,7 +14017,7 @@
   },
   {
     "id": "osm-node-7190211745",
-    "slug": "plaz",
+    "slug": "plaz-4",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.654238,
@@ -14305,7 +14041,7 @@
   },
   {
     "id": "osm-node-7190211746",
-    "slug": "plaz",
+    "slug": "plaz-5",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.654459,
@@ -14329,7 +14065,7 @@
   },
   {
     "id": "osm-node-7190211747",
-    "slug": "plaz",
+    "slug": "plaz-6",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.653732,
@@ -14353,7 +14089,7 @@
   },
   {
     "id": "osm-node-7578295205",
-    "slug": "plaz",
+    "slug": "plaz-7",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.192719,
@@ -14377,7 +14113,7 @@
   },
   {
     "id": "osm-node-8618992706",
-    "slug": "plaz",
+    "slug": "plaz-8",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.453546,
@@ -14401,7 +14137,7 @@
   },
   {
     "id": "osm-node-8663938649",
-    "slug": "plaz",
+    "slug": "plaz-9",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.371381,
@@ -14425,7 +14161,7 @@
   },
   {
     "id": "osm-node-9008618502",
-    "slug": "plaz",
+    "slug": "plaz-10",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.038099,
@@ -14449,7 +14185,7 @@
   },
   {
     "id": "osm-node-10175545274",
-    "slug": "plaz",
+    "slug": "plaz-11",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.278308,
@@ -14473,7 +14209,7 @@
   },
   {
     "id": "osm-node-10175554062",
-    "slug": "plaz",
+    "slug": "plaz-12",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.281038,
@@ -14497,7 +14233,7 @@
   },
   {
     "id": "osm-node-10553685563",
-    "slug": "plaz",
+    "slug": "plaz-13",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.371037,
@@ -14521,7 +14257,7 @@
   },
   {
     "id": "osm-node-11135639484",
-    "slug": "plaz",
+    "slug": "plaz-14",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.698521,
@@ -14545,7 +14281,7 @@
   },
   {
     "id": "osm-node-11851098482",
-    "slug": "plaz",
+    "slug": "plaz-15",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.150858,
@@ -14569,7 +14305,7 @@
   },
   {
     "id": "osm-node-11875982064",
-    "slug": "plaz",
+    "slug": "plaz-16",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.796335,
@@ -14593,7 +14329,7 @@
   },
   {
     "id": "osm-node-12028931111",
-    "slug": "plaz",
+    "slug": "plaz-17",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.27567,
@@ -14617,7 +14353,7 @@
   },
   {
     "id": "osm-node-12058958480",
-    "slug": "plaz",
+    "slug": "plaz-18",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.711716,
@@ -14641,7 +14377,7 @@
   },
   {
     "id": "osm-node-12162424082",
-    "slug": "plaz",
+    "slug": "plaz-19",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.601634,
@@ -14665,7 +14401,7 @@
   },
   {
     "id": "osm-node-12350688272",
-    "slug": "plaz",
+    "slug": "plaz-20",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.252693,
@@ -14689,7 +14425,7 @@
   },
   {
     "id": "osm-node-13161720674",
-    "slug": "plaz",
+    "slug": "plaz-21",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.351702,
@@ -14713,7 +14449,7 @@
   },
   {
     "id": "osm-node-13648116632",
-    "slug": "plaz",
+    "slug": "plaz-22",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.311113,
@@ -14737,7 +14473,7 @@
   },
   {
     "id": "osm-node-13712414517",
-    "slug": "plaz",
+    "slug": "plaz-23",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.981021,
@@ -14761,7 +14497,7 @@
   },
   {
     "id": "osm-way-23838709",
-    "slug": "plaz",
+    "slug": "plaz-24",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.01769,
@@ -14785,7 +14521,7 @@
   },
   {
     "id": "osm-way-24697697",
-    "slug": "plaz",
+    "slug": "plaz-25",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.690018,
@@ -14809,7 +14545,7 @@
   },
   {
     "id": "osm-way-25844631",
-    "slug": "plaz",
+    "slug": "plaz-26",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.134295,
@@ -14833,7 +14569,7 @@
   },
   {
     "id": "osm-way-29156221",
-    "slug": "plaz",
+    "slug": "plaz-27",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.210517,
@@ -14857,7 +14593,7 @@
   },
   {
     "id": "osm-way-29157387",
-    "slug": "plaz",
+    "slug": "plaz-28",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.229746,
@@ -14881,7 +14617,7 @@
   },
   {
     "id": "osm-way-29157388",
-    "slug": "plaz",
+    "slug": "plaz-29",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.2308,
@@ -14905,7 +14641,7 @@
   },
   {
     "id": "osm-way-40586574",
-    "slug": "plaz",
+    "slug": "plaz-30",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.207217,
@@ -14929,7 +14665,7 @@
   },
   {
     "id": "osm-way-84477435",
-    "slug": "plaz",
+    "slug": "plaz-31",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.425489,
@@ -14953,7 +14689,7 @@
   },
   {
     "id": "osm-way-87318043",
-    "slug": "plaz",
+    "slug": "plaz-32",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.765496,
@@ -14977,7 +14713,7 @@
   },
   {
     "id": "osm-way-89958829",
-    "slug": "plaz",
+    "slug": "plaz-33",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.766777,
@@ -15001,7 +14737,7 @@
   },
   {
     "id": "osm-way-91688888",
-    "slug": "plaz",
+    "slug": "plaz-34",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.718655,
@@ -15025,7 +14761,7 @@
   },
   {
     "id": "osm-way-93418434",
-    "slug": "plaz",
+    "slug": "plaz-35",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.308068,
@@ -15049,7 +14785,7 @@
   },
   {
     "id": "osm-way-99899443",
-    "slug": "plaz",
+    "slug": "plaz-36",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.924391,
@@ -15073,7 +14809,7 @@
   },
   {
     "id": "osm-way-101948925",
-    "slug": "plaz",
+    "slug": "plaz-37",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.572966,
@@ -15097,7 +14833,7 @@
   },
   {
     "id": "osm-way-104037302",
-    "slug": "plaz",
+    "slug": "plaz-38",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.930452,
@@ -15121,7 +14857,7 @@
   },
   {
     "id": "osm-way-107005971",
-    "slug": "plaz",
+    "slug": "plaz-39",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.464317,
@@ -15145,7 +14881,7 @@
   },
   {
     "id": "osm-way-120903757",
-    "slug": "plaz",
+    "slug": "plaz-40",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.273116,
@@ -15169,7 +14905,7 @@
   },
   {
     "id": "osm-way-128219776",
-    "slug": "plaz",
+    "slug": "plaz-41",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.269903,
@@ -15193,7 +14929,7 @@
   },
   {
     "id": "osm-way-132074734",
-    "slug": "plaz",
+    "slug": "plaz-42",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.249078,
@@ -15217,7 +14953,7 @@
   },
   {
     "id": "osm-way-132224132",
-    "slug": "plaz",
+    "slug": "plaz-43",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.824793,
@@ -15241,7 +14977,7 @@
   },
   {
     "id": "osm-way-160904686",
-    "slug": "plaz",
+    "slug": "plaz-44",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.600499,
@@ -15265,7 +15001,7 @@
   },
   {
     "id": "osm-way-162459957",
-    "slug": "plaz",
+    "slug": "plaz-45",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.330365,
@@ -15289,7 +15025,7 @@
   },
   {
     "id": "osm-way-168559789",
-    "slug": "plaz",
+    "slug": "plaz-46",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.424354,
@@ -15313,7 +15049,7 @@
   },
   {
     "id": "osm-way-173158504",
-    "slug": "plaz",
+    "slug": "plaz-47",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.396542,
@@ -15337,7 +15073,7 @@
   },
   {
     "id": "osm-way-188700633",
-    "slug": "plaz",
+    "slug": "plaz-48",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.088922,
@@ -15361,7 +15097,7 @@
   },
   {
     "id": "osm-way-201765722",
-    "slug": "plaz",
+    "slug": "plaz-49",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.372794,
@@ -15385,7 +15121,7 @@
   },
   {
     "id": "osm-way-202783654",
-    "slug": "plaz",
+    "slug": "plaz-50",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.762935,
@@ -15409,7 +15145,7 @@
   },
   {
     "id": "osm-way-205734432",
-    "slug": "plaz",
+    "slug": "plaz-51",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.231453,
@@ -15433,7 +15169,7 @@
   },
   {
     "id": "osm-way-216562499",
-    "slug": "plaz",
+    "slug": "plaz-52",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.702721,
@@ -15457,7 +15193,7 @@
   },
   {
     "id": "osm-way-216597795",
-    "slug": "plaz",
+    "slug": "plaz-53",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.315453,
@@ -15481,7 +15217,7 @@
   },
   {
     "id": "osm-way-217089980",
-    "slug": "plaz",
+    "slug": "plaz-54",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.48066,
@@ -15505,7 +15241,7 @@
   },
   {
     "id": "osm-way-217328620",
-    "slug": "plaz",
+    "slug": "plaz-55",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.542157,
@@ -15529,7 +15265,7 @@
   },
   {
     "id": "osm-way-219571639",
-    "slug": "plaz",
+    "slug": "plaz-56",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.472074,
@@ -15553,7 +15289,7 @@
   },
   {
     "id": "osm-way-223040438",
-    "slug": "plaz",
+    "slug": "plaz-57",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.589108,
@@ -15577,7 +15313,7 @@
   },
   {
     "id": "osm-way-223099280",
-    "slug": "plaz",
+    "slug": "plaz-58",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.447194,
@@ -15601,7 +15337,7 @@
   },
   {
     "id": "osm-way-223953878",
-    "slug": "plaz",
+    "slug": "plaz-59",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.478211,
@@ -15625,7 +15361,7 @@
   },
   {
     "id": "osm-way-224070139",
-    "slug": "plaz",
+    "slug": "plaz-60",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.474769,
@@ -15649,7 +15385,7 @@
   },
   {
     "id": "osm-way-227481724",
-    "slug": "plaz",
+    "slug": "plaz-61",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.699908,
@@ -15673,7 +15409,7 @@
   },
   {
     "id": "osm-way-230160903",
-    "slug": "plaz",
+    "slug": "plaz-62",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.457674,
@@ -15697,7 +15433,7 @@
   },
   {
     "id": "osm-way-231718950",
-    "slug": "plaz",
+    "slug": "plaz-63",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.573591,
@@ -15721,7 +15457,7 @@
   },
   {
     "id": "osm-way-232463020",
-    "slug": "plaz",
+    "slug": "plaz-64",
     "name": "Pláž",
     "type": "bazen",
     "lat": 50.314426,
@@ -15745,7 +15481,7 @@
   },
   {
     "id": "osm-way-232557069",
-    "slug": "plaz",
+    "slug": "plaz-65",
     "name": "Pláž",
     "type": "bazen",
     "lat": 50.320698,
@@ -15769,7 +15505,7 @@
   },
   {
     "id": "osm-way-234316993",
-    "slug": "plaz",
+    "slug": "plaz-66",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.162297,
@@ -15793,7 +15529,7 @@
   },
   {
     "id": "osm-way-235192838",
-    "slug": "plaz",
+    "slug": "plaz-67",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.942008,
@@ -15817,7 +15553,7 @@
   },
   {
     "id": "osm-way-249920440",
-    "slug": "plaz",
+    "slug": "plaz-68",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.155447,
@@ -15841,7 +15577,7 @@
   },
   {
     "id": "osm-way-249920445",
-    "slug": "plaz",
+    "slug": "plaz-69",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.155689,
@@ -15865,7 +15601,7 @@
   },
   {
     "id": "osm-way-255477318",
-    "slug": "plaz",
+    "slug": "plaz-70",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.362727,
@@ -15889,7 +15625,7 @@
   },
   {
     "id": "osm-way-255882161",
-    "slug": "plaz",
+    "slug": "plaz-71",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.370285,
@@ -15913,7 +15649,7 @@
   },
   {
     "id": "osm-way-256353911",
-    "slug": "plaz",
+    "slug": "plaz-72",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.377397,
@@ -15937,7 +15673,7 @@
   },
   {
     "id": "osm-way-256353913",
-    "slug": "plaz",
+    "slug": "plaz-73",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.377701,
@@ -15961,7 +15697,7 @@
   },
   {
     "id": "osm-way-256353914",
-    "slug": "plaz",
+    "slug": "plaz-74",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.377452,
@@ -15985,7 +15721,7 @@
   },
   {
     "id": "osm-way-257573280",
-    "slug": "plaz",
+    "slug": "plaz-75",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.453616,
@@ -16009,7 +15745,7 @@
   },
   {
     "id": "osm-way-257577285",
-    "slug": "plaz",
+    "slug": "plaz-76",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.442365,
@@ -16033,7 +15769,7 @@
   },
   {
     "id": "osm-way-257577286",
-    "slug": "plaz",
+    "slug": "plaz-77",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.445022,
@@ -16057,7 +15793,7 @@
   },
   {
     "id": "osm-way-257577316",
-    "slug": "plaz",
+    "slug": "plaz-78",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.449449,
@@ -16081,7 +15817,7 @@
   },
   {
     "id": "osm-way-258243899",
-    "slug": "plaz",
+    "slug": "plaz-79",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.785185,
@@ -16105,7 +15841,7 @@
   },
   {
     "id": "osm-way-258481565",
-    "slug": "plaz",
+    "slug": "plaz-80",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.690554,
@@ -16129,7 +15865,7 @@
   },
   {
     "id": "osm-way-264799889",
-    "slug": "plaz",
+    "slug": "plaz-81",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.032469,
@@ -16153,7 +15889,7 @@
   },
   {
     "id": "osm-way-272094804",
-    "slug": "plaz",
+    "slug": "plaz-82",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.591059,
@@ -16177,7 +15913,7 @@
   },
   {
     "id": "osm-way-274722684",
-    "slug": "plaz",
+    "slug": "plaz-83",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.346203,
@@ -16201,7 +15937,7 @@
   },
   {
     "id": "osm-way-286388266",
-    "slug": "plaz",
+    "slug": "plaz-84",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.395483,
@@ -16225,7 +15961,7 @@
   },
   {
     "id": "osm-way-293390524",
-    "slug": "plaz",
+    "slug": "plaz-85",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.241785,
@@ -16249,7 +15985,7 @@
   },
   {
     "id": "osm-way-294936874",
-    "slug": "plaz",
+    "slug": "plaz-86",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.965507,
@@ -16273,7 +16009,7 @@
   },
   {
     "id": "osm-way-294936876",
-    "slug": "plaz",
+    "slug": "plaz-87",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.966916,
@@ -16297,7 +16033,7 @@
   },
   {
     "id": "osm-way-294936879",
-    "slug": "plaz",
+    "slug": "plaz-88",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.964895,
@@ -16321,7 +16057,7 @@
   },
   {
     "id": "osm-way-295013121",
-    "slug": "plaz",
+    "slug": "plaz-89",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.519699,
@@ -16345,7 +16081,7 @@
   },
   {
     "id": "osm-way-295952846",
-    "slug": "plaz",
+    "slug": "plaz-90",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.5471,
@@ -16369,7 +16105,7 @@
   },
   {
     "id": "osm-way-300937608",
-    "slug": "plaz",
+    "slug": "plaz-91",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.059773,
@@ -16393,7 +16129,7 @@
   },
   {
     "id": "osm-way-305284691",
-    "slug": "plaz",
+    "slug": "plaz-92",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.886099,
@@ -16417,7 +16153,7 @@
   },
   {
     "id": "osm-way-311153607",
-    "slug": "plaz",
+    "slug": "plaz-93",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.040972,
@@ -16441,7 +16177,7 @@
   },
   {
     "id": "osm-way-313961699",
-    "slug": "plaz",
+    "slug": "plaz-94",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.660549,
@@ -16465,7 +16201,7 @@
   },
   {
     "id": "osm-way-319709242",
-    "slug": "plaz",
+    "slug": "plaz-95",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.643585,
@@ -16489,7 +16225,7 @@
   },
   {
     "id": "osm-way-319709243",
-    "slug": "plaz",
+    "slug": "plaz-96",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.647001,
@@ -16513,7 +16249,7 @@
   },
   {
     "id": "osm-way-320307077",
-    "slug": "plaz",
+    "slug": "plaz-97",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.917042,
@@ -16537,7 +16273,7 @@
   },
   {
     "id": "osm-way-336977742",
-    "slug": "plaz",
+    "slug": "plaz-98",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.143206,
@@ -16561,7 +16297,7 @@
   },
   {
     "id": "osm-way-341636057",
-    "slug": "plaz",
+    "slug": "plaz-99",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.274131,
@@ -16585,7 +16321,7 @@
   },
   {
     "id": "osm-way-345938017",
-    "slug": "plaz",
+    "slug": "plaz-100",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.273963,
@@ -16609,7 +16345,7 @@
   },
   {
     "id": "osm-way-347818930",
-    "slug": "plaz",
+    "slug": "plaz-101",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.077009,
@@ -16633,7 +16369,7 @@
   },
   {
     "id": "osm-way-350172723",
-    "slug": "plaz",
+    "slug": "plaz-102",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.244076,
@@ -16657,7 +16393,7 @@
   },
   {
     "id": "osm-way-352312673",
-    "slug": "plaz",
+    "slug": "plaz-103",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.122234,
@@ -16681,7 +16417,7 @@
   },
   {
     "id": "osm-way-352386909",
-    "slug": "plaz",
+    "slug": "plaz-104",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.976286,
@@ -16705,7 +16441,7 @@
   },
   {
     "id": "osm-way-354558126",
-    "slug": "plaz",
+    "slug": "plaz-105",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.36246,
@@ -16729,7 +16465,7 @@
   },
   {
     "id": "osm-way-359223413",
-    "slug": "plaz",
+    "slug": "plaz-106",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.590555,
@@ -16753,7 +16489,7 @@
   },
   {
     "id": "osm-way-359230819",
-    "slug": "plaz",
+    "slug": "plaz-107",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.590904,
@@ -16777,7 +16513,7 @@
   },
   {
     "id": "osm-way-360108681",
-    "slug": "plaz",
+    "slug": "plaz-108",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.275548,
@@ -16801,7 +16537,7 @@
   },
   {
     "id": "osm-way-360108682",
-    "slug": "plaz",
+    "slug": "plaz-109",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.275447,
@@ -16825,7 +16561,7 @@
   },
   {
     "id": "osm-way-360775078",
-    "slug": "plaz",
+    "slug": "plaz-110",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.218699,
@@ -16849,7 +16585,7 @@
   },
   {
     "id": "osm-way-361270981",
-    "slug": "plaz",
+    "slug": "plaz-111",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.975043,
@@ -16873,7 +16609,7 @@
   },
   {
     "id": "osm-way-362217810",
-    "slug": "plaz",
+    "slug": "plaz-112",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.394176,
@@ -16897,7 +16633,7 @@
   },
   {
     "id": "osm-way-362669442",
-    "slug": "plaz",
+    "slug": "plaz-113",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.193055,
@@ -16921,7 +16657,7 @@
   },
   {
     "id": "osm-way-364469454",
-    "slug": "plaz",
+    "slug": "plaz-114",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.491424,
@@ -16945,7 +16681,7 @@
   },
   {
     "id": "osm-way-365241576",
-    "slug": "plaz",
+    "slug": "plaz-115",
     "name": "Pláž",
     "type": "bazen",
     "lat": 48.802309,
@@ -16969,7 +16705,7 @@
   },
   {
     "id": "osm-way-365638065",
-    "slug": "plaz",
+    "slug": "plaz-116",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.328261,
@@ -16993,7 +16729,7 @@
   },
   {
     "id": "osm-way-365638066",
-    "slug": "plaz",
+    "slug": "plaz-117",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.328785,
@@ -17017,7 +16753,7 @@
   },
   {
     "id": "osm-way-367151269",
-    "slug": "plaz",
+    "slug": "plaz-118",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.153237,
@@ -17041,7 +16777,7 @@
   },
   {
     "id": "osm-way-367255129",
-    "slug": "plaz",
+    "slug": "plaz-119",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.393672,
@@ -17065,7 +16801,7 @@
   },
   {
     "id": "osm-way-368509275",
-    "slug": "plaz",
+    "slug": "plaz-120",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.361665,
@@ -17089,7 +16825,7 @@
   },
   {
     "id": "osm-way-374248436",
-    "slug": "plaz",
+    "slug": "plaz-121",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.36349,
@@ -17113,7 +16849,7 @@
   },
   {
     "id": "osm-way-386752286",
-    "slug": "plaz",
+    "slug": "plaz-122",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.062635,
@@ -17137,7 +16873,7 @@
   },
   {
     "id": "osm-way-392863650",
-    "slug": "plaz",
+    "slug": "plaz-123",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.054318,
@@ -17161,7 +16897,7 @@
   },
   {
     "id": "osm-way-395152582",
-    "slug": "plaz",
+    "slug": "plaz-124",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.152098,
@@ -17185,7 +16921,7 @@
   },
   {
     "id": "osm-way-396407516",
-    "slug": "plaz",
+    "slug": "plaz-125",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.107911,
@@ -17209,7 +16945,7 @@
   },
   {
     "id": "osm-way-398155442",
-    "slug": "plaz",
+    "slug": "plaz-126",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.136618,
@@ -17233,7 +16969,7 @@
   },
   {
     "id": "osm-way-406550330",
-    "slug": "plaz",
+    "slug": "plaz-127",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.155568,
@@ -17257,7 +16993,7 @@
   },
   {
     "id": "osm-way-406744584",
-    "slug": "plaz",
+    "slug": "plaz-128",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.270872,
@@ -17281,7 +17017,7 @@
   },
   {
     "id": "osm-way-409845411",
-    "slug": "plaz",
+    "slug": "plaz-129",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.130107,
@@ -17305,7 +17041,7 @@
   },
   {
     "id": "osm-way-409845413",
-    "slug": "plaz",
+    "slug": "plaz-130",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.130201,
@@ -17329,7 +17065,7 @@
   },
   {
     "id": "osm-way-409845415",
-    "slug": "plaz",
+    "slug": "plaz-131",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.130331,
@@ -17353,7 +17089,7 @@
   },
   {
     "id": "osm-way-416882709",
-    "slug": "plaz",
+    "slug": "plaz-132",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.795563,
@@ -17377,7 +17113,7 @@
   },
   {
     "id": "osm-way-416882718",
-    "slug": "plaz",
+    "slug": "plaz-133",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.79518,
@@ -17401,7 +17137,7 @@
   },
   {
     "id": "osm-way-419132184",
-    "slug": "plaz",
+    "slug": "plaz-134",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.156468,
@@ -17425,7 +17161,7 @@
   },
   {
     "id": "osm-way-422041369",
-    "slug": "plaz",
+    "slug": "plaz-135",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.154423,
@@ -17449,7 +17185,7 @@
   },
   {
     "id": "osm-way-427190854",
-    "slug": "plaz",
+    "slug": "plaz-136",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.279934,
@@ -17473,7 +17209,7 @@
   },
   {
     "id": "osm-way-427497049",
-    "slug": "plaz",
+    "slug": "plaz-137",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.133927,
@@ -17497,7 +17233,7 @@
   },
   {
     "id": "osm-way-427497050",
-    "slug": "plaz",
+    "slug": "plaz-138",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.134262,
@@ -17521,7 +17257,7 @@
   },
   {
     "id": "osm-way-430297465",
-    "slug": "plaz",
+    "slug": "plaz-139",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.372194,
@@ -17545,7 +17281,7 @@
   },
   {
     "id": "osm-way-432527963",
-    "slug": "plaz",
+    "slug": "plaz-140",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.283666,
@@ -17569,7 +17305,7 @@
   },
   {
     "id": "osm-way-432846071",
-    "slug": "plaz",
+    "slug": "plaz-141",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.366819,
@@ -17593,7 +17329,7 @@
   },
   {
     "id": "osm-way-435912621",
-    "slug": "plaz",
+    "slug": "plaz-142",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.925576,
@@ -17617,7 +17353,7 @@
   },
   {
     "id": "osm-way-436230489",
-    "slug": "plaz",
+    "slug": "plaz-143",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.545569,
@@ -17641,7 +17377,7 @@
   },
   {
     "id": "osm-way-439452875",
-    "slug": "plaz",
+    "slug": "plaz-144",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.762638,
@@ -17665,7 +17401,7 @@
   },
   {
     "id": "osm-way-440359023",
-    "slug": "plaz",
+    "slug": "plaz-145",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.331987,
@@ -17689,7 +17425,7 @@
   },
   {
     "id": "osm-way-441899960",
-    "slug": "plaz",
+    "slug": "plaz-146",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.161505,
@@ -17713,7 +17449,7 @@
   },
   {
     "id": "osm-way-443076219",
-    "slug": "plaz",
+    "slug": "plaz-147",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.018408,
@@ -17737,7 +17473,7 @@
   },
   {
     "id": "osm-way-443445031",
-    "slug": "plaz",
+    "slug": "plaz-148",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.883271,
@@ -17761,7 +17497,7 @@
   },
   {
     "id": "osm-way-445213483",
-    "slug": "plaz",
+    "slug": "plaz-149",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.271659,
@@ -17785,7 +17521,7 @@
   },
   {
     "id": "osm-way-446637550",
-    "slug": "plaz",
+    "slug": "plaz-150",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.966673,
@@ -17809,7 +17545,7 @@
   },
   {
     "id": "osm-way-448302671",
-    "slug": "plaz",
+    "slug": "plaz-151",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.433498,
@@ -17833,7 +17569,7 @@
   },
   {
     "id": "osm-way-448303260",
-    "slug": "plaz",
+    "slug": "plaz-152",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.433447,
@@ -17857,7 +17593,7 @@
   },
   {
     "id": "osm-way-453382539",
-    "slug": "plaz",
+    "slug": "plaz-153",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.927547,
@@ -17881,7 +17617,7 @@
   },
   {
     "id": "osm-way-465897757",
-    "slug": "plaz",
+    "slug": "plaz-154",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.967862,
@@ -17905,7 +17641,7 @@
   },
   {
     "id": "osm-way-474495160",
-    "slug": "plaz",
+    "slug": "plaz-155",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.087827,
@@ -17929,7 +17665,7 @@
   },
   {
     "id": "osm-way-479814985",
-    "slug": "plaz",
+    "slug": "plaz-156",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.154833,
@@ -17953,7 +17689,7 @@
   },
   {
     "id": "osm-way-485683431",
-    "slug": "plaz",
+    "slug": "plaz-157",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.151367,
@@ -17977,7 +17713,7 @@
   },
   {
     "id": "osm-way-491117050",
-    "slug": "plaz",
+    "slug": "plaz-158",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.429982,
@@ -18001,7 +17737,7 @@
   },
   {
     "id": "osm-way-493172134",
-    "slug": "plaz",
+    "slug": "plaz-159",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.829535,
@@ -18025,7 +17761,7 @@
   },
   {
     "id": "osm-way-494442411",
-    "slug": "plaz",
+    "slug": "plaz-160",
     "name": "Pláž",
     "type": "bazen",
     "lat": 50.766313,
@@ -18049,7 +17785,7 @@
   },
   {
     "id": "osm-way-498720620",
-    "slug": "plaz",
+    "slug": "plaz-161",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.509616,
@@ -18073,7 +17809,7 @@
   },
   {
     "id": "osm-way-503068665",
-    "slug": "plaz",
+    "slug": "plaz-162",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.30409,
@@ -18097,7 +17833,7 @@
   },
   {
     "id": "osm-way-503068670",
-    "slug": "plaz",
+    "slug": "plaz-163",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.303781,
@@ -18121,7 +17857,7 @@
   },
   {
     "id": "osm-way-511266435",
-    "slug": "plaz",
+    "slug": "plaz-164",
     "name": "Pláž",
     "type": "bazen",
     "lat": 50.915426,
@@ -18145,7 +17881,7 @@
   },
   {
     "id": "osm-way-511296956",
-    "slug": "plaz",
+    "slug": "plaz-165",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.085899,
@@ -18169,7 +17905,7 @@
   },
   {
     "id": "osm-way-514622078",
-    "slug": "plaz",
+    "slug": "plaz-166",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.495852,
@@ -18193,7 +17929,7 @@
   },
   {
     "id": "osm-way-517597926",
-    "slug": "plaz",
+    "slug": "plaz-167",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.032873,
@@ -18217,7 +17953,7 @@
   },
   {
     "id": "osm-way-517597928",
-    "slug": "plaz",
+    "slug": "plaz-168",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.028919,
@@ -18241,7 +17977,7 @@
   },
   {
     "id": "osm-way-529666021",
-    "slug": "plaz",
+    "slug": "plaz-169",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.372815,
@@ -18265,7 +18001,7 @@
   },
   {
     "id": "osm-way-536284566",
-    "slug": "plaz",
+    "slug": "plaz-170",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.141585,
@@ -18289,7 +18025,7 @@
   },
   {
     "id": "osm-way-536690092",
-    "slug": "plaz",
+    "slug": "plaz-171",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.284417,
@@ -18313,7 +18049,7 @@
   },
   {
     "id": "osm-way-542630264",
-    "slug": "plaz",
+    "slug": "plaz-172",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.744093,
@@ -18337,7 +18073,7 @@
   },
   {
     "id": "osm-way-543011119",
-    "slug": "plaz",
+    "slug": "plaz-173",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.561101,
@@ -18361,7 +18097,7 @@
   },
   {
     "id": "osm-way-547696700",
-    "slug": "plaz",
+    "slug": "plaz-174",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.616919,
@@ -18385,7 +18121,7 @@
   },
   {
     "id": "osm-way-548159337",
-    "slug": "plaz",
+    "slug": "plaz-175",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.592452,
@@ -18409,7 +18145,7 @@
   },
   {
     "id": "osm-way-548569525",
-    "slug": "plaz",
+    "slug": "plaz-176",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.616534,
@@ -18433,7 +18169,7 @@
   },
   {
     "id": "osm-way-548836612",
-    "slug": "plaz",
+    "slug": "plaz-177",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.596152,
@@ -18457,7 +18193,7 @@
   },
   {
     "id": "osm-way-549034746",
-    "slug": "plaz",
+    "slug": "plaz-178",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.741438,
@@ -18481,7 +18217,7 @@
   },
   {
     "id": "osm-way-560824884",
-    "slug": "plaz",
+    "slug": "plaz-179",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.981228,
@@ -18505,7 +18241,7 @@
   },
   {
     "id": "osm-way-560824885",
-    "slug": "plaz",
+    "slug": "plaz-180",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.979023,
@@ -18529,7 +18265,7 @@
   },
   {
     "id": "osm-way-564644940",
-    "slug": "plaz",
+    "slug": "plaz-181",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.415,
@@ -18553,7 +18289,7 @@
   },
   {
     "id": "osm-way-577516545",
-    "slug": "plaz",
+    "slug": "plaz-182",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.722144,
@@ -18577,7 +18313,7 @@
   },
   {
     "id": "osm-way-580560114",
-    "slug": "plaz",
+    "slug": "plaz-183",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.95456,
@@ -18601,7 +18337,7 @@
   },
   {
     "id": "osm-way-587930557",
-    "slug": "plaz",
+    "slug": "plaz-184",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.345433,
@@ -18625,7 +18361,7 @@
   },
   {
     "id": "osm-way-588139172",
-    "slug": "plaz",
+    "slug": "plaz-185",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.707841,
@@ -18649,7 +18385,7 @@
   },
   {
     "id": "osm-way-592390818",
-    "slug": "plaz",
+    "slug": "plaz-186",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.885508,
@@ -18673,7 +18409,7 @@
   },
   {
     "id": "osm-way-595662326",
-    "slug": "plaz",
+    "slug": "plaz-187",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.599362,
@@ -18697,7 +18433,7 @@
   },
   {
     "id": "osm-way-595662328",
-    "slug": "plaz",
+    "slug": "plaz-188",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.60008,
@@ -18721,7 +18457,7 @@
   },
   {
     "id": "osm-way-596154087",
-    "slug": "plaz",
+    "slug": "plaz-189",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.986925,
@@ -18745,7 +18481,7 @@
   },
   {
     "id": "osm-way-597768122",
-    "slug": "plaz",
+    "slug": "plaz-190",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.417071,
@@ -18769,7 +18505,7 @@
   },
   {
     "id": "osm-way-597768123",
-    "slug": "plaz",
+    "slug": "plaz-191",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.416417,
@@ -18793,7 +18529,7 @@
   },
   {
     "id": "osm-way-597768145",
-    "slug": "plaz",
+    "slug": "plaz-192",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.445036,
@@ -18817,7 +18553,7 @@
   },
   {
     "id": "osm-way-599059198",
-    "slug": "plaz",
+    "slug": "plaz-193",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.547998,
@@ -18841,7 +18577,7 @@
   },
   {
     "id": "osm-way-601395759",
-    "slug": "plaz",
+    "slug": "plaz-194",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.193349,
@@ -18865,7 +18601,7 @@
   },
   {
     "id": "osm-way-617026850",
-    "slug": "plaz",
+    "slug": "plaz-195",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.496418,
@@ -18889,7 +18625,7 @@
   },
   {
     "id": "osm-way-617131184",
-    "slug": "plaz",
+    "slug": "plaz-196",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.505609,
@@ -18913,7 +18649,7 @@
   },
   {
     "id": "osm-way-618240272",
-    "slug": "plaz",
+    "slug": "plaz-197",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.433588,
@@ -18937,7 +18673,7 @@
   },
   {
     "id": "osm-way-620264612",
-    "slug": "plaz",
+    "slug": "plaz-198",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.778587,
@@ -18961,7 +18697,7 @@
   },
   {
     "id": "osm-way-626047662",
-    "slug": "plaz",
+    "slug": "plaz-199",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.665114,
@@ -18985,7 +18721,7 @@
   },
   {
     "id": "osm-way-626326622",
-    "slug": "plaz",
+    "slug": "plaz-200",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.62529,
@@ -19009,7 +18745,7 @@
   },
   {
     "id": "osm-way-629932693",
-    "slug": "plaz",
+    "slug": "plaz-201",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.484098,
@@ -19033,7 +18769,7 @@
   },
   {
     "id": "osm-way-664360746",
-    "slug": "plaz",
+    "slug": "plaz-202",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.75195,
@@ -19057,7 +18793,7 @@
   },
   {
     "id": "osm-way-671493394",
-    "slug": "plaz",
+    "slug": "plaz-203",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.630252,
@@ -19081,7 +18817,7 @@
   },
   {
     "id": "osm-way-671510499",
-    "slug": "plaz",
+    "slug": "plaz-204",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.627797,
@@ -19105,7 +18841,7 @@
   },
   {
     "id": "osm-way-671593961",
-    "slug": "plaz",
+    "slug": "plaz-205",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.998106,
@@ -19129,7 +18865,7 @@
   },
   {
     "id": "osm-way-675482576",
-    "slug": "plaz",
+    "slug": "plaz-206",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.435921,
@@ -19153,7 +18889,7 @@
   },
   {
     "id": "osm-way-675482577",
-    "slug": "plaz",
+    "slug": "plaz-207",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.435682,
@@ -19177,7 +18913,7 @@
   },
   {
     "id": "osm-way-678379435",
-    "slug": "plaz",
+    "slug": "plaz-208",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.019191,
@@ -19201,7 +18937,7 @@
   },
   {
     "id": "osm-way-683320546",
-    "slug": "plaz",
+    "slug": "plaz-209",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.015625,
@@ -19225,7 +18961,7 @@
   },
   {
     "id": "osm-way-685259890",
-    "slug": "plaz",
+    "slug": "plaz-210",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.838127,
@@ -19249,7 +18985,7 @@
   },
   {
     "id": "osm-way-685289664",
-    "slug": "plaz",
+    "slug": "plaz-211",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.723373,
@@ -19273,7 +19009,7 @@
   },
   {
     "id": "osm-way-685726906",
-    "slug": "plaz",
+    "slug": "plaz-212",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.017272,
@@ -19297,7 +19033,7 @@
   },
   {
     "id": "osm-way-686211348",
-    "slug": "plaz",
+    "slug": "plaz-213",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.49125,
@@ -19321,7 +19057,7 @@
   },
   {
     "id": "osm-way-686273072",
-    "slug": "plaz",
+    "slug": "plaz-214",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.512202,
@@ -19345,7 +19081,7 @@
   },
   {
     "id": "osm-way-686273073",
-    "slug": "plaz",
+    "slug": "plaz-215",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.486593,
@@ -19369,7 +19105,7 @@
   },
   {
     "id": "osm-way-694640586",
-    "slug": "plaz",
+    "slug": "plaz-216",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.374542,
@@ -19393,7 +19129,7 @@
   },
   {
     "id": "osm-way-696355848",
-    "slug": "plaz",
+    "slug": "plaz-217",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.623093,
@@ -19417,7 +19153,7 @@
   },
   {
     "id": "osm-way-697333879",
-    "slug": "plaz",
+    "slug": "plaz-218",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.173543,
@@ -19441,7 +19177,7 @@
   },
   {
     "id": "osm-way-697521797",
-    "slug": "plaz",
+    "slug": "plaz-219",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.470782,
@@ -19465,7 +19201,7 @@
   },
   {
     "id": "osm-way-699657623",
-    "slug": "plaz",
+    "slug": "plaz-220",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.60192,
@@ -19489,7 +19225,7 @@
   },
   {
     "id": "osm-way-702084032",
-    "slug": "plaz",
+    "slug": "plaz-221",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.492503,
@@ -19513,7 +19249,7 @@
   },
   {
     "id": "osm-way-703970294",
-    "slug": "plaz",
+    "slug": "plaz-222",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.910556,
@@ -19537,7 +19273,7 @@
   },
   {
     "id": "osm-way-707886168",
-    "slug": "plaz",
+    "slug": "plaz-223",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.347378,
@@ -19561,7 +19297,7 @@
   },
   {
     "id": "osm-way-712683641",
-    "slug": "plaz",
+    "slug": "plaz-224",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.456874,
@@ -19585,7 +19321,7 @@
   },
   {
     "id": "osm-way-715885435",
-    "slug": "plaz",
+    "slug": "plaz-225",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.409159,
@@ -19609,7 +19345,7 @@
   },
   {
     "id": "osm-way-766367242",
-    "slug": "plaz",
+    "slug": "plaz-226",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.272672,
@@ -19633,7 +19369,7 @@
   },
   {
     "id": "osm-way-769393454",
-    "slug": "plaz",
+    "slug": "plaz-227",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.692287,
@@ -19657,7 +19393,7 @@
   },
   {
     "id": "osm-way-779843649",
-    "slug": "plaz",
+    "slug": "plaz-228",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.689652,
@@ -19681,7 +19417,7 @@
   },
   {
     "id": "osm-way-785916647",
-    "slug": "plaz",
+    "slug": "plaz-229",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.696986,
@@ -19705,7 +19441,7 @@
   },
   {
     "id": "osm-way-790835901",
-    "slug": "plaz",
+    "slug": "plaz-230",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.377036,
@@ -19729,7 +19465,7 @@
   },
   {
     "id": "osm-way-797693197",
-    "slug": "plaz",
+    "slug": "plaz-231",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.154381,
@@ -19753,7 +19489,7 @@
   },
   {
     "id": "osm-way-797874217",
-    "slug": "plaz",
+    "slug": "plaz-232",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.036795,
@@ -19777,7 +19513,7 @@
   },
   {
     "id": "osm-way-798025137",
-    "slug": "plaz",
+    "slug": "plaz-233",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.029339,
@@ -19801,7 +19537,7 @@
   },
   {
     "id": "osm-way-799214375",
-    "slug": "plaz",
+    "slug": "plaz-234",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.599122,
@@ -19825,7 +19561,7 @@
   },
   {
     "id": "osm-way-799401786",
-    "slug": "plaz",
+    "slug": "plaz-235",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.196942,
@@ -19849,7 +19585,7 @@
   },
   {
     "id": "osm-way-799413686",
-    "slug": "plaz",
+    "slug": "plaz-236",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.230418,
@@ -19873,7 +19609,7 @@
   },
   {
     "id": "osm-way-816161606",
-    "slug": "plaz",
+    "slug": "plaz-237",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.10575,
@@ -19897,7 +19633,7 @@
   },
   {
     "id": "osm-way-823930177",
-    "slug": "plaz",
+    "slug": "plaz-238",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.015777,
@@ -19921,7 +19657,7 @@
   },
   {
     "id": "osm-way-823930178",
-    "slug": "plaz",
+    "slug": "plaz-239",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.017052,
@@ -19945,7 +19681,7 @@
   },
   {
     "id": "osm-way-838803810",
-    "slug": "plaz",
+    "slug": "plaz-240",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.230493,
@@ -19969,7 +19705,7 @@
   },
   {
     "id": "osm-way-838803811",
-    "slug": "plaz",
+    "slug": "plaz-241",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.229215,
@@ -19993,7 +19729,7 @@
   },
   {
     "id": "osm-way-842295202",
-    "slug": "plaz",
+    "slug": "plaz-242",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.298403,
@@ -20017,7 +19753,7 @@
   },
   {
     "id": "osm-way-856271411",
-    "slug": "plaz",
+    "slug": "plaz-243",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.580065,
@@ -20041,7 +19777,7 @@
   },
   {
     "id": "osm-way-865041054",
-    "slug": "plaz",
+    "slug": "plaz-244",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.193751,
@@ -20065,7 +19801,7 @@
   },
   {
     "id": "osm-way-880583701",
-    "slug": "plaz",
+    "slug": "plaz-245",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.143748,
@@ -20089,7 +19825,7 @@
   },
   {
     "id": "osm-way-881056589",
-    "slug": "plaz",
+    "slug": "plaz-246",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.442818,
@@ -20113,7 +19849,7 @@
   },
   {
     "id": "osm-way-884883074",
-    "slug": "plaz",
+    "slug": "plaz-247",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.235995,
@@ -20137,7 +19873,7 @@
   },
   {
     "id": "osm-way-889674872",
-    "slug": "plaz",
+    "slug": "plaz-248",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.017566,
@@ -20161,7 +19897,7 @@
   },
   {
     "id": "osm-way-890710213",
-    "slug": "plaz",
+    "slug": "plaz-249",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.048766,
@@ -20185,7 +19921,7 @@
   },
   {
     "id": "osm-way-890929922",
-    "slug": "plaz",
+    "slug": "plaz-250",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.990232,
@@ -20209,7 +19945,7 @@
   },
   {
     "id": "osm-way-910837940",
-    "slug": "plaz",
+    "slug": "plaz-251",
     "name": "Pláž",
     "type": "bazen",
     "lat": 48.325176,
@@ -20233,7 +19969,7 @@
   },
   {
     "id": "osm-way-910837941",
-    "slug": "plaz",
+    "slug": "plaz-252",
     "name": "Pláž",
     "type": "bazen",
     "lat": 48.32452,
@@ -20257,7 +19993,7 @@
   },
   {
     "id": "osm-way-911245529",
-    "slug": "plaz",
+    "slug": "plaz-253",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.186161,
@@ -20281,7 +20017,7 @@
   },
   {
     "id": "osm-way-914344505",
-    "slug": "plaz",
+    "slug": "plaz-254",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.811116,
@@ -20305,7 +20041,7 @@
   },
   {
     "id": "osm-way-922873183",
-    "slug": "plaz",
+    "slug": "plaz-255",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.314918,
@@ -20329,7 +20065,7 @@
   },
   {
     "id": "osm-way-923573516",
-    "slug": "plaz",
+    "slug": "plaz-256",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.640923,
@@ -20353,7 +20089,7 @@
   },
   {
     "id": "osm-way-924832371",
-    "slug": "plaz",
+    "slug": "plaz-257",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.570428,
@@ -20377,7 +20113,7 @@
   },
   {
     "id": "osm-way-929919320",
-    "slug": "plaz",
+    "slug": "plaz-258",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.453997,
@@ -20401,7 +20137,7 @@
   },
   {
     "id": "osm-way-929919331",
-    "slug": "plaz",
+    "slug": "plaz-259",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.452359,
@@ -20425,7 +20161,7 @@
   },
   {
     "id": "osm-way-941071980",
-    "slug": "plaz",
+    "slug": "plaz-260",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.019942,
@@ -20449,7 +20185,7 @@
   },
   {
     "id": "osm-way-962277739",
-    "slug": "plaz",
+    "slug": "plaz-261",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.985382,
@@ -20473,7 +20209,7 @@
   },
   {
     "id": "osm-way-962277741",
-    "slug": "plaz",
+    "slug": "plaz-262",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.984439,
@@ -20497,7 +20233,7 @@
   },
   {
     "id": "osm-way-962277744",
-    "slug": "plaz",
+    "slug": "plaz-263",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.98641,
@@ -20521,7 +20257,7 @@
   },
   {
     "id": "osm-way-964004619",
-    "slug": "plaz",
+    "slug": "plaz-264",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.771552,
@@ -20545,7 +20281,7 @@
   },
   {
     "id": "osm-way-965934693",
-    "slug": "plaz",
+    "slug": "plaz-265",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.318118,
@@ -20569,7 +20305,7 @@
   },
   {
     "id": "osm-way-969274587",
-    "slug": "plaz",
+    "slug": "plaz-266",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.715903,
@@ -20593,7 +20329,7 @@
   },
   {
     "id": "osm-way-970310875",
-    "slug": "plaz",
+    "slug": "plaz-267",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.239668,
@@ -20617,7 +20353,7 @@
   },
   {
     "id": "osm-way-973122108",
-    "slug": "plaz",
+    "slug": "plaz-268",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.199705,
@@ -20641,7 +20377,7 @@
   },
   {
     "id": "osm-way-975814602",
-    "slug": "plaz",
+    "slug": "plaz-269",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.328835,
@@ -20665,7 +20401,7 @@
   },
   {
     "id": "osm-way-982151571",
-    "slug": "plaz",
+    "slug": "plaz-270",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.522513,
@@ -20689,7 +20425,7 @@
   },
   {
     "id": "osm-way-997867801",
-    "slug": "plaz",
+    "slug": "plaz-271",
     "name": "Pláž",
     "type": "bazen",
     "lat": 48.273195,
@@ -20713,7 +20449,7 @@
   },
   {
     "id": "osm-way-1002371114",
-    "slug": "plaz",
+    "slug": "plaz-272",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.074208,
@@ -20737,7 +20473,7 @@
   },
   {
     "id": "osm-way-1002371118",
-    "slug": "plaz",
+    "slug": "plaz-273",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.075458,
@@ -20761,7 +20497,7 @@
   },
   {
     "id": "osm-way-1007103601",
-    "slug": "plaz",
+    "slug": "plaz-274",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.018066,
@@ -20785,7 +20521,7 @@
   },
   {
     "id": "osm-way-1013084751",
-    "slug": "plaz",
+    "slug": "plaz-275",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.655517,
@@ -20809,7 +20545,7 @@
   },
   {
     "id": "osm-way-1018819989",
-    "slug": "plaz",
+    "slug": "plaz-276",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.384593,
@@ -20833,7 +20569,7 @@
   },
   {
     "id": "osm-way-1019539771",
-    "slug": "plaz",
+    "slug": "plaz-277",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.848672,
@@ -20857,7 +20593,7 @@
   },
   {
     "id": "osm-way-1019539774",
-    "slug": "plaz",
+    "slug": "plaz-278",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.849777,
@@ -20881,7 +20617,7 @@
   },
   {
     "id": "osm-way-1024057422",
-    "slug": "plaz",
+    "slug": "plaz-279",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.046829,
@@ -20905,7 +20641,7 @@
   },
   {
     "id": "osm-way-1025363482",
-    "slug": "plaz",
+    "slug": "plaz-280",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.363202,
@@ -20929,7 +20665,7 @@
   },
   {
     "id": "osm-way-1030990863",
-    "slug": "plaz",
+    "slug": "plaz-281",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.798698,
@@ -20953,7 +20689,7 @@
   },
   {
     "id": "osm-way-1031363075",
-    "slug": "plaz",
+    "slug": "plaz-282",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.798789,
@@ -20977,7 +20713,7 @@
   },
   {
     "id": "osm-way-1031363076",
-    "slug": "plaz",
+    "slug": "plaz-283",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.798122,
@@ -21001,7 +20737,7 @@
   },
   {
     "id": "osm-way-1031363077",
-    "slug": "plaz",
+    "slug": "plaz-284",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.797558,
@@ -21025,7 +20761,7 @@
   },
   {
     "id": "osm-way-1031363078",
-    "slug": "plaz",
+    "slug": "plaz-285",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.797016,
@@ -21049,7 +20785,7 @@
   },
   {
     "id": "osm-way-1034268200",
-    "slug": "plaz",
+    "slug": "plaz-286",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.134164,
@@ -21073,7 +20809,7 @@
   },
   {
     "id": "osm-way-1034270031",
-    "slug": "plaz",
+    "slug": "plaz-287",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.134854,
@@ -21097,7 +20833,7 @@
   },
   {
     "id": "osm-way-1036037744",
-    "slug": "plaz",
+    "slug": "plaz-288",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.142918,
@@ -21121,7 +20857,7 @@
   },
   {
     "id": "osm-way-1036654033",
-    "slug": "plaz",
+    "slug": "plaz-289",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.372726,
@@ -21145,7 +20881,7 @@
   },
   {
     "id": "osm-way-1052738340",
-    "slug": "plaz",
+    "slug": "plaz-290",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.436932,
@@ -21169,7 +20905,7 @@
   },
   {
     "id": "osm-way-1056867823",
-    "slug": "plaz",
+    "slug": "plaz-291",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.937953,
@@ -21193,7 +20929,7 @@
   },
   {
     "id": "osm-way-1056867824",
-    "slug": "plaz",
+    "slug": "plaz-292",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.939189,
@@ -21217,7 +20953,7 @@
   },
   {
     "id": "osm-way-1056867825",
-    "slug": "plaz",
+    "slug": "plaz-293",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.939557,
@@ -21241,7 +20977,7 @@
   },
   {
     "id": "osm-way-1056867827",
-    "slug": "plaz",
+    "slug": "plaz-294",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.938435,
@@ -21265,7 +21001,7 @@
   },
   {
     "id": "osm-way-1056900358",
-    "slug": "plaz",
+    "slug": "plaz-295",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.932476,
@@ -21289,7 +21025,7 @@
   },
   {
     "id": "osm-way-1056900361",
-    "slug": "plaz",
+    "slug": "plaz-296",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.933884,
@@ -21313,7 +21049,7 @@
   },
   {
     "id": "osm-way-1062809328",
-    "slug": "plaz",
+    "slug": "plaz-297",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.715766,
@@ -21337,7 +21073,7 @@
   },
   {
     "id": "osm-way-1075197692",
-    "slug": "plaz",
+    "slug": "plaz-298",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.610964,
@@ -21361,7 +21097,7 @@
   },
   {
     "id": "osm-way-1075614063",
-    "slug": "plaz",
+    "slug": "plaz-299",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.248557,
@@ -21385,7 +21121,7 @@
   },
   {
     "id": "osm-way-1075827606",
-    "slug": "plaz",
+    "slug": "plaz-300",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.245944,
@@ -21409,7 +21145,7 @@
   },
   {
     "id": "osm-way-1079279712",
-    "slug": "plaz",
+    "slug": "plaz-301",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.118837,
@@ -21433,7 +21169,7 @@
   },
   {
     "id": "osm-way-1079279713",
-    "slug": "plaz",
+    "slug": "plaz-302",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.119048,
@@ -21457,7 +21193,7 @@
   },
   {
     "id": "osm-way-1079279714",
-    "slug": "plaz",
+    "slug": "plaz-303",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.116943,
@@ -21481,7 +21217,7 @@
   },
   {
     "id": "osm-way-1079279715",
-    "slug": "plaz",
+    "slug": "plaz-304",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.116658,
@@ -21505,7 +21241,7 @@
   },
   {
     "id": "osm-way-1079279716",
-    "slug": "plaz",
+    "slug": "plaz-305",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.116748,
@@ -21529,7 +21265,7 @@
   },
   {
     "id": "osm-way-1079279717",
-    "slug": "plaz",
+    "slug": "plaz-306",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.116941,
@@ -21553,7 +21289,7 @@
   },
   {
     "id": "osm-way-1079279718",
-    "slug": "plaz",
+    "slug": "plaz-307",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.116729,
@@ -21577,7 +21313,7 @@
   },
   {
     "id": "osm-way-1079279719",
-    "slug": "plaz",
+    "slug": "plaz-308",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.11704,
@@ -21601,7 +21337,7 @@
   },
   {
     "id": "osm-way-1079279721",
-    "slug": "plaz",
+    "slug": "plaz-309",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.117117,
@@ -21625,7 +21361,7 @@
   },
   {
     "id": "osm-way-1079279722",
-    "slug": "plaz",
+    "slug": "plaz-310",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.116691,
@@ -21649,7 +21385,7 @@
   },
   {
     "id": "osm-way-1079279723",
-    "slug": "plaz",
+    "slug": "plaz-311",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.11709,
@@ -21673,7 +21409,7 @@
   },
   {
     "id": "osm-way-1079301055",
-    "slug": "plaz",
+    "slug": "plaz-312",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.118282,
@@ -21697,7 +21433,7 @@
   },
   {
     "id": "osm-way-1082335746",
-    "slug": "plaz",
+    "slug": "plaz-313",
     "name": "Pláž",
     "type": "bazen",
     "lat": 48.902539,
@@ -21721,7 +21457,7 @@
   },
   {
     "id": "osm-way-1084606873",
-    "slug": "plaz",
+    "slug": "plaz-314",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.121449,
@@ -21745,7 +21481,7 @@
   },
   {
     "id": "osm-way-1085068731",
-    "slug": "plaz",
+    "slug": "plaz-315",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.973812,
@@ -21769,7 +21505,7 @@
   },
   {
     "id": "osm-way-1085071891",
-    "slug": "plaz",
+    "slug": "plaz-316",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.960015,
@@ -21793,7 +21529,7 @@
   },
   {
     "id": "osm-way-1086407099",
-    "slug": "plaz",
+    "slug": "plaz-317",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.087545,
@@ -21817,7 +21553,7 @@
   },
   {
     "id": "osm-way-1086407100",
-    "slug": "plaz",
+    "slug": "plaz-318",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.088343,
@@ -21841,7 +21577,7 @@
   },
   {
     "id": "osm-way-1090450451",
-    "slug": "plaz",
+    "slug": "plaz-319",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.368656,
@@ -21865,7 +21601,7 @@
   },
   {
     "id": "osm-way-1091069807",
-    "slug": "plaz",
+    "slug": "plaz-320",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.976054,
@@ -21889,7 +21625,7 @@
   },
   {
     "id": "osm-way-1091069808",
-    "slug": "plaz",
+    "slug": "plaz-321",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.981856,
@@ -21913,7 +21649,7 @@
   },
   {
     "id": "osm-way-1091069809",
-    "slug": "plaz",
+    "slug": "plaz-322",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.982316,
@@ -21937,7 +21673,7 @@
   },
   {
     "id": "osm-way-1091069810",
-    "slug": "plaz",
+    "slug": "plaz-323",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.982689,
@@ -21961,7 +21697,7 @@
   },
   {
     "id": "osm-way-1097992199",
-    "slug": "plaz",
+    "slug": "plaz-324",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.398847,
@@ -21985,7 +21721,7 @@
   },
   {
     "id": "osm-way-1098025190",
-    "slug": "plaz",
+    "slug": "plaz-325",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.374207,
@@ -22009,7 +21745,7 @@
   },
   {
     "id": "osm-way-1102406633",
-    "slug": "plaz",
+    "slug": "plaz-326",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.418239,
@@ -22033,7 +21769,7 @@
   },
   {
     "id": "osm-way-1102406639",
-    "slug": "plaz",
+    "slug": "plaz-327",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.416924,
@@ -22057,7 +21793,7 @@
   },
   {
     "id": "osm-way-1102406640",
-    "slug": "plaz",
+    "slug": "plaz-328",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.414328,
@@ -22081,7 +21817,7 @@
   },
   {
     "id": "osm-way-1103021163",
-    "slug": "plaz",
+    "slug": "plaz-329",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.153851,
@@ -22105,7 +21841,7 @@
   },
   {
     "id": "osm-way-1103021187",
-    "slug": "plaz",
+    "slug": "plaz-330",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.152625,
@@ -22129,7 +21865,7 @@
   },
   {
     "id": "osm-way-1108298259",
-    "slug": "plaz",
+    "slug": "plaz-331",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.258619,
@@ -22153,7 +21889,7 @@
   },
   {
     "id": "osm-way-1109097822",
-    "slug": "plaz",
+    "slug": "plaz-332",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.834022,
@@ -22177,7 +21913,7 @@
   },
   {
     "id": "osm-way-1110705731",
-    "slug": "plaz",
+    "slug": "plaz-333",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.067175,
@@ -22201,7 +21937,7 @@
   },
   {
     "id": "osm-way-1112124644",
-    "slug": "plaz",
+    "slug": "plaz-334",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.97496,
@@ -22225,7 +21961,7 @@
   },
   {
     "id": "osm-way-1118040721",
-    "slug": "plaz",
+    "slug": "plaz-335",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.154748,
@@ -22249,7 +21985,7 @@
   },
   {
     "id": "osm-way-1118945616",
-    "slug": "plaz",
+    "slug": "plaz-336",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.017083,
@@ -22273,7 +22009,7 @@
   },
   {
     "id": "osm-way-1120843635",
-    "slug": "plaz",
+    "slug": "plaz-337",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.509039,
@@ -22297,7 +22033,7 @@
   },
   {
     "id": "osm-way-1120843655",
-    "slug": "plaz",
+    "slug": "plaz-338",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.501182,
@@ -22321,7 +22057,7 @@
   },
   {
     "id": "osm-way-1120843656",
-    "slug": "plaz",
+    "slug": "plaz-339",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.50239,
@@ -22345,7 +22081,7 @@
   },
   {
     "id": "osm-way-1120843657",
-    "slug": "plaz",
+    "slug": "plaz-340",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.502999,
@@ -22369,7 +22105,7 @@
   },
   {
     "id": "osm-way-1120843663",
-    "slug": "plaz",
+    "slug": "plaz-341",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.50029,
@@ -22393,7 +22129,7 @@
   },
   {
     "id": "osm-way-1123168682",
-    "slug": "plaz",
+    "slug": "plaz-342",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.493961,
@@ -22417,7 +22153,7 @@
   },
   {
     "id": "osm-way-1131925021",
-    "slug": "plaz",
+    "slug": "plaz-343",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.774996,
@@ -22441,7 +22177,7 @@
   },
   {
     "id": "osm-way-1135506659",
-    "slug": "plaz",
+    "slug": "plaz-344",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.469228,
@@ -22465,7 +22201,7 @@
   },
   {
     "id": "osm-way-1135506660",
-    "slug": "plaz",
+    "slug": "plaz-345",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.462739,
@@ -22489,7 +22225,7 @@
   },
   {
     "id": "osm-way-1135506661",
-    "slug": "plaz",
+    "slug": "plaz-346",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.462766,
@@ -22513,7 +22249,7 @@
   },
   {
     "id": "osm-way-1135506663",
-    "slug": "plaz",
+    "slug": "plaz-347",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.464391,
@@ -22537,7 +22273,7 @@
   },
   {
     "id": "osm-way-1138531224",
-    "slug": "plaz",
+    "slug": "plaz-348",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.076818,
@@ -22561,7 +22297,7 @@
   },
   {
     "id": "osm-way-1138531229",
-    "slug": "plaz",
+    "slug": "plaz-349",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.07717,
@@ -22585,7 +22321,7 @@
   },
   {
     "id": "osm-way-1153741897",
-    "slug": "plaz",
+    "slug": "plaz-350",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.43642,
@@ -22609,7 +22345,7 @@
   },
   {
     "id": "osm-way-1160961666",
-    "slug": "plaz",
+    "slug": "plaz-351",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.103922,
@@ -22633,7 +22369,7 @@
   },
   {
     "id": "osm-way-1168027254",
-    "slug": "plaz",
+    "slug": "plaz-352",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.499125,
@@ -22657,7 +22393,7 @@
   },
   {
     "id": "osm-way-1174532377",
-    "slug": "plaz",
+    "slug": "plaz-353",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.209531,
@@ -22681,7 +22417,7 @@
   },
   {
     "id": "osm-way-1184055836",
-    "slug": "plaz",
+    "slug": "plaz-354",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.033187,
@@ -22705,7 +22441,7 @@
   },
   {
     "id": "osm-way-1188429640",
-    "slug": "plaz",
+    "slug": "plaz-355",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.858817,
@@ -22729,7 +22465,7 @@
   },
   {
     "id": "osm-way-1188675720",
-    "slug": "plaz",
+    "slug": "plaz-356",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.016167,
@@ -22753,7 +22489,7 @@
   },
   {
     "id": "osm-way-1190448152",
-    "slug": "plaz",
+    "slug": "plaz-357",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.88825,
@@ -22777,7 +22513,7 @@
   },
   {
     "id": "osm-way-1191686165",
-    "slug": "plaz",
+    "slug": "plaz-358",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.395427,
@@ -22801,7 +22537,7 @@
   },
   {
     "id": "osm-way-1191686172",
-    "slug": "plaz",
+    "slug": "plaz-359",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.392042,
@@ -22825,7 +22561,7 @@
   },
   {
     "id": "osm-way-1194699967",
-    "slug": "plaz",
+    "slug": "plaz-360",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.210075,
@@ -22849,7 +22585,7 @@
   },
   {
     "id": "osm-way-1194699968",
-    "slug": "plaz",
+    "slug": "plaz-361",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.208331,
@@ -22873,7 +22609,7 @@
   },
   {
     "id": "osm-way-1194699969",
-    "slug": "plaz",
+    "slug": "plaz-362",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.208508,
@@ -22897,7 +22633,7 @@
   },
   {
     "id": "osm-way-1194699971",
-    "slug": "plaz",
+    "slug": "plaz-363",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.19803,
@@ -22921,7 +22657,7 @@
   },
   {
     "id": "osm-way-1201354679",
-    "slug": "plaz",
+    "slug": "plaz-364",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.987583,
@@ -22945,7 +22681,7 @@
   },
   {
     "id": "osm-way-1201354681",
-    "slug": "plaz",
+    "slug": "plaz-365",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.990518,
@@ -22969,7 +22705,7 @@
   },
   {
     "id": "osm-way-1201354684",
-    "slug": "plaz",
+    "slug": "plaz-366",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.989016,
@@ -22993,7 +22729,7 @@
   },
   {
     "id": "osm-way-1201354686",
-    "slug": "plaz",
+    "slug": "plaz-367",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.989159,
@@ -23017,7 +22753,7 @@
   },
   {
     "id": "osm-way-1201439438",
-    "slug": "plaz",
+    "slug": "plaz-368",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.264244,
@@ -23041,7 +22777,7 @@
   },
   {
     "id": "osm-way-1211658890",
-    "slug": "plaz",
+    "slug": "plaz-369",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.628031,
@@ -23065,7 +22801,7 @@
   },
   {
     "id": "osm-way-1217514680",
-    "slug": "plaz",
+    "slug": "plaz-370",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.05481,
@@ -23089,7 +22825,7 @@
   },
   {
     "id": "osm-way-1221616655",
-    "slug": "plaz",
+    "slug": "plaz-371",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.461754,
@@ -23113,7 +22849,7 @@
   },
   {
     "id": "osm-way-1228037772",
-    "slug": "plaz",
+    "slug": "plaz-372",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.216017,
@@ -23137,7 +22873,7 @@
   },
   {
     "id": "osm-way-1254533597",
-    "slug": "plaz",
+    "slug": "plaz-373",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.272562,
@@ -23161,7 +22897,7 @@
   },
   {
     "id": "osm-way-1254533600",
-    "slug": "plaz",
+    "slug": "plaz-374",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.272724,
@@ -23185,7 +22921,7 @@
   },
   {
     "id": "osm-way-1270353489",
-    "slug": "plaz",
+    "slug": "plaz-375",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.107904,
@@ -23209,7 +22945,7 @@
   },
   {
     "id": "osm-way-1272571762",
-    "slug": "plaz",
+    "slug": "plaz-376",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.203518,
@@ -23233,7 +22969,7 @@
   },
   {
     "id": "osm-way-1287487960",
-    "slug": "plaz",
+    "slug": "plaz-377",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.009391,
@@ -23257,7 +22993,7 @@
   },
   {
     "id": "osm-way-1302246258",
-    "slug": "plaz",
+    "slug": "plaz-378",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.960659,
@@ -23281,7 +23017,7 @@
   },
   {
     "id": "osm-way-1305003789",
-    "slug": "plaz",
+    "slug": "plaz-379",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.946636,
@@ -23305,7 +23041,7 @@
   },
   {
     "id": "osm-way-1307359676",
-    "slug": "plaz",
+    "slug": "plaz-380",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.74761,
@@ -23329,7 +23065,7 @@
   },
   {
     "id": "osm-way-1307359677",
-    "slug": "plaz",
+    "slug": "plaz-381",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.747426,
@@ -23353,7 +23089,7 @@
   },
   {
     "id": "osm-way-1307695090",
-    "slug": "plaz",
+    "slug": "plaz-382",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.016157,
@@ -23377,7 +23113,7 @@
   },
   {
     "id": "osm-way-1307845734",
-    "slug": "plaz",
+    "slug": "plaz-383",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.141608,
@@ -23401,7 +23137,7 @@
   },
   {
     "id": "osm-way-1308114978",
-    "slug": "plaz",
+    "slug": "plaz-384",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.162737,
@@ -23425,7 +23161,7 @@
   },
   {
     "id": "osm-way-1308114979",
-    "slug": "plaz",
+    "slug": "plaz-385",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.163612,
@@ -23449,7 +23185,7 @@
   },
   {
     "id": "osm-way-1308273661",
-    "slug": "plaz",
+    "slug": "plaz-386",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.061681,
@@ -23473,7 +23209,7 @@
   },
   {
     "id": "osm-way-1308420793",
-    "slug": "plaz",
+    "slug": "plaz-387",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.36037,
@@ -23497,7 +23233,7 @@
   },
   {
     "id": "osm-way-1308562398",
-    "slug": "plaz",
+    "slug": "plaz-388",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.563832,
@@ -23521,7 +23257,7 @@
   },
   {
     "id": "osm-way-1308794417",
-    "slug": "plaz",
+    "slug": "plaz-389",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.266142,
@@ -23545,7 +23281,7 @@
   },
   {
     "id": "osm-way-1311076595",
-    "slug": "plaz",
+    "slug": "plaz-390",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.739062,
@@ -23569,7 +23305,7 @@
   },
   {
     "id": "osm-way-1312216978",
-    "slug": "plaz",
+    "slug": "plaz-391",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.540533,
@@ -23593,7 +23329,7 @@
   },
   {
     "id": "osm-way-1317959663",
-    "slug": "plaz",
+    "slug": "plaz-392",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.888968,
@@ -23617,7 +23353,7 @@
   },
   {
     "id": "osm-way-1319814370",
-    "slug": "plaz",
+    "slug": "plaz-393",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.094262,
@@ -23641,7 +23377,7 @@
   },
   {
     "id": "osm-way-1330886493",
-    "slug": "plaz",
+    "slug": "plaz-394",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.342909,
@@ -23665,7 +23401,7 @@
   },
   {
     "id": "osm-way-1332650193",
-    "slug": "plaz",
+    "slug": "plaz-395",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.156807,
@@ -23689,7 +23425,7 @@
   },
   {
     "id": "osm-way-1365532380",
-    "slug": "plaz",
+    "slug": "plaz-396",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.629277,
@@ -23713,7 +23449,7 @@
   },
   {
     "id": "osm-way-1365532381",
-    "slug": "plaz",
+    "slug": "plaz-397",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.627692,
@@ -23737,7 +23473,7 @@
   },
   {
     "id": "osm-way-1368436027",
-    "slug": "plaz",
+    "slug": "plaz-398",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.352678,
@@ -23761,7 +23497,7 @@
   },
   {
     "id": "osm-way-1368477362",
-    "slug": "plaz",
+    "slug": "plaz-399",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.353369,
@@ -23785,7 +23521,7 @@
   },
   {
     "id": "osm-way-1372426735",
-    "slug": "plaz",
+    "slug": "plaz-400",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.785938,
@@ -23809,7 +23545,7 @@
   },
   {
     "id": "osm-way-1375056918",
-    "slug": "plaz",
+    "slug": "plaz-401",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.285547,
@@ -23833,7 +23569,7 @@
   },
   {
     "id": "osm-way-1375883988",
-    "slug": "plaz",
+    "slug": "plaz-402",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.966555,
@@ -23857,7 +23593,7 @@
   },
   {
     "id": "osm-way-1376078530",
-    "slug": "plaz",
+    "slug": "plaz-403",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.812042,
@@ -23881,7 +23617,7 @@
   },
   {
     "id": "osm-way-1382129729",
-    "slug": "plaz",
+    "slug": "plaz-404",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.510786,
@@ -23905,7 +23641,7 @@
   },
   {
     "id": "osm-way-1393123324",
-    "slug": "plaz",
+    "slug": "plaz-405",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.384018,
@@ -23929,7 +23665,7 @@
   },
   {
     "id": "osm-way-1393123345",
-    "slug": "plaz",
+    "slug": "plaz-406",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.375732,
@@ -23953,7 +23689,7 @@
   },
   {
     "id": "osm-way-1395536742",
-    "slug": "plaz",
+    "slug": "plaz-407",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.017841,
@@ -23977,7 +23713,7 @@
   },
   {
     "id": "osm-way-1395536746",
-    "slug": "plaz",
+    "slug": "plaz-408",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.017749,
@@ -24001,7 +23737,7 @@
   },
   {
     "id": "osm-way-1410409802",
-    "slug": "plaz",
+    "slug": "plaz-409",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.041538,
@@ -24025,7 +23761,7 @@
   },
   {
     "id": "osm-way-1410839860",
-    "slug": "plaz",
+    "slug": "plaz-410",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.508633,
@@ -24049,7 +23785,7 @@
   },
   {
     "id": "osm-way-1412760820",
-    "slug": "plaz",
+    "slug": "plaz-411",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.236895,
@@ -24073,7 +23809,7 @@
   },
   {
     "id": "osm-way-1413008223",
-    "slug": "plaz",
+    "slug": "plaz-412",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.075921,
@@ -24097,7 +23833,7 @@
   },
   {
     "id": "osm-way-1413311941",
-    "slug": "plaz",
+    "slug": "plaz-413",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.288445,
@@ -24121,7 +23857,7 @@
   },
   {
     "id": "osm-way-1413872711",
-    "slug": "plaz",
+    "slug": "plaz-414",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.280145,
@@ -24145,7 +23881,7 @@
   },
   {
     "id": "osm-way-1415891099",
-    "slug": "plaz",
+    "slug": "plaz-415",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.00844,
@@ -24169,7 +23905,7 @@
   },
   {
     "id": "osm-way-1418669202",
-    "slug": "plaz",
+    "slug": "plaz-416",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.717784,
@@ -24193,7 +23929,7 @@
   },
   {
     "id": "osm-way-1418669361",
-    "slug": "plaz",
+    "slug": "plaz-417",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.715915,
@@ -24217,7 +23953,7 @@
   },
   {
     "id": "osm-way-1419319360",
-    "slug": "plaz",
+    "slug": "plaz-418",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.850477,
@@ -24241,7 +23977,7 @@
   },
   {
     "id": "osm-way-1419319361",
-    "slug": "plaz",
+    "slug": "plaz-419",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.849851,
@@ -24265,7 +24001,7 @@
   },
   {
     "id": "osm-way-1419956193",
-    "slug": "plaz",
+    "slug": "plaz-420",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.591757,
@@ -24289,7 +24025,7 @@
   },
   {
     "id": "osm-way-1419956203",
-    "slug": "plaz",
+    "slug": "plaz-421",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.581147,
@@ -24313,7 +24049,7 @@
   },
   {
     "id": "osm-way-1419956204",
-    "slug": "plaz",
+    "slug": "plaz-422",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.580496,
@@ -24337,7 +24073,7 @@
   },
   {
     "id": "osm-way-1421334413",
-    "slug": "plaz",
+    "slug": "plaz-423",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.199324,
@@ -24361,7 +24097,7 @@
   },
   {
     "id": "osm-way-1422976930",
-    "slug": "plaz",
+    "slug": "plaz-424",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.665108,
@@ -24385,7 +24121,7 @@
   },
   {
     "id": "osm-way-1423091978",
-    "slug": "plaz",
+    "slug": "plaz-425",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.266163,
@@ -24409,7 +24145,7 @@
   },
   {
     "id": "osm-way-1425678076",
-    "slug": "plaz",
+    "slug": "plaz-426",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.49545,
@@ -24433,7 +24169,7 @@
   },
   {
     "id": "osm-way-1429336367",
-    "slug": "plaz",
+    "slug": "plaz-427",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.440447,
@@ -24457,7 +24193,7 @@
   },
   {
     "id": "osm-way-1435651909",
-    "slug": "plaz",
+    "slug": "plaz-428",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.860416,
@@ -24481,7 +24217,7 @@
   },
   {
     "id": "osm-way-1443463991",
-    "slug": "plaz",
+    "slug": "plaz-429",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.857718,
@@ -24505,7 +24241,7 @@
   },
   {
     "id": "osm-way-1448379451",
-    "slug": "plaz",
+    "slug": "plaz-430",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.93499,
@@ -24529,7 +24265,7 @@
   },
   {
     "id": "osm-way-1448379452",
-    "slug": "plaz",
+    "slug": "plaz-431",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.934685,
@@ -24553,7 +24289,7 @@
   },
   {
     "id": "osm-way-1464153805",
-    "slug": "plaz",
+    "slug": "plaz-432",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.40989,
@@ -24577,7 +24313,7 @@
   },
   {
     "id": "osm-way-1473968395",
-    "slug": "plaz",
+    "slug": "plaz-433",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.131348,
@@ -24601,7 +24337,7 @@
   },
   {
     "id": "osm-way-1482170360",
-    "slug": "plaz",
+    "slug": "plaz-434",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.852611,
@@ -24625,7 +24361,7 @@
   },
   {
     "id": "osm-way-1482633144",
-    "slug": "plaz",
+    "slug": "plaz-435",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.131858,
@@ -24649,7 +24385,7 @@
   },
   {
     "id": "osm-way-1499595800",
-    "slug": "plaz",
+    "slug": "plaz-436",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.662659,
@@ -24673,7 +24409,7 @@
   },
   {
     "id": "osm-way-1512258563",
-    "slug": "plaz",
+    "slug": "plaz-437",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.368137,
@@ -24697,7 +24433,7 @@
   },
   {
     "id": "osm-way-1522836835",
-    "slug": "plaz",
+    "slug": "plaz-438",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 51.448165,
@@ -24721,7 +24457,7 @@
   },
   {
     "id": "osm-way-1527495353",
-    "slug": "plaz",
+    "slug": "plaz-439",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 49.716197,
@@ -24745,7 +24481,7 @@
   },
   {
     "id": "osm-way-1531381021",
-    "slug": "plaz",
+    "slug": "plaz-440",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.725564,
@@ -24769,7 +24505,7 @@
   },
   {
     "id": "osm-way-1532082238",
-    "slug": "plaz",
+    "slug": "plaz-441",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.448526,
@@ -24793,7 +24529,7 @@
   },
   {
     "id": "osm-relation-3642029",
-    "slug": "plaz",
+    "slug": "plaz-442",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.176778,
@@ -24817,7 +24553,7 @@
   },
   {
     "id": "osm-relation-3642030",
-    "slug": "plaz",
+    "slug": "plaz-443",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.176467,
@@ -24841,7 +24577,7 @@
   },
   {
     "id": "osm-relation-3642031",
-    "slug": "plaz",
+    "slug": "plaz-444",
     "name": "Pláž",
     "type": "bazen",
     "lat": 51.177539,
@@ -24865,7 +24601,7 @@
   },
   {
     "id": "osm-relation-14115432",
-    "slug": "plaz",
+    "slug": "plaz-445",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.935913,
@@ -24889,7 +24625,7 @@
   },
   {
     "id": "osm-relation-15730555",
-    "slug": "plaz",
+    "slug": "plaz-446",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.492182,
@@ -24913,7 +24649,7 @@
   },
   {
     "id": "osm-relation-18182164",
-    "slug": "plaz",
+    "slug": "plaz-447",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.897076,
@@ -24937,7 +24673,7 @@
   },
   {
     "id": "osm-relation-18182643",
-    "slug": "plaz",
+    "slug": "plaz-448",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 50.923546,
@@ -24961,7 +24697,7 @@
   },
   {
     "id": "osm-relation-18242393",
-    "slug": "plaz",
+    "slug": "plaz-449",
     "name": "Pláž",
     "type": "prirodni_koupaliste",
     "lat": 48.286258,
@@ -25633,7 +25369,7 @@
   },
   {
     "id": "osm-way-24901479",
-    "slug": "schwimmbad",
+    "slug": "schwimmbad-2",
     "name": "Schwimmbad",
     "type": "bazen",
     "lat": 50.044911,
@@ -25849,7 +25585,7 @@
   },
   {
     "id": "osm-way-120164230",
-    "slug": "schwimmerbecken",
+    "slug": "schwimmerbecken-2",
     "name": "Schwimmerbecken",
     "type": "bazen",
     "lat": 50.867158,
@@ -25873,7 +25609,7 @@
   },
   {
     "id": "osm-way-148009109",
-    "slug": "schwimmerbecken",
+    "slug": "schwimmerbecken-3",
     "name": "Schwimmerbecken",
     "type": "bazen",
     "lat": 49.70832,
@@ -25897,7 +25633,7 @@
   },
   {
     "id": "osm-way-361124506",
-    "slug": "schwimmerbecken",
+    "slug": "schwimmerbecken-4",
     "name": "Schwimmerbecken",
     "type": "bazen",
     "lat": 49.951318,
@@ -25921,7 +25657,7 @@
   },
   {
     "id": "osm-way-368253354",
-    "slug": "schwimmerbecken",
+    "slug": "schwimmerbecken-5",
     "name": "Schwimmerbecken",
     "type": "bazen",
     "lat": 49.835478,
@@ -26521,7 +26257,7 @@
   },
   {
     "id": "osm-way-36856108",
-    "slug": "sportbecken",
+    "slug": "sportbecken-2",
     "name": "Sportbecken",
     "type": "bazen",
     "lat": 48.33589,
@@ -26545,7 +26281,7 @@
   },
   {
     "id": "osm-way-125336151",
-    "slug": "sportbecken",
+    "slug": "sportbecken-3",
     "name": "Sportbecken",
     "type": "bazen",
     "lat": 50.581891,
@@ -26569,7 +26305,7 @@
   },
   {
     "id": "osm-way-145471592",
-    "slug": "sportbecken",
+    "slug": "sportbecken-4",
     "name": "Sportbecken",
     "type": "bazen",
     "lat": 48.30619,
@@ -26713,7 +26449,7 @@
   },
   {
     "id": "osm-way-242713459",
-    "slug": "stadtbad",
+    "slug": "stadtbad-wilthen",
     "name": "Stadtbad",
     "type": "bazen",
     "lat": 51.09529,
@@ -27168,30 +26904,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-364581400",
-    "slug": "strand-silbersee",
-    "name": "Strand-Silbersee",
-    "type": "prirodni_koupaliste",
-    "lat": 49.414951,
-    "lng": 12.597402,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-node-460020385",
     "slug": "strandbad",
     "name": "Strandbad",
@@ -27217,7 +26929,7 @@
   },
   {
     "id": "osm-node-472092729",
-    "slug": "strandbad",
+    "slug": "strandbad-2",
     "name": "Strandbad",
     "type": "bazen",
     "lat": 49.347578,
@@ -28056,30 +27768,6 @@
     "updatedAt": "2026-06-26"
   },
   {
-    "id": "osm-way-32534770",
-    "slug": "vitalwelt-perg",
-    "name": "Vitalwelt-Perg",
-    "type": "bazen",
-    "lat": 48.239767,
-    "lng": 14.64202,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
     "id": "osm-way-167316243",
     "slug": "volksbad",
     "name": "Volksbad",
@@ -28105,7 +27793,7 @@
   },
   {
     "id": "osm-way-195999513",
-    "slug": "volksbad",
+    "slug": "volksbad-2",
     "name": "Volksbad",
     "type": "bazen",
     "lat": 50.98358,
@@ -28297,7 +27985,7 @@
   },
   {
     "id": "osm-way-53036643",
-    "slug": "waldbad",
+    "slug": "waldbad-2",
     "name": "Waldbad",
     "type": "bazen",
     "lat": 51.012487,
@@ -28321,7 +28009,7 @@
   },
   {
     "id": "osm-way-84143527",
-    "slug": "waldbad",
+    "slug": "waldbad-3",
     "name": "Waldbad",
     "type": "bazen",
     "lat": 50.388548,
@@ -28345,7 +28033,7 @@
   },
   {
     "id": "osm-way-84963217",
-    "slug": "waldbad",
+    "slug": "waldbad-4",
     "name": "Waldbad",
     "type": "bazen",
     "lat": 48.785651,
@@ -28369,7 +28057,7 @@
   },
   {
     "id": "osm-way-128523821",
-    "slug": "waldbad",
+    "slug": "waldbad-5",
     "name": "Waldbad",
     "type": "bazen",
     "lat": 50.77974,
@@ -28393,7 +28081,7 @@
   },
   {
     "id": "osm-way-217471142",
-    "slug": "waldbad",
+    "slug": "waldbad-6",
     "name": "Waldbad",
     "type": "bazen",
     "lat": 50.702934,
@@ -29041,7 +28729,7 @@
   },
   {
     "id": "osm-way-286902963",
-    "slug": "waldschwimmbad",
+    "slug": "waldschwimmbad-2",
     "name": "Waldschwimmbad",
     "type": "bazen",
     "lat": 49.983959,
@@ -29065,7 +28753,7 @@
   },
   {
     "id": "osm-way-880362772",
-    "slug": "waldschwimmbad",
+    "slug": "waldschwimmbad-3",
     "name": "Waldschwimmbad",
     "type": "bazen",
     "lat": 49.443335,
@@ -29337,30 +29025,6 @@
     "region": "Příhraničí (mimo ČR)",
     "district": "",
     "municipality": "Wels",
-    "monitored": false,
-    "quality": {
-      "class": "nesledovano",
-      "trust": 3,
-      "source": "OpenStreetMap"
-    },
-    "access": {
-      "status": "nezname",
-      "note": "Místo za hranicemi ČR (do 50 km). Kvalita vody není sledována českými úřady.",
-      "source": "OpenStreetMap"
-    },
-    "abroad": true,
-    "updatedAt": "2026-06-26"
-  },
-  {
-    "id": "osm-way-143370226",
-    "slug": "welldorado",
-    "name": "Welldorado",
-    "type": "bazen",
-    "lat": 48.148948,
-    "lng": 14.015849,
-    "region": "Příhraničí (mimo ČR)",
-    "district": "",
-    "municipality": "",
     "monitored": false,
     "quality": {
       "class": "nesledovano",
