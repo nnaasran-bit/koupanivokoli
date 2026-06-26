@@ -68,13 +68,19 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
     const markers: any[] = [];
     for (const l of locationsRef.current) {
       const color = QUALITY_COLORS[l.quality.class];
-      const border =
-        l.access.status === "zakazano" ? "#111827" : l.access.status === "omezeno" ? "#b45309" : "#ffffff";
+      const ban =
+        l.access.status === "zakazano"
+          ? `<circle cx="13" cy="13" r="5.5" fill="none" stroke="#111827" stroke-width="2"/>`
+          : "";
       const icon = L.divIcon({
         className: "koupani-pin",
-        html: `<span style="display:block;width:16px;height:16px;border-radius:50%;background:${color};border:2px solid ${border};box-shadow:0 0 0 1px rgba(0,0,0,.3);"></span>`,
-        iconSize: [16, 16],
-        iconAnchor: [8, 8],
+        html: `<svg width="28" height="40" viewBox="0 0 26 38" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 2px 2.5px rgba(0,0,0,.45))">
+          <path d="M13 0C6.1 0 .5 5.6 .5 12.5 .5 22 13 37 13 37s12.5-15 12.5-24.5C25.5 5.6 19.9 0 13 0z" fill="${color}" stroke="#ffffff" stroke-width="2.5"/>
+          <circle cx="13" cy="13" r="5" fill="#ffffff"/>${ban}
+        </svg>`,
+        iconSize: [28, 40],
+        iconAnchor: [14, 39],
+        popupAnchor: [0, -34],
       });
       const m = L.marker([l.lat, l.lng], { icon });
       m.bindPopup(popupHtml(l), { minWidth: 210 });
@@ -107,7 +113,22 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
         attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> přispěvatelé',
       }).addTo(map);
 
-      const cluster = (L as any).markerClusterGroup({ maxClusterRadius: 55, chunkedLoading: true });
+      const cluster = (L as any).markerClusterGroup({
+        maxClusterRadius: 55,
+        chunkedLoading: true,
+        showCoverageOnHover: false,
+        iconCreateFunction: (c: any) => {
+          const n = c.getChildCount();
+          const size = n < 10 ? 38 : n < 100 ? 46 : 54;
+          return L.divIcon({
+            className: "koupani-cluster",
+            html: `<div style="width:${size}px;height:${size}px;display:flex;align-items:center;justify-content:center;border-radius:50%;
+              background:radial-gradient(circle at 30% 30%, #38bdf8, #0284c7);color:#fff;font-weight:800;font-size:13px;
+              border:3px solid rgba(255,255,255,.9);box-shadow:0 3px 8px rgba(2,132,199,.45);">${n}</div>`,
+            iconSize: [size, size],
+          });
+        },
+      });
       clusterRef.current = cluster;
       map.addLayer(cluster);
 

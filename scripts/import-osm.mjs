@@ -18,12 +18,15 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // Designovaná místa ke koupání + aquaparky + sportovní plavání v ČR.
 const QUERY = `
-[out:json][timeout:90];
+[out:json][timeout:180];
 area["ISO3166-1"="CZ"][admin_level=2]->.cz;
 (
   nwr["leisure"="swimming_area"](area.cz);
   nwr["leisure"="water_park"](area.cz);
   nwr["sport"="swimming"]["leisure"!="sports_centre"](area.cz);
+  nwr["natural"="water"]["name"](area.cz);
+  nwr["landuse"="quarry"]["name"](area.cz);
+  nwr["landuse"="reservoir"]["name"](area.cz);
 );
 out center tags;
 `;
@@ -39,16 +42,34 @@ function slugify(s) {
 }
 
 function classify(t) {
+  const name = (t.name || "").toLowerCase();
+  if (name.includes("pískov") || name.includes("piskov")) return "piskovna";
+  if (name.includes("lom") || name.includes("amerika")) return "lom";
   if (t.landuse === "quarry" || t.man_made === "quarry") return "lom";
   if (t.leisure === "water_park") return "koupaliste";
+  if (t.landuse === "reservoir") return "prehrada";
   if (t.natural === "water" || t.water) {
-    if (t.water === "pond") return "rybnik";
-    if (t.water === "reservoir" || t.water === "basin") return "prehrada";
+    if (t.water === "pond" || name.includes("rybník") || name.includes("rybnik")) return "rybnik";
+    if (t.water === "reservoir" || t.water === "basin" || name.includes("přehrad")) return "prehrada";
+    if (name.includes("jezero")) return "jezero";
     return "jezero";
   }
   if (t.leisure === "swimming_pool" || t.sport === "swimming") return "koupaliste";
   if (t.leisure === "swimming_area") return "prirodni_koupaliste";
   return "neoficialni";
+}
+
+// Soukromý pozemek / omezený vstup z OSM tagů (access).
+function accessFrom(t) {
+  if (t.access === "private" || t.access === "no") {
+    return {
+      status: "omezeno",
+      reason: "soukromý pozemek / omezený vstup",
+      note: "Dle OpenStreetMap je vstup soukromý nebo omezený. Respektuj prosím zákaz vstupu.",
+      source: "OpenStreetMap",
+    };
+  }
+  return null;
 }
 
 async function fetchOverpass() {
@@ -87,13 +108,14 @@ function toLocation(el, today) {
 
   const type = classify(t);
   const access =
-    type === "koupaliste"
+    accessFrom(t) ||
+    (type === "koupaliste"
       ? { status: "povoleno", source: "OpenStreetMap" }
       : {
           status: "nezname",
           note: "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
           source: "OpenStreetMap",
-        };
+        });
 
   return {
     id: `osm-${el.type}-${el.id}`,

@@ -13,10 +13,12 @@ const sql = CONN ? neon(CONN) : null;
 interface StoredUser {
   id: string;
   nick: string;
+  email: string;
   salt: string;
   hash: string;
   points: number;
   reportCount: number;
+  consentMarketing: boolean;
   createdAt: string;
 }
 
@@ -34,9 +36,13 @@ function ensureSchema(): Promise<void> {
     schemaReady = (async () => {
       await db`CREATE TABLE IF NOT EXISTS users (
         id text PRIMARY KEY, nick text NOT NULL, nick_lower text NOT NULL UNIQUE,
-        salt text NOT NULL, hash text NOT NULL,
+        email text, salt text NOT NULL, hash text NOT NULL,
         points integer NOT NULL DEFAULT 0, report_count integer NOT NULL DEFAULT 0,
+        consent_marketing boolean NOT NULL DEFAULT false,
         created_at timestamptz NOT NULL DEFAULT now())`;
+      await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS email text`;
+      await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS consent_marketing boolean NOT NULL DEFAULT false`;
+      await db`CREATE UNIQUE INDEX IF NOT EXISTS users_email_lower ON users (lower(email))`;
       await db`CREATE TABLE IF NOT EXISTS sessions (
         token text PRIMARY KEY, user_id text NOT NULL, created_at timestamptz NOT NULL DEFAULT now())`;
       await db`CREATE TABLE IF NOT EXISTS reports (
@@ -58,10 +64,12 @@ function toUser(r: any): StoredUser {
   return {
     id: r.id,
     nick: r.nick,
+    email: r.email ?? "",
     salt: r.salt,
     hash: r.hash,
     points: Number(r.points),
     reportCount: Number(r.report_count),
+    consentMarketing: !!r.consent_marketing,
     createdAt: new Date(r.created_at).toISOString(),
   };
 }
@@ -136,6 +144,15 @@ export async function findUserByNick(nick: string): Promise<StoredUser | undefin
   return readFile().users.find((u) => u.nick.toLowerCase() === nick.toLowerCase());
 }
 
+export async function findUserByEmail(email: string): Promise<StoredUser | undefined> {
+  if (sql) {
+    await ensureSchema();
+    const rows = await sql`SELECT * FROM users WHERE lower(email) = ${email.toLowerCase()} LIMIT 1`;
+    return rows[0] ? toUser(rows[0]) : undefined;
+  }
+  return readFile().users.find((u) => (u.email ?? "").toLowerCase() === email.toLowerCase());
+}
+
 export async function getUserById(id: string): Promise<StoredUser | undefined> {
   if (sql) {
     await ensureSchema();
@@ -145,20 +162,28 @@ export async function getUserById(id: string): Promise<StoredUser | undefined> {
   return readFile().users.find((u) => u.id === id);
 }
 
-export async function createUser(nick: string, salt: string, hash: string): Promise<StoredUser> {
+export async function createUser(
+  nick: string,
+  email: string,
+  salt: string,
+  hash: string,
+  consentMarketing: boolean,
+): Promise<StoredUser> {
   const user: StoredUser = {
     id: randomUUID(),
     nick,
+    email,
     salt,
     hash,
     points: 0,
     reportCount: 0,
+    consentMarketing,
     createdAt: new Date().toISOString(),
   };
   if (sql) {
     await ensureSchema();
-    await sql`INSERT INTO users (id, nick, nick_lower, salt, hash, points, report_count)
-      VALUES (${user.id}, ${nick}, ${nick.toLowerCase()}, ${salt}, ${hash}, 0, 0)`;
+    await sql`INSERT INTO users (id, nick, nick_lower, email, salt, hash, points, report_count, consent_marketing)
+      VALUES (${user.id}, ${nick}, ${nick.toLowerCase()}, ${email}, ${salt}, ${hash}, 0, 0, ${consentMarketing})`;
     return user;
   }
   const db = readFile();

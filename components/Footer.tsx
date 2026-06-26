@@ -44,9 +44,14 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-slate-100">
-        <div className="mx-auto w-full max-w-6xl px-4 py-4 text-xs text-slate-400">
-          Informace jsou orientační; rozhodující jsou oficiální zdroje. U nesledovaných míst je
-          koupání na vlastní riziko. © {new Date().getFullYear()} {SITE_NAME}.
+        <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-4 py-4 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+          <span>
+            Informace jsou orientační; rozhodující jsou oficiální zdroje. © {new Date().getFullYear()} {SITE_NAME}.
+          </span>
+          <span className="flex gap-3">
+            <Link href="/podminky" className="hover:text-brand">Podmínky</Link>
+            <Link href="/ochrana-udaju" className="hover:text-brand">Ochrana údajů</Link>
+          </span>
         </div>
       </div>
     </footer>

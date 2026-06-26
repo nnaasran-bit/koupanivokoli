@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allSlugs, getLocationBySlug } from "@/lib/data";
+import { allLocations, getLocationBySlug } from "@/lib/data";
 import CommunityReports from "@/components/CommunityReports";
 import CommunityInfo from "@/components/CommunityInfo";
 import ContentLayout from "@/components/ContentLayout";
@@ -17,8 +17,10 @@ import {
 } from "@/lib/quality";
 import type { Location } from "@/lib/types";
 
+// Předgenerujeme jen oficiálně sledované lokality; ostatní (tisíce z OSM)
+// se vykreslí na vyžádání při první návštěvě (dynamicParams = výchozí true).
 export function generateStaticParams() {
-  return allSlugs().map((slug) => ({ slug }));
+  return allLocations.filter((l) => l.monitored).map((l) => ({ slug: l.slug }));
 }
 
 function describe(loc: Location): string {

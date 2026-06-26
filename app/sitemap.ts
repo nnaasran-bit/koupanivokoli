@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/kvalita-vody`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/zebricek`, lastModified: now, changeFrequency: "daily", priority: 0.5 },
     { url: `${SITE_URL}/nahlasit`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
+    { url: `${SITE_URL}/podminky`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${SITE_URL}/ochrana-udaju`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
   ];
   const regions: MetadataRoute.Sitemap = REGIONS.map((r) => ({
     url: `${SITE_URL}/koupani/${r.slug}`,
