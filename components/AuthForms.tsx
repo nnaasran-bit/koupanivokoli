@@ -69,14 +69,12 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
         >
           <span className="text-base font-bold text-[#4285F4]">G</span> Google
         </a>
-        <button
-          type="button"
-          disabled
-          title="Brzy – přihlášení přes Facebook"
-          className="flex items-center justify-center gap-2 rounded-xl border border-slate-200 px-3 py-2.5 text-sm font-semibold text-slate-400"
+        <a
+          href="/api/auth/facebook"
+          className="flex items-center justify-center gap-2 rounded-xl border border-slate-300 px-3 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50"
         >
-          <span className="text-base">f</span> Facebook
-        </button>
+          <span className="text-base font-bold text-[#1877F2]">f</span> Facebook
+        </a>
       </div>
       <div className="my-4 flex items-center gap-3 text-xs text-slate-400">
         <span className="h-px flex-1 bg-slate-200" /> nebo e-mailem <span className="h-px flex-1 bg-slate-200" />
