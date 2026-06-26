@@ -9,8 +9,13 @@ import ContentLayout from "@/components/ContentLayout";
 export const dynamic = "force-dynamic";
 export const metadata = { title: "Můj profil", robots: { index: false } };
 
-export default async function ProfilPage() {
+export default async function ProfilPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string }>;
+}) {
   const user = await getCurrentUser();
+  const { error } = await searchParams;
 
   return (
     <ContentLayout>
@@ -18,8 +23,13 @@ export default async function ProfilPage() {
         <div>
           <h1 className="mb-1 text-2xl font-extrabold tracking-tight text-slate-900">Připoj se ke komunitě 🏊</h1>
           <p className="mb-4 text-sm text-zinc-600">
-            Hlas stav vody, navrhuj nová místa a sbírej body a odznaky. Stačí přezdívka.
+            Hlas stav vody, navrhuj nová místa a sbírej body a odznaky.
           </p>
+          {error && (
+            <div className="mb-4 rounded-xl border border-rose-200 bg-rose-50 px-3 py-2 text-sm text-rose-700">
+              {error}
+            </div>
+          )}
           <AuthForms redirectTo="/profil" />
         </div>
       ) : (

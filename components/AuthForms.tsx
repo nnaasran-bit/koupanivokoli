@@ -61,16 +61,14 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
         </button>
       </div>
 
-      {/* Sociální přihlášení (aktivuje se po dodání klíčů) */}
+      {/* Sociální přihlášení */}
       <div className="grid grid-cols-2 gap-2">
-        <button
-          type="button"
-          disabled
-          title="Brzy – přihlášení přes Google"
-          className="flex items-center justify-center gap-2 rounded-xl border border-slate-200 px-3 py-2.5 text-sm font-semibold text-slate-400"
+        <a
+          href="/api/auth/google"
+          className="flex items-center justify-center gap-2 rounded-xl border border-slate-300 px-3 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50"
         >
-          <span className="text-base">G</span> Google
-        </button>
+          <span className="text-base font-bold text-[#4285F4]">G</span> Google
+        </a>
         <button
           type="button"
           disabled

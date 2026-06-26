@@ -194,6 +194,23 @@ export async function createUser(
   return user;
 }
 
+// Najde uživatele podle e-mailu, nebo ho založí (pro přihlášení přes Google/Facebook).
+export async function findOrCreateOAuthUser(email: string, displayName: string): Promise<StoredUser> {
+  const existing = await findUserByEmail(email);
+  if (existing) return existing;
+
+  const base = (displayName || email.split("@")[0] || "Plavec").trim().slice(0, 20) || "Plavec";
+  let nick = base;
+  for (let i = 0; (await findUserByNick(nick)); i++) {
+    nick = `${base}${randomBytes(2).toString("hex")}`;
+    if (i > 5) break;
+  }
+  // OAuth účet nemá použitelné heslo – uložíme náhodný otisk.
+  const salt = randomBytes(16).toString("hex");
+  const hash = randomBytes(32).toString("hex");
+  return createUser(nick, email, salt, hash, false);
+}
+
 export async function createSession(userId: string): Promise<string> {
   const token = randomBytes(24).toString("hex");
   if (sql) {
