@@ -354,6 +354,19 @@ export async function recentReports(limit = 30): Promise<Report[]> {
   return readFile().reports.slice(0, limit);
 }
 
+// Vymaže všechny uživatele, sessions, hlášení i příspěvky (reset komunity/žebříčku).
+export async function wipeAllUsers(): Promise<void> {
+  if (sql) {
+    await ensureSchema();
+    await sql`DELETE FROM sessions`;
+    await sql`DELETE FROM reports`;
+    await sql`DELETE FROM contributions`;
+    await sql`DELETE FROM users`;
+    return;
+  }
+  writeFile({ users: [], sessions: [], reports: [], contributions: [] });
+}
+
 export async function leaderboard(limit = 50): Promise<PublicUser[]> {
   if (sql) {
     await ensureSchema();

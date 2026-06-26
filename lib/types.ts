@@ -14,6 +14,7 @@ export type LocationType =
   | "reka"
   | "biotop"
   | "bazen"
+  | "kemp"
   | "neoficialni";
 
 // Zdravotní kvalita vody (zobrazená barva na mapě). Pozor: „zakaz_koupani" je

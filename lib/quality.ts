@@ -39,12 +39,16 @@ export const TYPE_LABELS: Record<LocationType, string> = {
   reka: "Řeka",
   biotop: "Biotop",
   bazen: "Bazén / aquapark",
+  kemp: "Kemp / tábořiště",
   neoficialni: "Neoficiální místo",
 };
 
 // Bazény a aquaparky = umělá (chlorovaná) voda → odlišíme fialovou,
 // barvou, která se k přírodní vodě nehodí.
 export const POOL_COLOR = "#a855f7";
+
+// Kempy / vodácká tábořiště → zelenožlutá (limetková), aby se nepraly s ostatními.
+export const CAMP_COLOR = "#a3b314";
 
 export type FreshnessLevel = "fresh" | "recent" | "old" | "none";
 

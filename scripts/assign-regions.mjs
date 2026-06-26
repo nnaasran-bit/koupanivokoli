@@ -58,5 +58,5 @@ function process(file) {
 }
 
 console.log("Přiřazuji kraje podle souřadnic…");
-for (const f of ["locations.sample.json", "locations.eea.json", "locations.osm.json"]) process(f);
+for (const f of ["locations.sample.json", "locations.eea.json", "locations.osm.json", "locations.kemp.json"]) process(f);
 console.log("Hotovo.");
