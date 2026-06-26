@@ -47,7 +47,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/GOLF_CLUB_JEZERA_-_PANORAMA_-_panoramio.jpg/1280px-GOLF_CLUB_JEZERA_-_PANORAMA_-_panoramio.jpg",
+    "photoCredit": "ANDREJ NEUHERZ (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:GOLF_CLUB_JEZERA_-_PANORAMA_-_panoramio.jpg"
   },
   {
     "id": "osm-way-52074510",
@@ -152,7 +155,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom%2C_CZ160807.jpg/1280px-Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom%2C_CZ160807.jpg",
+    "photoCredit": "Josef Kreuz (PEPan) (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom,_CZ160807.jpg"
   },
   {
     "id": "osm-way-51704121",
@@ -1417,7 +1423,10 @@
       "wc",
       "parkovani",
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Babylonsk%C3%BD_rybn%C3%ADk_%282%29.jpg/1280px-Babylonsk%C3%BD_rybn%C3%ADk_%282%29.jpg",
+    "photoCredit": "Lubor Ferenc (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Babylonsk%C3%BD_rybn%C3%ADk_(2).jpg"
   },
   {
     "id": "osm-way-53219621",
@@ -1954,7 +1963,10 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Hon%C4%9Btice%2C_biotop_Dv%C5%AFr_Hon%C4%9Btice_%282%29.jpg/1280px-Hon%C4%9Btice%2C_biotop_Dv%C5%AFr_Hon%C4%9Btice_%282%29.jpg",
+    "photoCredit": "Palickap (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Hon%C4%9Btice,_biotop_Dv%C5%AFr_Hon%C4%9Btice_(2).jpg"
   },
   {
     "id": "osm-way-393031931",
@@ -2471,7 +2483,10 @@
       "kemp",
       "wc",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Dobru%C5%A1ka%2C_Pulice%2C_Statue_of_the_Virgin_Mary.jpg/1280px-Dobru%C5%A1ka%2C_Pulice%2C_Statue_of_the_Virgin_Mary.jpg",
+    "photoCredit": "This file is available under Creative Commons BY-SA license. Basically: You can use this picture for any purpose, provided that you attribute it to Pavel Hrdlička, Wikipedia. You may distribute the resulting work under the same license. (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Dobru%C5%A1ka,_Pulice,_Statue_of_the_Virgin_Mary.jpg"
   },
   {
     "id": "osm-relation-6629729",
@@ -2499,7 +2514,10 @@
       "kemp",
       "wc",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rybn%C3%ADk_Broumar_u_Opo%C4%8Dna_06.jpg/1280px-Rybn%C3%ADk_Broumar_u_Opo%C4%8Dna_06.jpg",
+    "photoCredit": "Petr1888 (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Rybn%C3%ADk_Broumar_u_Opo%C4%8Dna_06.jpg"
   },
   {
     "id": "osm-way-293391678",
@@ -3084,7 +3102,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/409_%C4%8C%C3%A1st_M%C3%A1lkova_a_kopec_438_m_JZ.jpg/1280px-409_%C4%8C%C3%A1st_M%C3%A1lkova_a_kopec_438_m_JZ.jpg",
+    "photoCredit": "Janmanak (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:409_%C4%8C%C3%A1st_M%C3%A1lkova_a_kopec_438_m_JZ.jpg"
   },
   {
     "id": "osm-way-51979091",
@@ -3678,7 +3699,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/B%C3%BDval%C3%BD_lom_Dru%C5%BEstvo_u_Proset%C3%ADna_01.jpg/1280px-B%C3%BDval%C3%BD_lom_Dru%C5%BEstvo_u_Proset%C3%ADna_01.jpg",
+    "photoCredit": "Petr1888 (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BDval%C3%BD_lom_Dru%C5%BEstvo_u_Proset%C3%ADna_01.jpg"
   },
   {
     "id": "osm-way-50901307",
@@ -4704,7 +4728,10 @@
       "source": "OpenStreetMap"
     },
     "updatedAt": "2026-06-26",
-    "operator": "mimo provoz"
+    "operator": "mimo provoz",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/V%C3%A1penn%C3%A1_Vycp%C3%A1lk%C5%AFv_lom_%282%29.jpg/1280px-V%C3%A1penn%C3%A1_Vycp%C3%A1lk%C5%AFv_lom_%282%29.jpg",
+    "photoCredit": "Lubor Ferenc (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A1penn%C3%A1_Vycp%C3%A1lk%C5%AFv_lom_(2).jpg"
   },
   {
     "id": "osm-way-724009593",
@@ -5092,7 +5119,10 @@
     "amenities": [
       "parkovani",
       "obcerstveni"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kon%C4%9Btopy%2C_jezero_Las_Vegas_2021_01.jpg/1280px-Kon%C4%9Btopy%2C_jezero_Las_Vegas_2021_01.jpg",
+    "photoCredit": "Hubert Kororo (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Kon%C4%9Btopy,_jezero_Las_Vegas_2021_01.jpg"
   },
   {
     "id": "osm-way-51199834",
@@ -5153,7 +5183,10 @@
       "kemp",
       "stanek",
       "wc"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Jezero_Ostr%C3%A1_%282016%29.jpg/1280px-Jezero_Ostr%C3%A1_%282016%29.jpg",
+    "photoCredit": "Michal Louč (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Jezero_Ostr%C3%A1_(2016).jpg"
   },
   {
     "id": "osm-relation-106293",
@@ -5790,7 +5823,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bernartice_pam%C3%A1tky_%2861169%29.jpg/1280px-Bernartice_pam%C3%A1tky_%2861169%29.jpg",
+    "photoCredit": "JAn Dudík (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Bernartice_pam%C3%A1tky_(61169).jpg"
   },
   {
     "id": "osm-way-432462971",
@@ -5911,7 +5947,9 @@
     ],
     "updatedAt": "2026-06-26",
     "description": "Komořanské mlýny jsou čtyři zaniklé vodní mlýny v Praze-Komořanech, které stály na pravém břehu Vltavy.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Komo%C5%99ansk%C3%A9_ml%C3%BDny"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Komo%C5%99ansk%C3%A9_ml%C3%BDny",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Praha-Komo%C5%99any%2C_p%C5%99%C3%ADst%C5%99e%C5%A1ek.jpg/1280px-Praha-Komo%C5%99any%2C_p%C5%99%C3%ADst%C5%99e%C5%A1ek.jpg",
+    "photoCredit": "Honza Groh (Jagro) (CC BY-SA 3.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-51267494",
@@ -6025,7 +6063,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom%2C_CZ160807.jpg/1280px-Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom%2C_CZ160807.jpg",
+    "photoCredit": "Josef Kreuz (PEPan) (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom,_CZ160807.jpg"
   },
   {
     "id": "osm-node-5827515695",
@@ -7258,7 +7299,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cuptour_area.jpg",
+    "photoCredit": "Actuell37 (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Cuptour_area.jpg"
   },
   {
     "id": "osm-relation-13117153",
@@ -8521,7 +8565,10 @@
     "amenities": [
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Turovec.JPG/1280px-Turovec.JPG",
+    "photoCredit": "Wakowlk (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Turovec.JPG"
   },
   {
     "id": "osm-way-403346939",
@@ -10838,7 +10885,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ne%C4%8D%C3%ADn_-_Jiraska_-_Skokan4.jpg/1280px-Ne%C4%8D%C3%ADn_-_Jiraska_-_Skokan4.jpg",
+    "photoCredit": "Jvaclavik (CC0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Ne%C4%8D%C3%ADn_-_Jiraska_-_Skokan4.jpg"
   },
   {
     "id": "osm-way-51008819",
@@ -10912,7 +10962,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ne%C4%8D%C3%ADn_-_%C5%A0pic.jpg/1280px-Ne%C4%8D%C3%ADn_-_%C5%A0pic.jpg",
+    "photoCredit": "Jvaclavik (CC0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Ne%C4%8D%C3%ADn_-_%C5%A0pic.jpg"
   },
   {
     "id": "osm-way-51011845",
@@ -11298,7 +11351,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom%2C_CZ160807.jpg/1280px-Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom%2C_CZ160807.jpg",
+    "photoCredit": "Josef Kreuz (PEPan) (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom,_CZ160807.jpg"
   },
   {
     "id": "osm-way-334293633",
@@ -11389,7 +11445,9 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/RKS_Plze%C5%88",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/K_Sytn%C3%A9.jpg/1280px-K_Sytn%C3%A9.jpg",
+    "photoCredit": "Itsd-foto (CC BY-SA 4.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-1304066844",
@@ -12469,7 +12527,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Skute%C4%8D%2C_CZ160816-016.jpg/1280px-Skute%C4%8D%2C_CZ160816-016.jpg",
+    "photoCredit": "Josef Kreuz (PEPan) (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Skute%C4%8D,_CZ160816-016.jpg"
   },
   {
     "id": "osm-relation-19693395",
@@ -12573,7 +12634,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sedlec-Pr%C4%8Dice%2C_Mus%C3%ADk_pond.jpg/1280px-Sedlec-Pr%C4%8Dice%2C_Mus%C3%ADk_pond.jpg",
+    "photoCredit": "This file is available under Creative Commons BY-SA license. Basically: You can use this picture for any purpose, provided that you attribute it to Pavel Hrdlička, Wikipedia. You may distribute the resulting work under the same license. (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Sedlec-Pr%C4%8Dice,_Mus%C3%ADk_pond.jpg"
   },
   {
     "id": "osm-way-51547608",
@@ -13511,7 +13575,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Olomouc_rybnik-sunrise_-_panoramio.jpg/1280px-Olomouc_rybnik-sunrise_-_panoramio.jpg",
+    "photoCredit": "martin.na (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Olomouc_rybnik-sunrise_-_panoramio.jpg"
   },
   {
     "id": "osm-way-1308390422",
@@ -14182,7 +14249,9 @@
     },
     "updatedAt": "2026-06-26",
     "description": "Labíčko je staré říční rameno, které vzniklo v místě dřívějšího toku řeky Labe. Nachází se severně od Čelákovic u osady Hatě v okrese Praha-východ ve Středočeském kraji v Česku. Má rozlohu 0,890 ha. Je 340 m dlouhé a 40 m široké. Leží v nadmořské výšce 173 m. Patří do skupiny Hrbáčkových tůní avšak není zahrnuto do přírodní rezervace Káraný - Hrbáčkovy tůně.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Lab%C3%AD%C4%8Dko"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Lab%C3%AD%C4%8Dko",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/%C4%8Cel%C3%A1kovice%2C_K_Borku.jpg/1280px-%C4%8Cel%C3%A1kovice%2C_K_Borku.jpg",
+    "photoCredit": "Juandev (CC BY-SA 3.0) / Wikimedia Commons"
   },
   {
     "id": "osm-relation-569743",
@@ -14320,7 +14389,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Darmy%C5%A1l%2C_pohled_do_krajiny.jpg/1280px-Darmy%C5%A1l%2C_pohled_do_krajiny.jpg",
+    "photoCredit": "I would appreciate being notified if you use my work outside Wikimedia.\nMore of my work can be found in my personal gallery. (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Darmy%C5%A1l,_pohled_do_krajiny.jpg"
   },
   {
     "id": "osm-way-50931692",
@@ -14343,7 +14415,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Buda_%28Horka_II%29_G._SochaSvJanaNepomuckeho.jpg/1280px-Buda_%28Horka_II%29_G._SochaSvJanaNepomuckeho.jpg",
+    "photoCredit": "Stribrohorak (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Buda_(Horka_II)_G._SochaSvJanaNepomuckeho.jpg"
   },
   {
     "id": "osm-way-31815259",
@@ -16093,7 +16168,10 @@
       "kemp",
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Camp_u_hr%C3%A1ze_Rozko%C5%A1e_02.jpg/1280px-Camp_u_hr%C3%A1ze_Rozko%C5%A1e_02.jpg",
+    "photoCredit": "Petr1888 (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Camp_u_hr%C3%A1ze_Rozko%C5%A1e_02.jpg"
   },
   {
     "id": "osm-node-2629804931",
@@ -16537,7 +16615,10 @@
       "kemp",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Sadsk%C3%A1_-_pam%C3%A1tn%C3%BD_d%C5%99ezovec_trojtrnn%C3%BD_%281%29.JPG/1280px-Sadsk%C3%A1_-_pam%C3%A1tn%C3%BD_d%C5%99ezovec_trojtrnn%C3%BD_%281%29.JPG",
+    "photoCredit": "MartinVeselka (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Sadsk%C3%A1_-_pam%C3%A1tn%C3%BD_d%C5%99ezovec_trojtrnn%C3%BD_(1).JPG"
   },
   {
     "id": "osm-node-9332490197",
@@ -16679,7 +16760,10 @@
       "kemp",
       "wc",
       "stanek"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Stvo%C5%99idla_%281%29.jpg/1280px-Stvo%C5%99idla_%281%29.jpg",
+    "photoCredit": "Huhulenik (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Stvo%C5%99idla_(1).jpg"
   },
   {
     "id": "osm-node-9332519081",
@@ -17132,7 +17216,10 @@
       "kemp",
       "stanek"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kun%C5%BEak%2C_Zv%C5%AFle%2C_lido.jpg/1280px-Kun%C5%BEak%2C_Zv%C5%AFle%2C_lido.jpg",
+    "photoCredit": "This file is available under Creative Commons BY-SA license. Basically: You can use this picture for any purpose, provided that you attribute it to Pavel Hrdlička, Wikipedia. You may distribute the resulting work under the same license. (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Kun%C5%BEak,_Zv%C5%AFle,_lido.jpg"
   },
   {
     "id": "osm-node-12087074745",
@@ -17384,7 +17471,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Klatovy%2C_Kal%2C_road_No_22.jpg/1280px-Klatovy%2C_Kal%2C_road_No_22.jpg",
+    "photoCredit": "Pavel Hrdlička (Czech Wikipedia user Packa) (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Klatovy,_Kal,_road_No_22.jpg"
   },
   {
     "id": "osm-way-67874279",
@@ -17748,7 +17838,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hradistko_I_e._Krizek.jpg/1280px-Hradistko_I_e._Krizek.jpg",
+    "photoCredit": "Stribrohorak (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Hradistko_I_e._Krizek.jpg"
   },
   {
     "id": "osm-way-218250124",
@@ -17774,7 +17867,9 @@
     },
     "updatedAt": "2026-06-26",
     "description": "Rašeliniště Radlice je přírodní památka severozápadně od Radlice u Volfířova v okrese Jindřichův Hradec v Jihočeském kraji. Skládá se ze soustavy tří rybníků, přechodového rašeliniště a navazujících lesních porostů. Rašeliniště a rybníky jsou stanovišti pro vzácné rostliny a živočichy, z nichž významné jsou různé druhy vážek, čolků a skokanů.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Ra%C5%A1elini%C5%A1t%C4%9B_Radlice"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Ra%C5%A1elini%C5%A1t%C4%9B_Radlice",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/He%C5%99mane%C4%8D%2C_Vlk%C5%AFv_ml%C3%BDn%2C_zast%C3%A1vka.jpg/1280px-He%C5%99mane%C4%8D%2C_Vlk%C5%AFv_ml%C3%BDn%2C_zast%C3%A1vka.jpg",
+    "photoCredit": "cs:ŠJů (CC BY-SA 3.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-222846410",
@@ -18032,7 +18127,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mok%C5%99ad_B%C4%9Bl%C3%A1%2C_okres_Prost%C4%9Bjov_%2810%29.jpg/1280px-Mok%C5%99ad_B%C4%9Bl%C3%A1%2C_okres_Prost%C4%9Bjov_%2810%29.jpg",
+    "photoCredit": "Jiří Komárek (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Mok%C5%99ad_B%C4%9Bl%C3%A1,_okres_Prost%C4%9Bjov_(10).jpg"
   },
   {
     "id": "osm-way-318894800",
@@ -18253,7 +18351,10 @@
     "amenities": [
       "parkovani",
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Jechnitz-See-3.jpg/1280px-Jechnitz-See-3.jpg",
+    "photoCredit": "SchiDD (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Jechnitz-See-3.jpg"
   },
   {
     "id": "osm-way-369096979",
@@ -18348,7 +18449,10 @@
       "parkovani",
       "stanek"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lipno_nad_Vltavou_-_panoramio_%281%29.jpg",
+    "photoCredit": "Pavel Vlček (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Lipno_nad_Vltavou_-_panoramio_(1).jpg"
   },
   {
     "id": "osm-way-405179819",
@@ -18626,7 +18730,10 @@
       "kemp",
       "wc",
       "stanek"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Botanicus%2C_Ostr%C3%A1_%282016%29.jpg/1280px-Botanicus%2C_Ostr%C3%A1_%282016%29.jpg",
+    "photoCredit": "Michal Louč (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Botanicus,_Ostr%C3%A1_(2016).jpg"
   },
   {
     "id": "osm-way-478237485",
@@ -18714,7 +18821,10 @@
       "kemp",
       "stanek"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Objekt_%C4%8Deskoslovensk%C3%A9ho_lehk%C3%A9ho_opevn%C4%9Bn%C3%AD.jpg/1280px-Objekt_%C4%8Deskoslovensk%C3%A9ho_lehk%C3%A9ho_opevn%C4%9Bn%C3%AD.jpg",
+    "photoCredit": "Richard Sekerak (WMCZ) (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Objekt_%C4%8Deskoslovensk%C3%A9ho_lehk%C3%A9ho_opevn%C4%9Bn%C3%AD.jpg"
   },
   {
     "id": "osm-way-502160764",
@@ -18776,7 +18886,9 @@
     ],
     "updatedAt": "2026-06-26",
     "description": "Velenka byla plánovaná rozhledna u obce Velenov v okrese Blansko.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Velenka_(rozhledna)"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velenka_(rozhledna)",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Zvonice%2C_Such%C3%BD%2C_okres_Blansko_%2802%29.jpg/1280px-Zvonice%2C_Such%C3%BD%2C_okres_Blansko_%2802%29.jpg",
+    "photoCredit": "Jiří Komárek (CC BY-SA 4.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-533591788",
@@ -18989,7 +19101,10 @@
       "obcerstveni",
       "kemp"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Se%C4%8D%2C_%C3%9Astupky%2C_chaty_na_ji%C5%BEn%C3%ADm_b%C5%99ehu_%282018-07-02%3B_01%29.jpg/1280px-Se%C4%8D%2C_%C3%9Astupky%2C_chaty_na_ji%C5%BEn%C3%ADm_b%C5%99ehu_%282018-07-02%3B_01%29.jpg",
+    "photoCredit": "Harold (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Se%C4%8D,_%C3%9Astupky,_chaty_na_ji%C5%BEn%C3%ADm_b%C5%99ehu_(2018-07-02;_01).jpg"
   },
   {
     "id": "osm-way-538982975",
@@ -19103,7 +19218,10 @@
       "wc",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lipno_-_panoramio_%281%29.jpg",
+    "photoCredit": "Jiří Bernard (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Lipno_-_panoramio_(1).jpg"
   },
   {
     "id": "osm-way-596917761",
@@ -19161,7 +19279,9 @@
     },
     "updatedAt": "2026-06-26",
     "description": "Říkovské tunely jsou soustava čtyř železničních tunelů v údolí řeky Jizery na katastrálním území Chuchelna a Proseč na úseku regionální železniční trati 030 Pardubice–Jaroměř–Liberec mezi stanicemi Semily a Železný Brod.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%98%C3%ADkovsk%C3%A9_tunely"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%98%C3%ADkovsk%C3%A9_tunely",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Udoli_Jizery_u_Semil_a_Bitouchova_%2823%29.jpg/1280px-Udoli_Jizery_u_Semil_a_Bitouchova_%2823%29.jpg",
+    "photoCredit": "Huhulenik (CC BY 3.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-620054533",
@@ -19187,7 +19307,10 @@
     "amenities": [
       "bez_vstupneho"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kamenolom_Dasnice_listopad_2021_%287%29.jpg/1280px-Kamenolom_Dasnice_listopad_2021_%287%29.jpg",
+    "photoCredit": "Lubor Ferenc (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Kamenolom_Dasnice_listopad_2021_(7).jpg"
   },
   {
     "id": "osm-way-626620454",
@@ -19281,7 +19404,10 @@
       "stanek",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG/1280px-%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG",
+    "photoCredit": "Jacquesverlaeken (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG"
   },
   {
     "id": "osm-way-715829028",
@@ -19362,7 +19488,10 @@
     "amenities": [
       "kemp",
       "obcerstveni"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Doman%C3%ADnsk%C3%BD_rybn%C3%ADk_%281%29.jpg/1280px-Doman%C3%ADnsk%C3%BD_rybn%C3%ADk_%281%29.jpg",
+    "photoCredit": "Palickap (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Doman%C3%ADnsk%C3%BD_rybn%C3%ADk_(1).jpg"
   },
   {
     "id": "osm-way-787877732",
@@ -19663,7 +19792,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ol%C5%A1ov_%E2%80%93_osada_Lu%C5%BEn%C3%AD_z%C3%A1vod_%2801%29.jpg/1280px-Ol%C5%A1ov_%E2%80%93_osada_Lu%C5%BEn%C3%AD_z%C3%A1vod_%2801%29.jpg",
+    "photoCredit": "Anaj7 (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Ol%C5%A1ov_%E2%80%93_osada_Lu%C5%BEn%C3%AD_z%C3%A1vod_(01).jpg"
   },
   {
     "id": "osm-way-857877498",
@@ -19691,7 +19823,10 @@
       "kemp",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg/1280px-%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg",
+    "photoCredit": "Vojtěch Dostál (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg"
   },
   {
     "id": "osm-way-857877499",
@@ -19719,7 +19854,10 @@
       "kemp",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg/1280px-%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg",
+    "photoCredit": "Vojtěch Dostál (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg"
   },
   {
     "id": "osm-way-857877502",
@@ -19747,7 +19885,10 @@
       "kemp",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg/1280px-%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg",
+    "photoCredit": "Vojtěch Dostál (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD.jpg"
   },
   {
     "id": "osm-way-857877504",
@@ -20396,7 +20537,10 @@
       "stanek",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Dolni_Vltavice_-_panoramio.jpg/1280px-Dolni_Vltavice_-_panoramio.jpg",
+    "photoCredit": "Aleš Makovec (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Dolni_Vltavice_-_panoramio.jpg"
   },
   {
     "id": "osm-way-1082670476",
@@ -20460,7 +20604,10 @@
       "stanek",
       "kemp"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Katamaran-pro-sport-a-rodinu.jpg/1280px-Katamaran-pro-sport-a-rodinu.jpg",
+    "photoCredit": "Czesailor (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Katamaran-pro-sport-a-rodinu.jpg"
   },
   {
     "id": "osm-way-1083195688",
@@ -20795,7 +20942,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pam%C4%9Btn%C3%AD_k%C5%99%C3%AD%C5%BE_ve_V%C3%BDrov%C4%9B_u_rozcest%C3%AD.jpg/1280px-Pam%C4%9Btn%C3%AD_k%C5%99%C3%AD%C5%BE_ve_V%C3%BDrov%C4%9B_u_rozcest%C3%AD.jpg",
+    "photoCredit": "HonzaTC (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Pam%C4%9Btn%C3%AD_k%C5%99%C3%AD%C5%BE_ve_V%C3%BDrov%C4%9B_u_rozcest%C3%AD.jpg"
   },
   {
     "id": "osm-way-1195618118",
@@ -20968,7 +21118,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vod%C3%A1rna_K%C3%A1ran%C3%BD_2020_01.jpg/1280px-Vod%C3%A1rna_K%C3%A1ran%C3%BD_2020_01.jpg",
+    "photoCredit": "Hubert Kororo (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Vod%C3%A1rna_K%C3%A1ran%C3%BD_2020_01.jpg"
   },
   {
     "id": "osm-way-1207837680",
@@ -21363,7 +21516,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Doln%C3%AD_Pl%C3%A1n%C4%9B%2C_za%C4%8D%C3%A1tek_vsi_z%C3%A1pad_%2801%29.jpg/1280px-Doln%C3%AD_Pl%C3%A1n%C4%9B%2C_za%C4%8D%C3%A1tek_vsi_z%C3%A1pad_%2801%29.jpg",
+    "photoCredit": "Czeva (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Doln%C3%AD_Pl%C3%A1n%C4%9B,_za%C4%8D%C3%A1tek_vsi_z%C3%A1pad_(01).jpg"
   },
   {
     "id": "osm-way-1293287183",
@@ -21799,7 +21955,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "obcerstveni"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Hradistko_I_a._Kaple.jpg/1280px-Hradistko_I_a._Kaple.jpg",
+    "photoCredit": "Stribrohorak (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Hradistko_I_a._Kaple.jpg"
   },
   {
     "id": "osm-way-1313815779",
@@ -21860,7 +22019,10 @@
       "kemp",
       "obcerstveni"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/A_tele-look_into_the_country_-_panoramio.jpg",
+    "photoCredit": "Honza and Ivana Ebr (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:A_tele-look_into_the_country_-_panoramio.jpg"
   },
   {
     "id": "osm-way-1318785240",
@@ -22010,7 +22172,10 @@
       "parkovani",
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG/1280px-%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG",
+    "photoCredit": "Jacquesverlaeken (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD_Lipno_Reservoir_80079.JPG"
   },
   {
     "id": "osm-way-1422832316",
@@ -22098,7 +22263,10 @@
     "amenities": [
       "wc"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Vidov_-_jez.jpg/1280px-Vidov_-_jez.jpg",
+    "photoCredit": "Jitka Erbenová (cheva) (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Vidov_-_jez.jpg"
   },
   {
     "id": "osm-way-1433368143",
@@ -22365,7 +22533,9 @@
     "amenities": [
       "obcerstveni",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kun%C5%BEak%2C_Havl%C3%AD%C4%8Dkova_%C4%8Dp._100%2C_most_p%C5%99es_Struhu.jpg/1280px-Kun%C5%BEak%2C_Havl%C3%AD%C4%8Dkova_%C4%8Dp._100%2C_most_p%C5%99es_Struhu.jpg",
+    "photoCredit": "Pavel Hrdlička (Czech Wikipedia user Packa) (CC BY-SA 4.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-1525512699",
@@ -22812,7 +22982,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Blatn%C3%A1_-_pomn%C3%ADk_hudebn%C3%ADho_skladatele_Franti%C5%A1ka_%C5%A0imandla.JPG/1280px-Blatn%C3%A1_-_pomn%C3%ADk_hudebn%C3%ADho_skladatele_Franti%C5%A1ka_%C5%A0imandla.JPG",
+    "photoCredit": "Krabat77 (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Blatn%C3%A1_-_pomn%C3%ADk_hudebn%C3%ADho_skladatele_Franti%C5%A1ka_%C5%A0imandla.JPG"
   },
   {
     "id": "osm-way-51006627",
@@ -23000,7 +23173,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%C5%A0tipto%C5%88_cedule.jpg/1280px-%C5%A0tipto%C5%88_cedule.jpg",
+    "photoCredit": "Suisant7 (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C5%A0tipto%C5%88_cedule.jpg"
   },
   {
     "id": "osm-node-2402161062",
@@ -23320,7 +23496,10 @@
       "obcerstveni",
       "kemp"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chata_na_Sychru_-_panoramio.jpg/1280px-Chata_na_Sychru_-_panoramio.jpg",
+    "photoCredit": "jac (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Chata_na_Sychru_-_panoramio.jpg"
   },
   {
     "id": "osm-way-58735732",
@@ -23871,7 +24050,9 @@
     "wikiUrl": "https://cs.wikipedia.org/wiki/Vracovsk%C3%BD_potok_(p%C5%99%C3%ADtok_Syrovinky)",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vracov_rybnik_03.jpg/1280px-Vracov_rybnik_03.jpg",
+    "photoCredit": "Radek Linner (CC BY-SA 3.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-545649437",
@@ -24107,7 +24288,10 @@
       "obcerstveni",
       "parkovani"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Zvonice_%28Rab%C5%A1tejnsk%C3%A1_Lhota%29.JPG/1280px-Zvonice_%28Rab%C5%A1tejnsk%C3%A1_Lhota%29.JPG",
+    "photoCredit": "Petr1888 (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Zvonice_(Rab%C5%A1tejnsk%C3%A1_Lhota).JPG"
   },
   {
     "id": "osm-way-52466036",
@@ -24663,7 +24847,9 @@
     ],
     "updatedAt": "2026-06-26",
     "description": "Tunel Lysůvky je dálniční tunel na dálnici D48 ve vesnici Lysůvky, části města Frýdek-Místek v okrese Frýdek-Místek. Tunel se dvěma dvoupruhovými tubusy délky 160 m podchází ulici Zahradnickou, která tvoří spojnici dvou částí Lysůvek. Kvůli stavbě dálnice a tunelu musely být v této ulici zbořeny dva domy.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Tunel_Lys%C5%AFvky"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Tunel_Lys%C5%AFvky",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/P%C5%99ehrada_Ole%C5%A1na_-_panoramio.jpg/1280px-P%C5%99ehrada_Ole%C5%A1na_-_panoramio.jpg",
+    "photoCredit": "Karel Nogol (CC BY 3.0) / Wikimedia Commons"
   },
   {
     "id": "osm-node-963990591",
@@ -25209,7 +25395,10 @@
       "obcerstveni",
       "kemp"
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Overview_of_pond_Stejskal_near_Rouchovany%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg/1280px-Overview_of_pond_Stejskal_near_Rouchovany%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg",
+    "photoCredit": "Jiří Sedláček (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Overview_of_pond_Stejskal_near_Rouchovany,_T%C5%99eb%C3%AD%C4%8D_District.jpg"
   },
   {
     "id": "osm-node-8586278572",
@@ -25412,7 +25601,9 @@
     ],
     "updatedAt": "2026-06-26",
     "description": "Velenka byla plánovaná rozhledna u obce Velenov v okrese Blansko.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Velenka_(rozhledna)"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velenka_(rozhledna)",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Panoramatick%C3%BD_pohled_na_Su%C5%A1sk%C3%BD_rybn%C3%ADk_z_hr%C3%A1ze_od_toboganu%2C_Such%C3%BD%2C_okres_Blansko.jpg/1280px-Panoramatick%C3%BD_pohled_na_Su%C5%A1sk%C3%BD_rybn%C3%ADk_z_hr%C3%A1ze_od_toboganu%2C_Such%C3%BD%2C_okres_Blansko.jpg",
+    "photoCredit": "Jiří Komárek (CC BY-SA 4.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-374234618",
@@ -26005,7 +26196,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/B%C3%BDval%C3%BD_lom_Dru%C5%BEstvo_u_Proset%C3%ADna_01.jpg/1280px-B%C3%BDval%C3%BD_lom_Dru%C5%BEstvo_u_Proset%C3%ADna_01.jpg",
+    "photoCredit": "Petr1888 (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BDval%C3%BD_lom_Dru%C5%BEstvo_u_Proset%C3%ADna_01.jpg"
   },
   {
     "id": "osm-relation-4498633",
@@ -26357,7 +26551,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Fojtka%2C_n%C3%A1dr%C5%BE%2C_hr%C3%A1z_%281%29.jpg/1280px-Fojtka%2C_n%C3%A1dr%C5%BE%2C_hr%C3%A1z_%281%29.jpg",
+    "photoCredit": "Jan Polák (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Fojtka,_n%C3%A1dr%C5%BE,_hr%C3%A1z_(1).jpg"
   },
   {
     "id": "osm-way-51038434",
@@ -26888,7 +27085,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Velky_Rybnik_in_winter_-_panoramio.jpg/1280px-Velky_Rybnik_in_winter_-_panoramio.jpg",
+    "photoCredit": "xxxflyer (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Velky_Rybnik_in_winter_-_panoramio.jpg"
   },
   {
     "id": "osm-way-51259842",
@@ -27288,7 +27488,9 @@
     },
     "updatedAt": "2026-06-26",
     "description": "Rašeliniště Radlice je přírodní památka severozápadně od Radlice u Volfířova v okrese Jindřichův Hradec v Jihočeském kraji. Skládá se ze soustavy tří rybníků, přechodového rašeliniště a navazujících lesních porostů. Rašeliniště a rybníky jsou stanovišti pro vzácné rostliny a živočichy, z nichž významné jsou různé druhy vážek, čolků a skokanů.",
-    "wikiUrl": "https://cs.wikipedia.org/wiki/Ra%C5%A1elini%C5%A1t%C4%9B_Radlice"
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Ra%C5%A1elini%C5%A1t%C4%9B_Radlice",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/He%C5%99mane%C4%8D%2C_Vlk%C5%AFv_ml%C3%BDn%2C_zast%C3%A1vka.jpg/1280px-He%C5%99mane%C4%8D%2C_Vlk%C5%AFv_ml%C3%BDn%2C_zast%C3%A1vka.jpg",
+    "photoCredit": "cs:ŠJů (CC BY-SA 3.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-29489992",
@@ -29153,7 +29355,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Most_na_Vranovsk%C3%A9_p%C5%99ehrad%C4%9B_..._-_panoramio.jpg",
+    "photoCredit": "xraus (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Most_na_Vranovsk%C3%A9_p%C5%99ehrad%C4%9B_..._-_panoramio.jpg"
   },
   {
     "id": "osm-way-50944830",
@@ -29664,7 +29869,9 @@
     "amenities": [
       "parkovani",
       "stanek"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Vracov_koupaliste_01.jpg/1280px-Vracov_koupaliste_01.jpg",
+    "photoCredit": "Radek Linner (CC BY-SA 3.0) / Wikimedia Commons"
   },
   {
     "id": "osm-way-52331759",
@@ -29690,7 +29897,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/V%C3%A1penn%C3%A1_Vycp%C3%A1lk%C5%AFv_lom_%282%29.jpg/1280px-V%C3%A1penn%C3%A1_Vycp%C3%A1lk%C5%AFv_lom_%282%29.jpg",
+    "photoCredit": "Lubor Ferenc (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A1penn%C3%A1_Vycp%C3%A1lk%C5%AFv_lom_(2).jpg"
   },
   {
     "id": "osm-way-54740341",
@@ -29964,7 +30174,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/B%C3%BDval%C3%BD_%C5%BEulov%C3%BD_lom_T%C5%AF%C5%88ka_u_obce_Proset%C3%ADn_02.jpg/1280px-B%C3%BDval%C3%BD_%C5%BEulov%C3%BD_lom_T%C5%AF%C5%88ka_u_obce_Proset%C3%ADn_02.jpg",
+    "photoCredit": "Petr1888 (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BDval%C3%BD_%C5%BEulov%C3%BD_lom_T%C5%AF%C5%88ka_u_obce_Proset%C3%ADn_02.jpg"
   },
   {
     "id": "osm-way-31777873",
@@ -30077,7 +30290,10 @@
       "note": "Kvalita vody není oficiálně sledována – koupání na vlastní riziko.",
       "source": "OpenStreetMap"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Mal%C3%BD_voznick%C3%BD_rybn%C3%ADk_1.jpg/1280px-Mal%C3%BD_voznick%C3%BD_rybn%C3%ADk_1.jpg",
+    "photoCredit": "Huhulenik (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Mal%C3%BD_voznick%C3%BD_rybn%C3%ADk_1.jpg"
   },
   {
     "id": "osm-way-42484634",
@@ -30153,7 +30369,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/T%C5%99eb%C3%AD%C4%8D%2C_zatopen%C3%BD_lom_-_panoramio.jpg/1280px-T%C5%99eb%C3%AD%C4%8D%2C_zatopen%C3%BD_lom_-_panoramio.jpg",
+    "photoCredit": "artemio CZ (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:T%C5%99eb%C3%AD%C4%8D,_zatopen%C3%BD_lom_-_panoramio.jpg"
   },
   {
     "id": "osm-way-50991116",
@@ -30369,7 +30588,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom%2C_CZ160807.jpg/1280px-Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom%2C_CZ160807.jpg",
+    "photoCredit": "Josef Kreuz (PEPan) (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Skute%C4%8Dsk%C3%A1_pahorkatina_-_zatopen%C3%BD_kamenolom,_CZ160807.jpg"
   },
   {
     "id": "osm-relation-8441677",
@@ -30398,7 +30620,10 @@
       "wc",
       "kemp",
       "stanek"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kun%C5%BEak%2C_Zv%C5%AFle%2C_lido.jpg/1280px-Kun%C5%BEak%2C_Zv%C5%AFle%2C_lido.jpg",
+    "photoCredit": "This file is available under Creative Commons BY-SA license. Basically: You can use this picture for any purpose, provided that you attribute it to Pavel Hrdlička, Wikipedia. You may distribute the resulting work under the same license. (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Kun%C5%BEak,_Zv%C5%AFle,_lido.jpg"
   },
   {
     "id": "osm-way-51044123",
@@ -30425,7 +30650,10 @@
     "amenities": [
       "obcerstveni",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fry%C5%A1t%C3%A1k_in_the_night.JPG/1280px-Fry%C5%A1t%C3%A1k_in_the_night.JPG",
+    "photoCredit": "I would appreciate being notified if you use my work outside Wikimedia.\nDo not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.\n\nMore of my work can be found in my personal gallery. (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Fry%C5%A1t%C3%A1k_in_the_night.JPG"
   },
   {
     "id": "osm-way-220754140",

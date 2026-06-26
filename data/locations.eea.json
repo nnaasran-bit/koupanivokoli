@@ -46,7 +46,10 @@
       "wc",
       "kemp",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Babylonsk%C3%BD_rybn%C3%ADk_%282%29.jpg/1280px-Babylonsk%C3%BD_rybn%C3%ADk_%282%29.jpg",
+    "photoCredit": "Lubor Ferenc (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Babylonsk%C3%BD_rybn%C3%ADk_(2).jpg"
   },
   {
     "id": "eea-CZKO810101",
@@ -233,7 +236,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Dale%C5%A1isk%C3%A1_p%C5%99ehrada-alibaba_-_panoramio.jpg/1280px-Dale%C5%A1isk%C3%A1_p%C5%99ehrada-alibaba_-_panoramio.jpg",
+    "photoCredit": "Aleš Pouchlý (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Dale%C5%A1isk%C3%A1_p%C5%99ehrada-alibaba_-_panoramio.jpg"
   },
   {
     "id": "eea-CZKO610101",
@@ -281,7 +287,9 @@
     "amenities": [
       "kemp",
       "obcerstveni"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Doman%C3%ADnsk%C3%BD_rybn%C3%ADk_%281%29.jpg/1280px-Doman%C3%ADnsk%C3%BD_rybn%C3%ADk_%281%29.jpg",
+    "photoCredit": "Palickap (CC BY-SA 4.0) / Wikimedia Commons"
   },
   {
     "id": "eea-CZKO421402",
@@ -920,7 +928,10 @@
       "obcerstveni",
       "stanek",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Lule%C4%8D%2C_koupali%C5%A1t%C4%9B_%2801%29.jpg/1280px-Lule%C4%8D%2C_koupali%C5%A1t%C4%9B_%2801%29.jpg",
+    "photoCredit": "Palickap (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Lule%C4%8D,_koupali%C5%A1t%C4%9B_(01).jpg"
   },
   {
     "id": "eea-CZPK510253",
@@ -1793,7 +1804,9 @@
       "parkovani",
       "stanek",
       "wc"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/VB16_Vset%C3%ADnsk%C3%A1_Be%C4%8Dva_N_Hrozenkov_splav_v_%C4%8C%C3%ADn%C4%9B.jpg/1280px-VB16_Vset%C3%ADnsk%C3%A1_Be%C4%8Dva_N_Hrozenkov_splav_v_%C4%8C%C3%ADn%C4%9B.jpg",
+    "photoCredit": "Jan Doné - sportovní rybář (CC BY 3.0) / Wikimedia Commons"
   },
   {
     "id": "eea-CZKO520701",
@@ -1894,7 +1907,9 @@
       "kemp",
       "stanek",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Oborsk%C3%BD_rybn%C3%ADk%2C_rozcestn%C3%ADk_-_modr%C3%A1%2C_%C5%BElut%C3%A1.jpg",
+    "photoCredit": "Pavel Píša (CC BY 3.0) / Wikimedia Commons"
   },
   {
     "id": "eea-CZKO720501",
@@ -2384,7 +2399,10 @@
     "amenities": [
       "parkovani",
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/GOLF_CLUB_JEZERA_-_PANORAMA_-_panoramio.jpg/1280px-GOLF_CLUB_JEZERA_-_PANORAMA_-_panoramio.jpg",
+    "photoCredit": "ANDREJ NEUHERZ (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:GOLF_CLUB_JEZERA_-_PANORAMA_-_panoramio.jpg"
   },
   {
     "id": "eea-CZKO530601",
@@ -2431,7 +2449,10 @@
       "stanek",
       "kemp",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/T._G._Masaryka_street%2C_side_branch%2C_Lan%C5%A1kroun.jpg/1280px-T._G._Masaryka_street%2C_side_branch%2C_Lan%C5%A1kroun.jpg",
+    "photoCredit": "Pavel Hrdlička (Czech Wikipedia user Packa) (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:T._G._Masaryka_street,_side_branch,_Lan%C5%A1kroun.jpg"
   },
   {
     "id": "eea-CZKO812002",
@@ -2900,7 +2921,10 @@
     "amenities": [
       "parkovani",
       "stanek"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rybn%C3%ADk_Rosni%C4%8Dka.jpg/1280px-Rybn%C3%ADk_Rosni%C4%8Dka.jpg",
+    "photoCredit": "Ladislav Boháč (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Rybn%C3%ADk_Rosni%C4%8Dka.jpg"
   },
   {
     "id": "eea-CZKO610202",
@@ -3272,7 +3296,9 @@
       "wc",
       "stanek",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Panoramatick%C3%BD_pohled_na_Su%C5%A1sk%C3%BD_rybn%C3%ADk_z_hr%C3%A1ze_od_toboganu%2C_Such%C3%BD%2C_okres_Blansko.jpg/1280px-Panoramatick%C3%BD_pohled_na_Su%C5%A1sk%C3%BD_rybn%C3%ADk_z_hr%C3%A1ze_od_toboganu%2C_Such%C3%BD%2C_okres_Blansko.jpg",
+    "photoCredit": "Jiří Komárek (CC BY-SA 4.0) / Wikimedia Commons"
   },
   {
     "id": "eea-CZKO320904",
@@ -4692,7 +4718,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Most_na_Vranovsk%C3%A9_p%C5%99ehrad%C4%9B_..._-_panoramio.jpg",
+    "photoCredit": "xraus (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Most_na_Vranovsk%C3%A9_p%C5%99ehrad%C4%9B_..._-_panoramio.jpg"
   },
   {
     "id": "eea-CZKO310301",
@@ -5445,7 +5474,10 @@
     "amenities": [
       "kemp",
       "obcerstveni"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kemp_Radava_-_okres_P%C3%ADsek_%28011%29.jpg/1280px-Kemp_Radava_-_okres_P%C3%ADsek_%28011%29.jpg",
+    "photoCredit": "Richenza (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Kemp_Radava_-_okres_P%C3%ADsek_(011).jpg"
   },
   {
     "id": "eea-CZKO212001",
@@ -5685,7 +5717,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Podolsk%C3%BD_most_-_Jiho%C4%8Desk%C3%BD_kraj_%2820%29.jpg/1280px-Podolsk%C3%BD_most_-_Jiho%C4%8Desk%C3%BD_kraj_%2820%29.jpg",
+    "photoCredit": "Richenza (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Podolsk%C3%BD_most_-_Jiho%C4%8Desk%C3%BD_kraj_(20).jpg"
   },
   {
     "id": "eea-CZKO620101",
@@ -5936,7 +5971,10 @@
     "amenities": [
       "parkovani",
       "obcerstveni"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Prost%C4%9Bjov_District%2C_Czech_Republic_-_panoramio.jpg",
+    "photoCredit": "_walley_ (CC BY 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Prost%C4%9Bjov_District,_Czech_Republic_-_panoramio.jpg"
   },
   {
     "id": "eea-CZKO520902",
@@ -5979,7 +6017,10 @@
       "parkovani",
       "kemp",
       "obcerstveni"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Camp_u_hr%C3%A1ze_Rozko%C5%A1e_02.jpg/1280px-Camp_u_hr%C3%A1ze_Rozko%C5%A1e_02.jpg",
+    "photoCredit": "Petr1888 (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Camp_u_hr%C3%A1ze_Rozko%C5%A1e_02.jpg"
   },
   {
     "id": "eea-CZKO530402",
@@ -6225,7 +6266,9 @@
       "pitna_voda",
       "obcerstveni",
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Autokemp_Podho%C5%99%C3%AD_b%C5%99ezen_2025_%282%29.jpg/1280px-Autokemp_Podho%C5%99%C3%AD_b%C5%99ezen_2025_%282%29.jpg",
+    "photoCredit": "Lubor Ferenc (CC BY 4.0) / Wikimedia Commons"
   },
   {
     "id": "eea-CZKO210101",
@@ -6318,7 +6361,10 @@
       "obcerstveni",
       "parkovani",
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Slapy_-_panoramio.jpg/1280px-Slapy_-_panoramio.jpg",
+    "photoCredit": "perhaps_cz (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Slapy_-_panoramio.jpg"
   },
   {
     "id": "eea-CZKO210103",
@@ -6363,7 +6409,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Vodn%C3%AD_n%C3%A1dr%C5%BE_Slapy.jpg/1280px-Vodn%C3%AD_n%C3%A1dr%C5%BE_Slapy.jpg",
+    "photoCredit": "Vojtik2003 (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Vodn%C3%AD_n%C3%A1dr%C5%BE_Slapy.jpg"
   },
   {
     "id": "eea-CZKO210501",
@@ -6456,7 +6505,10 @@
     "amenities": [
       "kemp",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Zivohost-2006-07-15-KostelSvFabianaASebestiana-Obr02.jpg/1280px-Zivohost-2006-07-15-KostelSvFabianaASebestiana-Obr02.jpg",
+    "photoCredit": "Miloš Hlávka (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Zivohost-2006-07-15-KostelSvFabianaASebestiana-Obr02.jpg"
   },
   {
     "id": "eea-CZKO210702",
@@ -6553,7 +6605,10 @@
       "wc",
       "parkovani",
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Leskovec_nad_Moravic%C3%AD%2C_p%C5%99%C3%ADstavi%C5%A1t%C4%9B%2C_lo%C4%8F_Harta_%282021-08-16%3B_01%29.jpg/1280px-Leskovec_nad_Moravic%C3%AD%2C_p%C5%99%C3%ADstavi%C5%A1t%C4%9B%2C_lo%C4%8F_Harta_%282021-08-16%3B_01%29.jpg",
+    "photoCredit": "Harold (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Leskovec_nad_Moravic%C3%AD,_p%C5%99%C3%ADstavi%C5%A1t%C4%9B,_lo%C4%8F_Harta_(2021-08-16;_01).jpg"
   },
   {
     "id": "eea-CZKO810304",
@@ -6598,7 +6653,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Pavel_%C5%A0alitro%C5%A1.jpg/1280px-Pavel_%C5%A0alitro%C5%A1.jpg",
+    "photoCredit": "Pavel Šalitroš (CC BY-SA 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Pavel_%C5%A0alitro%C5%A1.jpg"
   },
   {
     "id": "eea-CZKO810306",
@@ -6733,7 +6791,10 @@
       "obcerstveni",
       "stanek",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/T%C4%9ARLICK%C3%81_P%C5%98EHRADA%2C_V_Z%C3%81TOCE.jpg/1280px-T%C4%9ARLICK%C3%81_P%C5%98EHRADA%2C_V_Z%C3%81TOCE.jpg",
+    "photoCredit": "Obec Těrlicko (CC BY 4.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:T%C4%9ARLICK%C3%81_P%C5%98EHRADA,_V_Z%C3%81TOCE.jpg"
   },
   {
     "id": "eea-CZKO810802",
@@ -7021,7 +7082,10 @@
     "updatedAt": "2026-06-26",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hotel_Vsemina.jpg/1280px-Hotel_Vsemina.jpg",
+    "photoCredit": "Pornero (CC BY-SA 3.0) / Wikimedia Commons",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Vsemina.jpg"
   },
   {
     "id": "eea-CZKO622004",
