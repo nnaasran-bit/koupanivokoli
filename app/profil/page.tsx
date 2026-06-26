@@ -29,7 +29,7 @@ export default async function ProfilPage() {
   );
 }
 
-function Profile({
+async function Profile({
   userId,
   nick,
   points,
@@ -40,7 +40,7 @@ function Profile({
   points: number;
   reportCount: number;
 }) {
-  const reports = reportsByUser(userId);
+  const reports = await reportsByUser(userId);
   const lvl = levelFor(points);
   const badges = badgesFor({ points, reportCount }, reports);
 

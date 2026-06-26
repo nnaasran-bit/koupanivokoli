@@ -6,8 +6,8 @@ import { levelFor } from "@/lib/gamify";
 export const dynamic = "force-dynamic";
 export const metadata = { title: "Žebříček komunity" };
 
-export default function ZebricekPage() {
-  const users = leaderboard(50);
+export default async function ZebricekPage() {
+  const users = await leaderboard(50);
 
   return (
     <ContentLayout>

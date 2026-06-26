@@ -11,11 +11,11 @@ export async function POST(req: Request) {
   }
   const nick = String(body.nick ?? "").trim();
   const password = String(body.password ?? "");
-  const user = findUserByNick(nick);
+  const user = await findUserByNick(nick);
   if (!user || !verifyPassword(password, user.salt, user.hash)) {
     return NextResponse.json({ error: "Špatná přezdívka nebo heslo." }, { status: 401 });
   }
-  const token = createSession(user.id);
+  const token = await createSession(user.id);
   const res = NextResponse.json({ user: toPublic(user) });
   res.cookies.set(SESSION_COOKIE, token, COOKIE_OPTS);
   return res;

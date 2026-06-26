@@ -6,7 +6,7 @@ import { deleteSession } from "@/lib/store";
 export async function POST() {
   const c = await cookies();
   const sid = c.get(SESSION_COOKIE)?.value;
-  if (sid) deleteSession(sid);
+  if (sid) await deleteSession(sid);
   const res = NextResponse.json({ ok: true });
   res.cookies.set(SESSION_COOKIE, "", { ...COOKIE_OPTS, maxAge: 0 });
   return res;

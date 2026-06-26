@@ -13,11 +13,11 @@ export async function POST(req: Request) {
   const password = String(body.password ?? "");
   if (nick.length < 2) return NextResponse.json({ error: "Přezdívka musí mít aspoň 2 znaky." }, { status: 400 });
   if (password.length < 4) return NextResponse.json({ error: "Heslo musí mít aspoň 4 znaky." }, { status: 400 });
-  if (findUserByNick(nick)) return NextResponse.json({ error: "Tuto přezdívku už někdo má." }, { status: 409 });
+  if (await findUserByNick(nick)) return NextResponse.json({ error: "Tuto přezdívku už někdo má." }, { status: 409 });
 
   const { salt, hash } = hashPassword(password);
-  const user = createUser(nick, salt, hash);
-  const token = createSession(user.id);
+  const user = await createUser(nick, salt, hash);
+  const token = await createSession(user.id);
   const res = NextResponse.json({ user: toPublic(user) });
   res.cookies.set(SESSION_COOKIE, token, COOKIE_OPTS);
   return res;

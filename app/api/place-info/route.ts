@@ -4,12 +4,12 @@ import { AMENITIES, CONTRIB_POINTS, amenityDef } from "@/lib/gamify";
 import { addContribution, contributionsByLocation, getUserById } from "@/lib/store";
 
 // GET /api/place-info?slug=... → agregované vybavení + tipy od komunity
-export function GET(req: Request) {
+export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const slug = searchParams.get("slug");
   if (!slug) return NextResponse.json({ error: "Chybí slug." }, { status: 400 });
 
-  const contribs = contributionsByLocation(slug);
+  const contribs = await contributionsByLocation(slug);
   const amenities = AMENITIES.map((a) => ({
     ...a,
     count: contribs.filter((c) => c.kind === "amenity" && c.amenity === a.id).length,
@@ -50,11 +50,11 @@ export async function POST(req: Request) {
     points = CONTRIB_POINTS.tip;
   }
 
-  addContribution(
+  await addContribution(
     { locationSlug: slug, userId: user.id, nick: user.nick, kind, amenity, text },
     points,
   );
 
-  const updated = getUserById(user.id);
+  const updated = await getUserById(user.id);
   return NextResponse.json({ ok: true, earned: points, points: updated?.points ?? 0 });
 }

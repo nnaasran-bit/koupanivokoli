@@ -6,7 +6,7 @@ import { addReport, getUserById, recentReports, reportsByLocation } from "@/lib/
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const slug = searchParams.get("slug");
-  const reports = slug ? reportsByLocation(slug) : recentReports(30);
+  const reports = slug ? await reportsByLocation(slug) : await recentReports(30);
   return NextResponse.json({ reports });
 }
 
@@ -35,7 +35,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Uveď, kterého místa se hlášení týká." }, { status: 400 });
   }
 
-  const report = addReport({
+  const report = await addReport({
     userId: user.id,
     nick: user.nick,
     kind: def.id,
@@ -48,6 +48,6 @@ export async function POST(req: Request) {
     text: body.text ? String(body.text).slice(0, 500) : undefined,
   });
 
-  const updated = getUserById(user.id);
+  const updated = await getUserById(user.id);
   return NextResponse.json({ report, points: updated?.points ?? 0, earned: def.points });
 }
