@@ -57,12 +57,14 @@ export default function MapExplorer() {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
   const [userLoc, setUserLoc] = useState<{ lat: number; lng: number } | null>(null);
   const [focus, setFocus] = useState<{ id: string; lat: number; lng: number } | null>(null);
-  const [listOpen, setListOpen] = useState(true);
+  const [listOpen, setListOpen] = useState(false); // na mobilu výchozí skrytý (ať je vidět mapa)
   const [geoMsg, setGeoMsg] = useState<string | null>(null);
 
   useEffect(() => {
     const q = new URLSearchParams(window.location.search).get("q");
     if (q) setFilters((f) => ({ ...f, query: q }));
+    // Na větších obrazovkách seznam rovnou otevřeme.
+    if (typeof window !== "undefined" && window.innerWidth >= 768) setListOpen(true);
   }, []);
 
   const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
@@ -143,7 +145,7 @@ export default function MapExplorer() {
       </div>
 
       {/* Mapa + seznam + legenda */}
-      <div className="relative min-h-0 flex-1">
+      <div className="relative min-h-[60vh] flex-1">
         <MapView locations={filtered} userLocation={userLoc} focus={focus} />
 
         {listOpen ? (

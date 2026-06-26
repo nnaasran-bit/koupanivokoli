@@ -154,6 +154,7 @@ export default async function LocationPage({
           name={loc.name}
           officialPhoto={loc.photoUrl}
           officialCredit={loc.photoCredit}
+          uncertain={loc.photoUncertain}
         />
         <div className="h-2.5" style={{ background: qColor }} />
         <div className="p-5 sm:p-6">

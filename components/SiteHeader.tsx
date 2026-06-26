@@ -36,10 +36,10 @@ export default function SiteHeader() {
             Profil
           </Link>
           <Link
-            href="/nahlasit"
+            href="/profil"
             className="brand-gradient ml-1 rounded-lg px-3.5 py-2 font-semibold text-white shadow-sm hover:brightness-105"
           >
-            ＋ Nahlásit
+            Přihlásit
           </Link>
         </nav>
       </div>

@@ -73,6 +73,7 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
   const clusterRef = useRef<any>(null);
   const userMarkerRef = useRef<any>(null);
   const markersById = useRef<Map<string, any>>(new Map());
+  const resizeCleanup = useRef<(() => void) | null>(null);
   const locationsRef = useRef(locations);
   locationsRef.current = locations;
 
@@ -135,8 +136,19 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
         center: [49.82, 15.47],
         zoom: 7,
         scrollWheelZoom: true,
+        tap: true, // dotyková gesta na mobilu
+        zoomControl: true,
       });
       mapRef.current = map;
+
+      // Po otočení / změně velikosti přepočítat rozměry (mobil).
+      const onResize = () => map.invalidateSize();
+      window.addEventListener("resize", onResize);
+      window.addEventListener("orientationchange", onResize);
+      resizeCleanup.current = () => {
+        window.removeEventListener("resize", onResize);
+        window.removeEventListener("orientationchange", onResize);
+      };
 
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
@@ -169,6 +181,7 @@ export default function MapView({ locations, userLocation, focus }: MapProps) {
 
     return () => {
       cancelled = true;
+      if (resizeCleanup.current) resizeCleanup.current();
       if (mapRef.current) {
         mapRef.current.remove();
         mapRef.current = null;

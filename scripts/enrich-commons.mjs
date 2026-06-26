@@ -59,6 +59,7 @@ async function enrichFile(file) {
       if (photo) {
         loc.photoUrl = photo.url;
         loc.photoCredit = photo.credit;
+        loc.photoUncertain = true; // jen podle GPS – nemusí být přímo toto místo
         if (!loc.wikiUrl && photo.page) loc.wikiUrl = photo.page;
         added++;
       }

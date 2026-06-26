@@ -8,11 +8,13 @@ export default function PlacePhoto({
   name,
   officialPhoto,
   officialCredit,
+  uncertain,
 }: {
   slug: string;
   name: string;
   officialPhoto?: string;
   officialCredit?: string;
+  uncertain?: boolean;
 }) {
   const [communityPhoto, setCommunityPhoto] = useState<{ url: string; nick: string } | null>(null);
   const [loaded, setLoaded] = useState(false);
@@ -23,7 +25,8 @@ export default function PlacePhoto({
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (officialPhoto) {
+    // Spolehlivou oficiální fotku (z článku) nepřepisujeme komunitní.
+    if (officialPhoto && !uncertain) {
       setLoaded(true);
       return;
     }
@@ -34,7 +37,7 @@ export default function PlacePhoto({
         setLoaded(true);
       })
       .catch(() => setLoaded(true));
-  }, [slug, officialPhoto]);
+  }, [slug, officialPhoto, uncertain]);
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -65,8 +68,11 @@ export default function PlacePhoto({
     }
   }
 
-  const photo = officialPhoto || communityPhoto?.url;
-  const credit = officialPhoto ? officialCredit : communityPhoto ? `Foto: ${communityPhoto.nick}` : undefined;
+  // Komunitní (ověřená) fotka má přednost před neověřenou oficiální.
+  const showCommunity = communityPhoto && (!officialPhoto || uncertain);
+  const photo = showCommunity ? communityPhoto!.url : officialPhoto;
+  const isUncertain = !!officialPhoto && uncertain && !showCommunity;
+  const credit = showCommunity ? `Foto: ${communityPhoto!.nick}` : officialCredit;
 
   if (photo) {
     return (
@@ -77,6 +83,31 @@ export default function PlacePhoto({
           <span className="absolute bottom-1 right-1 rounded bg-black/55 px-1.5 py-0.5 text-[10px] text-white">
             © {credit}
           </span>
+        )}
+        {isUncertain && (
+          <div className="absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-between gap-2 bg-gradient-to-t from-black/70 to-transparent px-3 pb-2 pt-6">
+            <span className="text-xs text-white/90">📍 Fotka z okolí – možná není přímo tohoto místa</span>
+            {!showForm ? (
+              <button
+                onClick={() => setShowForm(true)}
+                className="rounded-lg bg-white/90 px-2.5 py-1 text-xs font-bold text-slate-800 hover:bg-white"
+              >
+                ＋ Přidat správnou (+20)
+              </button>
+            ) : null}
+          </div>
+        )}
+        {isUncertain && showForm && (
+          <div className="bg-white p-3">
+            <UploadForm
+              url={url}
+              setUrl={setUrl}
+              busy={busy}
+              error={error}
+              needLogin={needLogin}
+              onSubmit={submit}
+            />
+          </div>
         )}
       </div>
     );
@@ -127,5 +158,51 @@ export default function PlacePhoto({
       )}
       <p className="text-[11px] text-slate-400">Vlož odkaz na fotku z internetu (např. z tvého úložiště).</p>
     </div>
+  );
+}
+
+function UploadForm({
+  url,
+  setUrl,
+  busy,
+  error,
+  needLogin,
+  onSubmit,
+}: {
+  url: string;
+  setUrl: (v: string) => void;
+  busy: boolean;
+  error: string | null;
+  needLogin: boolean;
+  onSubmit: (e: React.FormEvent) => void;
+}) {
+  return (
+    <form onSubmit={onSubmit} className="w-full">
+      <input
+        value={url}
+        onChange={(e) => setUrl(e.target.value)}
+        inputMode="url"
+        placeholder="https://… odkaz na fotku"
+        className="w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:border-sky-400"
+      />
+      {url && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={url} alt="náhled" className="mt-2 h-28 w-full rounded-lg border border-slate-200 object-cover" />
+      )}
+      {error && <p className="mt-1 text-xs text-rose-600">{error}</p>}
+      {needLogin && (
+        <p className="mt-1 text-xs text-slate-600">
+          Pro nahrání fotky se{" "}
+          <Link href="/profil" className="font-medium text-brand hover:underline">přihlas</Link>.
+        </p>
+      )}
+      <button
+        type="submit"
+        disabled={busy || !url}
+        className="brand-gradient mt-2 w-full rounded-xl px-3 py-2 text-sm font-bold text-white disabled:opacity-50"
+      >
+        {busy ? "Ukládám…" : "Uložit fotku"}
+      </button>
+    </form>
   );
 }

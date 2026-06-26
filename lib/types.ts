@@ -79,6 +79,7 @@ export interface Location {
   since?: string; // rok vzniku / otevření (pokud známé)
   photoUrl?: string; // hlavní fotka (např. z Wikimedia Commons)
   photoCredit?: string; // popisek/autor fotky (atribuce)
+  photoUncertain?: boolean; // fotka jen podle GPS (nemusí být přímo toto místo)
   wikiUrl?: string; // odkaz na zdrojový článek (Wikipedie)
   website?: string; // oficiální / místní web provozovatele (z OSM)
   openingHours?: string; // otevírací doba (z OSM)
