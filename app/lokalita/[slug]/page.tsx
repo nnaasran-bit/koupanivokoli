@@ -7,6 +7,7 @@ import CommunityInfo from "@/components/CommunityInfo";
 import ContentLayout from "@/components/ContentLayout";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { slugForRegion } from "@/lib/regions";
+import { amenityDef } from "@/lib/gamify";
 import {
   ACCESS_LABELS,
   QUALITY_COLORS,
@@ -209,6 +210,28 @@ export default async function LocationPage({
         <h2 className="text-sm font-bold text-slate-900">O lokalitě</h2>
         {loc.description && <p className="mt-2 text-sm leading-relaxed text-slate-700">{loc.description}</p>}
         <p className="mt-2 text-sm leading-relaxed text-slate-500">{describe(loc)}</p>
+        {loc.since && (
+          <p className="mt-2 text-sm text-slate-600">
+            <span className="font-medium text-slate-900">V provozu / existuje od:</span> {loc.since}
+          </p>
+        )}
+        {loc.amenities && loc.amenities.length > 0 && (
+          <div className="mt-3">
+            <div className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+              Vybavení na místě <span className="font-normal normal-case text-slate-400">(z OpenStreetMap)</span>
+            </div>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {loc.amenities.map((id) => {
+                const a = amenityDef(id);
+                return (
+                  <span key={id} className="rounded-full bg-sky-50 px-3 py-1 text-sm text-sky-800">
+                    {a?.emoji ?? "•"} {a?.label ?? id}
+                  </span>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Historie kvality vody */}

@@ -48,9 +48,10 @@ function ensureSchema(): Promise<void> {
       await db`CREATE TABLE IF NOT EXISTS reports (
         id text PRIMARY KEY, user_id text NOT NULL, nick text NOT NULL, kind text NOT NULL,
         location_name text, location_slug text, new_place_name text,
-        lat double precision, lng double precision, text text,
+        lat double precision, lng double precision, text text, photo_url text,
         status text NOT NULL DEFAULT 'pending', points integer NOT NULL DEFAULT 0,
         created_at timestamptz NOT NULL DEFAULT now())`;
+      await db`ALTER TABLE reports ADD COLUMN IF NOT EXISTS photo_url text`;
       await db`CREATE TABLE IF NOT EXISTS contributions (
         id text PRIMARY KEY, location_slug text NOT NULL, user_id text NOT NULL, nick text NOT NULL,
         kind text NOT NULL, amenity text, text text, created_at timestamptz NOT NULL DEFAULT now())`;
@@ -85,6 +86,7 @@ function toReport(r: any): Report {
     lat: r.lat ?? undefined,
     lng: r.lng ?? undefined,
     text: r.text ?? undefined,
+    photoUrl: r.photo_url ?? undefined,
     status: r.status,
     points: Number(r.points),
     createdAt: new Date(r.created_at).toISOString(),
@@ -235,10 +237,10 @@ export async function addReport(input: ReportInput): Promise<Report> {
   const report: Report = { ...input, id: randomUUID(), status: "pending", createdAt: new Date().toISOString() };
   if (sql) {
     await ensureSchema();
-    await sql`INSERT INTO reports (id, user_id, nick, kind, location_name, location_slug, new_place_name, lat, lng, text, status, points)
+    await sql`INSERT INTO reports (id, user_id, nick, kind, location_name, location_slug, new_place_name, lat, lng, text, photo_url, status, points)
       VALUES (${report.id}, ${input.userId}, ${input.nick}, ${input.kind}, ${input.locationName ?? null},
         ${input.locationSlug ?? null}, ${input.newPlaceName ?? null}, ${input.lat ?? null}, ${input.lng ?? null},
-        ${input.text ?? null}, 'pending', ${input.points})`;
+        ${input.text ?? null}, ${input.photoUrl ?? null}, 'pending', ${input.points})`;
     await sql`UPDATE users SET points = points + ${input.points}, report_count = report_count + 1 WHERE id = ${input.userId}`;
     return report;
   }

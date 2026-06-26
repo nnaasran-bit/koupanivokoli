@@ -35,6 +35,9 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Uveď, kterého místa se hlášení týká." }, { status: 400 });
   }
 
+  const rawPhoto = body.photoUrl ? String(body.photoUrl).trim() : "";
+  const photoUrl = /^https?:\/\/.+/i.test(rawPhoto) ? rawPhoto.slice(0, 500) : undefined;
+
   const report = await addReport({
     userId: user.id,
     nick: user.nick,
@@ -46,6 +49,7 @@ export async function POST(req: Request) {
     lat: typeof body.lat === "number" ? body.lat : undefined,
     lng: typeof body.lng === "number" ? body.lng : undefined,
     text: body.text ? String(body.text).slice(0, 500) : undefined,
+    photoUrl,
   });
 
   const updated = await getUserById(user.id);

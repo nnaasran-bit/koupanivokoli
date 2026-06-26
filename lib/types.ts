@@ -73,5 +73,7 @@ export interface Location {
   safety?: SafetyWarning[];
   description?: string; // textový popis lokality
   history?: QualitySample[]; // historie kvality vody
+  amenities?: string[]; // vybavení z OSM (id dle gamify.AMENITIES): wc, parkovani, obcerstveni…
+  since?: string; // rok vzniku / otevření (pokud známé)
   updatedAt?: string; // poslední aktualizace na našem webu
 }

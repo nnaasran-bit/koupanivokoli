@@ -39,6 +39,7 @@ export const AMENITIES: AmenityDef[] = [
   { id: "wc", label: "WC", emoji: "🚻" },
   { id: "sprchy", label: "Sprchy", emoji: "🚿" },
   { id: "obcerstveni", label: "Občerstvení", emoji: "🍔" },
+  { id: "pitna_voda", label: "Pitná voda", emoji: "🚰" },
   { id: "deti", label: "Vhodné pro děti", emoji: "🧒" },
   { id: "psi", label: "Psi povoleni", emoji: "🐕" },
   { id: "bez_vstupneho", label: "Bez vstupného", emoji: "🆓" },
@@ -81,6 +82,7 @@ export interface Report {
   lat?: number;
   lng?: number;
   text?: string;
+  photoUrl?: string;
   status: "pending" | "approved" | "rejected";
   points: number;
   createdAt: string;

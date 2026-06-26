@@ -15,6 +15,7 @@ export default function CommunityReports({ slug, name }: { slug: string; name: s
   }, [slug]);
 
   const pending = reports?.filter((r) => r.status === "pending").length ?? 0;
+  const photos = reports?.filter((r) => r.photoUrl) ?? [];
 
   return (
     <section className="mt-4 rounded-xl border border-zinc-200 p-4">
@@ -31,6 +32,21 @@ export default function CommunityReports({ slug, name }: { slug: string; name: s
       {pending > 0 && (
         <div className="mt-2 inline-block rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-800">
           ⏳ {pending}× čeká na ověření
+        </div>
+      )}
+
+      {photos.length > 0 && (
+        <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
+          {photos.map((r) => (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              key={r.id}
+              src={r.photoUrl}
+              alt={`Fotka od ${r.nick}`}
+              className="h-28 w-40 shrink-0 rounded-lg border border-zinc-200 object-cover"
+              loading="lazy"
+            />
+          ))}
         </div>
       )}
 

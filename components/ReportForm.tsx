@@ -14,6 +14,7 @@ export default function ReportForm({
   const [locationName, setLocationName] = useState(presetName ?? "");
   const [newPlaceName, setNewPlaceName] = useState("");
   const [text, setText] = useState("");
+  const [photoUrl, setPhotoUrl] = useState("");
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<{ earned: number; points: number } | null>(null);
@@ -44,6 +45,7 @@ export default function ReportForm({
           lat: coords?.lat,
           lng: coords?.lng,
           text,
+          photoUrl,
         }),
       });
       const data = await res.json();
@@ -54,6 +56,7 @@ export default function ReportForm({
       setSuccess({ earned: data.earned, points: data.points });
       setText("");
       setNewPlaceName("");
+      setPhotoUrl("");
     } catch {
       setError("Chyba spojení.");
     } finally {
@@ -149,6 +152,25 @@ export default function ReportForm({
           className="w-full rounded-lg border border-zinc-300 px-3 py-2 text-sm outline-none focus:border-blue-500"
           placeholder="Co jsi viděl?"
         />
+      </div>
+
+      <div className="mt-3">
+        <label className="mb-1 block text-xs font-medium text-zinc-600">Odkaz na fotku (nepovinné)</label>
+        <input
+          value={photoUrl}
+          onChange={(e) => setPhotoUrl(e.target.value)}
+          inputMode="url"
+          className="w-full rounded-lg border border-zinc-300 px-3 py-2 text-sm outline-none focus:border-blue-500"
+          placeholder="https://… (odkaz na fotku z internetu)"
+        />
+        {photoUrl.trim() !== "" && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={photoUrl}
+            alt="Náhled"
+            className="mt-2 h-28 w-full rounded-lg border border-zinc-200 object-cover"
+          />
+        )}
       </div>
 
       {error && <p className="mt-3 text-sm text-red-600">{error}</p>}
