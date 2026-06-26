@@ -1,7 +1,7 @@
 [
   {
     "id": "eea-CZPK320251",
-    "slug": "babylon-pk320251",
+    "slug": "babylon",
     "name": "Babylon",
     "type": "reka",
     "lat": 49.4039,
@@ -39,11 +39,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Babylon je obec v okrese Domažlice v Plzeňském kraji. Žije v ní 388 obyvatel. Leží osm kilometrů jihozápadně od Domažlic, 55 kilometrů jihozápadně od Plzně a 137 kilometrů jihozápadně od Prahy.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Gemeindeamt_von_Babylon.jpg/3840px-Gemeindeamt_von_Babylon.jpg",
+    "photoCredit": "Wikipedie / Babylon (okres Domažlice)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Babylon_(okres_Doma%C5%BElice)"
   },
   {
     "id": "eea-CZKO810101",
-    "slug": "bilovecky-rybnik-udoli-mladych-ko810101",
+    "slug": "bilovecky-rybnik-udoli-mladych",
     "name": "Bílovecký Rybník - Údolí Mladých",
     "type": "reka",
     "lat": 49.7646,
@@ -81,11 +85,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Naučná stezka Údolím Jamníku je krátká naučná stezka vedoucí přes území Bílovce, Bítova a okrajově i Tísku v okrese Nový Jičín v Moravskoslezském kraji. Leží také v pohoří Vítkovská vrchovina v přírodním parku Oderské vrchy a v Horním Slezsku.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Nau%C4%8Dn%C3%A1_stezka_%C3%9Adol%C3%ADm_Jamn%C3%ADku%2C_B%C3%ADtov%2C_okres_Nov%C3%BD_Ji%C4%8D%C3%ADn%2C_Moravskoslezsk%C3%BD_kraj%2C_%C4%8Cesk%C3%A1_republika.jpg/3840px-Nau%C4%8Dn%C3%A1_stezka_%C3%9Adol%C3%ADm_Jamn%C3%ADku%2C_B%C3%ADtov%2C_okres_Nov%C3%BD_Ji%C4%8D%C3%ADn%2C_Moravskoslezsk%C3%BD_kraj%2C_%C4%8Cesk%C3%A1_republika.jpg",
+    "photoCredit": "Wikipedie / Naučná stezka Údolím Jamníku",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Nau%C4%8Dn%C3%A1_stezka_%C3%9Adol%C3%ADm_Jamn%C3%ADku"
   },
   {
     "id": "eea-CZKO610401",
-    "slug": "brevnicka-nadrz-ko610401",
+    "slug": "brevnicka-nadrz",
     "name": "Břevnická Nádrž",
     "type": "prehrada",
     "lat": 49.7018,
@@ -123,11 +131,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Břevnice byla vybudována mezi lety 1956–1959 na Břevnickém potoce nedaleko Chotěboře.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vodn%C3%AD_n%C3%A1dr%C5%BE_B%C5%99evnice_06.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Břevnice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_B%C5%99evnice"
   },
   {
     "id": "eea-CZPK520451",
-    "slug": "dachova-u-horic-pk520451",
+    "slug": "dachova-u-horic",
     "name": "Dachova U Hořic",
     "type": "reka",
     "lat": 50.3826,
@@ -165,11 +177,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Přírodní koupaliště Dachovy se nalézá v osadě Dachovy asi 2 km severně od centra města Hořice v okrese Jičín. Areál s pozoruhodnou dřevěnou architekturou vznikl podle návrhu arch. Karla Bachury a pro veřejnost byl otevřen v roce 1925. Od roku 2013 je hlavní budova spolu se strážním domkem kulturní památkou.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Koupali%C5%A1t%C4%9B_Dachova_01.jpg/3840px-Koupali%C5%A1t%C4%9B_Dachova_01.jpg",
+    "photoCredit": "Wikipedie / Koupaliště Dachovy",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Koupali%C5%A1t%C4%9B_Dachovy"
   },
   {
     "id": "eea-CZKO611301",
-    "slug": "dalesicka-prehrada-konesinska-plaz-ko611301",
+    "slug": "dalesicka-prehrada-konesinska-plaz",
     "name": "Dalešická Přehrada - Koněšínská Pláž",
     "type": "prehrada",
     "lat": 49.1793,
@@ -207,11 +223,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Koněšín je obec v okrese Třebíč v Kraji Vysočina. Leží asi čtrnáct kilometrů východně od Třebíče na levém břehu řeky Jihlavy. Žije zde 507 obyvatel. K obci přísluší osada Prachovna u řeky Jihlavy, která je autem dostupná z Vladislavi.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Village_center_of_Kon%C4%9B%C5%A1%C3%ADn%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg/3840px-Village_center_of_Kon%C4%9B%C5%A1%C3%ADn%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg",
+    "photoCredit": "Wikipedie / Koněšín",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kon%C4%9B%C5%A1%C3%ADn"
   },
   {
     "id": "eea-CZKO610101",
-    "slug": "domaninsky-rybnik-ko610101",
+    "slug": "domaninsky-rybnik",
     "name": "Domanínský Rybník",
     "type": "reka",
     "lat": 49.5451,
@@ -253,7 +273,7 @@
   },
   {
     "id": "eea-CZKO421402",
-    "slug": "chlumecky-rybnik-ko421402",
+    "slug": "chlumecky-rybnik",
     "name": "Chlumecký Rybník",
     "type": "reka",
     "lat": 50.6989,
@@ -291,11 +311,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Jubilejní pomník je válečný památník v severočeském městě Chlumec, největší a nejmladší z pietních míst připomínajících bitvu u Chlumce a Přestanova. Tato bitva, která se v okolí odehrála 29. a 30. srpna 1813, byla jedním z nejvýznamnějších střetnutí napoleonských válek na českém území, v němž spojená vojska Rakouska, Pruska a Ruska porazila francouzský sbor generála Vandamma.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chlumec_%28UL%29%2C_pam%C3%A1tn%C3%ADk_%282%29.jpg/3840px-Chlumec_%28UL%29%2C_pam%C3%A1tn%C3%ADk_%282%29.jpg",
+    "photoCredit": "Wikipedie / Jubilejní pomník v Chlumci",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Jubilejn%C3%AD_pomn%C3%ADk_v_Chlumci"
   },
   {
     "id": "eea-CZPK210353",
-    "slug": "jezero-konetopy-pk210353",
+    "slug": "jezero-konetopy",
     "name": "Jezero Konětopy",
     "type": "reka",
     "lat": 50.2681,
@@ -337,7 +361,7 @@
   },
   {
     "id": "eea-CZPK410751",
-    "slug": "jezero-michal-sokolov-pk410751",
+    "slug": "jezero-michal-sokolov",
     "name": "Jezero Michal Sokolov",
     "type": "reka",
     "lat": 50.1649,
@@ -375,11 +399,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Michal je umělé vytvořené jezero, které vzniklo jako první z projektů převážně hydrických rekultivací na Sokolovsku. Jedná se o první zbytkovou jámu po těžbě, která byla zatopena a využita jako rekreační areál. Má rozlohu 28,3 ha.\nNachází se zhruba 3 km na jihovýchod od Sokolova, v nadmořské výšce 452 m. Je hluboké maximálně 5,6 m, objem vody činí 857 000 m³.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sokolov_jezero_Michal01.jpg",
+    "photoCredit": "Wikipedie / Michal (jezero)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Michal_(jezero)"
   },
   {
     "id": "eea-CZKO421403",
-    "slug": "jezero-milada-ko421403",
+    "slug": "jezero-milada-2",
     "name": "Jezero Milada",
     "type": "jezero",
     "lat": 50.6563,
@@ -417,11 +445,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Bitva u Ústí nad Labem se odehrála 16. června 1426 na vyvýšenině Na Běhání poblíž vsí Hrbovice a Předlice, zhruba 5 km západně od Ústí nad Labem. Ozbrojené síly většiny husitských svazů zde porazily početně silnější armádu římskoněmeckých[zdroj?] žoldnéřů, kteří se pokoušeli vyprostit Ústí z téměř dva měsíce trvajícího obležení. Vítězství nejenže umožnilo husitům ovládnout obléhané město, ale současně si otevřeli cestu ke vpádům do Saska, Durynska a Horní Lužice. Na českém území to bylo naposled, kdy těžká jízda napadla vozovou hradbu čelním útokem, neboť v dalších letech se již zahraniční nepřítel pokoušel přizpůsobit novému pojetí válečnictví za použití vlastní vozové formace.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bitva_u_%C3%9Ast%C3%AD_nad_Labem.jpg",
+    "photoCredit": "Wikipedie / Bitva u Ústí nad Labem",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Bitva_u_%C3%9Ast%C3%AD_nad_Labem"
   },
   {
     "id": "eea-CZKO420903",
-    "slug": "jezero-most-plaz-leva-cast-ko420903",
+    "slug": "jezero-most-plaz-leva-cast",
     "name": "Jezero Most - Pláž Levá Část",
     "type": "jezero",
     "lat": 50.527,
@@ -441,11 +473,15 @@
       "status": "povoleno",
       "source": "EEA / koupací vody"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Synagoga neboli Templ v Mostě byla postavena v letech 1872/73. Budova v novorománském slohu měla z ulice tři vchody, ve štítě nesla Davidova hvězdu",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Synagoga_Most.jpg",
+    "photoCredit": "Wikipedie / Synagoga v Mostě",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Synagoga_v_Most%C4%9B"
   },
   {
     "id": "eea-CZKO420904",
-    "slug": "jezero-most-plaz-prava-cast-ko420904",
+    "slug": "jezero-most-plaz-prava-cast",
     "name": "Jezero Most - Pláž Pravá Část",
     "type": "jezero",
     "lat": 50.52835,
@@ -465,11 +501,15 @@
       "status": "povoleno",
       "source": "EEA / koupací vody"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Synagoga neboli Templ v Mostě byla postavena v letech 1872/73. Budova v novorománském slohu měla z ulice tři vchody, ve štítě nesla Davidova hvězdu",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Synagoga_Most.jpg",
+    "photoCredit": "Wikipedie / Synagoga v Mostě",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Synagoga_v_Most%C4%9B"
   },
   {
     "id": "eea-CZPK211951",
-    "slug": "jezero-podebrady-pk211951",
+    "slug": "jezero-podebrady",
     "name": "Jezero Poděbrady",
     "type": "reka",
     "lat": 50.1368,
@@ -507,11 +547,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Jezero Poděbrady je písník – antropogenní jezero, které vzniklo zatopením pískovny po ukončení těžby. Nachází se 100 m severovýchodně od městské části Kluk na území města Poděbrady v okrese Nymburk ve Středočeském kraji v Česku. Jezero má rozlohu 31,06 ha. Je 900 m dlouhé a 660 m široké. Leží v nadmořské výšce 186 m. Hloubka jezera dosahuje místy 8 m.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/JezeroPdyPl%C3%A1%C5%BE05.JPG",
+    "photoCredit": "Wikipedie / Jezero Poděbrady",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Jezero_Pod%C4%9Bbrady"
   },
   {
     "id": "eea-CZKO810201",
-    "slug": "kalisovo-jezero-ko810201",
+    "slug": "kalisovo-jezero",
     "name": "Kališovo Jezero",
     "type": "reka",
     "lat": 49.9268,
@@ -537,11 +581,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Osada Šunychl je část města Bohumína, která sestává ze dvou základních sídelních jednotek: Jednou je sama vesnice Šunychl, ležící v katastrálním území Nový Bohumín, druhou pak vesnice Kopytov s vlastním katastrálním územím (2,18 km²). Šunychl se nachází v okrese Karviná v Moravskoslezském kraji.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bohum%C3%ADn%2C_%C5%A0unychl%2C_k%C5%99%C3%AD%C5%BE.JPG",
+    "photoCredit": "Wikipedie / Šunychl",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%A0unychl"
   },
   {
     "id": "eea-CZPK420351",
-    "slug": "kamencove-jezero-pk420351",
+    "slug": "kamencove-jezero",
     "name": "Kamencové Jezero",
     "type": "reka",
     "lat": 50.4724,
@@ -579,11 +627,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Kamencové jezero je jezero v Ústeckém kraji v České republice. Jako přírodní útvar je jedinečné a i ve světovém měřítku ojedinělé. Nachází se v nadmořské výšce 337 metrů na severovýchodním okraji Chomutova. Je široké 240 m a dlouhé 676 m. Zaujímá rozlohu 15,98 hektarů, maximální hloubka jsou čtyři metry a objem 322 958 m³.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kamencov%C3%A9_jezero_1.jpg",
+    "photoCredit": "Wikipedie / Kamencové jezero",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kamencov%C3%A9_jezero"
   },
   {
     "id": "eea-CZKO320902",
-    "slug": "kamenny-rybnik-ko320902",
+    "slug": "kamenny-rybnik",
     "name": "Kamenný Rybník",
     "type": "reka",
     "lat": 49.7902,
@@ -621,11 +673,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Kamenný rybník, zvaný též Kameňák, je součástí rybniční soustavy na Boleveckém potoce a jeho přítocích na severním okraji města Plzně.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Kamenn%C3%BD_rybn%C3%ADk_-_severov%C3%BDchodn%C3%AD_b%C5%99eh_od_v%C3%BDchodu.jpg",
+    "photoCredit": "Wikipedie / Kamenný rybník (Bolevec)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kamenn%C3%BD_rybn%C3%ADk_(Bolevec)"
   },
   {
     "id": "eea-CZKO106001",
-    "slug": "koupaliste-dzban-ko106001",
+    "slug": "koupaliste-dzban",
     "name": "Koupaliště Džbán",
     "type": "reka",
     "lat": 50.09322,
@@ -645,11 +701,15 @@
       "status": "povoleno",
       "source": "EEA / koupací vody"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Střední škola knižní kultury nabízí čtyřleté studium dle Školního vzdělávacího programu „Knižní kultura“ zakončené maturitou. Mimo přípravy studentů na práci v knihkupectvích, nakladatelstvích, archivech, distribučních firmách, redakcích, knihovnách či jiných odvětví týkajících se knižní kultury a obchodu je škola připravuje i na studium vysokých a vyšších odborných škol humanitního zaměření. Do června 2013 škola sídlila v pronájmu v budově ZŠ Chmelnice v Praze 3 – Žižkově. Do školního roku 2020/2021 sídlila škola v budově ZŠ Perunova v Praze 3 – Vinohradech.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Vokovice-cela_budova_FTVS_UK.jpg",
+    "photoCredit": "Wikipedie / Střední škola knižní kultury",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/St%C5%99edn%C3%AD_%C5%A1kola_kni%C5%BEn%C3%AD_kultury"
   },
   {
     "id": "eea-CZPK410251",
-    "slug": "koupaliste-jesenice-drenice-pk410251",
+    "slug": "koupaliste-jesenice-drenice",
     "name": "Koupaliště Jesenice - Dřenice",
     "type": "jezero",
     "lat": 50.0663,
@@ -691,7 +751,7 @@
   },
   {
     "id": "eea-CZPK510551",
-    "slug": "koupaliste-kristyna-pk510551",
+    "slug": "koupaliste-kristyna",
     "name": "Koupaliště Kristýna",
     "type": "reka",
     "lat": 50.8581,
@@ -729,11 +789,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Kristýna je jezero na severu České republiky, v Libereckém kraji, asi 1,5 km severozápadně od Hrádku nad Nisou a 1 km od trojstyku hranic České republiky, Německa a Polska. Jedná se o zatopený lignitový důl o rozloze cca 14 ha, největší hloubka je asi 28 m.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Krist%C3%BDna.JPG",
+    "photoCredit": "Wikipedie / Kristýna (jezero)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Krist%C3%BDna_(jezero)"
   },
   {
     "id": "eea-CZPK621951",
-    "slug": "koupaliste-lulec-pk621951",
+    "slug": "koupaliste-lulec",
     "name": "Koupaliště Luleč",
     "type": "reka",
     "lat": 49.2579,
@@ -771,11 +835,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Luleč je obec v okrese Vyškov v Jihomoravském kraji. Žije v ní 983 obyvatel. Nachází se sedm kilometrů jihozápadně od města Vyškov na úpatí Drahanské vrchoviny, na rozhraní Hané, Litenčické pahorkatiny a Brněnské nížiny v nadmořské výšce 302 metrů. Obec je půdorysně trojúhelníková zastavěná náves s kostelem situovaným na severozápadní straně obce. Výraznou dominantou okolí je kopec s kostelem svatého Martina s křížovou cestou.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lule%C4%8D_007.JPG/3840px-Lule%C4%8D_007.JPG",
+    "photoCredit": "Wikipedie / Luleč",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Lule%C4%8D"
   },
   {
     "id": "eea-CZPK510253",
-    "slug": "koupaliste-nove-mesto-pod-smrkem-pk510253",
+    "slug": "koupaliste-nove-mesto-pod-smrkem",
     "name": "Koupaliště Nové Město Pod Smrkem",
     "type": "reka",
     "lat": 50.9258,
@@ -813,11 +881,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Klingerovo mauzoleum je rodinná hrobka, která je významnou památkou tvořící dominantu hřbitova v Novém Městě pod Smrkem. Postavit ji nechali v roce 1901 potomci zakladatele zdejších textilních továren Ignaze Klingera. Po druhé světové válce začala stavba chátrat a v roce 1987 se uvažovalo i o její demolici. Dne 11. října 1993 však byla zařazena mezi nemovité kulturní památky České republiky a v letech 1995 až 2000 proběhla za finanční spoluúčasti ministerstva kultury, okresního úřadu v Liberci a města její rozsáhlá rekonstrukce.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Nov%C3%A9_M%C4%9Bsto_pod_Smrkem%2C_Klingerovo_mauzoleum_%281%29.jpg/3840px-Nov%C3%A9_M%C4%9Bsto_pod_Smrkem%2C_Klingerovo_mauzoleum_%281%29.jpg",
+    "photoCredit": "Wikipedie / Klingerovo mauzoleum",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Klingerovo_mauzoleum"
   },
   {
     "id": "eea-CZPK410351",
-    "slug": "koupaliste-rolava-karlovy-vary-pk410351",
+    "slug": "koupaliste-rolava-karlovy-vary",
     "name": "Koupaliště Rolava - Karlovy Vary",
     "type": "reka",
     "lat": 50.2367,
@@ -855,11 +927,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Volnočasový areál Rolava je multifunkční rekreační prostor nacházející se v Karlových Varech, na adrese Třeboňská 1049/92, 360 05 Karlovy Vary. Je snadno dostupný městskou hromadnou dopravou, konkrétně autobusem č. 12 na zastávku Koupaliště Rolava.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Rolava.JPG",
+    "photoCredit": "Wikipedie / Koupaliště Rolava",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Koupali%C5%A1t%C4%9B_Rolava"
   },
   {
     "id": "eea-CZPK510953",
-    "slug": "koupaliste-sedmihorky-pk510953",
+    "slug": "koupaliste-sedmihorky",
     "name": "Koupaliště Sedmihorky",
     "type": "reka",
     "lat": 50.5592,
@@ -897,11 +973,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Sedmihorky jsou vesnice, část obce Karlovice v okrese Semily. Nachází se asi půl kilometru západně od Karlovic. Prochází zde silnice I/35. Původně se dnešní Sedmihorky nazývaly Nová Ves. V roce 1966 byla na žádost MNV v Karlovicích povolena změna názvu Nová Ves na Sedmihorky. Sedmihorky leží v katastrálním území Karlovice o výměře 10,21 km².",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sedmihorky%2C_silnice_s_roubenkou_%C4%8D._50.JPG/3840px-Sedmihorky%2C_silnice_s_roubenkou_%C4%8D._50.JPG",
+    "photoCredit": "Wikipedie / Sedmihorky",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Sedmihorky"
   },
   {
     "id": "eea-CZKO104001",
-    "slug": "koupaliste-seberak-ko104001",
+    "slug": "koupaliste-seberak",
     "name": "Koupaliště Šeberák",
     "type": "reka",
     "lat": 50.0097,
@@ -931,11 +1011,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Šeberák nebo také Šeberovský rybník je rybník v Kunraticích na jižním okraji Prahy 4, rozlohou je šestou největší vodní plochou ve městě. Slouží k rekreačním účelům, na jihozápadním okraji se nachází Restaurace Šeberák se sportovním areálem, zpoplatněným koupalištěm, hřištěm a pláží. Na jihovýchodu se nachází nudistická pláž, jedná se o jednu z nejstarších pláží svého druhu (vznikla v 80. letech 20. století, není zde žádná sociální vybavenost ani vstupné. Šeberák slouží také k rybaření, v zimě k bruslení, pomáhá zadržovat vodu při povodních a je útočištěm k hnízdění některých druhů vodního ptactva.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/%C5%A0eber%C3%A1k_Pond%2C_Prague_Kunratice.jpg",
+    "photoCredit": "Wikipedie / Šeberák",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%A0eber%C3%A1k"
   },
   {
     "id": "eea-CZPK106051",
-    "slug": "koupaliste-ve-volne-prirode-dzban-pk106051",
+    "slug": "koupaliste-ve-volne-prirode-dzban",
     "name": "Koupaliště Ve Volné Přírodě Džbán",
     "type": "reka",
     "lat": 50.0952,
@@ -969,11 +1053,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Džbán je přehradní nádrž v severozápadní části Prahy, v katastru Vokovice v městské části Praha 6. Je dlouhá 0,8 km. Je to druhé největší přírodní koupaliště v Praze po Hostivařské přehradě. Přehrada má rozlohu 13 ha. Její maximální hloubka je 7,5 m a objem nádrže je 302 000 m³. Byla vybudována v letech 1966–1971.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Praha%2C_Vodn%C3%AD_n%C3%A1dr%C5%BE_D%C5%BEb%C3%A1n_01.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Džbán",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_D%C5%BEb%C3%A1n"
   },
   {
     "id": "eea-CZPK110051",
-    "slug": "koupaliste-ve-volne-prirode-hostivar-pk110051",
+    "slug": "koupaliste-ve-volne-prirode-hostivar",
     "name": "Koupaliště Ve Volné Přírodě Hostivař",
     "type": "reka",
     "lat": 50.0379,
@@ -1011,11 +1099,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Hostivařská přehrada je přehradní nádrž na potoce Botiči na jihovýchodním okraji Prahy. Její vodní plocha zasahuje do městských částí Praha 11, 15 a Praha-Petrovice. Dosahuje maximální rozlohy 42 ha a objemu 1 845 000 m³ při hladině v nadmořské výšce 248 m. Přehrada je dlouhá 2,5 km a široká až 400 m, její maximální hloubka dosahuje 12 m. Jde o největší vodní plochu v Praze.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hostivarska_nadrz2.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Hostivař",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Hostiva%C5%99"
   },
   {
     "id": "eea-CZPK105051",
-    "slug": "koupaliste-ve-volne-prirode-motol-pk105051",
+    "slug": "koupaliste-ve-volne-prirode-motol",
     "name": "Koupaliště Ve Volné Přírodě Motol",
     "type": "reka",
     "lat": 50.0693,
@@ -1053,11 +1145,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Motol je městská čtvrť a katastrální území v Praze, nacházející se v údolí Motolského potoka na západě města. Administrativně patří do městské části Praha 5.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Praha%2C_Motol%2C_Plze%C5%88sk%C3%A1_ulice.JPG/3840px-Praha%2C_Motol%2C_Plze%C5%88sk%C3%A1_ulice.JPG",
+    "photoCredit": "Wikipedie / Motol",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Motol"
   },
   {
     "id": "eea-CZPK410551",
-    "slug": "lido-hamrniky-marianske-lazne-pk410551",
+    "slug": "lido-hamrniky-marianske-lazne",
     "name": "Lido Hamrníky Mariánské Lázně",
     "type": "reka",
     "lat": 49.9415,
@@ -1077,11 +1173,15 @@
       "status": "povoleno",
       "source": "EEA / koupací vody"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Hamrníky jsou část města Mariánské Lázně v okrese Cheb v Karlovarském kraji. Nachází se na jihozápadě Mariánských Lázní. Je zde evidováno 242 adres. V roce 2011 zde trvale žilo 778 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dub_u_Hamrnick%C3%A9ho_z%C3%A1me%C4%8Dku_%282%29.jpg",
+    "photoCredit": "Wikipedie / Hamrníky",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Hamrn%C3%ADky"
   },
   {
     "id": "eea-CZKO320901",
-    "slug": "lom-jezirko-kosutka-ko320901",
+    "slug": "lom-jezirko-kosutka",
     "name": "Lom - Jezírko Košutka",
     "type": "reka",
     "lat": 49.7724,
@@ -1119,11 +1219,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Košutka je čtvrť v Plzni, součást městského obvodu Plzeň 1, ohraničená městskými komunikacemi Gerská a Karlovarská.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ko%C5%A1utka_s%C3%ADdli%C5%A1t%C4%9B_2.jpg/3840px-Ko%C5%A1utka_s%C3%ADdli%C5%A1t%C4%9B_2.jpg",
+    "photoCredit": "Wikipedie / Košutka",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Ko%C5%A1utka"
   },
   {
     "id": "eea-CZKO810301",
-    "slug": "lom-svobodne-hermanice-ko810301",
+    "slug": "lom-svobodne-hermanice",
     "name": "Lom - Svobodné Heřmanice",
     "type": "reka",
     "lat": 49.9433,
@@ -1161,11 +1265,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Svobodné Heřmanice jsou obec v okrese Bruntál v Moravskoslezském kraji. Žije zde 552 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Svobodn%C3%A9_He%C5%99manice%2C_n%C3%A1ves_%282019-08-14%3B_02%29.jpg/3840px-Svobodn%C3%A9_He%C5%99manice%2C_n%C3%A1ves_%282019-08-14%3B_02%29.jpg",
+    "photoCredit": "Wikipedie / Svobodné Heřmanice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Svobodn%C3%A9_He%C5%99manice"
   },
   {
     "id": "eea-CZKO611001",
-    "slug": "lom-horni-cerekev-ko611001",
+    "slug": "lom-horni-cerekev",
     "name": "Lom Horní Cerekev",
     "type": "reka",
     "lat": 49.3128,
@@ -1203,11 +1311,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Horní Cerekev je město v okrese Pelhřimov v Kraji Vysočina. Žije zde přibližně 1 900 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Horn%C3%AD_Cerekev_2-2.jpg",
+    "photoCredit": "Wikipedie / Horní Cerekev",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Horn%C3%AD_Cerekev"
   },
   {
     "id": "eea-CZPK510151",
-    "slug": "machovo-jezero-borny-pk510151",
+    "slug": "machovo-jezero-borny",
     "name": "Máchovo Jezero - Borný",
     "type": "jezero",
     "lat": 50.5888,
@@ -1245,11 +1357,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Borný je neovulkanický vrch v okrese Česká Lípa Libereckého kraje, ležící asi 2,5 km severně od města Doksy na stejnojmenném katastrálním území. Vrch se tyčí nad severovýchodním břehem Máchova jezera v chráněné krajinné oblasti Kokořínsko – Máchův kraj.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Born%C3%BD_nad_M%C3%A1chov%C3%BDm_jezerem.jpg",
+    "photoCredit": "Wikipedie / Borný",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Born%C3%BD"
   },
   {
     "id": "eea-CZPK510152",
-    "slug": "machovo-jezero-doksy-pk510152",
+    "slug": "machovo-jezero-doksy",
     "name": "Máchovo Jezero - Doksy",
     "type": "jezero",
     "lat": 50.5755,
@@ -1287,11 +1403,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Máchovo jezero, hovorově Mácháč je velký rybník v katastrálním území Doksy u Máchova jezera v okrese Česká Lípa v Libereckém kraji, s rozlohou 284 hektarů šestý největší rybník v Česku a největší český rybník mimo jižní Čechy. Byl založen ve 14. století na příkaz českého krále a císaře Karla IV. Ve 30. letech 19. století u něho opakovaně pobýval básník Karel Hynek Mácha, který do jeho bezprostředního okolí umístil děj známé lyrickoepické skladby Máj. V dnešní době je využíván zejména k rekreaci – je centrem Máchova kraje, oblíbené a navštěvované turistické lokality. V jeho okolí se nachází mnoho rekreačních zařízení a kempů.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/M%C3%A1chovo_jezero.JPG",
+    "photoCredit": "Wikipedie / Máchovo jezero",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/M%C3%A1chovo_jezero"
   },
   {
     "id": "eea-CZPK510153",
-    "slug": "machovo-jezero-klucek-pk510153",
+    "slug": "machovo-jezero-klucek",
     "name": "Máchovo Jezero - Klůček",
     "type": "jezero",
     "lat": 50.5791,
@@ -1329,11 +1449,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Máchovo jezero, hovorově Mácháč je velký rybník v katastrálním území Doksy u Máchova jezera v okrese Česká Lípa v Libereckém kraji, s rozlohou 284 hektarů šestý největší rybník v Česku a největší český rybník mimo jižní Čechy. Byl založen ve 14. století na příkaz českého krále a císaře Karla IV. Ve 30. letech 19. století u něho opakovaně pobýval básník Karel Hynek Mácha, který do jeho bezprostředního okolí umístil děj známé lyrickoepické skladby Máj. V dnešní době je využíván zejména k rekreaci – je centrem Máchova kraje, oblíbené a navštěvované turistické lokality. V jeho okolí se nachází mnoho rekreačních zařízení a kempů.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/M%C3%A1chovo_jezero.JPG",
+    "photoCredit": "Wikipedie / Máchovo jezero",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/M%C3%A1chovo_jezero"
   },
   {
     "id": "eea-CZPK510161",
-    "slug": "machovo-jezero-plaz-hotelu-port-pk510161",
+    "slug": "machovo-jezero-plaz-hotelu-port",
     "name": "Máchovo Jezero - Pláž Hotelu Port",
     "type": "jezero",
     "lat": 50.5775,
@@ -1371,11 +1495,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Máchovo jezero, hovorově Mácháč je velký rybník v katastrálním území Doksy u Máchova jezera v okrese Česká Lípa v Libereckém kraji, s rozlohou 284 hektarů šestý největší rybník v Česku a největší český rybník mimo jižní Čechy. Byl založen ve 14. století na příkaz českého krále a císaře Karla IV. Ve 30. letech 19. století u něho opakovaně pobýval básník Karel Hynek Mácha, který do jeho bezprostředního okolí umístil děj známé lyrickoepické skladby Máj. V dnešní době je využíván zejména k rekreaci – je centrem Máchova kraje, oblíbené a navštěvované turistické lokality. V jeho okolí se nachází mnoho rekreačních zařízení a kempů.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/M%C3%A1chovo_jezero.JPG",
+    "photoCredit": "Wikipedie / Máchovo jezero",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/M%C3%A1chovo_jezero"
   },
   {
     "id": "eea-CZPK510154",
-    "slug": "machovo-jezero-plaz-stare-splavy-pk510154",
+    "slug": "machovo-jezero-plaz-stare-splavy",
     "name": "Máchovo Jezero - Pláž Staré Splavy",
     "type": "jezero",
     "lat": 50.5839,
@@ -1413,11 +1541,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Tvrz Myšlín stávala nad zaniklou obcí Myšlín na území dnešního okresu Česká Lípa v Libereckém kraji. Pozůstatky vsi by se měly nacházet na dně Máchova jezera, zbytky tvrze pak na ostrůvku Myší zámek.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hrab%C4%9Bc%C3%AD_%C4%8Dek%C3%A1rna_v_%C5%BEst._Doksy_%283%29.jpg",
+    "photoCredit": "Wikipedie / Myšlín (tvrz, okres Česká Lípa)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/My%C5%A1l%C3%ADn_(tvrz%2C_okres_%C4%8Cesk%C3%A1_L%C3%ADpa)"
   },
   {
     "id": "eea-CZKO611201",
-    "slug": "maly-parezity-rybnik-ko611201",
+    "slug": "maly-parezity-rybnik",
     "name": "Malý Pařezitý Rybník",
     "type": "reka",
     "lat": 49.2426,
@@ -1455,11 +1587,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Lukšovská je přírodní památka severozápadně od obce Řídelov v okrese Jihlava. Oblast spravuje Krajský úřad Kraje Vysočina. Důvodem ochrany jsou podmáčené porosty s bohatým podrostem.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/PP_Luk%C5%A1ovsk%C3%A1_%2820%29.JPG",
+    "photoCredit": "Wikipedie / Lukšovská",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Luk%C5%A1ovsk%C3%A1"
   },
   {
     "id": "eea-CZKO721203",
-    "slug": "novy-hrozenkov-ko721203",
+    "slug": "novy-hrozenkov",
     "name": "Nový Hrozenkov",
     "type": "reka",
     "lat": 49.3443,
@@ -1497,11 +1633,13 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Balaton, nazývaný také Přírodní koupaliště Na Stanoch nebo Kačák, je vodní nádrž vytvořená přítokem Vsetínské Bečvy v Novém Hrozenkově v okrese Vsetín ve Zlínském kraji na Valašsku v CHKO Beskydy. Nachází se také v údolí pohoří Vsetínské vrchy na pravém břehu řeky Vsetínská Bečva. Vodní nádrž je písník, který má plochu 9,5 ha.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Balaton_(Nov%C3%BD_Hrozenkov)"
   },
   {
     "id": "eea-CZKO520701",
-    "slug": "oborsky-rybnik-ko520701",
+    "slug": "oborsky-rybnik",
     "name": "Oborský Rybník",
     "type": "reka",
     "lat": 50.4719,
@@ -1539,11 +1677,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Jinolické rybníky je soustava tří rybníků ležící u obce Jinolice v CHKO Český ráj, asi 5 km od Jičína. Soustavu tvoří rybníky Oborský, Němeček a Vražda, jež jsou napájeny bezejmenným potokem, tvořícím přítok Javornice.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Rybn%C3%ADk_N%C4%9Bme%C4%8Dek.jpg",
+    "photoCredit": "Wikipedie / Jinolické rybníky",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Jinolick%C3%A9_rybn%C3%ADky"
   },
   {
     "id": "eea-CZKO520702",
-    "slug": "oborsky-rybnik-u-rz-eden-ko520702",
+    "slug": "oborsky-rybnik-u-rz-eden",
     "name": "Oborský Rybník - U Rz Eden",
     "type": "reka",
     "lat": 50.4741,
@@ -1581,11 +1723,13 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Javornická horka je vrch v okrese Jičín Královéhradeckého kraje. Leží asi 0,5 km jjz. od vsi Javornice na katastrálním území obce Kněžnice.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Javornick%C3%A1_horka"
   },
   {
     "id": "eea-CZKO720501",
-    "slug": "pahrbek-napajedla-ko720501",
+    "slug": "pahrbek-napajedla",
     "name": "Pahrbek Napajedla",
     "type": "reka",
     "lat": 49.1567,
@@ -1627,7 +1771,7 @@
   },
   {
     "id": "eea-CZPK211551",
-    "slug": "pisnik-bakov-nad-jizerou-pk211551",
+    "slug": "pisnik-bakov-nad-jizerou",
     "name": "Písník Bakov Nad Jizerou",
     "type": "reka",
     "lat": 50.4856,
@@ -1665,11 +1809,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Bakov nad Jizerou je město v okrese Mladá Boleslav. Žije zde přibližně 5 400 obyvatel. V minulosti ho proslavily výrobky z rákosu a orobince, např. pantofle, tašky, holubovky, rohože a mnoho dalších. Městem či v jeho bezprostřední blízkosti protékají řeka Jizera a říčky Kněžmostka a Bělá, které se zde do Jizery i vlévají.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bakov_nad_Jizerou%2C_n%C3%A1m%C4%9Bst%C3%AD_z%C3%A1pad.jpg/3840px-Bakov_nad_Jizerou%2C_n%C3%A1m%C4%9Bst%C3%AD_z%C3%A1pad.jpg",
+    "photoCredit": "Wikipedie / Bakov nad Jizerou",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Bakov_nad_Jizerou"
   },
   {
     "id": "eea-CZKO530901",
-    "slug": "pisnik-brezhrad-ko530901",
+    "slug": "pisnik-brezhrad",
     "name": "Písník Březhrad",
     "type": "reka",
     "lat": 50.1656,
@@ -1707,11 +1855,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Březhrad je místní částí a současně katastrálním územím statutárního města Hradce Králové, ležící poblíž rozhraní Pardubického a Královéhradeckého kraje. Působí zde komise místní samosprávy Březhrad, jejíž územní působnost ale zasahuje i do sousedních částí Pražské Předměstí a Plačice.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/B%C5%99ezhrad_Gr%C3%A9grovo_n%C3%A1m%C4%9Bst%C3%AD_91.JPG",
+    "photoCredit": "Wikipedie / Březhrad",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/B%C5%99ezhrad"
   },
   {
     "id": "eea-CZKO211001",
-    "slug": "pisnik-hradistko-ko211001",
+    "slug": "pisnik-hradistko",
     "name": "Písník Hradišťko",
     "type": "reka",
     "lat": 50.0573,
@@ -1749,11 +1901,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Hradišťko I je vesnice a část obce Veltruby v okrese Kolín ve Středočeském kraji. Nachází se asi 1,4 kilometru jihovýchodně od Veltrub, nedaleko od řeky Labe. Hradišťko I je také název katastrálního území o rozloze 2,89 km².",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Hradistko_I_f._ObecniHospoda.jpg/3840px-Hradistko_I_f._ObecniHospoda.jpg",
+    "photoCredit": "Wikipedie / Hradišťko I",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Hradi%C5%A1%C5%A5ko_I"
   },
   {
     "id": "eea-CZPK210351",
-    "slug": "pisnik-lhota-pk210351",
+    "slug": "pisnik-lhota",
     "name": "Písník Lhota",
     "type": "reka",
     "lat": 50.2447,
@@ -1791,11 +1947,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Jezero Lhota je písník – antropogenní jezero, které vzniklo zatopením pískovny. Nachází se 1 km východně od obce Lhota v okrese Praha-východ ve Středočeském kraji v Česku. Jezero má rozlohu 20,53 ha. Je 770 m dlouhé a 320 m široké. Leží v nadmořské výšce 172 m. Hloubka jezera dosahuje místy 7 m.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Lhota_%28jezero%29.JPG",
+    "photoCredit": "Wikipedie / Jezero Lhota",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Jezero_Lhota"
   },
   {
     "id": "eea-CZPK531151",
-    "slug": "pisnik-melice-pk531151",
+    "slug": "pisnik-melice",
     "name": "Písník Mělice",
     "type": "reka",
     "lat": 50.0454,
@@ -1833,11 +1993,15 @@
         "class": "nevhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Mělice jsou vesnice, část města Přelouč v okrese Pardubice v Pardubickém kraji. Nachází se asi čtyři kilometry východně od Přelouče. Mělice jsou také název katastrálního území o rozloze 1,82 km².",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/P%C5%99elou%C4%8D%2C_M%C4%9Blice%2C_main_street.jpg",
+    "photoCredit": "Wikipedie / Mělice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/M%C4%9Blice"
   },
   {
     "id": "eea-CZKO710702",
-    "slug": "podebrady-plane-loucky-ko710702",
+    "slug": "podebrady-plane-loucky",
     "name": "Poděbrady - Plané Loučky",
     "type": "reka",
     "lat": 49.6278,
@@ -1875,11 +2039,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Plané loučky je přírodní rezervace poblíž obce Horka nad Moravou v okrese Olomouc. Maloplošné chráněné území spravuje AOPK ČR Správa CHKO Litovelské Pomoraví. Důvodem ochrany je uchování společenstev slatinných luk, fragmentů měkkého luhu, meandrujícího toku s břehovými porosty a tůní s výskytem řady ohrožených rostlin i živočichů. Lokalita je rozsáhlým unikátním celkem lučních a mokřadních stanovišť v jižní části CHKO Litovelské Pomoraví. Malá část luk byla předmětem ochrany prohlášena již v roce 1952, ale až roku 1992 bylo chráněné území rozšířeno na současnou rozlohu.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Plane_loucky.jpg",
+    "photoCredit": "Wikipedie / Plané loučky",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Plan%C3%A9_lou%C4%8Dky"
   },
   {
     "id": "eea-CZKO710701",
-    "slug": "podebrady-u-pristaviste-ko710701",
+    "slug": "podebrady-u-pristaviste",
     "name": "Poděbrady - U Přístaviště",
     "type": "reka",
     "lat": 49.6231,
@@ -1917,11 +2085,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Jezero Poděbrady je umělé jezero v Horce nad Moravou, které je rovněž oblíbeným rekreačním místem pro obyvatele Olomouce.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Olomouc_Pod%C4%9Bbrady%282%29.jpg",
+    "photoCredit": "Wikipedie / Jezero Poděbrady (Horka nad Moravou)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Jezero_Pod%C4%9Bbrady_(Horka_nad_Moravou)"
   },
   {
     "id": "eea-CZPK212051",
-    "slug": "pribram-novy-rybnik-pk212051",
+    "slug": "pribram-novy-rybnik",
     "name": "Příbram - Nový Rybník",
     "type": "reka",
     "lat": 49.6746,
@@ -1959,11 +2131,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Příbram sídliště, často nesprávně označována jako Příbram-sídliště, je železniční zastávka v jižní části okresního města Příbrami, v km 71,852–71,942 trati Zdice–Protivín, v jízdním řádu označené číslem 200. Provoz zde byl zahájen v říjnu 2020.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/P%C5%99%C3%ADbram_s%C3%ADdli%C5%A1t%C4%9B.jpg/3840px-P%C5%99%C3%ADbram_s%C3%ADdli%C5%A1t%C4%9B.jpg",
+    "photoCredit": "Wikipedie / Příbram sídliště",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/P%C5%99%C3%ADbram_s%C3%ADdli%C5%A1t%C4%9B"
   },
   {
     "id": "eea-CZPK720751",
-    "slug": "prirodni-koupaliste-albatros-pk720751",
+    "slug": "prirodni-koupaliste-albatros",
     "name": "Přírodní Koupaliště Albatros",
     "type": "reka",
     "lat": 49.0116,
@@ -2005,7 +2181,7 @@
   },
   {
     "id": "eea-CZKO530601",
-    "slug": "rybnik-dlouhy-u-lanskrouna-ko530601",
+    "slug": "rybnik-dlouhy-u-lanskrouna",
     "name": "Rybník Dlouhý U Lanškrouna",
     "type": "reka",
     "lat": 49.9189,
@@ -2047,7 +2223,7 @@
   },
   {
     "id": "eea-CZKO812002",
-    "slug": "rybnik-edrovice-ko812002",
+    "slug": "rybnik-edrovice",
     "name": "Rybník Edrovice",
     "type": "reka",
     "lat": 49.9367,
@@ -2085,11 +2261,15 @@
         "class": "zhorsena"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Edrovice jsou vesnice, která je částí města Rýmařov v okrese Bruntál.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Edrovice_-_n%C3%A1ves.JPG",
+    "photoCredit": "Wikipedie / Edrovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Edrovice"
   },
   {
     "id": "eea-CZKO311401",
-    "slug": "rybnik-hejtman-ko311401",
+    "slug": "rybnik-hejtman",
     "name": "Rybník Hejtman",
     "type": "reka",
     "lat": 48.9594,
@@ -2127,11 +2307,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Rybník Hejtman se nachází na okraji městyse Chlum u Třeboně v okrese Jindřichův Hradec.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Chlum_u_T%C5%99ebon%C4%9B%2C_rybn%C3%ADk_Hejtman_%282020-07-10%3B_01%29.jpg/3840px-Chlum_u_T%C5%99ebon%C4%9B%2C_rybn%C3%ADk_Hejtman_%282020-07-10%3B_01%29.jpg",
+    "photoCredit": "Wikipedie / Hejtman (rybník na Koštěnickém potoce)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Hejtman_(rybn%C3%ADk_na_Ko%C5%A1t%C4%9Bnick%C3%A9m_potoce)"
   },
   {
     "id": "eea-CZKO530301",
-    "slug": "rybnik-hluboky-ko530301",
+    "slug": "rybnik-hluboky",
     "name": "Rybník Hluboký",
     "type": "reka",
     "lat": 50.0888,
@@ -2169,11 +2353,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Hluboký rybník o rozloze vodní plochy 7,9 ha se nalézá v lese asi 1 km severozápadně od centra osady Podlesí místní části města Holice v okrese Pardubice nad silnicí I. třídy č. 35 vedoucí z Holic do obce Chvojenec. V okolí rybníka se nalézá chatová osada a autokemp Hluboký. Okolo rybníka vede zeleně značený stejnojmenný turistický okruh.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Hlubok%C3%BD_rybn%C3%ADk_%28Podles%C3%AD_u_Holic%29_15.jpg/3840px-Hlubok%C3%BD_rybn%C3%ADk_%28Podles%C3%AD_u_Holic%29_15.jpg",
+    "photoCredit": "Wikipedie / Hluboký rybník (Podlesí)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Hlubok%C3%BD_rybn%C3%ADk_(Podles%C3%AD)"
   },
   {
     "id": "eea-CZKO320501",
-    "slug": "rybnik-hnacov-ko320501",
+    "slug": "rybnik-hnacov",
     "name": "Rybník Hnačov",
     "type": "reka",
     "lat": 49.3586,
@@ -2193,11 +2381,15 @@
       "status": "povoleno",
       "source": "EEA / koupací vody"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Hnačov je obec v okrese Klatovy v Plzeňském kraji. Žije zde 86 obyvatel. Jižně od obce leží Hnačovský rybník s plochou 68,38 hektarů, který byl založen v roce 1613. Je to třetí největší rybník v Plzeňském kraji.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hna%C4%8Dov%2C_silnice.jpg/3840px-Hna%C4%8Dov%2C_silnice.jpg",
+    "photoCredit": "Wikipedie / Hnačov",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Hna%C4%8Dov"
   },
   {
     "id": "eea-CZPK420551",
-    "slug": "rybnik-chmelar-pk420551",
+    "slug": "rybnik-chmelar",
     "name": "Rybník Chmelař",
     "type": "reka",
     "lat": 50.5913,
@@ -2235,11 +2427,15 @@
         "class": "zhorsena"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Zelená Ves, někdy zmiňovaná jako Zelená Ves u Habřiny, je zaniklá ves na pomezí Českého Předměstí a Českolipského Předměstí v Úštěku v okrese Litoměřice. Jádro bývalé vsi je situováno na druhou pláž rybníka Chmelař, na jeho severovýchodním okraji, u kempů Oáza a Na konci.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Detail_img_%284%29_Zelen%C3%A1_Ves.jpg",
+    "photoCredit": "Wikipedie / Zelená Ves (Úštěk)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Zelen%C3%A1_Ves_(%C3%9A%C5%A1t%C4%9Bk)"
   },
   {
     "id": "eea-CZKO610201",
-    "slug": "rybnik-kachlicka-ko610201",
+    "slug": "rybnik-kachlicka",
     "name": "Rybník Kachlička",
     "type": "reka",
     "lat": 49.5501,
@@ -2277,11 +2473,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Kachlička je rybník v okrese Havlíčkův Brod. Nachází se asi 700 metrů jihozápadně od obce Skála a zhruba 1 km od Boňkova. V minulosti se Kachlička jmenovala \"Nový rybník\". Rozloha rybníka je 18 ha a leží v nadmořské výšce 538,8 m. Ze severozápadní strany rybník obklopují lesy. Po hrázi vede silnice, která spojuje Boňkov se silnicí I/34.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kachli%C4%8Dka_%282%29.jpg",
+    "photoCredit": "Wikipedie / Kachlička",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kachli%C4%8Dka"
   },
   {
     "id": "eea-CZKO610803",
-    "slug": "rybnik-koupaliste-nove-mesto-na-morave-ko610803",
+    "slug": "rybnik-koupaliste-nove-mesto-na-morave",
     "name": "Rybník Koupaliště Nové Město Na Moravě",
     "type": "reka",
     "lat": 49.579,
@@ -2319,11 +2519,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Skautská chata Mercedes je sgrafity vyzdobená stavba na kraji lesa Ochoza nedaleko Nového Města na Moravě.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/1937_budovatel%C3%A9_nov%C3%A9_zd%C4%9Bn%C3%A9_chaty.jpg",
+    "photoCredit": "Wikipedie / Skautská chata Mercedes",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Skautsk%C3%A1_chata_Mercedes"
   },
   {
     "id": "eea-CZKO610801",
-    "slug": "rybnik-medlov-ko610801",
+    "slug": "rybnik-medlov",
     "name": "Rybník Medlov",
     "type": "reka",
     "lat": 49.6169,
@@ -2361,11 +2565,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Medlov je rybník v okrese Žďár nad Sázavou. Nachází se v katastrálním území obce Fryšava pod Žákovou horou. Jeho rozloha je 22 ha a leží v nadmořské výšce 710 m n. m.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Fry%C5%A1ava_pod_%C5%BD%C3%A1kovou_horou_-_Medlovsk%C3%BD_rybn%C3%ADk%2C_pohled_od_severu_obr02.jpg",
+    "photoCredit": "Wikipedie / Medlov (rybník)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Medlov_(rybn%C3%ADk)"
   },
   {
     "id": "eea-CZKO811401",
-    "slug": "rybnik-pod-hradem-ko811401",
+    "slug": "rybnik-pod-hradem",
     "name": "Rybník Pod Hradem",
     "type": "reka",
     "lat": 50.2368,
@@ -2403,11 +2611,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Fulštejn je rozsáhlá zřícenina hradu ležící v okrese Bruntál na katastru obce Bohušov. Areál hradu je chráněn jako kulturní památka.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ful%C5%A1tejn_17.JPG",
+    "photoCredit": "Wikipedie / Fulštejn (hrad)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Ful%C5%A1tejn_(hrad)"
   },
   {
     "id": "eea-CZKO531201",
-    "slug": "rybnik-rosnicka-ko531201",
+    "slug": "rybnik-rosnicka",
     "name": "Rybník Rosnička",
     "type": "reka",
     "lat": 49.7715,
@@ -2449,7 +2661,7 @@
   },
   {
     "id": "eea-CZKO610202",
-    "slug": "rybnik-redkovec-ko610202",
+    "slug": "rybnik-redkovec",
     "name": "Rybník Ředkovec",
     "type": "reka",
     "lat": 49.6337,
@@ -2487,11 +2699,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Ředkovský rybník je rybník u obce Broumova Lhota v okrese Havlíčkův Brod. Nachází se ve vzdálenosti přibližně 700 metrů od obce na severovýchod. Rozloha rybníka je 4,7 ha a leží v nadmořské výšce 425 m n. m.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%C5%98edkovsk%C3%BD_rybn%C3%ADk.jpg",
+    "photoCredit": "Wikipedie / Ředkovský rybník",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%98edkovsk%C3%BD_rybn%C3%ADk"
   },
   {
     "id": "eea-CZKO610802",
-    "slug": "rybnik-sykovec-ko610802",
+    "slug": "rybnik-sykovec",
     "name": "Rybník Sykovec",
     "type": "reka",
     "lat": 49.6097,
@@ -2525,11 +2741,15 @@
         "class": "zhorsena"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Tři Studně jsou obec v okrese Žďár nad Sázavou v Kraji Vysočina. Nacházejí se uprostřed CHKO Žďárské vrchy, zhruba 6,5 kilometru severozápadně od Nového Města na Moravě. Žije zde 102 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/T%C5%99i_Studn%C4%9B_-_pohled_od_severu_obr01_%28cropped%29.jpg",
+    "photoCredit": "Wikipedie / Tři Studně",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/T%C5%99i_Studn%C4%9B"
   },
   {
     "id": "eea-CZKO812001",
-    "slug": "rybnik-tvrdkov-ko812001",
+    "slug": "rybnik-tvrdkov",
     "name": "Rybník Tvrdkov",
     "type": "reka",
     "lat": 49.8983,
@@ -2567,11 +2787,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Obec Tvrdkov se nachází v okrese Bruntál v Moravskoslezském kraji. Žije zde 238 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Tvrdkov.jpg",
+    "photoCredit": "Wikipedie / Tvrdkov",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Tvrdkov"
   },
   {
     "id": "eea-CZKO611501",
-    "slug": "rybnik-velke-darko-ko611501",
+    "slug": "rybnik-velke-darko",
     "name": "Rybník Velké Dářko",
     "type": "jezero",
     "lat": 49.6322,
@@ -2609,11 +2833,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Velké Dářko je největší rybník na Českomoravské vrchovině a také největší v Kraji Vysočina v České republice. Má rozlohu 206 ha. Rozkládá se na východě Čech v nadmořské výšce 610 m, 10 km severně od Žďáru nad Sázavou. Téměř celý rybník leží na severu katastrálního území obce Polnička, okrajovými částmi však zasahuje i do katastrů sousedních obcí Radostín, Vojnův Městec a Karlov. Z rybníka odtéká řeka Sázava.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Velk%C3%A9_D%C3%A1%C5%99ko%2C_pl%C3%A1%C5%BE.JPG",
+    "photoCredit": "Wikipedie / Velké Dářko",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velk%C3%A9_D%C3%A1%C5%99ko"
   },
   {
     "id": "eea-CZKO320903",
-    "slug": "senecky-rybnik-ko320903",
+    "slug": "senecky-rybnik",
     "name": "Senecký Rybník",
     "type": "reka",
     "lat": 49.7851,
@@ -2651,11 +2879,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Senecký rybník, zvaný též Senečák, je součástí rybniční soustavy na Boleveckém potoce na severním okraji města Plzně. Kromě Boleveckého potoka přitékajícího ze západu od Třemošenského rybníka je rybník napájen další bezejmennou vodotečí přitékající ze severu od Vydymáčku v údolí Merán.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Seneck%C3%BD_rybn%C3%ADk_-_pl%C3%A1%C5%BEe_severn%C3%ADho_b%C5%99ehu%2C_hr%C3%A1z.jpg",
+    "photoCredit": "Wikipedie / Senecký rybník",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Seneck%C3%BD_rybn%C3%ADk"
   },
   {
     "id": "eea-CZKO311403",
-    "slug": "stankovsky-rybnik-ko311403",
+    "slug": "stankovsky-rybnik",
     "name": "Staňkovský Rybník",
     "type": "jezero",
     "lat": 48.97165,
@@ -2675,11 +2907,15 @@
       "status": "povoleno",
       "source": "EEA / koupací vody"
     },
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Staňkovský rybník je rozlohou osmý největší rybník v Jihočeském kraji a dvanáctý v celé České republice. Je čtvrtý největší v okrese Jindřichův Hradec. Nachází se na jihu Čech v katastrálním území obce Staňkov u státní hranice s rakouskou spolkovou zemí Dolní Rakousy, která prochází po jeho východním břehu v různě velké vzdálenosti od něj. Vodní plocha má rozlohu 241 ha. Je nejhlubším a nejobjemnějším rybníkem v Česku, údaje o jeho hloubce se však značně liší: 8,5 m, nebo 16 m. Zemní sypaná hráz je 160 m až 170 m dlouhá a 14 m, či 16 m vysoká a zadržuje asi 6,63 mil. m³ nebo 20 mil. m³ vody. Rybník je dlouhý 6 km a jeho obvod je 25 km. Povodí má velikost 124 km². Leží v nadmořské výšce 469 m.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Sta%C5%88kov%2C_Sta%C5%88kovsk%C3%BD_rybn%C3%ADk_%282020-07-06%3B_02%29.jpg/3840px-Sta%C5%88kov%2C_Sta%C5%88kovsk%C3%BD_rybn%C3%ADk_%282020-07-06%3B_02%29.jpg",
+    "photoCredit": "Wikipedie / Staňkovský rybník",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Sta%C5%88kovsk%C3%BD_rybn%C3%ADk"
   },
   {
     "id": "eea-CZKO811701",
-    "slug": "stribrne-jezero-ko811701",
+    "slug": "stribrne-jezero",
     "name": "Stříbrné Jezero",
     "type": "reka",
     "lat": 49.9546,
@@ -2721,7 +2957,7 @@
   },
   {
     "id": "eea-CZPK620251",
-    "slug": "suchy-rybnik-pk620251",
+    "slug": "suchy-rybnik",
     "name": "Suchý Rybník",
     "type": "reka",
     "lat": 49.4822,
@@ -2759,11 +2995,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Suchý je obec v okrese Blansko v Jihomoravském kraji. Žije zde 471 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Obecn%C3%AD_%C3%BA%C5%99ad%2C_Such%C3%BD%2C_okres_Blansko.jpg",
+    "photoCredit": "Wikipedie / Suchý",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Such%C3%BD"
   },
   {
     "id": "eea-CZKO320904",
-    "slug": "sidlovsky-rybnik-ko320904",
+    "slug": "sidlovsky-rybnik",
     "name": "Šídlovský Rybník",
     "type": "reka",
     "lat": 49.785,
@@ -2801,11 +3041,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Šídlovský rybník, zvaný též Šidlovský rybník, Šídlovák, dříve označován jako Šídlo, je součástí rybniční soustavy na Boleveckém potoce na severním okraji města Plzně. Kromě Boleveckého potoka je rybník napájen další bezejmennou vodotečí od sídliště Košutka. Vznikl po roce 1460 při zakládání soustavy a byl údajně pojmenován podle tzv. Šídlovského statku čp. 14 v Bolevci, k němuž patrně pozemky původně patřily. Byl používán jako třecí a komorový rybník k přezimování plemenných ryb a kapřího plůdku, v současnosti slouží především k rekreaci. V roce 2005 byla dokončena obnova rybníka, která zahrnovala odbahnění, vytvoření písečné pláže na severním břehu, nové vypouštěcí zařízení, úzkou asfaltovou silnici na hrázi a vyzdění bezpečnostního přelivu v jihovýchodním rohu rybníka.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/%C5%A0%C3%ADdlovsk%C3%BD_rybn%C3%ADk_-_vypu%C5%A1t%C4%9Bn%C3%BD%2C_severn%C3%AD_b%C5%99eh_a_hr%C3%A1z.jpg",
+    "photoCredit": "Wikipedie / Šídlovský rybník",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%A0%C3%ADdlovsk%C3%BD_rybn%C3%ADk"
   },
   {
     "id": "eea-CZKO720502",
-    "slug": "sterkac-otrokovice-ko720502",
+    "slug": "sterkac-otrokovice",
     "name": "Štěrkáč Otrokovice",
     "type": "reka",
     "lat": 49.2265,
@@ -2847,7 +3091,7 @@
   },
   {
     "id": "eea-CZPK810951",
-    "slug": "sterkovna-hlucin-pk810951",
+    "slug": "sterkovna-hlucin",
     "name": "Štěrkovna Hlučín",
     "type": "reka",
     "lat": 49.8943,
@@ -2885,11 +3129,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Autokemp Jezero, nebo ATC Jezero, je autokemp, kemp a sportovně rekreační areál umístěný na severním břehu Hlučínského jezera ve městě Hlučín v okrese Opava. Geograficky se nachází jihovýchodo-východně od kopce Na kopci v pohoří Opavská pahorkatina v historickém regionu Hlučínsko v Moravskoslezském kraji a Horním Slezsku. Je to jediný kemp v Hlučíně a jeden ze dvou kempů na celém Hlučínsku.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Autocamp_Jezero%2C_Hlu%C4%8D%C3%ADn_03.jpg/3840px-Autocamp_Jezero%2C_Hlu%C4%8D%C3%ADn_03.jpg",
+    "photoCredit": "Wikipedie / Autokemp Jezero",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Autokemp_Jezero"
   },
   {
     "id": "eea-CZKO321401",
-    "slug": "velhartice-rybnik-busek-ko321401",
+    "slug": "velhartice-rybnik-busek",
     "name": "Velhartice Rybník Bušek",
     "type": "reka",
     "lat": 49.2565,
@@ -2927,11 +3175,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Velhartice jsou obec v okrese Klatovy v Plzeňském kraji. Její součástí je i bývalé samostatné horní město Hory Matky Boží. Celkem zde žije 845 obyvatel. Obec Velhartice je součástí Dobrovolného svazku obcí Ostružná, jehož dalšími členy jsou městys Kolinec a obce Mokrosuky, Chlistov, Hlavňovice a Číhaň.Historické jádro Velhartic bylo na základě vyhlášky Ministerstva kultury ČR č. 476/1992 Sb. ze dne 10. září 1992 zařazeno mezi městské památkové zóny.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Velhartice_-_kostel_Narozen%C3%AD_Panny_Marie_03.jpg",
+    "photoCredit": "Wikipedie / Velhartice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velhartice"
   },
   {
     "id": "eea-CZKO320905",
-    "slug": "velky-bolevecky-rybnik-hraz-ko320905",
+    "slug": "velky-bolevecky-rybnik-hraz",
     "name": "Velký Bolevecký Rybník - Hráz",
     "type": "reka",
     "lat": 49.7728,
@@ -2969,11 +3221,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Velký Bolevecký rybník, zvaný též Bolevák nebo Koupaliště Ostende, je součástí rybniční soustavy na Boleveckém potoce na severním okraji města Plzně ve vzdálenosti 3,3 km od centra u Bílé Hory. Jde zdaleka o největší rybník soustavy a 5. největší v Plzeňském kraji. Jedná se o významnou rekreační lokalitu a vzhledem ke stáří také o jedinečné technické dílo z pozdního středověku, které časově předstihlo i budování známější soustavy třeboňské.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Velk%C3%BD_Boleveck%C3%BD_rybn%C3%ADk.JPG",
+    "photoCredit": "Wikipedie / Velký Bolevecký rybník",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velk%C3%BD_Boleveck%C3%BD_rybn%C3%ADk"
   },
   {
     "id": "eea-CZKO320906",
-    "slug": "velky-bolevecky-rybnik-ostende-ko320906",
+    "slug": "velky-bolevecky-rybnik-ostende",
     "name": "Velký Bolevecký Rybník - Ostende",
     "type": "reka",
     "lat": 49.7753,
@@ -3011,11 +3267,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Velký Bolevecký rybník, zvaný též Bolevák nebo Koupaliště Ostende, je součástí rybniční soustavy na Boleveckém potoce na severním okraji města Plzně ve vzdálenosti 3,3 km od centra u Bílé Hory. Jde zdaleka o největší rybník soustavy a 5. největší v Plzeňském kraji. Jedná se o významnou rekreační lokalitu a vzhledem ke stáří také o jedinečné technické dílo z pozdního středověku, které časově předstihlo i budování známější soustavy třeboňské.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Velk%C3%BD_Boleveck%C3%BD_rybn%C3%ADk.JPG",
+    "photoCredit": "Wikipedie / Velký Bolevecký rybník",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velk%C3%BD_Boleveck%C3%BD_rybn%C3%ADk"
   },
   {
     "id": "eea-CZKO611202",
-    "slug": "velky-parezity-rybnik-ko611202",
+    "slug": "velky-parezity-rybnik",
     "name": "Velký Pařezitý Rybník",
     "type": "reka",
     "lat": 49.2272,
@@ -3049,11 +3309,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Velký Pařezitý rybník je přírodní rezervace nacházející se poblíž obce Řásná v okrese Jihlava v nadmořské výšce 670 až 680 metrů. Oblast spravuje Krajský úřad Kraje Vysočina.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/PR_Velk%C3%BD_pa%C5%99ezit%C3%BD_rybn%C3%ADk_-_lidov%C4%9B_Pa%C5%99ez%C3%A1k.jpg",
+    "photoCredit": "Wikipedie / Velký Pařezitý rybník",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velk%C3%BD_Pa%C5%99ezit%C3%BD_rybn%C3%ADk"
   },
   {
     "id": "eea-CZKO410601",
-    "slug": "velky-rybnik-ko410601",
+    "slug": "velky-rybnik",
     "name": "Velký Rybník",
     "type": "reka",
     "lat": 50.29,
@@ -3091,11 +3355,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Velký Rybník je velká vesnice, část města Hroznětín v okrese Karlovy Vary v Karlovarském kraji. Nachází se asi 2,5 kilometru jižně od Hroznětína. Vede jím železniční trať Karlovy Vary – Merklín. Velký Rybník leží v katastrálním území Hroznětín o výměře 11,52 km².",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Velky_Rybnik_Domaci_Pivovarek.JPG",
+    "photoCredit": "Wikipedie / Velký Rybník (Hroznětín)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Velk%C3%BD_Rybn%C3%ADk_(Hrozn%C4%9Bt%C3%ADn)"
   },
   {
     "id": "eea-CZKO810601",
-    "slug": "vn-baska-ko810601",
+    "slug": "vn-baska",
     "name": "VN Baška",
     "type": "prehrada",
     "lat": 49.649,
@@ -3133,11 +3401,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Baška je přehradní nádrž na potoce Baštici, přítoku řeky Ostravice v okrese Frýdek-Místek. Nádrž se prostírá při severovýchodním okraji obce Baška, necelých 5 km jihovýchodně od centra Frýdku-Místku. Od podzimu 2023 je přehrada vypuštěná. V letech 2024 až 2025 došlo k rekonstrukci výpusti přehrady. Na podzim roku 2025 dojde k znovu otevření hráze.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Baska_z_letadla.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Baška",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Ba%C5%A1ka"
   },
   {
     "id": "eea-CZKO620304",
-    "slug": "vn-brnenska-prehrada-kozi-horka-ko620304",
+    "slug": "vn-brnenska-prehrada-kozi-horka",
     "name": "VN Brněnská Přehrada - Kozí Horka",
     "type": "prehrada",
     "lat": 49.2378,
@@ -3175,11 +3447,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Brněnská přehrada nebo vodní nádrž Brno, zastarale též Kníničská přehrada či vodní nádrž Kníničky, je rozlohou největší vodní dílo na řece Svratce. Vznikla vystavěním hráze na 56. říčním kilometru Svratky a zatopením údolí s obcí Kníničky. Původně sloužila jako zásobárna vody pro Brno. Pro pitnou vodu se nyní využívá vody z Vírské přehrady a vody z vrtů v Březové. V současnosti přehrada slouží rekreaci a také jako zdroj elektrické energie. Většina plochy přehrady je součástí přírodního parku Podkomorské lesy.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada.JPG",
+    "photoCredit": "Wikipedie / Brněnská přehrada",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada"
   },
   {
     "id": "eea-CZKO620305",
-    "slug": "vn-brnenska-prehrada-osada-ko620305",
+    "slug": "vn-brnenska-prehrada-osada",
     "name": "VN Brněnská Přehrada - Osada",
     "type": "prehrada",
     "lat": 49.247,
@@ -3217,11 +3493,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Brněnská přehrada nebo vodní nádrž Brno, zastarale též Kníničská přehrada či vodní nádrž Kníničky, je rozlohou největší vodní dílo na řece Svratce. Vznikla vystavěním hráze na 56. říčním kilometru Svratky a zatopením údolí s obcí Kníničky. Původně sloužila jako zásobárna vody pro Brno. Pro pitnou vodu se nyní využívá vody z Vírské přehrady a vody z vrtů v Březové. V současnosti přehrada slouží rekreaci a také jako zdroj elektrické energie. Většina plochy přehrady je součástí přírodního parku Podkomorské lesy.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada.JPG",
+    "photoCredit": "Wikipedie / Brněnská přehrada",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada"
   },
   {
     "id": "eea-CZKO620301",
-    "slug": "vn-brnenska-prehrada-rakovec-ko620301",
+    "slug": "vn-brnenska-prehrada-rakovec",
     "name": "VN Brněnská Přehrada - Rakovec",
     "type": "prehrada",
     "lat": 49.2285,
@@ -3263,7 +3543,7 @@
   },
   {
     "id": "eea-CZKO620302",
-    "slug": "vn-brnenska-prehrada-rokle-ko620302",
+    "slug": "vn-brnenska-prehrada-rokle",
     "name": "VN Brněnská Přehrada - Rokle",
     "type": "prehrada",
     "lat": 49.2485,
@@ -3301,11 +3581,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Brněnská přehrada nebo vodní nádrž Brno, zastarale též Kníničská přehrada či vodní nádrž Kníničky, je rozlohou největší vodní dílo na řece Svratce. Vznikla vystavěním hráze na 56. říčním kilometru Svratky a zatopením údolí s obcí Kníničky. Původně sloužila jako zásobárna vody pro Brno. Pro pitnou vodu se nyní využívá vody z Vírské přehrady a vody z vrtů v Březové. V současnosti přehrada slouží rekreaci a také jako zdroj elektrické energie. Většina plochy přehrady je součástí přírodního parku Podkomorské lesy.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada.JPG",
+    "photoCredit": "Wikipedie / Brněnská přehrada",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada"
   },
   {
     "id": "eea-CZKO620303",
-    "slug": "vn-brnenska-prehrada-sokolske-koupaliste-ko620303",
+    "slug": "vn-brnenska-prehrada-sokolske-koupaliste",
     "name": "VN Brněnská Přehrada - Sokolské Koupaliště",
     "type": "prehrada",
     "lat": 49.2422,
@@ -3343,11 +3627,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Brněnská přehrada nebo vodní nádrž Brno, zastarale též Kníničská přehrada či vodní nádrž Kníničky, je rozlohou největší vodní dílo na řece Svratce. Vznikla vystavěním hráze na 56. říčním kilometru Svratky a zatopením údolí s obcí Kníničky. Původně sloužila jako zásobárna vody pro Brno. Pro pitnou vodu se nyní využívá vody z Vírské přehrady a vody z vrtů v Březové. V současnosti přehrada slouží rekreaci a také jako zdroj elektrické energie. Většina plochy přehrady je součástí přírodního parku Podkomorské lesy.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada.JPG",
+    "photoCredit": "Wikipedie / Brněnská přehrada",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Brn%C4%9Bnsk%C3%A1_p%C5%99ehrada"
   },
   {
     "id": "eea-CZKO810602",
-    "slug": "vn-brusperk-i-ko810602",
+    "slug": "vn-brusperk-i",
     "name": "VN Brušperk I",
     "type": "prehrada",
     "lat": 49.6992,
@@ -3385,11 +3673,13 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Brušperk se nachází ve východní části města Brušperk v okrese Frýdek-Místek.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Bru%C5%A1perk"
   },
   {
     "id": "eea-CZKO530801",
-    "slug": "vn-brezina-ko530801",
+    "slug": "vn-brezina",
     "name": "VN Březina",
     "type": "prehrada",
     "lat": 49.651,
@@ -3431,7 +3721,7 @@
   },
   {
     "id": "eea-CZKO812201",
-    "slug": "vn-budisov-nad-budisovkou-ko812201",
+    "slug": "vn-budisov-nad-budisovkou",
     "name": "VN Budišov Nad Budišovkou",
     "type": "prehrada",
     "lat": 49.7897,
@@ -3465,11 +3755,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Budišov nad Budišovkou je město ležící v okrese Opava. Žije zde přibližně 2 800 obyvatel. Ve vzdálenosti 11 km jihovýchodně leží město Vítkov, 21 km jihovýchodně město Odry, 23 km jihovýchodně město Fulnek a 24 km západně město Šternberk. Historické jádro Budišova nad Budišovkou je od roku 2003 městskou památkovou zónou.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Budi%C5%A1ov_nad_Budi%C5%A1ovkou%2C_celkov%C3%BD_pohled_%282%29.jpg/3840px-Budi%C5%A1ov_nad_Budi%C5%A1ovkou%2C_celkov%C3%BD_pohled_%282%29.jpg",
+    "photoCredit": "Wikipedie / Budišov nad Budišovkou",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Budi%C5%A1ov_nad_Budi%C5%A1ovkou"
   },
   {
     "id": "eea-CZKO721201",
-    "slug": "vn-bystricka-u-hraze-ko721201",
+    "slug": "vn-bystricka-u-hraze",
     "name": "VN Bystřička - U Hráze",
     "type": "prehrada",
     "lat": 49.4216,
@@ -3507,11 +3801,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Bystřička je údolní nádrž na potoku Bystřička poblíž obce Bystřička na Valašsku, v zalesněném kopcovitém terénu asi 7 km jihovýchodně od Valašského Meziříčí. Má rozlohu 38 ha. Hráz se nachází na území obce Bystřička, vodní nádrž zasahuje i do území Velké Lhoty a malým územím u počátku vzdutí též do území obce Malá Bystřice.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bystricka_prehrada.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Bystřička",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Byst%C5%99i%C4%8Dka"
   },
   {
     "id": "eea-CZKO721202",
-    "slug": "vn-bystricka-u-plaze-ko721202",
+    "slug": "vn-bystricka-u-plaze",
     "name": "VN Bystřička - U Pláže",
     "type": "prehrada",
     "lat": 49.4239,
@@ -3549,11 +3847,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Bystřička je údolní nádrž na potoku Bystřička poblíž obce Bystřička na Valašsku, v zalesněném kopcovitém terénu asi 7 km jihovýchodně od Valašského Meziříčí. Má rozlohu 38 ha. Hráz se nachází na území obce Bystřička, vodní nádrž zasahuje i do území Velké Lhoty a malým územím u počátku vzdutí též do území obce Malá Bystřice.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bystricka_prehrada.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Bystřička",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Byst%C5%99i%C4%8Dka"
   },
   {
     "id": "eea-CZKO811501",
-    "slug": "vn-certak-ko811501",
+    "slug": "vn-certak",
     "name": "VN Čerťák",
     "type": "prehrada",
     "lat": 49.5674,
@@ -3577,7 +3879,7 @@
   },
   {
     "id": "eea-CZKO510501",
-    "slug": "vn-harcov-hraz-ko510501",
+    "slug": "vn-harcov-hraz",
     "name": "VN Harcov - Hráz",
     "type": "prehrada",
     "lat": 50.7687,
@@ -3615,11 +3917,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Harcov, nazývaná také vodní nádrž Starý Harcov, Harcovská přehrada či Liberecká přehrada, je přehradní nádrž v údolí libereckého Harcovského potoka v místní části Liberec V-Kristiánov. Její hráz má výšku 20,5 metru, je 157 metrů dlouhá a její koruna se nachází 13 metrů nad okolním terénem. Je schopná zadržet maximálně 630 000 m³ vody. Přehrada zadržuje vodu z povodí 14,78 km². Vodní nádrž slouží zejména jako rekreační místo obyvatel Liberce, původně však byla navržena na ochranu města před povodněmi a jako zásobárna vody pro potřebu průmyslu. Přehrada byla pojmenována podle potoka, který ji napájí a také podle přilehlé čtvrti Starý Harcov. Přehradu provozuje státní podnik Povodí Labe.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Liberecka-prehrada.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Harcov",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Harcov"
   },
   {
     "id": "eea-CZKO510502",
-    "slug": "vn-harcov-plaz-ko510502",
+    "slug": "vn-harcov-plaz",
     "name": "VN Harcov - Pláž",
     "type": "prehrada",
     "lat": 50.7709,
@@ -3657,11 +3963,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vila Franze Strosse je vila zbudovaná v letech 1923–1925 v Liberci pro průmyslníka a obchodníka Franze Strosse. Architektonický návrh vily, která svými oblými tvary evokuje loď, zpracoval německý architekt Thilo Schoder.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Celkov%C3%BD_pohled_na_Strossovu_vilu.JPG/3840px-Celkov%C3%BD_pohled_na_Strossovu_vilu.JPG",
+    "photoCredit": "Wikipedie / Vila Franze Strosse",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vila_Franze_Strosse"
   },
   {
     "id": "eea-CZKO720601",
-    "slug": "vn-horni-becva-ko720601",
+    "slug": "vn-horni-becva",
     "name": "VN Horní Bečva",
     "type": "prehrada",
     "lat": 49.4207,
@@ -3699,11 +4009,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Horní Bečva je údolní nádrž na nejhornějším toku řeky Rožnovská Bečva v povodí řeky Bečva. Nachází se v Rožnovské brázdě v obci Horní Bečva v okrese Vsetín ve Zlínském kraji.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Horn%C3%AD_Be%C4%8Dva%2C_vodn%C3%AD_n%C3%A1dr%C5%BE_%282016-07-05%3B_02%29.jpg/3840px-Horn%C3%AD_Be%C4%8Dva%2C_vodn%C3%AD_n%C3%A1dr%C5%BE_%282016-07-05%3B_02%29.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Horní Bečva",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Horn%C3%AD_Be%C4%8Dva"
   },
   {
     "id": "eea-CZKO320802",
-    "slug": "vn-hracholusky-hraz-ko320802",
+    "slug": "vn-hracholusky-hraz",
     "name": "VN Hracholusky - Hráz",
     "type": "prehrada",
     "lat": 49.7929,
@@ -3741,11 +4055,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Hracholusky je přehradní nádrž o rozloze 490 ha, nacházející se na hranicích okresů Tachov a Plzeň sever. Přehrada vznikla vybudováním sypané hráze v letech 1959–1964 a zaplavením údolí řeky Mže. Celková délka vodního díla od jezu pod parkem ve Stříbře až k hrázi je 22 km. Součástí vodního díla jsou dva významné přítoky. Oba se nacházejí na levém (severním) břehu přehrady a vytvářejí samostatné zátoky. Tou větší z nich je Úterská zátoka. Přítokem je Úterský potok protékající krajinou hlubokých lesů Bezdružicka a Úterska. Druhou zátokou je Žebrácká zátoka, které propůjčil své jméno Žebrácký potok.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pnovany_bridge.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Hracholusky",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Hracholusky"
   },
   {
     "id": "eea-CZKO320801",
-    "slug": "vn-hracholusky-na-radosti-ko320801",
+    "slug": "vn-hracholusky-na-radosti",
     "name": "VN Hracholusky - Na Radosti",
     "type": "prehrada",
     "lat": 49.7955,
@@ -3787,7 +4105,7 @@
   },
   {
     "id": "eea-CZKO410201",
-    "slug": "vn-jesenice-u-atc-rybarska-basta-ko410201",
+    "slug": "vn-jesenice-u-atc-rybarska-basta",
     "name": "VN Jesenice - U Atc Rybářská Bašta",
     "type": "prehrada",
     "lat": 50.0825,
@@ -3825,7 +4143,7 @@
   },
   {
     "id": "eea-CZKO410202",
-    "slug": "vn-jesenice-u-atc-vaclav-ko410202",
+    "slug": "vn-jesenice-u-atc-vaclav",
     "name": "VN Jesenice - U Atc Václav",
     "type": "prehrada",
     "lat": 50.055,
@@ -3863,7 +4181,7 @@
   },
   {
     "id": "eea-CZKO811502",
-    "slug": "vn-kacabaja-ko811502",
+    "slug": "vn-kacabaja",
     "name": "VN Kacabaja",
     "type": "prehrada",
     "lat": 49.5259,
@@ -3889,11 +4207,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Kacabaja je vodní nádrž nacházející se v blízkosti Moravskoslezských Beskyd poblíž obce Hodslavice v okrese Nový Jičín. Do nádrže přitéká několik zdejších potoků, které pramení na severním úbočí vrchu Oprchlice, a dále ji zásobuje řeka Zrzávka. Nádrž byla zbudována na ochranu před záplavami, které by mohly obec Hodslavice postihnout. V minulosti bývala lokalita útočištěm zlodějů a lapků.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Kacabaja%2C_vodn%C3%AD_n%C3%A1dr%C5%BE_%281%29.jpg/3840px-Kacabaja%2C_vodn%C3%AD_n%C3%A1dr%C5%BE_%281%29.jpg",
+    "photoCredit": "Wikipedie / Kacabaja",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kacabaja"
   },
   {
     "id": "eea-CZKO620201",
-    "slug": "vn-letovice-svitavice-ko620201",
+    "slug": "vn-letovice-svitavice",
     "name": "VN Letovice - Svitavice",
     "type": "prehrada",
     "lat": 49.5584,
@@ -3927,7 +4249,7 @@
   },
   {
     "id": "eea-CZKO620202",
-    "slug": "vn-letovice-vranova-ko620202",
+    "slug": "vn-letovice-vranova",
     "name": "VN Letovice - Vranová",
     "type": "prehrada",
     "lat": 49.5562,
@@ -3957,11 +4279,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vranová je obec v okrese Blansko v Jihomoravském kraji. Žije zde 404 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Vranova14.JPG",
+    "photoCredit": "Wikipedie / Vranová",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vranov%C3%A1"
   },
   {
     "id": "eea-CZKO310301",
-    "slug": "vn-lipno-plaz-cerna-v-posumavi-ko310301",
+    "slug": "vn-lipno-plaz-cerna-v-posumavi",
     "name": "VN Lipno - Pláž Černá V Pošumaví",
     "type": "prehrada",
     "lat": 48.7371,
@@ -3999,11 +4325,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Černá v Pošumaví je obec v okrese Český Krumlov v Jihočeském kraji. Leží zhruba osmnáct kilometrů jihozápadně od Českého Krumlova u vodní nádrže Lipno. Rozkládá se na obou březích Vltavy. Žije zde 856 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/CernaVPosumavi-kostel4.jpg",
+    "photoCredit": "Wikipedie / Černá v Pošumaví",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C4%8Cern%C3%A1_v_Po%C5%A1umav%C3%AD"
   },
   {
     "id": "eea-CZKO310302",
-    "slug": "vn-lipno-plaz-horni-plana-ko310302",
+    "slug": "vn-lipno-plaz-horni-plana",
     "name": "VN Lipno - Pláž Horní Planá",
     "type": "prehrada",
     "lat": 48.7594,
@@ -4041,11 +4371,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Horní Planá je město v okrese Český Krumlov v Jihočeském kraji, ležící na jihovýchodní Šumavě u Lipenské vodní nádrže. Žije zde přibližně 1 900 obyvatel. S rozlohou přes 127 km² je Horní Planá jednou z plošně největších obcí v Česku. Zdejší městský úřad je jedním z pověřených úřadů obvodu ORP Český Krumlov, spadají pod něj ještě obce Černá v Pošumaví a Frymburk.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Horn%C3%AD_Plan%C3%A1.JPG",
+    "photoCredit": "Wikipedie / Horní Planá",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Horn%C3%AD_Plan%C3%A1"
   },
   {
     "id": "eea-CZKO310303",
-    "slug": "vn-lipno-plaz-lipno-nad-vltavou-ko310303",
+    "slug": "vn-lipno-plaz-lipno-nad-vltavou",
     "name": "VN Lipno - Pláž Lipno Nad Vltavou",
     "type": "prehrada",
     "lat": 48.6376,
@@ -4083,11 +4417,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Lipno nad Vltavou je jihočeská obec v okrese Český Krumlov v Jihočeském kraji. Leží poblíž hráze na levém břehu údolní nádrže Lipno na řece Vltavě. Nachází se v Lučské hornatině. Katastr obce se rozkládá výhradně na levém břehu nádrže a řeky Vltavy. Žije zde 686 obyvatel.\nLipensko je významnou rekreační oblastí.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Lipno_nad_Vltavou_centrum_%28srpen_2024%29.jpg/3840px-Lipno_nad_Vltavou_centrum_%28srpen_2024%29.jpg",
+    "photoCredit": "Wikipedie / Lipno nad Vltavou",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Lipno_nad_Vltavou"
   },
   {
     "id": "eea-CZKO621802",
-    "slug": "vn-lucina-ko621802",
+    "slug": "vn-lucina",
     "name": "VN Lučina",
     "type": "prehrada",
     "lat": 48.862,
@@ -4125,11 +4463,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Lučina je přehradní nádrž na Radějovce v Bílých Karpatech, nacházející se v katastru obce Tvarožná Lhota.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Koupali%C5%A1t%C4%9B_Lu%C4%8Dina%2C_Tvaro%C5%BEn%C3%A1_Lhota%2C_okres_Hodon%C3%ADn.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Lučina (Radějovka)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Lu%C4%8Dina_(Rad%C4%9Bjovka)"
   },
   {
     "id": "eea-CZKO720402",
-    "slug": "vn-luhacovice-kemp-ko720402",
+    "slug": "vn-luhacovice-kemp",
     "name": "VN Luhačovice - Kemp",
     "type": "prehrada",
     "lat": 49.1251,
@@ -4167,11 +4509,15 @@
         "class": "zhorsena"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Luhačovická přehrada je údolní nádrž v říčním km 14,4 říčky Šťávnice, v katastru obce Pozlovice, asi 2 km severovýchodně od Luhačovic. Jejím provozovatelem je Povodí Moravy, s.p. – závod Střední Morava.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Luha%C4%8Dovice_p%C5%99ehrada_%282%29.JPG",
+    "photoCredit": "Wikipedie / Luhačovická přehrada",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Luha%C4%8Dovick%C3%A1_p%C5%99ehrada"
   },
   {
     "id": "eea-CZKO720401",
-    "slug": "vn-luhacovice-u-hraze-ko720401",
+    "slug": "vn-luhacovice-u-hraze",
     "name": "VN Luhačovice - U Hráze",
     "type": "prehrada",
     "lat": 49.1214,
@@ -4209,11 +4555,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Luhačovická přehrada je údolní nádrž v říčním km 14,4 říčky Šťávnice, v katastru obce Pozlovice, asi 2 km severovýchodně od Luhačovic. Jejím provozovatelem je Povodí Moravy, s.p. – závod Střední Morava.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Luha%C4%8Dovice_p%C5%99ehrada_%282%29.JPG",
+    "photoCredit": "Wikipedie / Luhačovická přehrada",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Luha%C4%8Dovick%C3%A1_p%C5%99ehrada"
   },
   {
     "id": "eea-CZKO510301",
-    "slug": "vn-mseno-plaz-u-kiosku-ko510301",
+    "slug": "vn-mseno-plaz-u-kiosku",
     "name": "VN Mšeno - Pláž \"u Kiosku\"",
     "type": "prehrada",
     "lat": 50.7345,
@@ -4251,11 +4601,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Údolní nádrž Mšeno nebo Přehrada Mšeno obecně nazývaná Jablonecká přehrada je největší přehrada v povodí Lužické Nisy. Nalézá se nedaleko centra Jablonce nad Nisou a v bezprostřední blízkosti jeho sídlištní zástavby. Je napájena Mšenským potokem a kromě protipovodňové funkce je oblíbena i jako rekreační a sportovní objekt. Přehrada patří mezi největší městské nádrže ve střední Evropě. Na projektování přehrady se podílel Otto Intze z Cách a postavena byla v letech 1906–1908 pražskou stavební firmou Franz Schön a synové. Přehradní nádrž je tvořena ze tří částí, po hrázích mezi 1. a 2. nádrží a mezi 2. a 3 nádrží vedou nemotoristické stezky.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Prehradamseno.jpg",
+    "photoCredit": "Wikipedie / Mšeno (přehradní nádrž)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/M%C5%A1eno_(p%C5%99ehradn%C3%AD_n%C3%A1dr%C5%BE)"
   },
   {
     "id": "eea-CZKO510302",
-    "slug": "vn-mseno-plaz-u-prutu-ko510302",
+    "slug": "vn-mseno-plaz-u-prutu",
     "name": "VN Mšeno - Pláž \"u Prutu\"",
     "type": "prehrada",
     "lat": 50.737,
@@ -4293,11 +4647,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Kaple svaté Anny je římskokatolická barokní kaple ve Mšeně nad Nisou. Patří do děkanství Jablonec nad Nisou. Je od 3. 5. 1958 chráněna jako kulturní památka České republiky. Je hodnotnou ukázkou drobné venkovské sakrální památky, která je zároveň dokladem lidové zbožnosti v barokním období.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/M%C5%A1eno_nad_Nisou_-_kaple_sv._Anny_%283%29.jpg/1920px-M%C5%A1eno_nad_Nisou_-_kaple_sv._Anny_%283%29.jpg",
+    "photoCredit": "Wikipedie / Kaple svaté Anny (Mšeno nad Nisou)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kaple_svat%C3%A9_Anny_(M%C5%A1eno_nad_Nisou)"
   },
   {
     "id": "eea-CZKO420401",
-    "slug": "vn-nechranice-kemp-u-hraze-ko420401",
+    "slug": "vn-nechranice-kemp-u-hraze",
     "name": "VN Nechranice - Kemp U Hráze",
     "type": "prehrada",
     "lat": 50.3493,
@@ -4335,11 +4693,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vikletice jsou vesnice, část obce Chbany v okrese Chomutov v Ústeckém kraji. Nachází se asi tři kilometry severozápadně od Chban. Vikletice jsou také název katastrálního území o rozloze 5,08 km².",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Vikletice_-_domy_u_silnice.jpg",
+    "photoCredit": "Wikipedie / Vikletice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vikletice"
   },
   {
     "id": "eea-CZKO420301",
-    "slug": "vn-nechranice-tusimice-ko420301",
+    "slug": "vn-nechranice-tusimice",
     "name": "VN Nechranice - Tušimice",
     "type": "prehrada",
     "lat": 50.3573,
@@ -4377,11 +4739,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Běšice jsou zaniklá vesnice v okrese Chomutov. Rozkládaly se na levém břehu řeky Ohře. Zanikly v roce 1967 kvůli výstavbě vodní nádrže Nechranice.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/B%C4%9B%C5%A1ice%2C_historick%C3%A1_ortofotomapa_%2850._l%C3%A9ta%29.jpg",
+    "photoCredit": "Wikipedie / Běšice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/B%C4%9B%C5%A1ice"
   },
   {
     "id": "eea-CZPK621351",
-    "slug": "vn-nove-mlyny-horni-nadrz-laguna-1-pk621351",
+    "slug": "vn-nove-mlyny-horni-nadrz-laguna-1",
     "name": "VN Nové Mlýny - Horní Nádrž - Laguna 1",
     "type": "prehrada",
     "lat": 48.8996,
@@ -4419,11 +4785,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Aqualand Moravia je akvapark nacházející se v obci Pasohlávky v okrese Brno-venkov. Areál má kapacitu přibližně 6 500 návštěvníků v letní sezóně a 3 000 návštěvníků v zimní sezóně, přičemž vodní plocha přesahuje 3 000 m². Součástí aquaparku je 16 bazénů, 24 tobogánů a skluzavek, 30 typů saun, wellness zóna, Hotel Aqualand Inn, restaurace a kavárna. Aqualand Moravia byl otevřen 1. srpna 2013.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pasohl%C3%A1vky%2C_Aqualand_Moravia.jpg",
+    "photoCredit": "Wikipedie / Aqualand Moravia",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Aqualand_Moravia"
   },
   {
     "id": "eea-CZPK621352",
-    "slug": "vn-nove-mlyny-horni-nadrz-laguna-2-pk621352",
+    "slug": "vn-nove-mlyny-horni-nadrz-laguna-2",
     "name": "VN Nové Mlýny - Horní Nádrž - Laguna 2",
     "type": "prehrada",
     "lat": 48.896,
@@ -4465,7 +4835,7 @@
   },
   {
     "id": "eea-CZKO810603",
-    "slug": "vn-olesna-mistek-ko810603",
+    "slug": "vn-olesna-mistek",
     "name": "VN Olešná - Místek",
     "type": "prehrada",
     "lat": 49.6639,
@@ -4503,11 +4873,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Olešná je přehradní nádrž na potoce Olešná při jihozápadním okraji města Frýdek-Místek, vybudovaná v letech 1960 až 1964.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Vodn%C3%AD_n%C3%A1dr%C5%BE_Ole%C5%A1n%C3%A1.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Olešná",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Ole%C5%A1n%C3%A1"
   },
   {
     "id": "eea-CZKO810604",
-    "slug": "vn-olesna-palkovice-ko810604",
+    "slug": "vn-olesna-palkovice",
     "name": "VN Olešná - Palkovice",
     "type": "prehrada",
     "lat": 49.6588,
@@ -4545,11 +4919,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Olešná je přehradní nádrž na potoce Olešná při jihozápadním okraji města Frýdek-Místek, vybudovaná v letech 1960 až 1964.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Vodn%C3%AD_n%C3%A1dr%C5%BE_Ole%C5%A1n%C3%A1.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Olešná",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Ole%C5%A1n%C3%A1"
   },
   {
     "id": "eea-CZKO310701",
-    "slug": "vn-orlik-atc-radava-ko310701",
+    "slug": "vn-orlik-atc-radava",
     "name": "VN Orlík - Atc Radava",
     "type": "prehrada",
     "lat": 49.5314,
@@ -4587,11 +4965,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Radava byla obec, která zanikla po stavbě Orlické přehrady. Stála na pravém břehu Vltavy, přibližně pět kilometrů po proudu řeky od zámku Orlík. Pravý břeh byl regulován, mj. pro přivazování vorů. Na protějším břehu Vltavy bývala vesnice Velký Vír. Obě vesnice dnes připomínají jen názvy kempů na březích vodní nádrže Orlík.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kemp_Radava_-_okres_P%C3%ADsek_%28011%29.jpg/3840px-Kemp_Radava_-_okres_P%C3%ADsek_%28011%29.jpg",
+    "photoCredit": "Wikipedie / Radava",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Radava"
   },
   {
     "id": "eea-CZKO212001",
-    "slug": "vn-orlik-lavicky-ko212001",
+    "slug": "vn-orlik-lavicky",
     "name": "VN Orlík - Lavičky",
     "type": "prehrada",
     "lat": 49.5864,
@@ -4629,11 +5011,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Kostel svatého Štěpána se nachází v zaniklé obci Těchnice, jejíž pozůstatky jsou dnes pod hladinou vodní nádrže Orlík. Kostel stále stojí, před zatopením z něj však byla odstraněna střecha, strop a krovy. Poslední bohoslužba se zde konala koncem roku 1957.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Svaty_Stepan_Technice.jpg",
+    "photoCredit": "Wikipedie / Kostel svatého Štěpána (Těchnice)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_%C5%A0t%C4%9Bp%C3%A1na_(T%C4%9Bchnice)"
   },
   {
     "id": "eea-CZKO212301",
-    "slug": "vn-orlik-podskali-ko212301",
+    "slug": "vn-orlik-podskali",
     "name": "VN Orlík - Podskalí",
     "type": "prehrada",
     "lat": 49.5439,
@@ -4671,11 +5057,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Podskalí je zaniklá obec při stavbě Orlické přehrady na pravém břehu Vltavy poblíž ústí Kamenického potoka, přibližně sedm kilometrů po proudu řeky od zámku Orlík. Je součástí obce Klučenice v okrese Příbram ve Středočeském kraji. Pravý břeh byl regulován, mj. pro přivazování vorů. Narodil se zde herec Josef Šebánek (1915–1977), který se proslavil rolí dědy v trilogii o Homolkových.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Podskal%C3%AD_%28Klu%C4%8Denice%29._Okres_P%C5%99%C3%ADbram._%28011%29.jpg/3840px-Podskal%C3%AD_%28Klu%C4%8Denice%29._Okres_P%C5%99%C3%ADbram._%28011%29.jpg",
+    "photoCredit": "Wikipedie / Podskalí (Klučenice)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Podskal%C3%AD_(Klu%C4%8Denice)"
   },
   {
     "id": "eea-CZKO212302",
-    "slug": "vn-orlik-popeliky-ko212302",
+    "slug": "vn-orlik-popeliky",
     "name": "VN Orlík - Popelíky",
     "type": "prehrada",
     "lat": 49.5987,
@@ -4713,11 +5103,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Orlické Zlákovice jsou bývalá vesnice a obec v okrese Příbram, zatopená Orlickou přehradou, vybudovanou v letech 1954–1961. Orlické Zlákovice je stále název katastrálního území, do nějž patří i vesnice Klenovice, jejíž územní vymezení jako evidenční části obce je dnes totožné s katastrálním územím Orlické Zlákovice, ačkoliv obě vesnice jsou od sebe asi 2 kilometry vzdálené. Celé toto území patří dnes k obci Milešov v okrese Příbram.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Orlick%C3%A9_Zl%C3%A1kovice_1900.jpg",
+    "photoCredit": "Wikipedie / Orlické Zlákovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Orlick%C3%A9_Zl%C3%A1kovice"
   },
   {
     "id": "eea-CZKO212303",
-    "slug": "vn-orlik-trhovky-ko212303",
+    "slug": "vn-orlik-trhovky",
     "name": "VN Orlík - Trhovky",
     "type": "prehrada",
     "lat": 49.58,
@@ -4755,11 +5149,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Orlík je přehradní nádrž, součást Vltavské kaskády v jižních a středních Čechách. Byla vybudována v letech 1954–1961 a přehradila tok řeky Vltavy u Solenice na Příbramsku. S rozlohou 25,5 km² jde o druhou největší přehradní nádrž a o druhou největší vodní plochu na území České republiky. Délka vzdutí dosahuje 68 km, zasahuje i do toku Otavy a Lužnice. Nese jméno zámku Orlík, který kdysi vystupoval na skále nad hlubokým údolím Vltavy a dnes se nachází jen pár metrů nad hladinou přehradního jezera.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Zv%C3%ADkov_2.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Orlík",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Orl%C3%ADk"
   },
   {
     "id": "eea-CZKO310801",
-    "slug": "vn-orlik-verejne-taboriste-podolsko-ko310801",
+    "slug": "vn-orlik-verejne-taboriste-podolsko",
     "name": "VN Orlík - Veřejné Tábořiště Podolsko",
     "type": "prehrada",
     "lat": 49.3605,
@@ -4797,11 +5195,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Podolsko je osada, část obce Podolí I v okrese Písek v Jihočeském kraji. Většina původní vesnice zanikla na konci 50. let 20. století v souvislosti s výstavbou orlické vodní nádrže. Nachází se asi 2,5 kilometru západně od Podolí I. Prochází zde silnice I/29. Je zde evidováno 97 adres. V roce 2011 zde trvale žilo 27 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Podolsko_%28011%29.jpg/3840px-Podolsko_%28011%29.jpg",
+    "photoCredit": "Wikipedie / Podolsko",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Podolsko"
   },
   {
     "id": "eea-CZKO620101",
-    "slug": "vn-palava-ko620101",
+    "slug": "vn-palava",
     "name": "VN Palava",
     "type": "prehrada",
     "lat": 49.3667,
@@ -4843,7 +5245,7 @@
   },
   {
     "id": "eea-CZKO531501",
-    "slug": "vn-pastviny-panelovka-ko531501",
+    "slug": "vn-pastviny-panelovka",
     "name": "VN Pastviny - Panelovka",
     "type": "prehrada",
     "lat": 50.0805,
@@ -4885,7 +5287,7 @@
   },
   {
     "id": "eea-CZKO531502",
-    "slug": "vn-pastviny-slechtuv-palouk-ko531502",
+    "slug": "vn-pastviny-slechtuv-palouk",
     "name": "VN Pastviny - Šlechtův Palouk",
     "type": "prehrada",
     "lat": 50.088,
@@ -4923,11 +5325,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Přehradní nádrž Pastviny se nachází ve stejnojmenné obci Pastviny v podhůří Orlických hor, asi 7 km východně od Žamberka. Napájí ji řeka Divoká Orlice. Přehrada se stavěla v letech 1933–1938. V zatopené oblasti muselo být zbouráno\n74 domů. Vodní plochu překlenuje železobetonový viadukt se dvěma oblouky, po němž prochází silnice II/312 spojující města Žamberk a Králíky.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Pastvinska_prehrada.JPG",
+    "photoCredit": "Wikipedie / Vodní nádrž Pastviny",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Pastviny"
   },
   {
     "id": "eea-CZKO611502",
-    "slug": "vn-pilska-ko611502",
+    "slug": "vn-pilska",
     "name": "VN Pilská",
     "type": "prehrada",
     "lat": 49.5897,
@@ -4965,11 +5371,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Pilská je vodní nádrž nacházející se na toku Sázavy převážně na severu území města Žďáru nad Sázavou, avšak zasahující i do katastrálního území obce Polnička. Vybudována byla v letech 1959–1962 na místě původního rybníka Pilský, homogenní zemní hráz se nachází na místě původní rybniční hráze. Účelem nádrže bylo zásobování vodou pro strojírenský průmysl ve městě, nyní slouží především jako rekreační oblast, pro rybolov nebo jako ochrana před povodněmi. V blízkosti nádrže byl v roce 2014 zřízen rekreační areál Pilák.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Pl%C3%A1%C5%BE_na_koup%C3%A1n%C3%AD_Pilsk%C3%A9_n%C3%A1dr%C5%BEe.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Pilská",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Pilsk%C3%A1"
   },
   {
     "id": "eea-CZKO710801",
-    "slug": "vn-plumlov-ko710801",
+    "slug": "vn-plumlov",
     "name": "VN Plumlov",
     "type": "prehrada",
     "lat": 49.4675,
@@ -5007,11 +5417,15 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Plumlov je město v okrese Prostějov v Olomouckém kraji. Žije zde přibližně 2 300 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Z%C3%A1mek_Plumlov%2C_okres_Prost%C4%9Bjov_%2804%29.jpg",
+    "photoCredit": "Wikipedie / Plumlov",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Plumlov"
   },
   {
     "id": "eea-CZKO520902",
-    "slug": "vn-rozkos-velka-jesenice-ko520902",
+    "slug": "vn-rozkos-velka-jesenice",
     "name": "VN Rozkoš – Velká Jesenice",
     "type": "prehrada",
     "lat": 50.36455,
@@ -5049,7 +5463,7 @@
   },
   {
     "id": "eea-CZKO530402",
-    "slug": "vn-sec-hojesin-ko530402",
+    "slug": "vn-sec-hojesin",
     "name": "VN Seč Hoješín",
     "type": "prehrada",
     "lat": 49.8238,
@@ -5087,11 +5501,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Zbytky židovského hřbitova v Hoješíně se nacházejí v těsném sousedství silnice, která se u rozcestníku Na Předělu odpojuje ze silnice II/345 a vede přes Horní Ves do Hoješína. Hřbitov současně leží na jihozápadním břehu vodní nádrže Seč, pokud je přehrada zaplněná, voda dosahuje téměř až k ohradní zdi, která je vybudována pouze na straně k vodní hladině. Hřbitov je od centra Hoješína vzdálen asi 1 kilometr severním směrem, od Horní Vsi jen asi 300 metrů. Od rozcestníku Na Předělu je to 1,3 kilometru jihovýchodním směrem. Hřbitov je chráněn jako kulturní památka České republiky.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Hoje%C5%A1%C3%ADn_A._%C5%BDidovsk%C3%BD_h%C5%99bitov%2C_celkov%C3%BD_pohled.jpg/3840px-Hoje%C5%A1%C3%ADn_A._%C5%BDidovsk%C3%BD_h%C5%99bitov%2C_celkov%C3%BD_pohled.jpg",
+    "photoCredit": "Wikipedie / Židovský hřbitov v Hoješíně",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%BDidovsk%C3%BD_h%C5%99bitov_v_Hoje%C5%A1%C3%ADn%C4%9B"
   },
   {
     "id": "eea-CZKO530401",
-    "slug": "vn-sec-semtin-ko530401",
+    "slug": "vn-sec-semtin",
     "name": "VN Seč Semtín",
     "type": "prehrada",
     "lat": 49.8387,
@@ -5129,11 +5547,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Bučina je vrchol v České republice ležící v Železných horách.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Vodn%C3%AD_n%C3%A1dr%C5%BE_Se%C4%8D.jpg",
+    "photoCredit": "Wikipedie / Bučina (Železné hory, 534 m)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Bu%C4%8Dina_(%C5%BDelezn%C3%A9_hory%2C_534_m)"
   },
   {
     "id": "eea-CZKO530403",
-    "slug": "vn-sec-ustupky-ko530403",
+    "slug": "vn-sec-ustupky",
     "name": "VN Seč Ústupky",
     "type": "prehrada",
     "lat": 49.8231,
@@ -5171,11 +5593,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Ústupky jsou vesnice, část města Seč v okrese Chrudim v Pardubickém kraji. Nachází se asi 2,5 kilometru jižně od Seče. Ústupky leží v katastrálním území Proseč u Seče o výměře 6,33 km².",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Se%C4%8D%2C_%C3%9Astupky_%282017-07-06%3B_03%29.jpg/3840px-Se%C4%8D%2C_%C3%9Astupky_%282017-07-06%3B_03%29.jpg",
+    "photoCredit": "Wikipedie / Ústupky",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C3%9Astupky"
   },
   {
     "id": "eea-CZKO610302",
-    "slug": "vn-sedlice-ko610302",
+    "slug": "vn-sedlice",
     "name": "VN Sedlice",
     "type": "prehrada",
     "lat": 49.5128,
@@ -5213,11 +5639,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Sedlice je přehradní nádrž na řece Želivce, která se nachází zhruba 7 km jihozápadně od Humpolce v kraji Vysočina. Byla vybudována během let 1921–1927 pod soutokem říčky Hejlovky a Jankovského potoka, na říčním kilometru 63,35, nedaleko obce Sedlice. Délka hráze v koruně činí 118 m. Přehradní hráz s mostovkou byly v roce 2012 prohlášeny kulturní památkou České republiky.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Vodn%C3%AD_n%C3%A1dr%C5%BE_Sedlice.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Sedlice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Sedlice"
   },
   {
     "id": "eea-CZKO410203",
-    "slug": "vn-skalka-u-atc-podhori-ko410203",
+    "slug": "vn-skalka-u-atc-podhori",
     "name": "VN Skalka - U Atc Podhoří",
     "type": "prehrada",
     "lat": 50.0857,
@@ -5255,11 +5685,13 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Bürgles je označení pro zaniklý opevněný objekt, snad tvrz, který stával na nevýrazném pahorku v bažinách a slepých ramenech Ohře, asi půl kilometru od Skalky. Na nedaleké vyšší ostrožně byl později vybudován hrad Skalka, zřejmě nástupce tohoto objektu. Pro svůj kruhový tvar, který bylo údajně možné vidět ještě ve 20. století, bývá také nazýván jako Rollenburg. Dnes je místo pod hladinou vodní nádrže Skalka.",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/B%C3%BCrgles"
   },
   {
     "id": "eea-CZKO210101",
-    "slug": "vn-slapy-merin-ko210101",
+    "slug": "vn-slapy-merin",
     "name": "VN Slapy - Měřín",
     "type": "prehrada",
     "lat": 49.7917,
@@ -5301,7 +5733,7 @@
   },
   {
     "id": "eea-CZKO210102",
-    "slug": "vn-slapy-nova-rabyne-ko210102",
+    "slug": "vn-slapy-nova-rabyne",
     "name": "VN Slapy - Nová Rabyně",
     "type": "prehrada",
     "lat": 49.8088,
@@ -5339,11 +5771,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Obec Rabyně se nachází v okrese Benešov, kraj Středočeský. Žije zde 294 obyvatel. Součástí obce jsou i vesnice Blaženice, Loutí, Měřín a Nedvězí.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Rabyn%C4%9B%2C_statek.jpg/3840px-Rabyn%C4%9B%2C_statek.jpg",
+    "photoCredit": "Wikipedie / Rabyně",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Rabyn%C4%9B"
   },
   {
     "id": "eea-CZKO210103",
-    "slug": "vn-slapy-nova-zivohost-ko210103",
+    "slug": "vn-slapy-nova-zivohost",
     "name": "VN Slapy - Nová Živohošť",
     "type": "prehrada",
     "lat": 49.7546,
@@ -5381,11 +5817,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Živohošť je osada, část obce Chotilsko v okrese Příbram ve Středočeském kraji. Je z větší části zaniklá vesnice v Povltaví, jejíž původní hlavní sídelní část, rozložená po obou březích Vltavy, byla v červnu 1954 zatopená Slapskou přehradní nádrží. V roce 2011 zde trvale žilo třináct obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sv.%C5%A0ebesti%C3%A1n_-_%C5%BDivoho%C5%A1%C5%A5.jpg",
+    "photoCredit": "Wikipedie / Živohošť",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%BDivoho%C5%A1%C5%A5"
   },
   {
     "id": "eea-CZKO210501",
-    "slug": "vn-slapy-zdan-ko210501",
+    "slug": "vn-slapy-zdan",
     "name": "VN Slapy - Ždáň",
     "type": "prehrada",
     "lat": 49.7968,
@@ -5427,7 +5867,7 @@
   },
   {
     "id": "eea-CZKO210701",
-    "slug": "vn-slapy-zivohost-ko210701",
+    "slug": "vn-slapy-zivohost",
     "name": "VN Slapy - Živohošť",
     "type": "prehrada",
     "lat": 49.7585,
@@ -5465,11 +5905,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Živohošť je osada, část obce Chotilsko v okrese Příbram ve Středočeském kraji. Je z větší části zaniklá vesnice v Povltaví, jejíž původní hlavní sídelní část, rozložená po obou březích Vltavy, byla v červnu 1954 zatopená Slapskou přehradní nádrží. V roce 2011 zde trvale žilo třináct obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sv.%C5%A0ebesti%C3%A1n_-_%C5%BDivoho%C5%A1%C5%A5.jpg",
+    "photoCredit": "Wikipedie / Živohošť",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%BDivoho%C5%A1%C5%A5"
   },
   {
     "id": "eea-CZKO210702",
-    "slug": "vn-slapy-zupanovice-ko210702",
+    "slug": "vn-slapy-zupanovice",
     "name": "VN Slapy - Županovice",
     "type": "prehrada",
     "lat": 49.7051,
@@ -5507,11 +5951,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Županovice jsou obec v okrese Příbram ve Středočeském kraji, asi 12 km jihovýchodně od Dobříše. Žije zde 80 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/%C5%BDupanovice_%28okres_P%C5%99%C3%ADbram%29_%2816%29.jpg/3840px-%C5%BDupanovice_%28okres_P%C5%99%C3%ADbram%29_%2816%29.jpg",
+    "photoCredit": "Wikipedie / Županovice (okres Příbram)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/%C5%BDupanovice_(okres_P%C5%99%C3%ADbram)"
   },
   {
     "id": "eea-CZKO810303",
-    "slug": "vn-slezska-harta-leskovec-nad-moravici-ko810303",
+    "slug": "vn-slezska-harta-leskovec-nad-moravici",
     "name": "VN Slezská Harta - Leskovec Nad Moravicí",
     "type": "prehrada",
     "lat": 49.9044,
@@ -5549,11 +5997,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Leskovec nad Moravicí je obec ležící v okrese Bruntál v Moravskoslezském kraji. Žije v ní 443 obyvatel. Téměř celé území obce leží ve Slezsku.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kostel_sv._Vav%C5%99ince%2C_Leskovec_nad_Moravic%C3%AD_04.jpg/3840px-Kostel_sv._Vav%C5%99ince%2C_Leskovec_nad_Moravic%C3%AD_04.jpg",
+    "photoCredit": "Wikipedie / Leskovec nad Moravicí",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Leskovec_nad_Moravic%C3%AD"
   },
   {
     "id": "eea-CZKO810304",
-    "slug": "vn-slezska-harta-nova-plan-ko810304",
+    "slug": "vn-slezska-harta-nova-plan",
     "name": "VN Slezská Harta - Nová Pláň",
     "type": "prehrada",
     "lat": 49.9256,
@@ -5591,11 +6043,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Nová Pláň je obec ležící v okrese Bruntál. Její katastrální území má rozlohu 171 ha. Žije zde 66 obyvatel, čímž se obec řadí mezi obce v Česku s nejnižším počtem obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Nov%C3%A1_Pl%C3%A1%C5%88_-_rybn%C3%ADk.jpg",
+    "photoCredit": "Wikipedie / Nová Pláň",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Nov%C3%A1_Pl%C3%A1%C5%88"
   },
   {
     "id": "eea-CZKO810306",
-    "slug": "vn-slezska-harta-roudno-i-ko810306",
+    "slug": "vn-slezska-harta-roudno-i",
     "name": "VN Slezská Harta - Roudno I",
     "type": "prehrada",
     "lat": 49.9004,
@@ -5637,7 +6093,7 @@
   },
   {
     "id": "eea-CZKO410702",
-    "slug": "vn-tatrovice-ko410702",
+    "slug": "vn-tatrovice",
     "name": "VN Tatrovice",
     "type": "prehrada",
     "lat": 50.276,
@@ -5675,11 +6131,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Tatrovice jsou obec v okrese Sokolov v Karlovarském kraji. Žije zde 162 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tatrovice_kostel_sv._Erharta_kv%C4%9Bten_2020_%281%29.jpg/3840px-Tatrovice_kostel_sv._Erharta_kv%C4%9Bten_2020_%281%29.jpg",
+    "photoCredit": "Wikipedie / Tatrovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Tatrovice"
   },
   {
     "id": "eea-CZKO810801",
-    "slug": "vn-terlicko-pacaluvka-ko810801",
+    "slug": "vn-terlicko-pacaluvka",
     "name": "VN Těrlicko - Pacalůvka",
     "type": "prehrada",
     "lat": 49.7694,
@@ -5721,7 +6181,7 @@
   },
   {
     "id": "eea-CZKO810802",
-    "slug": "vn-terlicko-pod-motelem-ko810802",
+    "slug": "vn-terlicko-pod-motelem",
     "name": "VN Těrlicko - Pod Motelem",
     "type": "prehrada",
     "lat": 49.7533,
@@ -5759,11 +6219,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Evangelický hřbitov v Těrlicku v okrese Karviná se nachází u přehrady, poblíž silnice I/11 na Český Těšín. Má rozlohu přibližně 3200 m².",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/2020_Horn%C3%AD_T%C4%9Brlicko_evangelick%C3%BD_h%C5%99bitov.jpg",
+    "photoCredit": "Wikipedie / Evangelický hřbitov v Těrlicku",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Evangelick%C3%BD_h%C5%99bitov_v_T%C4%9Brlicku"
   },
   {
     "id": "eea-CZKO810803",
-    "slug": "vn-terlicko-terlicko-stred-ko810803",
+    "slug": "vn-terlicko-terlicko-stred",
     "name": "VN Těrlicko - Těrlicko Střed",
     "type": "prehrada",
     "lat": 49.7567,
@@ -5801,11 +6265,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Těrlická přehrada je údolní nádrž vybudovaná v letech 1955 až 1964 za účelem zásobování dolů a Třineckých železáren provozní vodou. K jejím dalším účelům patří ochrana před povodněmi, nadlepšování průtoků ve Stonávce a v současné době především rekreace. V sedmdesátých letech byl v souvislosti se zajišťováním provozní vody pro Elektrárnu Dětmarovice vybudován přivaděč z Ropičanky. Při výstavbě došlo k zatopení části obce Těrlicko, na jejímž území se přehrada nachází, a také silnice I/11 z Ostravy do Českého Těšína. Proto byla vybudována přeložka této silnice, která vede podél jižního okraje přehrady.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/T%C4%9Brlicka_p%C5%99ehrada_T%C4%9Brlicka_p%C5%99ehrada%2C_hr%C3%A1z_%283%29.jpg/3840px-T%C4%9Brlicka_p%C5%99ehrada_T%C4%9Brlicka_p%C5%99ehrada%2C_hr%C3%A1z_%283%29.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Těrlicko",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_T%C4%9Brlicko"
   },
   {
     "id": "eea-CZKO610303",
-    "slug": "vn-trnavka-ko610303",
+    "slug": "vn-trnavka",
     "name": "VN Trnávka",
     "type": "prehrada",
     "lat": 49.5126,
@@ -5847,7 +6315,7 @@
   },
   {
     "id": "eea-CZKO811201",
-    "slug": "vn-vetrkovice-ko811201",
+    "slug": "vn-vetrkovice",
     "name": "VN Větřkovice",
     "type": "prehrada",
     "lat": 49.6163,
@@ -5885,11 +6353,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Větřkovice se nachází v Podbeskydské pahorkatině, 400 metrů východně od stejnojmenné vesnice Větřkovice a 2 kilometry severovýchodně od Kopřivnice. Hráz byla postavena v letech 1973 až 1975 pro potřeby závodu Tatra, pro akumulaci vody a dodnes je pro tento účel využívána. Uvedena do provozu byla v roce 1976. Hráz je sypaná zemní, v koruně je 460 metrů dlouhá, 15 metrů vysoká a 4 metry široká. Rozloha vodní plochy je cca 19,3 hektaru a maximálně dokáže zadržet vodu o objemu 1 090 000 m³. Na přehradě není postavena vodní elektrárna. Plocha povodí je pouze 2,3 km².[zdroj?]",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/P%C5%99ehrada_V%C4%9Bt%C5%99kovice_v_zim%C4%9B%2C_Kop%C5%99ivnice.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Větřkovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_V%C4%9Bt%C5%99kovice"
   },
   {
     "id": "eea-CZKO420902",
-    "slug": "vn-vrbensky-kemp-matylda-ko420902",
+    "slug": "vn-vrbensky-kemp-matylda",
     "name": "VN Vrbenský - Kemp Matylda",
     "type": "prehrada",
     "lat": 50.5261,
@@ -5927,11 +6399,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Matylda je uměle vytvořené původně neprůtočné rekultivační jezero v severozápadní části města Mostu v části Souš. Po dokončení je na mapách zakresleno jako průtočná nádrž, jejíž přítok i odtok nese rovněž jméno Matylda. Vodní nádrž vznikla při rekultivaci zatopením bývalého lomu Vrbenský, na některých mapách je proto uváděna jako vodní nádrž Vrbenský, jak se zpočátku jmenovala. Nyní se jmenuje Matylda podle původního jména dolu z doby první republiky a jezero Vrbenský je označením pro menší vodní plochu zhruba 500 metrů severně od Matyldy. Jezero Matylda ze severu obklopuje silnice I/13 a z jihu Autodrom Most vybudovaný na rekultivované výsypce právě z tohoto dolu.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/N%C3%A1dr%C5%BE_Matylda.JPG",
+    "photoCredit": "Wikipedie / Matylda (jezero)",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Matylda_(jezero)"
   },
   {
     "id": "eea-CZKO721101",
-    "slug": "vn-vsemina-ko721101",
+    "slug": "vn-vsemina",
     "name": "VN Všemina",
     "type": "prehrada",
     "lat": 49.2898,
@@ -5973,7 +6449,7 @@
   },
   {
     "id": "eea-CZKO622004",
-    "slug": "vn-vyrovice-ko622004",
+    "slug": "vn-vyrovice",
     "name": "VN Výrovice",
     "type": "prehrada",
     "lat": 48.929,
@@ -6007,11 +6483,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Výrovice jsou obec v okrese Znojmo v Jihomoravském kraji. Žije zde 174 obyvatel.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Zvonice_V%C3%BDrovice1.JPG/3840px-Zvonice_V%C3%BDrovice1.JPG",
+    "photoCredit": "Wikipedie / Výrovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/V%C3%BDrovice"
   },
   {
     "id": "eea-CZKO810605",
-    "slug": "vn-zermanice-dolni-domaslavice-ko810605",
+    "slug": "vn-zermanice-dolni-domaslavice",
     "name": "VN Žermanice - Dolní Domaslavice",
     "type": "prehrada",
     "lat": 49.7205,
@@ -6049,11 +6529,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Obec Dolní Domaslavice se nachází v okrese Frýdek-Místek v Moravskoslezském kraji. Dolní Domaslavice se nachází na břehu vodní nádrže Žermanice. Leží na dvou katastrálních územích, Dolní Domaslavice a Volovec. Žije zde přibližně 1 500 obyvatel. Sousedními obcemi sídla jsou Soběšovice, Těrlicko, Dolní Tošanovice, Třanovice, Horní Domaslavice, Horní Tošanovice a Lučina.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Doln%C3%AD_Domaslavice_centrum_%28%C4%8Derven_2025%29.jpg/3840px-Doln%C3%AD_Domaslavice_centrum_%28%C4%8Derven_2025%29.jpg",
+    "photoCredit": "Wikipedie / Dolní Domaslavice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Doln%C3%AD_Domaslavice"
   },
   {
     "id": "eea-CZKO810606",
-    "slug": "vn-zermanice-lucina-ko810606",
+    "slug": "vn-zermanice-lucina",
     "name": "VN Žermanice - Lučina",
     "type": "prehrada",
     "lat": 49.7248,
@@ -6095,7 +6579,7 @@
   },
   {
     "id": "eea-CZKO810607",
-    "slug": "vn-zermanice-sobesovice-ko810607",
+    "slug": "vn-zermanice-sobesovice",
     "name": "VN Žermanice - Soběšovice",
     "type": "prehrada",
     "lat": 49.723,
@@ -6133,11 +6617,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Soběšovice jsou obec v okrese Frýdek-Místek v Moravskoslezském kraji. Leží na pravém břehu Žermanické přehrady. Žije zde 964 obyvatel. V jejím srdci je úřad s rozhlednou, na jejím okraji je pak nově rekonstruovaný kostel Panny Marie. Obec vznikla roku 1880 sloučením dvou obcí, jimiž jsou Dolní Soběšovice a Horní Soběšovice. Část obce byla zatopena při výstavbě Žermanické přehrady. Sousedními obcemi sídla jsou Těrlicko, Žermanice, Dolní Domaslavice a Lučina.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sob%C4%9B%C5%A1ovice_%2811%29.jpg/3840px-Sob%C4%9B%C5%A1ovice_%2811%29.jpg",
+    "photoCredit": "Wikipedie / Soběšovice",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Sob%C4%9B%C5%A1ovice"
   },
   {
     "id": "eea-CZKO622003",
-    "slug": "vranovska-prehrada-plaz-vranov-ko622003",
+    "slug": "vranovska-prehrada-plaz-vranov",
     "name": "Vranovská Přehrada - Pláž Vranov",
     "type": "prehrada",
     "lat": 48.9124,
@@ -6163,11 +6651,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Vranov, též Vranovská přehrada, je přehradní nádrž vybudovaná na řece Dyji v blízkosti městečka Vranov nad Dyjí. S rozlohou 7,6 km² jde o desátou největší přehradní nádrž na území České republiky. Hráz přehrady je vysoká 60 m a v koruně měří 291 m. Vzniklá přehrada je dlouhá 29,8 km a zasahuje pod hrad Bítov do údolí Želetavky a pod zříceninami hradů Cornštejn a Frejštejn u obce Podhradí nad Dyjí. Byla vybudována v letech 1929–1933. Přehrada slouží vedle energetických a vodárenských úkolů k rekreaci. Rekreační střediska se koncentrují do okolí Vranova nad Dyjí, Bítova a Podhradí nad Dyjí.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Vranov_nad_Dyj%C3%AD%2C_p%C5%99ehradn%C3%AD_hr%C3%A1z_%2806%29.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Vranov",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Vranov"
   },
   {
     "id": "eea-CZKO810202",
-    "slug": "vrbicke-jezero-ko810202",
+    "slug": "vrbicke-jezero",
     "name": "Vrbické Jezero",
     "type": "reka",
     "lat": 49.8817,
@@ -6193,11 +6685,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vrbické jezero je turisticky a rekreačně vyhledávaný písník, který se nachází mezi dálnicí D1, řekou Odrou, Vrbicí a Vrbickou stružkou v okrese Karviná v Moravskoslezském kraji. Na místě se těžil štěrkopísek a jeho zatopením vzniklo antropogenní jezero s několika malými ostrovy a poloostrovy. V současnosti plní funkce přírodní, rekreační a rybolovné. V sezóně je možnost využít pláž, koupat se nebo si půjčit loď či šlapadlo. Vstup na Vrbické jezero není zpoplatněn. Koupání a provozování sportovních aktivit je jen na vlastní nebezpečí.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vrbick%C3%A9_jezero%2C_Vrbice%2C_Bohum%C3%ADn%2C_okres_Karvin%C3%A1%2C_Moravskoslezsk%C3%BD_kraj.jpg/3840px-Vrbick%C3%A9_jezero%2C_Vrbice%2C_Bohum%C3%ADn%2C_okres_Karvin%C3%A1%2C_Moravskoslezsk%C3%BD_kraj.jpg",
+    "photoCredit": "Wikipedie / Vrbické jezero",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vrbick%C3%A9_jezero"
   },
   {
     "id": "eea-CZKO421301",
-    "slug": "zbytkova-jama-dolu-barbora-ko421301",
+    "slug": "zbytkova-jama-dolu-barbora",
     "name": "Zbytková Jáma Dolu Barbora",
     "type": "jezero",
     "lat": 50.6437,
@@ -6235,11 +6731,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Vodní nádrž Barbora je umělé jezero v Mostecké pánvi, severně od vesnice Oldřichov a jihozápadně od města Košťany, zhruba 6 km na západ od Teplic. Vodní plocha zasahuje do dvou katastrálních území: Oldřichov u Duchcova a Verneřice u Hrobu.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Verne%C5%99ice_%28Wernsdorf%29_u_Hrobu_-_severn%C3%AD_%C4%8D%C3%A1st_jezera_Barbora_%286%29.jpg/3840px-Verne%C5%99ice_%28Wernsdorf%29_u_Hrobu_-_severn%C3%AD_%C4%8D%C3%A1st_jezera_Barbora_%286%29.jpg",
+    "photoCredit": "Wikipedie / Vodní nádrž Barbora",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_Barbora"
   },
   {
     "id": "eea-CZKO420901",
-    "slug": "zbytkova-jama-dolu-benedikt-ko420901",
+    "slug": "zbytkova-jama-dolu-benedikt",
     "name": "Zbytková Jáma Dolu Benedikt",
     "type": "reka",
     "lat": 50.4942,
@@ -6277,11 +6777,15 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Dům dětí a mládeže v Mostě (DDM) je příspěvková organizace Ústeckého kraje, která nabízí programy pro zájmovou mimoškolní činnost. Jedná se o školské zařízení zařazené do sítě škol. Spolu s Centrem volného času jsou hlavními příspěvkovými organizacemi, které ve městě Most vykonávají tuto činnost. DDM zaměstnává jedenáct lidí, z toho osm pedagogických pracovníků. S domem spolupracuje také řada dobrovolníků. Současnou ředitelkou domu je Miloslava Kellerová. DDM od roku 2006 sídlí v Okružní ulici č.p. 1235.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/D%C5%AFm_d%C4%9Bt%C3%AD_a_ml%C3%A1de%C5%BEe_-_b%C3%BDval%C3%BD.JPG",
+    "photoCredit": "Wikipedie / Dům dětí a mládeže v Mostě",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/D%C5%AFm_d%C4%9Bt%C3%AD_a_ml%C3%A1de%C5%BEe_v_Most%C4%9B"
   },
   {
     "id": "eea-CZKO421401",
-    "slug": "zbytkova-jama-dolu-varvazov-ko421401",
+    "slug": "zbytkova-jama-dolu-varvazov",
     "name": "Zbytková Jáma Dolu Varvažov",
     "type": "reka",
     "lat": 50.7133,
@@ -6319,6 +6823,10 @@
         "class": "vhodna"
       }
     ],
-    "updatedAt": "2026-06-26"
+    "updatedAt": "2026-06-26",
+    "description": "Pruský pomník je válečný památník ve vsi Varvažov, části severočeské obce Telnice, postavený na paměť pruských vojáků padlých v bitvě u Chlumce a Přestanova ve dnech 29. a 30. srpna 1813. Monument, jehož autorem je významný pruský architekt a sochař Karl Friedrich Schinkel, nechal vztyčit pruský král Fridrich Vilém III. v roce 1817. Jde o nejstarší památník chlumeckého bojiště.",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Varva%C5%BEov%2C_prusk%C3%BD_pomn%C3%ADk_%2839-13a%29.jpg",
+    "photoCredit": "Wikipedie / Pruský pomník ve Varvažově",
+    "wikiUrl": "https://cs.wikipedia.org/wiki/Prusk%C3%BD_pomn%C3%ADk_ve_Varva%C5%BEov%C4%9B"
   }
 ]

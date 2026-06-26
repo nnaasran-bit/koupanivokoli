@@ -1,5 +1,5 @@
 // Konfigurace webu pro SEO / geo / LLM. URL lze přepsat env proměnnou.
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://koupanivokoli.cz").replace(
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.koupanivokoli.cz").replace(
   /\/$/,
   "",
 );

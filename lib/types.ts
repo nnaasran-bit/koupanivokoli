@@ -79,5 +79,10 @@ export interface Location {
   photoUrl?: string; // hlavní fotka (např. z Wikimedia Commons)
   photoCredit?: string; // popisek/autor fotky (atribuce)
   wikiUrl?: string; // odkaz na zdrojový článek (Wikipedie)
+  website?: string; // oficiální / místní web provozovatele (z OSM)
+  openingHours?: string; // otevírací doba (z OSM)
+  phone?: string; // telefon (z OSM)
+  fee?: string; // vstupné: "yes" | "no" | text (z OSM)
+  operator?: string; // provozovatel (z OSM)
   updatedAt?: string; // poslední aktualizace na našem webu
 }

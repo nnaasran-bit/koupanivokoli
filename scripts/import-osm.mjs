@@ -282,7 +282,7 @@ async function main() {
 
     out.push({
       id: `osm-${c.el.type}-${c.el.id}`,
-      slug: `${slugify(name)}-osm${c.el.id}`,
+      slug: slugify(name), // jednoznačnost dořeší scripts/clean-slugs.mjs
       name,
       type,
       lat: +c.lat.toFixed(6),

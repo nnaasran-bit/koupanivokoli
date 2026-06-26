@@ -6,7 +6,9 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const FILE = join(__dirname, "..", "data", "locations.osm.json");
+const dataDir = join(__dirname, "..", "data");
+// Obohacujeme oba zdroje – oficiální (EEA) i OSM místa.
+const FILES = ["locations.eea.json", "locations.osm.json"].map((f) => join(dataDir, f));
 const TARGET_TYPE = process.argv[2] || "lom";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -45,10 +47,11 @@ function pickArticle(loc, hits) {
   return near[0] || null;
 }
 
-async function main() {
-  const list = JSON.parse(readFileSync(FILE, "utf8"));
+async function enrichFile(file) {
+  const list = JSON.parse(readFileSync(file, "utf8"));
   const targets = list.filter((l) => l.type === TARGET_TYPE);
-  console.log(`Obohacuji ${targets.length} lokalit typu „${TARGET_TYPE}" z Wikipedie…`);
+  if (targets.length === 0) return 0;
+  console.log(`  ${file.split(/[\\/]/).pop()}: ${targets.length} lokalit typu „${TARGET_TYPE}"`);
 
   let enriched = 0;
   let i = 0;
@@ -62,9 +65,7 @@ async function main() {
       if (art) {
         const s = await summary(art.title);
         if (s && s.type !== "disambiguation") {
-          if (!loc.description && s.extract && s.extract.length > 40) {
-            loc.description = s.extract;
-          }
+          if (!loc.description && s.extract && s.extract.length > 40) loc.description = s.extract;
           if (!loc.photoUrl && s.thumbnail?.source) {
             loc.photoUrl = s.originalimage?.source || s.thumbnail.source;
             loc.photoCredit = `Wikipedie / ${art.title}`;
@@ -74,14 +75,20 @@ async function main() {
         }
       }
     } catch (e) {
-      console.warn(`  ${loc.name}: ${e.message}`);
+      console.warn(`    ${loc.name}: ${e.message}`);
     }
-    if (i % 20 === 0) console.log(`  …zpracováno ${i}/${targets.length} (obohaceno ${enriched})`);
-    await sleep(250); // šetrné tempo k API
+    if (i % 25 === 0) console.log(`    …${i}/${targets.length} (obohaceno ${enriched})`);
+    await sleep(250);
   }
+  writeFileSync(file, JSON.stringify(list, null, 2) + "\n", "utf8");
+  return enriched;
+}
 
-  writeFileSync(FILE, JSON.stringify(list, null, 2) + "\n", "utf8");
-  console.log(`Hotovo: obohaceno ${enriched} lokalit typu „${TARGET_TYPE}".`);
+async function main() {
+  console.log(`Obohacuji typ „${TARGET_TYPE}" z Wikipedie (oba zdroje)…`);
+  let total = 0;
+  for (const f of FILES) total += await enrichFile(f);
+  console.log(`Hotovo: obohaceno celkem ${total} lokalit typu „${TARGET_TYPE}".`);
 }
 
 main().catch((e) => {

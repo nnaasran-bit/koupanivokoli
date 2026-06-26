@@ -113,7 +113,7 @@ async function main() {
 
     out.push({
       id: `eea-${a.bathingWaterIdentifier || idx}`,
-      slug: `${slugify(name)}-${sid}`,
+      slug: slugify(name), // jednoznačnost dořeší scripts/clean-slugs.mjs
       name,
       type: classifyType(a.bathingWaterName, a.bwWaterCategory),
       lat: +lat.toFixed(6),
