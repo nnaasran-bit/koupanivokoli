@@ -16,7 +16,7 @@ export function GET(req: Request) {
     redirect_uri: facebookRedirectUri(origin),
     state,
     response_type: "code",
-    scope: "email,public_profile",
+    scope: "public_profile",
   });
   const res = NextResponse.redirect(`https://www.facebook.com/v19.0/dialog/oauth?${params}`);
   res.cookies.set(FB_STATE_COOKIE, state, { httpOnly: true, sameSite: "lax", path: "/", maxAge: 600 });
