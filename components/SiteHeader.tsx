@@ -14,6 +14,7 @@ export function BrandLogo({ className = "" }: { className?: string }) {
 const NAV = [
   { href: "/", label: "🗺️ Mapa" },
   { href: "/koupani", label: "Kraje" },
+  { href: "/otuzovani", label: "❄️ Otužování" },
   { href: "/seznam/lomy", label: "Lomy" },
   { href: "/kvalita-vody", label: "Kvalita vody" },
   { href: "/zebricek", label: "🏆 Žebříček" },

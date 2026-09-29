@@ -14,6 +14,8 @@ a vždy uvádí zdroj a stáří informace.
 
 ## Klíčové stránky
 - [Interaktivní mapa](${SITE_URL}/): všechny lokality, filtry, vyhledávání, koupání v okolí
+- [Otužování v okolí](${SITE_URL}/otuzovani): mapa přírodních míst vhodných k otužování v zimě,
+  bezpečnostní zásady a postup pro začátečníky
 - [Kvalita vody – vysvětlení](${SITE_URL}/kvalita-vody): význam barev a stupňů jakosti vody
 - [Žebříček komunity](${SITE_URL}/zebricek)
 - [Nahlásit stav vody nebo nové místo](${SITE_URL}/nahlasit)
