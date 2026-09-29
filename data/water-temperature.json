@@ -1,0 +1,2270 @@
+[
+  {
+    "stationId": "0-203-1-098000",
+    "name": "Bakov nad Jizerou",
+    "river": "Jizera",
+    "lat": 50.4836822,
+    "lng": 14.927934,
+    "tempC": 10.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-252000",
+    "name": "Bartošovice",
+    "river": "Odra",
+    "lat": 49.6884301,
+    "lng": 18.0426761,
+    "tempC": 13.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-133000",
+    "name": "Bechyně",
+    "river": "Lužnice",
+    "lat": 49.288377,
+    "lng": 14.4708574,
+    "tempC": 13.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-239000",
+    "name": "Benešov nad Ploučnicí",
+    "river": "Ploučnice",
+    "lat": 50.7394274,
+    "lng": 14.3104149,
+    "tempC": 12.2,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-197300",
+    "name": "Beroun",
+    "river": "Litavka",
+    "lat": 49.9520074,
+    "lng": 14.0521044,
+    "tempC": 13.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-198000",
+    "name": "Beroun",
+    "river": "Berounka",
+    "lat": 49.9587034,
+    "lng": 14.0876646,
+    "tempC": 15,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-186000",
+    "name": "Bílá Hora",
+    "river": "Berounka",
+    "lat": 49.7663846,
+    "lng": 13.4009724,
+    "tempC": 15.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-321620",
+    "name": "Bílá Smědá",
+    "river": "Bílá Smědá",
+    "lat": 50.8460509,
+    "lng": 15.2697301,
+    "tempC": 7.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-457000",
+    "name": "Bílovice nad Svitavou",
+    "river": "Svitava",
+    "lat": 49.2454285,
+    "lng": 16.6749281,
+    "tempC": 12.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-322000",
+    "name": "Bílý Potok",
+    "river": "Smědá",
+    "lat": 50.8761752,
+    "lng": 15.210986,
+    "tempC": 12.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-162700",
+    "name": "Blažejovice",
+    "river": "Blažejovický potok",
+    "lat": 49.6139063,
+    "lng": 15.205956,
+    "tempC": 12.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-141700",
+    "name": "Bohumilice",
+    "river": "Spůlka",
+    "lat": 49.0996792,
+    "lng": 13.802535,
+    "tempC": 10.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-090000",
+    "name": "Bohuňovsko-Jesenný",
+    "river": "Kamenice",
+    "lat": 50.6546244,
+    "lng": 15.3256774,
+    "tempC": 10.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-441000",
+    "name": "Borovnice",
+    "river": "Svratka",
+    "lat": 49.6779914,
+    "lng": 16.1910749,
+    "tempC": 8.5,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-440000",
+    "name": "Božice",
+    "river": "Jevišovka",
+    "lat": 48.8399359,
+    "lng": 16.2847052,
+    "tempC": 13.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-274000",
+    "name": "Branka",
+    "river": "Moravice",
+    "lat": 49.8936623,
+    "lng": 17.8898482,
+    "tempC": 12.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-480500",
+    "name": "Břeclav-Ladná",
+    "river": "Dyje",
+    "lat": 48.8037157,
+    "lng": 16.8537248,
+    "tempC": 15.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-111000",
+    "name": "Březí",
+    "river": "Vltava",
+    "lat": 48.9174592,
+    "lng": 14.4310515,
+    "tempC": 13.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-092900",
+    "name": "Březina",
+    "river": "Žehrovka",
+    "lat": 50.5490339,
+    "lng": 15.0426813,
+    "tempC": 12.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-247100",
+    "name": "Budišov nad Budišovkou",
+    "river": "Budišovka",
+    "lat": 49.793318,
+    "lng": 17.6309901,
+    "tempC": 14.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-325000",
+    "name": "Bulovský potok",
+    "river": "Bulovský potok",
+    "lat": 50.9712608,
+    "lng": 15.0403883,
+    "tempC": 11.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-380000",
+    "name": "Bystřička nad nádrží",
+    "river": "Bystřice",
+    "lat": 49.4182221,
+    "lng": 18.0447133,
+    "tempC": 17.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-161400",
+    "name": "Čakovice",
+    "river": "Želivka",
+    "lat": 49.4600477,
+    "lng": 15.1742493,
+    "tempC": 9.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-196000",
+    "name": "Čenkov",
+    "river": "Litavka",
+    "lat": 49.7765091,
+    "lng": 14.0057825,
+    "tempC": 11.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-162200",
+    "name": "Červená Řečice",
+    "river": "Trnava",
+    "lat": 49.5259626,
+    "lng": 15.1736847,
+    "tempC": 11,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-235000",
+    "name": "Česká Lípa",
+    "river": "Ploučnice",
+    "lat": 50.682915,
+    "lng": 14.5368924,
+    "tempC": 12.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-115100",
+    "name": "České Budějovice",
+    "river": "Vltava",
+    "lat": 48.9814063,
+    "lng": 14.4623581,
+    "tempC": 14.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-246700",
+    "name": "Český Jiřetín",
+    "river": "Flájský potok",
+    "lat": 50.7074437,
+    "lng": 13.5427591,
+    "tempC": 10.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-110200",
+    "name": "Český Krumlov",
+    "river": "Polečnice (Kájovský potok)",
+    "lat": 48.8131189,
+    "lng": 14.3128186,
+    "tempC": 10.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-299000",
+    "name": "Český Těšín",
+    "river": "Olše",
+    "lat": 49.7179671,
+    "lng": 18.6282249,
+    "tempC": 16.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-189000",
+    "name": "Čichořice",
+    "river": "Střela",
+    "lat": 50.0963137,
+    "lng": 13.2699847,
+    "tempC": 9.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-442000",
+    "name": "Dalečín",
+    "river": "Svratka",
+    "lat": 49.5951142,
+    "lng": 16.2450246,
+    "tempC": 11.5,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-047000",
+    "name": "Dašice",
+    "river": "Loučná",
+    "lat": 50.036831,
+    "lng": 15.9066732,
+    "tempC": 13.2,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-240000",
+    "name": "Děčín",
+    "river": "Labe",
+    "lat": 50.7821845,
+    "lng": 14.209554,
+    "tempC": 14,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-275000",
+    "name": "Děhylov",
+    "river": "Opava",
+    "lat": 49.8794406,
+    "lng": 18.1767075,
+    "tempC": 14.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-089500",
+    "name": "Desná- Jezdecká",
+    "river": "Černá Desná",
+    "lat": 50.8076171,
+    "lng": 15.2929803,
+    "tempC": 8.4,
+    "measuredAt": "2026-09-28T15:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-301900",
+    "name": "Dětmarovice",
+    "river": "Olše",
+    "lat": 49.8834277,
+    "lng": 18.4867528,
+    "tempC": 14.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-362000",
+    "name": "Dlouhá Loučka",
+    "river": "Oslava",
+    "lat": 49.8148355,
+    "lng": 17.1726136,
+    "tempC": 11.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-096000",
+    "name": "Dolní Bukovina",
+    "river": "Zábrdka",
+    "lat": 50.5365786,
+    "lng": 14.9374648,
+    "tempC": 10.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-034000",
+    "name": "Dolní Libchavy",
+    "river": "Tichá Orlice",
+    "lat": 49.9885498,
+    "lng": 16.3958951,
+    "tempC": 11.3,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-152000",
+    "name": "Dolní Ostrovec",
+    "river": "Lomnice",
+    "lat": 49.4199588,
+    "lng": 14.1192733,
+    "tempC": 12.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-086000",
+    "name": "Dolní Sytová",
+    "river": "Jizera",
+    "lat": 50.6244862,
+    "lng": 15.4410908,
+    "tempC": 10.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-085000",
+    "name": "Dolní Štěpanice",
+    "river": "Jizerka",
+    "lat": 50.6379785,
+    "lng": 15.5171595,
+    "tempC": 9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-465000",
+    "name": "Dvorce",
+    "river": "Jihlava",
+    "lat": 49.3806057,
+    "lng": 15.5042712,
+    "tempC": 12.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-123000",
+    "name": "Frahelž",
+    "river": "Lužnice",
+    "lat": 49.1187081,
+    "lng": 14.7379021,
+    "tempC": 13.2,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-286600",
+    "name": "Frýdek-Místek tok",
+    "river": "Ostravice",
+    "lat": 49.6862093,
+    "lng": 18.3377312,
+    "tempC": 14.3,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-323000",
+    "name": "Frýdlant",
+    "river": "Smědá",
+    "lat": 50.9203561,
+    "lng": 15.0773586,
+    "tempC": 13.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-251100",
+    "name": "Fulnek",
+    "river": "Husí potok",
+    "lat": 49.7143331,
+    "lng": 17.9052734,
+    "tempC": 12.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-343000",
+    "name": "Habartice",
+    "river": "Krupá",
+    "lat": 50.1026731,
+    "lng": 16.929667,
+    "tempC": 10.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-180400",
+    "name": "Hamry-V lipách",
+    "river": "Úhlava",
+    "lat": 49.2257713,
+    "lng": 13.162975,
+    "tempC": 8.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-155800",
+    "name": "Havlíčkův Brod - Pohledští Dvořáci",
+    "river": "Sázava",
+    "lat": 49.6090627,
+    "lng": 15.6142536,
+    "tempC": 11.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-140500",
+    "name": "Hlupín",
+    "river": "Březový potok",
+    "lat": 49.3281893,
+    "lng": 13.7719094,
+    "tempC": 10.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-368000",
+    "name": "Holice",
+    "river": "Hamerský náhon",
+    "lat": 49.5783255,
+    "lng": 17.2978714,
+    "tempC": 13.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-383000",
+    "name": "Horní Bečva",
+    "river": "Rožnovská Bečva",
+    "lat": 49.422423,
+    "lng": 18.3115304,
+    "tempC": 14.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-290800",
+    "name": "Horní Domaslavice",
+    "river": "Lučina",
+    "lat": 49.6939138,
+    "lng": 18.4622003,
+    "tempC": 13.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-113200",
+    "name": "Horní Stropnice",
+    "river": "Stropnice",
+    "lat": 48.7622367,
+    "lng": 14.7396024,
+    "tempC": 11,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-196400",
+    "name": "Hořovice",
+    "river": "Červený potok",
+    "lat": 49.8404158,
+    "lng": 13.9027242,
+    "tempC": 12.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-187500",
+    "name": "Hrádek",
+    "river": "Klabava",
+    "lat": 49.7142028,
+    "lng": 13.6622784,
+    "tempC": 12.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-301000",
+    "name": "Hradiště",
+    "river": "Stonávka",
+    "lat": 49.7301655,
+    "lng": 18.4981902,
+    "tempC": 19.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-148500",
+    "name": "Hracholusky",
+    "river": "Zlatý potok",
+    "lat": 49.0561678,
+    "lng": 14.0786789,
+    "tempC": 10.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-153800",
+    "name": "Hrachov",
+    "river": "Brzina",
+    "lat": 49.6614311,
+    "lng": 14.3013548,
+    "tempC": 10.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-360000",
+    "name": "Hraničky",
+    "river": "Třebůvka",
+    "lat": 49.7179121,
+    "lng": 16.7963175,
+    "tempC": 13.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-018000",
+    "name": "Hronov",
+    "river": "Metuje",
+    "lat": 50.4831742,
+    "lng": 16.1808633,
+    "tempC": 9.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-196700",
+    "name": "Hředle",
+    "river": "Stroupínský potok",
+    "lat": 49.9020872,
+    "lng": 13.9220916,
+    "tempC": 11.5,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-244000",
+    "name": "Hřensko",
+    "river": "Kamenice",
+    "lat": 50.8738614,
+    "lng": 14.2511052,
+    "tempC": 9.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-245000",
+    "name": "Hřensko - Labe",
+    "river": "Labe",
+    "lat": 50.8804078,
+    "lng": 14.237489,
+    "tempC": 14.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-148000",
+    "name": "Husinec",
+    "river": "Blanice",
+    "lat": 49.0399053,
+    "lng": 13.9941538,
+    "tempC": 15.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-158000",
+    "name": "Chlístov",
+    "river": "Sázava",
+    "lat": 49.6185758,
+    "lng": 15.5272108,
+    "tempC": 13.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-094000",
+    "name": "Chocnějovice",
+    "river": "Mohelka",
+    "lat": 50.5752766,
+    "lng": 14.9638558,
+    "tempC": 10.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-359000",
+    "name": "Chornice",
+    "river": "Jevíčka",
+    "lat": 49.6644664,
+    "lng": 16.7497332,
+    "tempC": 9,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-478000",
+    "name": "Ivančice",
+    "river": "Jihlava",
+    "lat": 49.0839594,
+    "lng": 16.4116414,
+    "tempC": 13.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-084500",
+    "name": "Jablonec nad Jizerou",
+    "river": "Jizera",
+    "lat": 50.6950287,
+    "lng": 15.4384112,
+    "tempC": 9.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-296000",
+    "name": "Jablunkov",
+    "river": "Olše",
+    "lat": 49.5767575,
+    "lng": 18.7685466,
+    "tempC": 12,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-429000",
+    "name": "Janov",
+    "river": "Moravská Dyje",
+    "lat": 48.9930423,
+    "lng": 15.4348051,
+    "tempC": 13,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-083000",
+    "name": "Janov - Harrachov",
+    "river": "Mumlava",
+    "lat": 50.7642354,
+    "lng": 15.3967685,
+    "tempC": 6.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-382000",
+    "name": "Jarcová",
+    "river": "Vsetínská Bečva",
+    "lat": 49.4443545,
+    "lng": 17.9701548,
+    "tempC": 12.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-200480",
+    "name": "Jesenice - Kocanda",
+    "river": "Botič",
+    "lat": 49.9698385,
+    "lng": 14.5412872,
+    "tempC": 12.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-344000",
+    "name": "Jindřichov",
+    "river": "Branná",
+    "lat": 50.0949605,
+    "lng": 16.9805948,
+    "tempC": 9.5,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-082700",
+    "name": "Jizerka",
+    "river": "Jizerka",
+    "lat": 50.8195163,
+    "lng": 15.3477217,
+    "tempC": 8.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-158500",
+    "name": "Josefodol",
+    "river": "Sázavka",
+    "lat": 49.6831309,
+    "lng": 15.4195133,
+    "tempC": 8.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-088000",
+    "name": "Josefův Důl",
+    "river": "Kamenice",
+    "lat": 50.7912289,
+    "lng": 15.2100519,
+    "tempC": 7.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-188200",
+    "name": "Kaceřov",
+    "river": "Třemošná",
+    "lat": 49.8635871,
+    "lng": 13.5040904,
+    "tempC": 10.5,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-165000",
+    "name": "Kácov",
+    "river": "Sázava",
+    "lat": 49.7853864,
+    "lng": 15.024833,
+    "tempC": 13.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-214000",
+    "name": "Karlovy Vary - Drahovice",
+    "river": "Ohře",
+    "lat": 50.2369357,
+    "lng": 12.8814087,
+    "tempC": 12.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-370500",
+    "name": "Karolinka pod nádrží",
+    "river": "Velká Stanovnice",
+    "lat": 49.350135,
+    "lng": 18.2345178,
+    "tempC": 7.6,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-405500",
+    "name": "Kašava nad nádrží",
+    "river": "Dřevnice",
+    "lat": 49.2887359,
+    "lng": 17.7814427,
+    "tempC": 13.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-141000",
+    "name": "Katovice",
+    "river": "Otava",
+    "lat": 49.270483,
+    "lng": 13.8303473,
+    "tempC": 13.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-388000",
+    "name": "Kelč",
+    "river": "Juhyně",
+    "lat": 49.4724677,
+    "lng": 17.8281634,
+    "tempC": 13.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-131000",
+    "name": "Klenovice",
+    "river": "Lužnice",
+    "lat": 49.2809324,
+    "lng": 14.7005788,
+    "tempC": 13.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-161700",
+    "name": "Kojčice",
+    "river": "Želivka",
+    "lat": 49.4822312,
+    "lng": 15.2498751,
+    "tempC": 11,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-368800",
+    "name": "Kokory",
+    "river": "Olešnice (Kokorka)",
+    "lat": 49.4969239,
+    "lng": 17.3748567,
+    "tempC": 11.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-104400",
+    "name": "Kostelec nad Labem",
+    "river": "Labe",
+    "lat": 50.2377791,
+    "lng": 14.5925788,
+    "tempC": 16.5,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-028000",
+    "name": "Kostelec nad Orlicí",
+    "river": "Divoká Orlice",
+    "lat": 50.1204252,
+    "lng": 16.1953339,
+    "tempC": 12.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-105000",
+    "name": "Košátky",
+    "river": "Košátecký potok",
+    "lat": 50.3129572,
+    "lng": 14.66582,
+    "tempC": 12.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-346000",
+    "name": "Kouty nad Desnou",
+    "river": "Desná",
+    "lat": 50.0999837,
+    "lng": 17.1113831,
+    "tempC": 13.1,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-263000",
+    "name": "Krnov",
+    "river": "Opava",
+    "lat": 50.0886547,
+    "lng": 17.7083594,
+    "tempC": 12.3,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-265000",
+    "name": "Krnov",
+    "river": "Opavice",
+    "lat": 50.1005009,
+    "lng": 17.6822066,
+    "tempC": 15.2,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-403000",
+    "name": "Kroměříž",
+    "river": "Morava",
+    "lat": 49.3023368,
+    "lng": 17.39874,
+    "tempC": 14.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-200560",
+    "name": "Kuří",
+    "river": "Pitkovický potok",
+    "lat": 49.9873701,
+    "lng": 14.6202624,
+    "tempC": 12.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-193000",
+    "name": "Lány - Městečko",
+    "river": "Klíčava",
+    "lat": 50.0829515,
+    "lng": 13.9023311,
+    "tempC": 13.5,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-426000",
+    "name": "Lanžhot",
+    "river": "Morava",
+    "lat": 48.6870094,
+    "lng": 16.9885928,
+    "tempC": 16.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-127000",
+    "name": "Lásenice",
+    "river": "Nežárka",
+    "lat": 49.0740579,
+    "lng": 14.9651521,
+    "tempC": 13.2,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-106000",
+    "name": "Lenora",
+    "river": "Teplá Vltava",
+    "lat": 48.9278041,
+    "lng": 13.7948561,
+    "tempC": 9.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-163100",
+    "name": "Leský Mlýn",
+    "river": "Sedlický potok",
+    "lat": 49.6604029,
+    "lng": 15.0871567,
+    "tempC": 8.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-179900",
+    "name": "Lhota",
+    "river": "Radbuza",
+    "lat": 49.6888081,
+    "lng": 13.3258534,
+    "tempC": 13.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-112500",
+    "name": "Ličov",
+    "river": "Černá",
+    "lat": 48.7298623,
+    "lng": 14.5719621,
+    "tempC": 10,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-198400",
+    "name": "Loděnice",
+    "river": "Loděnice",
+    "lat": 49.9930848,
+    "lng": 14.1607808,
+    "tempC": 12.6,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-165600",
+    "name": "Louňovice pod Blaníkem",
+    "river": "Blanice",
+    "lat": 49.6205112,
+    "lng": 14.8393704,
+    "tempC": 13.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-354000",
+    "name": "Lupěné",
+    "river": "Moravská Sázava",
+    "lat": 49.8670295,
+    "lng": 16.8387121,
+    "tempC": 10.6,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-268200",
+    "name": "Malá Morávka",
+    "river": "Bělokamenný potok",
+    "lat": 50.0255026,
+    "lng": 17.3131296,
+    "tempC": 8.3,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-204000",
+    "name": "Mělník",
+    "river": "Labe",
+    "lat": 50.3522646,
+    "lng": 14.4691632,
+    "tempC": 16.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-356000",
+    "name": "Mezihoří",
+    "river": "Třebůvka",
+    "lat": 49.7051119,
+    "lng": 16.7418723,
+    "tempC": 13.1,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-161900",
+    "name": "Milotice",
+    "river": "Jankovský potok",
+    "lat": 49.5001153,
+    "lng": 15.2793521,
+    "tempC": 10.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-156000",
+    "name": "Mírovka",
+    "river": "Šlapanka",
+    "lat": 49.5810371,
+    "lng": 15.6174313,
+    "tempC": 12.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-290110",
+    "name": "Místek",
+    "river": "Hodoňovický náhon",
+    "lat": 49.6707003,
+    "lng": 18.3379555,
+    "tempC": 14.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-039000",
+    "name": "Mitrov",
+    "river": "Dědina",
+    "lat": 50.2107491,
+    "lng": 16.02149,
+    "tempC": 12.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-100000",
+    "name": "Mladá Boleslav",
+    "river": "Klenice",
+    "lat": 50.4106789,
+    "lng": 14.9091785,
+    "tempC": 13,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-258100",
+    "name": "Mnichov",
+    "river": "Černá Opava",
+    "lat": 50.1507707,
+    "lng": 17.3730321,
+    "tempC": 11.3,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-469500",
+    "name": "Mohelno ",
+    "river": "Jihlava",
+    "lat": 49.1030689,
+    "lng": 16.1829193,
+    "tempC": 19,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-355000",
+    "name": "Moravičany",
+    "river": "Morava",
+    "lat": 49.7557824,
+    "lng": 16.975583,
+    "tempC": 15,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-282000",
+    "name": "Morávka",
+    "river": "Skalka",
+    "lat": 49.5619688,
+    "lng": 18.552476,
+    "tempC": 9.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-284000",
+    "name": "Morávka pod nádrží",
+    "river": "Morávka",
+    "lat": 49.586075,
+    "lng": 18.5297058,
+    "tempC": 14.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-042000",
+    "name": "Němčice",
+    "river": "Labe",
+    "lat": 50.0946613,
+    "lng": 15.8067603,
+    "tempC": 14.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-143000",
+    "name": "Němětice",
+    "river": "Volyňka",
+    "lat": 49.1974003,
+    "lng": 13.8854666,
+    "tempC": 11.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-059000",
+    "name": "Nemošice",
+    "river": "Chrudimka",
+    "lat": 50.0164822,
+    "lng": 15.7899686,
+    "tempC": 13.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-473000",
+    "name": "Nesměř",
+    "river": "Oslava",
+    "lat": 49.3196033,
+    "lng": 16.0254481,
+    "tempC": 11.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-163300",
+    "name": "Nesměřice",
+    "river": "Želivka",
+    "lat": 49.7262653,
+    "lng": 15.0846468,
+    "tempC": 6.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-167200",
+    "name": "Nespeky",
+    "river": "Sázava",
+    "lat": 49.8594915,
+    "lng": 14.6499786,
+    "tempC": 14.6,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-249800",
+    "name": "Nový Jičín",
+    "river": "Jičínka",
+    "lat": 49.5984971,
+    "lng": 18.0177153,
+    "tempC": 11.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-195900",
+    "name": "Obecnice",
+    "river": "Obecnický potok",
+    "lat": 49.7175688,
+    "lng": 13.9180201,
+    "tempC": 10.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-247800",
+    "name": "Odry tok",
+    "river": "Odra",
+    "lat": 49.6645988,
+    "lng": 17.8324519,
+    "tempC": 11.3,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-367000",
+    "name": "Olomouc-Nové Sady tok",
+    "river": "Morava",
+    "lat": 49.5772517,
+    "lng": 17.2608599,
+    "tempC": 13.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-266000",
+    "name": "Opava",
+    "river": "Opava",
+    "lat": 49.9351432,
+    "lng": 17.9226316,
+    "tempC": 13.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-474000",
+    "name": "Oslavany",
+    "river": "Oslava",
+    "lat": 49.115976,
+    "lng": 16.3437214,
+    "tempC": 13.6,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-304300",
+    "name": "Osoblaha",
+    "river": "Osoblaha",
+    "lat": 50.2727272,
+    "lng": 17.7203981,
+    "tempC": 14.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-290100",
+    "name": "Palkovice",
+    "river": "Olešná",
+    "lat": 49.6399863,
+    "lng": 18.3196608,
+    "tempC": 13.6,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-114000",
+    "name": "Pašinovice",
+    "river": "Stropnice",
+    "lat": 48.877828,
+    "lng": 14.5258807,
+    "tempC": 10.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-254000",
+    "name": "Petřvald",
+    "river": "Lubina",
+    "lat": 49.7126952,
+    "lng": 18.1541528,
+    "tempC": 12.2,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-212600",
+    "name": "Pila",
+    "river": "Lomnický potok",
+    "lat": 50.1777232,
+    "lng": 12.9267031,
+    "tempC": 9.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-119000",
+    "name": "Pilař",
+    "river": "Lužnice",
+    "lat": 48.9497297,
+    "lng": 14.8805884,
+    "tempC": 12.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-171000",
+    "name": "Planá",
+    "river": "Hamerský potok",
+    "lat": 49.8619406,
+    "lng": 12.7184796,
+    "tempC": 10.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-082000",
+    "name": "Plaňany",
+    "river": "Výrovka",
+    "lat": 50.0489216,
+    "lng": 15.0160342,
+    "tempC": 14.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-190000",
+    "name": "Plasy",
+    "river": "Střela",
+    "lat": 49.9334516,
+    "lng": 13.3904185,
+    "tempC": 12,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-176800",
+    "name": "Plzeň-Skvrňany",
+    "river": "Vejprnický potok",
+    "lat": 49.74414,
+    "lng": 13.3473468,
+    "tempC": 13.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-147000",
+    "name": "Podedvory",
+    "river": "Blanice",
+    "lat": 49.0363262,
+    "lng": 13.9529503,
+    "tempC": 8.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-191400",
+    "name": "Podmokly",
+    "river": "Zbirožský potok",
+    "lat": 49.9438877,
+    "lng": 13.7456443,
+    "tempC": 10.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-112600",
+    "name": "Pořešín",
+    "river": "Malše",
+    "lat": 48.7825994,
+    "lng": 14.5184447,
+    "tempC": 11.3,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-166900",
+    "name": "Poříčí nad Sázavou",
+    "river": "Konopišťský potok",
+    "lat": 49.8353721,
+    "lng": 14.6771854,
+    "tempC": 11.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-200300",
+    "name": "Praha - Hlubočepy",
+    "river": "Dalejský potok",
+    "lat": 50.0415157,
+    "lng": 14.3903957,
+    "tempC": 12.2,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-200590",
+    "name": "Praha - Hostivař",
+    "river": "Botič",
+    "lat": 50.043822,
+    "lng": 14.5285023,
+    "tempC": 16.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-200100",
+    "name": "Praha - Chuchle",
+    "river": "Vltava",
+    "lat": 50.0274827,
+    "lng": 14.3968736,
+    "tempC": 14.6,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-201990",
+    "name": "Praha - Jiviny",
+    "river": "Litovický potok",
+    "lat": 50.0803693,
+    "lng": 14.3027513,
+    "tempC": 15.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-200980",
+    "name": "Praha - Kyjský rybník",
+    "river": "Rokytka",
+    "lat": 50.0967524,
+    "lng": 14.5409662,
+    "tempC": 15.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-200600",
+    "name": "Praha - Nusle",
+    "river": "Botič",
+    "lat": 50.0665444,
+    "lng": 14.4297835,
+    "tempC": 12.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-200580",
+    "name": "Praha - Petrovice",
+    "river": "Botič",
+    "lat": 50.0307747,
+    "lng": 14.55701,
+    "tempC": 12.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-199200",
+    "name": "Praha - Radotín",
+    "river": "Berounka",
+    "lat": 49.9813143,
+    "lng": 14.3625641,
+    "tempC": 16.5,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-199600",
+    "name": "Praha-Radotín",
+    "river": "Radotínský potok",
+    "lat": 49.9835876,
+    "lng": 14.3606714,
+    "tempC": 11.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-200500",
+    "name": "Průhonice",
+    "river": "Dobřejovický potok",
+    "lat": 49.9910038,
+    "lng": 14.5608031,
+    "tempC": 12.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-200550",
+    "name": "Průhonice",
+    "river": "Botič",
+    "lat": 50.0014288,
+    "lng": 14.5558999,
+    "tempC": 13.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-402000",
+    "name": "Prusy",
+    "river": "Moštěnka",
+    "lat": 49.4281123,
+    "lng": 17.514958,
+    "tempC": 13.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-101800",
+    "name": "Předměřice",
+    "river": "Jizera",
+    "lat": 50.2486875,
+    "lng": 14.7753034,
+    "tempC": 13.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-469000",
+    "name": "Ptáčov",
+    "river": "Jihlava",
+    "lat": 49.2150769,
+    "lng": 15.9348353,
+    "tempC": 13.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-161600",
+    "name": "Radětín - Pelhřimov",
+    "river": "Bělá",
+    "lat": 49.4544784,
+    "lng": 15.2365759,
+    "tempC": 11.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-153900",
+    "name": "Radíč",
+    "river": "Mastník",
+    "lat": 49.715353,
+    "lng": 14.4148733,
+    "tempC": 12,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-166200",
+    "name": "Radonice I",
+    "river": "Blanice",
+    "lat": 49.788906,
+    "lng": 14.9328186,
+    "tempC": 11,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-387500",
+    "name": "Rajnochovice",
+    "river": "Juhyně",
+    "lat": 49.400108,
+    "lng": 17.8154028,
+    "tempC": 11.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-345000",
+    "name": "Raškov",
+    "river": "Morava",
+    "lat": 50.0408892,
+    "lng": 16.9114042,
+    "tempC": 9.4,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-285000",
+    "name": "Raškovice",
+    "river": "Mohelnice",
+    "lat": 49.6013434,
+    "lng": 18.4742204,
+    "tempC": 10.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-132500",
+    "name": "Rataje",
+    "river": "Smutná",
+    "lat": 49.3501738,
+    "lng": 14.4498112,
+    "tempC": 11.5,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-137000",
+    "name": "Rejštejn",
+    "river": "Otava",
+    "lat": 49.139431,
+    "lng": 13.5082979,
+    "tempC": 9.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-124000",
+    "name": "Rodvínov",
+    "river": "Nežárka",
+    "lat": 49.171626,
+    "lng": 15.0562898,
+    "tempC": 11.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-115000",
+    "name": "Roudné",
+    "river": "Malše",
+    "lat": 48.9351159,
+    "lng": 14.4900104,
+    "tempC": 13,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-386000",
+    "name": "Rožnov pod Radhoštěm",
+    "river": "Rožnovská Bečva",
+    "lat": 49.4584816,
+    "lng": 18.1273157,
+    "tempC": 12.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-255000",
+    "name": "Rychaltice",
+    "river": "Ondřejnice",
+    "lat": 49.643969,
+    "lng": 18.2176985,
+    "tempC": 13.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-293500",
+    "name": "Rychvald",
+    "river": "Stružka",
+    "lat": 49.8641703,
+    "lng": 18.3566558,
+    "tempC": 14.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-269000",
+    "name": "Rýmařov",
+    "river": "Podolský potok",
+    "lat": 49.937745,
+    "lng": 17.2675609,
+    "tempC": 11.3,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-300100",
+    "name": "Řeka",
+    "river": "Ropičanka",
+    "lat": 49.6418754,
+    "lng": 18.5712638,
+    "tempC": 13.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-155000",
+    "name": "Sázava",
+    "river": "Sázava",
+    "lat": 49.5551445,
+    "lng": 15.8491949,
+    "tempC": 12.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-091950",
+    "name": "Sedmihorky",
+    "river": "Libuňka",
+    "lat": 50.5581139,
+    "lng": 15.1955115,
+    "tempC": 11.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-162600",
+    "name": "Senožaty",
+    "river": "Martinický potok",
+    "lat": 49.5802875,
+    "lng": 15.2074629,
+    "tempC": 9.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-087000",
+    "name": "Slaná",
+    "river": "Oleška",
+    "lat": 50.5886506,
+    "lng": 15.3344837,
+    "tempC": 9.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-014100",
+    "name": "Slatina nad Úpou",
+    "river": "Úpa",
+    "lat": 50.4486733,
+    "lng": 16.0517193,
+    "tempC": 10.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-272300",
+    "name": "Slezská Harta pod nádrží",
+    "river": "Moravice",
+    "lat": 49.8874025,
+    "lng": 17.5844084,
+    "tempC": 6.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-165800",
+    "name": "Slověnice",
+    "river": "Chotýšanka",
+    "lat": 49.7515572,
+    "lng": 14.888583,
+    "tempC": 10.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-032000",
+    "name": "Sobkovice",
+    "river": "Tichá Orlice",
+    "lat": 50.0506343,
+    "lng": 16.6069061,
+    "tempC": 10,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-348000",
+    "name": "Sobotín",
+    "river": "Merta",
+    "lat": 50.0182389,
+    "lng": 17.0706463,
+    "tempC": 8.2,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-385000",
+    "name": "Solanec",
+    "river": "Hutiský potok",
+    "lat": 49.4230595,
+    "lng": 18.2201106,
+    "tempC": 10.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-093100",
+    "name": "Sovenice",
+    "river": "Jizera",
+    "lat": 50.5627256,
+    "lng": 14.9879499,
+    "tempC": 12.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-413000",
+    "name": "Spytihněv",
+    "river": "Morava",
+    "lat": 49.1331903,
+    "lng": 17.5013105,
+    "tempC": 16.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-198600",
+    "name": "Srbsko",
+    "river": "Berounka",
+    "lat": 49.936991,
+    "lng": 14.1328637,
+    "tempC": 14.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-179000",
+    "name": "Staňkov",
+    "river": "Radbuza",
+    "lat": 49.5526691,
+    "lng": 13.0712081,
+    "tempC": 13,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-210100",
+    "name": "Stará Role",
+    "river": "Rolava",
+    "lat": 50.2485588,
+    "lng": 12.819925,
+    "tempC": 10.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-275300",
+    "name": "Staré Hamry",
+    "river": "Ostravice",
+    "lat": 49.4583823,
+    "lng": 18.4572596,
+    "tempC": 7.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-342000",
+    "name": "Staré Město pod Sněžníkem",
+    "river": "Vrbenský potok",
+    "lat": 50.1635466,
+    "lng": 16.9457646,
+    "tempC": 9.7,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-136500",
+    "name": "Stodůlky",
+    "river": "Křemelná",
+    "lat": 49.1176039,
+    "lng": 13.4276003,
+    "tempC": 9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-421500",
+    "name": "Strážnice",
+    "river": "Morava",
+    "lat": 48.9328778,
+    "lng": 17.2976139,
+    "tempC": 17,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-155600",
+    "name": "Stříbrné Hory",
+    "river": "Borovský potok",
+    "lat": 49.5989233,
+    "lng": 15.7021292,
+    "tempC": 10.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-173000",
+    "name": "Stříbro",
+    "river": "Úhlavka",
+    "lat": 49.737287,
+    "lng": 12.9944652,
+    "tempC": 10.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-138000",
+    "name": "Sušice",
+    "river": "Otava",
+    "lat": 49.2366021,
+    "lng": 13.5248971,
+    "tempC": 11.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-159000",
+    "name": "Světlá nad Sázavou",
+    "river": "Sázava",
+    "lat": 49.6647682,
+    "lng": 15.4034122,
+    "tempC": 12.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-257000",
+    "name": "Svinov",
+    "river": "Odra",
+    "lat": 49.8197711,
+    "lng": 18.2169637,
+    "tempC": 14.4,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-207700",
+    "name": "Šindelová",
+    "river": "Rotava",
+    "lat": 50.316944,
+    "lng": 12.5982743,
+    "tempC": 9.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-154600",
+    "name": "Štěchovice",
+    "river": "Kocába",
+    "lat": 49.8481438,
+    "lng": 14.4028905,
+    "tempC": 10.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-183000",
+    "name": "Štěnovice",
+    "river": "Úhlava",
+    "lat": 49.6768049,
+    "lng": 13.4027498,
+    "tempC": 13.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-364000",
+    "name": "Šternberk",
+    "river": "Sitka",
+    "lat": 49.7305682,
+    "lng": 17.2955886,
+    "tempC": 12.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-389000",
+    "name": "Teplice",
+    "river": "Bečva",
+    "lat": 49.5300319,
+    "lng": 17.745986,
+    "tempC": 15.8,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-437000",
+    "name": "Trávní Dvůr",
+    "river": "Dyje",
+    "lat": 48.7908632,
+    "lng": 16.4376431,
+    "tempC": 14.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-172000",
+    "name": "Třebel",
+    "river": "Kosový potok",
+    "lat": 49.8266603,
+    "lng": 12.8390084,
+    "tempC": 9.7,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-162520",
+    "name": "Tukleky",
+    "river": "Želivka",
+    "lat": 49.5507491,
+    "lng": 15.2162746,
+    "tempC": 11.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-037000",
+    "name": "Týniště nad Orlicí",
+    "river": "Orlice",
+    "lat": 50.1485899,
+    "lng": 16.067054,
+    "tempC": 13.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-418000",
+    "name": "Uherský Brod",
+    "river": "Olšava",
+    "lat": 49.0161967,
+    "lng": 17.6437479,
+    "tempC": 14.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-316500",
+    "name": "Uhlířská",
+    "river": "Černá Nisa",
+    "lat": 50.8241852,
+    "lng": 15.1470247,
+    "tempC": 8.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-191200",
+    "name": "Uhrovic mlýn",
+    "river": "Javornice",
+    "lat": 49.9944101,
+    "lng": 13.6246076,
+    "tempC": 10.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-132200",
+    "name": "Úraz",
+    "river": "Chotovinský potok",
+    "lat": 49.5150077,
+    "lng": 14.702966,
+    "tempC": 10.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-378100",
+    "name": "Ústí",
+    "river": "Senice",
+    "lat": 49.3055993,
+    "lng": 18.0024286,
+    "tempC": 12.1,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-387000",
+    "name": "Valašské Meziříčí",
+    "river": "Rožnovská Bečva",
+    "lat": 49.4729373,
+    "lng": 17.9774385,
+    "tempC": 12.6,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-153000",
+    "name": "Varvažov",
+    "river": "Skalice",
+    "lat": 49.4396853,
+    "lng": 14.1280304,
+    "tempC": 11.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-212000",
+    "name": "VD Březová",
+    "river": "Teplá",
+    "lat": 50.1949455,
+    "lng": 12.8599793,
+    "tempC": 15.9,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-205020",
+    "name": "Vědlice",
+    "river": "Úštěcký potok",
+    "lat": 50.5266649,
+    "lng": 14.3449046,
+    "tempC": 12.7,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-308000",
+    "name": "Velká Kraš",
+    "river": "Černý potok",
+    "lat": 50.3604067,
+    "lng": 17.1634242,
+    "tempC": 10.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-270000",
+    "name": "Velká Štáhle",
+    "river": "Moravice",
+    "lat": 49.9325013,
+    "lng": 17.3517859,
+    "tempC": 9.2,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-252700",
+    "name": "Velké Albrechtice",
+    "river": "Bílovka",
+    "lat": 49.7459015,
+    "lng": 18.0692368,
+    "tempC": 13.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-370000",
+    "name": "Velké Karlovice",
+    "river": "Vsetínská Bečva",
+    "lat": 49.36086,
+    "lng": 18.2827864,
+    "tempC": 9.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-097000",
+    "name": "Velký Rečkov",
+    "river": "Bělá",
+    "lat": 50.4975493,
+    "lng": 14.8935859,
+    "tempC": 12.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-202300",
+    "name": "Velvary",
+    "river": "Bakovský potok",
+    "lat": 50.2837849,
+    "lng": 14.2366135,
+    "tempC": 12,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-077000",
+    "name": "Vestec",
+    "river": "Mrlina",
+    "lat": 50.2397659,
+    "lng": 15.1455674,
+    "tempC": 15.3,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-004200",
+    "name": "Vestřev",
+    "river": "Labe",
+    "lat": 50.5144063,
+    "lng": 15.7417222,
+    "tempC": 11.3,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-448000",
+    "name": "Veverská Bítýška",
+    "river": "Svratka",
+    "lat": 49.2774573,
+    "lng": 16.4396821,
+    "tempC": 13,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-309000",
+    "name": "Vidnava",
+    "river": "Vidnavka",
+    "lat": 50.3733533,
+    "lng": 17.1824646,
+    "tempC": 11.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-215700",
+    "name": "Vilémov",
+    "river": "Liboc",
+    "lat": 50.3006483,
+    "lng": 13.3083486,
+    "tempC": 12.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-445000",
+    "name": "Vír pod vyrovnávací nádrží",
+    "river": "Svratka",
+    "lat": 49.5428842,
+    "lng": 16.337754,
+    "tempC": 12.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-341000",
+    "name": "Vlaské",
+    "river": "Morava",
+    "lat": 50.0883912,
+    "lng": 16.9012723,
+    "tempC": 9.1,
+    "measuredAt": "2026-09-29T10:00:00Z"
+  },
+  {
+    "stationId": "0-203-1-203000",
+    "name": "Vraňany",
+    "river": "Vltava",
+    "lat": 50.3133062,
+    "lng": 14.3626379,
+    "tempC": 15.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-434000",
+    "name": "Vranov - Hamry",
+    "river": "Dyje",
+    "lat": 48.8946231,
+    "lng": 15.8190989,
+    "tempC": 12.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-256000",
+    "name": "Vřesina",
+    "river": "Porubka",
+    "lat": 49.8290172,
+    "lng": 18.1265413,
+    "tempC": 10.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-400000",
+    "name": "Vyškov",
+    "river": "Haná",
+    "lat": 49.2818068,
+    "lng": 16.9952908,
+    "tempC": 10.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-285900",
+    "name": "Vyšní Lhoty tok",
+    "river": "Morávka",
+    "lat": 49.6266715,
+    "lng": 18.4634914,
+    "tempC": 13.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-109000",
+    "name": "Vyšší Brod",
+    "river": "Vltava",
+    "lat": 48.6254571,
+    "lng": 14.3058508,
+    "tempC": 17.2,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-194500",
+    "name": "Zbečno",
+    "river": "Berounka",
+    "lat": 50.0402531,
+    "lng": 13.9201042,
+    "tempC": 14.8,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-376000",
+    "name": "Zděchov",
+    "river": "Zděchovka",
+    "lat": 49.2646402,
+    "lng": 18.0779191,
+    "tempC": 7.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-412000",
+    "name": "Zlín",
+    "river": "Dřevnice",
+    "lat": 49.2308418,
+    "lng": 17.672386,
+    "tempC": 13.6,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-435000",
+    "name": "Znojmo",
+    "river": "Dyje",
+    "lat": 48.8539112,
+    "lng": 16.0428039,
+    "tempC": 14.4,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-161000",
+    "name": "Zruč nad Sázavou",
+    "river": "Sázava",
+    "lat": 49.7408584,
+    "lng": 15.1014037,
+    "tempC": 12.9,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-154900",
+    "name": "Žďár nad Sázavou",
+    "river": "Sázava",
+    "lat": 49.5612975,
+    "lng": 15.9312135,
+    "tempC": 13.3,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-186800",
+    "name": "Ždírec",
+    "river": "Úslava",
+    "lat": 49.552843,
+    "lng": 13.5750189,
+    "tempC": 11.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-091000",
+    "name": "Železný Brod",
+    "river": "Jizera",
+    "lat": 50.639942,
+    "lng": 15.2744079,
+    "tempC": 10.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-162000",
+    "name": "Želiv",
+    "river": "Želivka",
+    "lat": 49.5284672,
+    "lng": 15.2417076,
+    "tempC": 13.1,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-162300",
+    "name": "Želiv - Trnávka",
+    "river": "Trnava",
+    "lat": 49.5273908,
+    "lng": 15.2158881,
+    "tempC": 16.2,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-204500",
+    "name": "Želízy",
+    "river": "Liběchovka",
+    "lat": 50.4220042,
+    "lng": 14.4605861,
+    "tempC": 11.7,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-291000",
+    "name": "Žermanice pod nádrží",
+    "river": "Lučina",
+    "lat": 49.7339753,
+    "lng": 18.4446815,
+    "tempC": 14.5,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  },
+  {
+    "stationId": "0-203-1-462000",
+    "name": "Židlochovice",
+    "river": "Svratka",
+    "lat": 49.0363107,
+    "lng": 16.6162645,
+    "tempC": 19.8,
+    "measuredAt": "2026-09-29T10:50:00Z"
+  },
+  {
+    "stationId": "0-203-1-307000",
+    "name": "Žulová",
+    "river": "Stříbrný potok",
+    "lat": 50.305521,
+    "lng": 17.0926645,
+    "tempC": 11.9,
+    "measuredAt": "2026-09-29T10:40:00Z"
+  }
+]

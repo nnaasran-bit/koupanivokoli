@@ -4,19 +4,16 @@ import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { allLocations } from "@/lib/data";
 import { TYPE_LABELS } from "@/lib/quality";
+import { REPORT_KINDS } from "@/lib/gamify";
 import type { LocationType } from "@/lib/types";
 
 const MapPicker = dynamic(() => import("./MapPicker"), { ssr: false });
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
-// Druhy hlášení u existujícího místa.
-const EXISTING_KINDS = [
-  { id: "kvalita_zhorsena", label: "Zhoršená voda / zákal", emoji: "🌫️", points: 10 },
-  { id: "sinice", label: "Sinice / zelená voda", emoji: "🦠", points: 15 },
-  { id: "riziko", label: "Nebezpečí / odpad", emoji: "⚠️", points: 15 },
-  { id: "kvalita_ok", label: "Voda vypadá čistě", emoji: "💧", points: 10 },
-];
+// Druhy hlášení u existujícího místa – vše z lib/gamify.ts kromě založení
+// nového místa (to má vlastní krok s mapou výš).
+const EXISTING_KINDS = REPORT_KINDS.filter((k) => !k.isNewPlace);
 
 const NEW_TYPES: LocationType[] = ["lom", "piskovna", "jezero", "rybnik", "prehrada", "reka", "neoficialni"];
 

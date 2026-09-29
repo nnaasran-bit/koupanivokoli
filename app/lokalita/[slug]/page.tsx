@@ -13,6 +13,7 @@ import RatingWidget from "@/components/RatingWidget";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { slugForRegion } from "@/lib/regions";
 import { amenityDef } from "@/lib/gamify";
+import { nearestWaterTemp } from "@/lib/watertemp";
 import {
   ACCESS_LABELS,
   POOL_COLOR,
@@ -103,6 +104,12 @@ export default async function LocationPage({
   const aColor = ACCESS_COLOR[loc.access.status];
   const url = `${SITE_URL}/lokalita/${loc.slug}`;
   const regionSlug = loc.region ? slugForRegion(loc.region) : undefined;
+
+  // Živá teplota vody (ČHMÚ) – jen u přírodní vody, ne u bazénů/kempů, kde
+  // teplota nejbližší říční stanice nic nevypovídá.
+  const NATURAL = new Set(["reka", "jezero", "prehrada", "rybnik", "lom", "piskovna", "biotop", "koupaci_oblast", "prirodni_koupaliste"]);
+  const waterTemp = NATURAL.has(loc.type) ? nearestWaterTemp(loc.lat, loc.lng) : null;
+  const tempFreshness = waterTemp ? freshness(waterTemp.measuredAt) : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -224,6 +231,19 @@ export default async function LocationPage({
               {loc.access.note && <p className="mt-2 text-sm text-slate-600">{loc.access.note}</p>}
             </div>
           </div>
+
+          {waterTemp && (
+            <div className="mt-3 flex items-center gap-3 rounded-2xl border border-sky-200 bg-sky-50 p-4">
+              <span className="text-3xl leading-none">🌡️</span>
+              <div>
+                <div className="text-lg font-bold text-slate-900">{waterTemp.tempC.toFixed(1)} °C</div>
+                <div className="text-xs text-slate-500">
+                  Teplota vody · nejbližší stanice ČHMÚ <span className="font-medium text-slate-700">{waterTemp.name}</span>{" "}
+                  ({waterTemp.river}), {waterTemp.distanceKm.toFixed(1)} km odsud · měřeno {tempFreshness!.label}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
@@ -367,6 +387,11 @@ export default async function LocationPage({
               <a href={loc.quality.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
                 odkaz
               </a>
+            </p>
+          )}
+          {waterTemp && (
+            <p>
+              Teplota vody: ČHMÚ (otevřená hydrologická data), nejbližší stanice na profilu, ne přímo v místě – orientační.
             </p>
           )}
         </div>

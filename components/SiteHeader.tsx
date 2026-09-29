@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { SITE_NAME } from "@/lib/site";
+import { currentSeason } from "@/lib/season";
 import MobileMenu from "./MobileMenu";
 
 export function BrandLogo({ className = "" }: { className?: string }) {
@@ -11,17 +12,24 @@ export function BrandLogo({ className = "" }: { className?: string }) {
   );
 }
 
-const NAV = [
-  { href: "/", label: "🗺️ Mapa" },
-  { href: "/koupani", label: "Kraje" },
-  { href: "/otuzovani", label: "❄️ Otužování" },
-  { href: "/seznam/lomy", label: "Lomy" },
-  { href: "/kvalita-vody", label: "Kvalita vody" },
-  { href: "/zebricek", label: "🏆 Žebříček" },
-  { href: "/profil", label: "Profil" },
-];
+const MAPA = { href: "/", label: "🗺️ Mapa" };
+const KRAJE = { href: "/koupani", label: "Kraje" };
+const OTUZOVANI = { href: "/otuzovani", label: "❄️ Otužování" };
+const LOMY = { href: "/seznam/lomy", label: "Lomy" };
+const KVALITA = { href: "/kvalita-vody", label: "Kvalita vody" };
+const ZEBRICEK = { href: "/zebricek", label: "🏆 Žebříček" };
+const PROFIL = { href: "/profil", label: "Profil" };
+
+// Pořadí položek se sezónně přehodí – v otužovací sezóně (září–duben) je
+// odkaz hned vedle mapy, v koupací sezóně dál v menu.
+function navItems() {
+  return currentSeason() === "zima"
+    ? [MAPA, OTUZOVANI, KRAJE, LOMY, KVALITA, ZEBRICEK, PROFIL]
+    : [MAPA, KRAJE, LOMY, KVALITA, OTUZOVANI, ZEBRICEK, PROFIL];
+}
 
 export default function SiteHeader() {
+  const NAV = navItems();
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200/70 bg-white/85 backdrop-blur-md">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-2">

@@ -5,6 +5,8 @@ export type ReportKind =
   | "kvalita_zhorsena"
   | "sinice"
   | "riziko"
+  | "led"
+  | "otuzoval_jsem_se"
   | "nove_misto";
 
 export interface KindDef {
@@ -20,6 +22,8 @@ export const REPORT_KINDS: KindDef[] = [
   { id: "kvalita_zhorsena", label: "Zhoršená voda / zákal", emoji: "🌫️", points: 10 },
   { id: "sinice", label: "Sinice / zelená voda", emoji: "🦠", points: 15 },
   { id: "riziko", label: "Nebezpečí / odpad", emoji: "⚠️", points: 15 },
+  { id: "led", label: "Led na hladině", emoji: "🧊", points: 15 },
+  { id: "otuzoval_jsem_se", label: "Otužoval/a jsem se tady", emoji: "❄️", points: 10 },
   { id: "nove_misto", label: "Navrhnout nové místo", emoji: "📍", points: 25, isNewPlace: true },
 ];
 
@@ -140,6 +144,7 @@ export function badgesFor(
   if (user.reportCount >= 20) b.push({ id: "veteran", name: "Veterán", emoji: "🎖️", desc: "20 hlášení." });
   if (reports.some((r) => r.kind === "nove_misto")) b.push({ id: "objevitel", name: "Objevitel", emoji: "🧭", desc: "Navrhl jsi nové místo." });
   if (reports.some((r) => r.kind === "sinice")) b.push({ id: "radar", name: "Sinicový radar", emoji: "🦠", desc: "Nahlásil jsi sinice." });
+  if (reports.some((r) => r.kind === "otuzoval_jsem_se")) b.push({ id: "ledovy_medved", name: "Ledový medvěd", emoji: "🐻‍❄️", desc: "Nahlásil jsi otužování v přírodní vodě." });
   const visits = user.visitCount ?? 0;
   if (visits >= 1) b.push({ id: "cestovatel", name: "Cestovatel", emoji: "🏖️", desc: "Navštívil jsi první místo." });
   if (visits >= 10) b.push({ id: "tulak", name: "Tulák", emoji: "🥾", desc: "10 navštívených míst." });

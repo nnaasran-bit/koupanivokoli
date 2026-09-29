@@ -6,6 +6,7 @@ import { allLocations } from "@/lib/data";
 import { otuzovaniLocations, OTUZOVANI_TYPE_GROUPS } from "@/lib/otuzovani";
 import { DEFAULT_FILTERS, distanceKm, filterLocations, type Filters } from "@/lib/filters";
 import { ACCESS_LABELS, QUALITY_COLORS, QUALITY_LABELS, TYPE_LABELS } from "@/lib/quality";
+import { nearestWaterTemp } from "@/lib/watertemp";
 import type { LocationType } from "@/lib/types";
 
 function Chip({
@@ -61,6 +62,12 @@ export default function OtuzovaniExplorer() {
     if (center) arr.sort((a, b) => (a.d ?? 0) - (b.d ?? 0));
     return arr;
   }, [filtered, userLoc, area]);
+  // Teplota se počítá jen jednou na filtrovanou sadu, ne při každém renderu.
+  const temps = useMemo(() => {
+    const m = new Map<string, ReturnType<typeof nearestWaterTemp>>();
+    for (const l of filtered) m.set(l.id, nearestWaterTemp(l.lat, l.lng));
+    return m;
+  }, [filtered]);
 
   const handleNearby = () => {
     if (typeof navigator === "undefined" || !navigator.geolocation) {
@@ -134,11 +141,18 @@ export default function OtuzovaniExplorer() {
                   >
                     <div className="flex items-center justify-between gap-2">
                       <span className="truncate text-sm font-semibold text-slate-900">{l.name}</span>
-                      {d != null && (
-                        <span className="shrink-0 rounded-full bg-sky-50 px-2 py-0.5 text-[11px] font-medium text-sky-700">
-                          {d.toFixed(1)} km
-                        </span>
-                      )}
+                      <span className="flex shrink-0 items-center gap-1">
+                        {temps.get(l.id) && (
+                          <span className="rounded-full bg-orange-50 px-2 py-0.5 text-[11px] font-semibold text-orange-700">
+                            🌡️ {temps.get(l.id)!.tempC.toFixed(1)} °C
+                          </span>
+                        )}
+                        {d != null && (
+                          <span className="rounded-full bg-sky-50 px-2 py-0.5 text-[11px] font-medium text-sky-700">
+                            {d.toFixed(1)} km
+                          </span>
+                        )}
+                      </span>
                     </div>
                     <div className="mt-0.5 flex items-center gap-1.5 text-xs text-slate-600">
                       <span

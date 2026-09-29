@@ -91,6 +91,9 @@ export default function OtuzovaniPage() {
           proud, přístup) – to za tebe mapa neudělá.
         </p>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <Link href="/otuzovani/tipy-a-triky" className="rounded-full bg-sky-700 px-3.5 py-1.5 font-semibold text-white hover:brightness-105">
+            10 tipů a triků →
+          </Link>
           <Link href="/kvalita-vody" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
             Jak číst kvalitu vody
           </Link>
@@ -103,7 +106,8 @@ export default function OtuzovaniPage() {
       <h2 className="mt-8 text-lg font-bold text-slate-900">Mapa míst k otužování</h2>
       <p className="mt-1 text-sm text-slate-500">
         Filtruj podle typu vody nebo najdi místa ve svém okolí. Barva tečky ukazuje poslední
-        známou kvalitu vody (v zimě orientační – teplotu ani led nesledujeme).
+        známou kvalitu vody, oranžový štítek 🌡️ aktuální teplotu vody z nejbližší stanice ČHMÚ
+        (do 15 km) – led ani proud stále nesledujeme, to je na tvém vlastním posouzení na místě.
       </p>
       <div className="mt-3 flex h-[70vh] max-h-[720px] min-h-[420px]">
         <OtuzovaniExplorer />
@@ -142,6 +146,12 @@ export default function OtuzovaniPage() {
           </p>
         </div>
       </div>
+
+      <p className="mt-4">
+        <Link href="/otuzovani/tipy-a-triky" className="text-sm font-semibold text-brand hover:underline">
+          → Dalších 10 tipů a triků (dýchání, vybavení, deník otužování, časté chyby)
+        </Link>
+      </p>
 
       <h2 className="mt-8 text-lg font-bold text-slate-900">Kdy se otužování raději vyhnout</h2>
       <p className="mt-2 text-sm text-slate-600">
