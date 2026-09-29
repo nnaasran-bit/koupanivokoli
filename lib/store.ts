@@ -62,7 +62,7 @@ function ensureSchema(): Promise<void> {
         PRIMARY KEY (location_slug, ip_hash))`;
       await db`CREATE TABLE IF NOT EXISTS spolek_submissions (
         id text PRIMARY KEY, name text NOT NULL, city text NOT NULL, region text NOT NULL,
-        schedule text, place text, desc text, contact text, ip_hash text NOT NULL,
+        schedule text, place text, note text, contact text, ip_hash text NOT NULL,
         created_at timestamptz NOT NULL DEFAULT now())`;
     })();
   }
@@ -121,7 +121,7 @@ function toSpolekSubmission(r: any): SpolekSubmission {
     region: r.region,
     schedule: r.schedule ?? undefined,
     place: r.place ?? undefined,
-    desc: r.desc ?? undefined,
+    desc: r.note ?? undefined,
     contact: r.contact ?? undefined,
     createdAt: new Date(r.created_at).toISOString(),
   };
@@ -546,7 +546,7 @@ export async function addSpolekSubmission(
   const s: SpolekSubmission = { ...input, id: randomUUID(), createdAt: new Date().toISOString() };
   if (sql) {
     await ensureSchema();
-    await sql`INSERT INTO spolek_submissions (id, name, city, region, schedule, place, desc, contact, ip_hash)
+    await sql`INSERT INTO spolek_submissions (id, name, city, region, schedule, place, note, contact, ip_hash)
       VALUES (${s.id}, ${s.name}, ${s.city}, ${s.region}, ${s.schedule ?? null}, ${s.place ?? null},
         ${s.desc ?? null}, ${s.contact ?? null}, ${ipHashValue})`;
     return s;
