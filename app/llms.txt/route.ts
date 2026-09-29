@@ -1,6 +1,7 @@
 import { allLocations } from "@/lib/data";
 import { REGIONS } from "@/lib/regions";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
+import { SPOLKY } from "@/lib/spolky";
 
 // /llms.txt – standard pro AI/LLM crawlery (popis webu strojově čitelně).
 export function GET() {
@@ -18,6 +19,8 @@ a vždy uvádí zdroj a stáří informace.
   živá teplota vody z ČHMÚ, bezpečnostní zásady a postup pro začátečníky
 - [Tipy a triky na otužování](${SITE_URL}/otuzovani/tipy-a-triky): dýchání, vybavení, frekvence,
   kombinace se saunou, časté chyby začátečníků
+- [Otužilecké spolky a party](${SITE_URL}/otuzovani/spolky): ${SPOLKY.length} komunitních part a
+  registrovaných oddílů po celé ČR s dnem/časem srazu a kontaktem
 - [Kvalita vody – vysvětlení](${SITE_URL}/kvalita-vody): význam barev a stupňů jakosti vody
 - [Žebříček komunity](${SITE_URL}/zebricek)
 - [Nahlásit stav vody nebo nové místo](${SITE_URL}/nahlasit)
@@ -34,6 +37,8 @@ ${REGIONS.map((r) => `- [Koupání v ${r.name}](${SITE_URL}/koupani/${r.slug})`)
 - Oficiální kvalita vody: Ministerstvo zdravotnictví, SZÚ, krajské hygienické stanice (portál Koupací vody)
 - Body míst ke koupání: OpenStreetMap (licence ODbL, © OpenStreetMap přispěvatelé)
 - Počasí a hydrologie: ČHMÚ
+- Otužilecké spolky a party: ručně kurátorováno z otuzovani.eu a zimni-plavani.info
+  (Česká otužilecká unie) – viz zdroj u každého záznamu
 - Komunitní hlášení: orientační, moderovaná; nikdy nemění oficiální kvalitu vody
 
 ## Upozornění

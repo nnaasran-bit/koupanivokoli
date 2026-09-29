@@ -30,6 +30,7 @@ export default function Footer() {
           <div className="text-sm font-semibold text-slate-900">Komunita</div>
           <ul className="mt-3 space-y-2 text-sm text-slate-500">
             <li><Link href="/nahlasit" className="hover:text-brand">Nahlásit místo / stav</Link></li>
+            <li><Link href="/otuzovani/spolky" className="hover:text-brand">Otužilecké spolky a party</Link></li>
             <li><Link href="/zebricek" className="hover:text-brand">Žebříček</Link></li>
             <li><Link href="/profil" className="hover:text-brand">Můj profil</Link></li>
           </ul>

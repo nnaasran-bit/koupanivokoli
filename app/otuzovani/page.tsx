@@ -91,14 +91,14 @@ export default function OtuzovaniPage() {
           proud, přístup) – to za tebe mapa neudělá.
         </p>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
-          <Link href="/otuzovani/tipy-a-triky" className="rounded-full bg-sky-700 px-3.5 py-1.5 font-semibold text-white hover:brightness-105">
-            10 tipů a triků →
+          <Link href="/otuzovani/spolky" className="rounded-full bg-sky-700 px-3.5 py-1.5 font-semibold text-white hover:brightness-105">
+            Najít partu ve svém okolí →
+          </Link>
+          <Link href="/otuzovani/tipy-a-triky" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
+            10 tipů a triků
           </Link>
           <Link href="/kvalita-vody" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
             Jak číst kvalitu vody
-          </Link>
-          <Link href="/nahlasit" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
-            Nahlásit dobré místo k otužování
           </Link>
         </div>
       </div>
@@ -147,9 +147,12 @@ export default function OtuzovaniPage() {
         </div>
       </div>
 
-      <p className="mt-4">
-        <Link href="/otuzovani/tipy-a-triky" className="text-sm font-semibold text-brand hover:underline">
+      <p className="mt-4 space-y-1">
+        <Link href="/otuzovani/tipy-a-triky" className="block text-sm font-semibold text-brand hover:underline">
           → Dalších 10 tipů a triků (dýchání, vybavení, deník otužování, časté chyby)
+        </Link>
+        <Link href="/otuzovani/spolky" className="block text-sm font-semibold text-brand hover:underline">
+          → Otužilecké spolky a party – najdi partu ve svém kraji
         </Link>
       </p>
 

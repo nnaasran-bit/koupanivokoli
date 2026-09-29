@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { allLocations } from "@/lib/data";
 import { REGIONS } from "@/lib/regions";
 import { SITE_URL } from "@/lib/site";
+import { SPOLKY } from "@/lib/spolky";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -10,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/koupani`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/otuzovani`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/otuzovani/tipy-a-triky`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/otuzovani/spolky`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/kvalita-vody`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/zebricek`, lastModified: now, changeFrequency: "daily", priority: 0.5 },
     { url: `${SITE_URL}/nahlasit`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
@@ -36,5 +38,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly",
     priority: l.monitored ? 0.8 : 0.6,
   }));
-  return [...statics, ...regions, ...lists, ...locations];
+  const spolky: MetadataRoute.Sitemap = SPOLKY.map((s) => ({
+    url: `${SITE_URL}/otuzovani/spolky/${s.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.5,
+  }));
+  return [...statics, ...regions, ...lists, ...locations, ...spolky];
 }
