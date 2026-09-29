@@ -24,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly",
     priority: 0.7,
   }));
+  const otuzovaniRegions: MetadataRoute.Sitemap = REGIONS.map((r) => ({
+    url: `${SITE_URL}/otuzovani/${r.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
   const lists: MetadataRoute.Sitemap = [
     "lomy", "piskovny", "prehrady", "jezera", "rybniky", "koupaliste", "bazeny", "kempy",
   ].map((t) => ({
@@ -44,5 +50,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly",
     priority: 0.5,
   }));
-  return [...statics, ...regions, ...lists, ...locations, ...spolky];
+  return [...statics, ...regions, ...otuzovaniRegions, ...lists, ...locations, ...spolky];
 }

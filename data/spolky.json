@@ -679,5 +679,16 @@
     "sourceUrl": "https://zimni-plavani.info/oddily/",
     "sourceName": "Zimní plavání / Česká otužilecká unie",
     "contactUrl": "https://zimni-plavani.info/oddily/"
+  },
+  {
+    "name": "Nedělní otužilci u Pahorku",
+    "type": "parta",
+    "city": "Pelhřimov",
+    "region": "Kraj Vysočina",
+    "schedule": "neděle 17:00, za každého počasí",
+    "place": "u Pahorku",
+    "desc": "Neformální parta, žádný registrovaný spolek – scházejí se každou neděli v 17:00 bez ohledu na počasí.",
+    "slug": "nedelni-otuzilci-u-pahorku-pelhrimov",
+    "sourceName": "místní tip (bez veřejného zdroje)"
   }
 ]

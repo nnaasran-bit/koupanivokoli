@@ -4,6 +4,7 @@ import ContentLayout from "@/components/ContentLayout";
 import OtuzovaniExplorer from "@/components/OtuzovaniExplorer";
 import { allLocations } from "@/lib/data";
 import { otuzovaniLocations } from "@/lib/otuzovani";
+import { REGIONS } from "@/lib/regions";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -101,6 +102,19 @@ export default function OtuzovaniPage() {
             Jak číst kvalitu vody
           </Link>
         </div>
+      </div>
+
+      <h2 className="mt-8 text-lg font-bold text-slate-900">Otužování podle kraje</h2>
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        {REGIONS.map((r) => (
+          <Link
+            key={r.slug}
+            href={`/otuzovani/${r.slug}`}
+            className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 hover:border-sky-300 hover:text-sky-700"
+          >
+            {r.name}
+          </Link>
+        ))}
       </div>
 
       <h2 className="mt-8 text-lg font-bold text-slate-900">Mapa míst k otužování</h2>

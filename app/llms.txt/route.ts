@@ -33,6 +33,9 @@ a vždy uvádí zdroj a stáří informace.
 ## Koupání podle krajů
 ${REGIONS.map((r) => `- [Koupání v ${r.name}](${SITE_URL}/koupani/${r.slug})`).join("\n")}
 
+## Otužování podle krajů
+${REGIONS.map((r) => `- [Otužování v ${r.name}](${SITE_URL}/otuzovani/${r.slug})`).join("\n")}
+
 ## Zdroje dat a licence
 - Oficiální kvalita vody: Ministerstvo zdravotnictví, SZÚ, krajské hygienické stanice (portál Koupací vody)
 - Body míst ke koupání: OpenStreetMap (licence ODbL, © OpenStreetMap přispěvatelé)

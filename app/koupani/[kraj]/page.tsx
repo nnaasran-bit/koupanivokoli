@@ -99,7 +99,10 @@ export default async function RegionPage({ params }: { params: Promise<{ kraj: s
         Koupání v {region.name}
       </h1>
       <p className="mt-2 text-slate-600">
-        Místa ke koupání v kraji – kvalita vody, koupaliště, jezera, lomy a přehrady.
+        Místa ke koupání v kraji – kvalita vody, koupaliště, jezera, lomy a přehrady.{" "}
+        <Link href={`/otuzovani/${region.slug}`} className="font-semibold text-brand hover:underline">
+          ❄️ V zimě: otužování v {region.name}
+        </Link>
       </p>
 
       <div className="mt-5 grid grid-cols-3 gap-3">

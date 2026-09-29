@@ -6,6 +6,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { neon } from "@neondatabase/serverless";
 import type { Contribution, PublicUser, Report } from "./gamify";
+import type { SpolekSubmission } from "./spolky";
 
 const CONN = process.env.DATABASE_URL || process.env.POSTGRES_URL || "";
 const sql = CONN ? neon(CONN) : null;
@@ -59,6 +60,10 @@ function ensureSchema(): Promise<void> {
         location_slug text NOT NULL, ip_hash text NOT NULL, value smallint NOT NULL,
         created_at timestamptz NOT NULL DEFAULT now(),
         PRIMARY KEY (location_slug, ip_hash))`;
+      await db`CREATE TABLE IF NOT EXISTS spolek_submissions (
+        id text PRIMARY KEY, name text NOT NULL, city text NOT NULL, region text NOT NULL,
+        schedule text, place text, desc text, contact text, ip_hash text NOT NULL,
+        created_at timestamptz NOT NULL DEFAULT now())`;
     })();
   }
   return schemaReady;
@@ -108,6 +113,19 @@ function toContribution(r: any): Contribution {
     createdAt: new Date(r.created_at).toISOString(),
   };
 }
+function toSpolekSubmission(r: any): SpolekSubmission {
+  return {
+    id: r.id,
+    name: r.name,
+    city: r.city,
+    region: r.region,
+    schedule: r.schedule ?? undefined,
+    place: r.place ?? undefined,
+    desc: r.desc ?? undefined,
+    contact: r.contact ?? undefined,
+    createdAt: new Date(r.created_at).toISOString(),
+  };
+}
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
 /* ---------- file fallback (lokální vývoj bez DB) ---------- */
@@ -118,15 +136,19 @@ interface Rating {
   ip_hash: string;
   value: number;
 }
+interface StoredSpolekSubmission extends SpolekSubmission {
+  ipHash: string;
+}
 interface DB {
   users: StoredUser[];
   sessions: { token: string; userId: string; createdAt: string }[];
   reports: Report[];
   contributions: Contribution[];
   ratings: Rating[];
+  spolekSubmissions: StoredSpolekSubmission[];
 }
 function readFile(): DB {
-  const empty: DB = { users: [], sessions: [], reports: [], contributions: [], ratings: [] };
+  const empty: DB = { users: [], sessions: [], reports: [], contributions: [], ratings: [], spolekSubmissions: [] };
   try {
     if (!existsSync(FILE)) return empty;
     const db = JSON.parse(readFileSync(FILE, "utf8"));
@@ -136,6 +158,7 @@ function readFile(): DB {
       reports: db.reports ?? [],
       contributions: db.contributions ?? [],
       ratings: db.ratings ?? [],
+      spolekSubmissions: db.spolekSubmissions ?? [],
     };
   } catch {
     return empty;
@@ -467,7 +490,8 @@ export async function wipeAllUsers(): Promise<void> {
     await sql`DELETE FROM users`;
     return;
   }
-  writeFile({ users: [], sessions: [], reports: [], contributions: [], ratings: readFile().ratings });
+  const kept = readFile();
+  writeFile({ users: [], sessions: [], reports: [], contributions: [], ratings: kept.ratings, spolekSubmissions: kept.spolekSubmissions });
 }
 
 export async function leaderboard(limit = 50): Promise<PublicUser[]> {
@@ -509,4 +533,66 @@ export async function contributionsByLocation(slug: string): Promise<Contributio
     return rows.map(toContribution);
   }
   return readFile().contributions.filter((c) => c.locationSlug === slug);
+}
+
+/* ---------- Otužilecké spolky přidané komunitou (bez registrace) ---------- */
+
+type SpolekSubmissionInput = Omit<SpolekSubmission, "id" | "createdAt">;
+
+export async function addSpolekSubmission(
+  input: SpolekSubmissionInput,
+  ipHashValue: string,
+): Promise<SpolekSubmission> {
+  const s: SpolekSubmission = { ...input, id: randomUUID(), createdAt: new Date().toISOString() };
+  if (sql) {
+    await ensureSchema();
+    await sql`INSERT INTO spolek_submissions (id, name, city, region, schedule, place, desc, contact, ip_hash)
+      VALUES (${s.id}, ${s.name}, ${s.city}, ${s.region}, ${s.schedule ?? null}, ${s.place ?? null},
+        ${s.desc ?? null}, ${s.contact ?? null}, ${ipHashValue})`;
+    return s;
+  }
+  const db = readFile();
+  db.spolekSubmissions.unshift({ ...s, ipHash: ipHashValue });
+  writeFile(db);
+  return s;
+}
+
+export async function listSpolekSubmissions(): Promise<SpolekSubmission[]> {
+  if (sql) {
+    await ensureSchema();
+    const rows = await sql`SELECT * FROM spolek_submissions ORDER BY created_at DESC`;
+    return rows.map(toSpolekSubmission);
+  }
+  return readFile().spolekSubmissions.map((s) => ({
+    id: s.id,
+    name: s.name,
+    city: s.city,
+    region: s.region,
+    schedule: s.schedule,
+    place: s.place,
+    desc: s.desc,
+    contact: s.contact,
+    createdAt: s.createdAt,
+  }));
+}
+
+export async function countSpolekSubmissionsSince(ipHashValue: string, sinceMs: number): Promise<number> {
+  const iso = new Date(Date.now() - sinceMs).toISOString();
+  if (sql) {
+    await ensureSchema();
+    const r = await sql`SELECT count(*)::int AS n FROM spolek_submissions WHERE ip_hash = ${ipHashValue} AND created_at >= ${iso}::timestamptz`;
+    return r[0]?.n ?? 0;
+  }
+  return readFile().spolekSubmissions.filter((x) => x.ipHash === ipHashValue && x.createdAt >= iso).length;
+}
+
+export async function deleteSpolekSubmission(id: string): Promise<void> {
+  if (sql) {
+    await ensureSchema();
+    await sql`DELETE FROM spolek_submissions WHERE id = ${id}`;
+    return;
+  }
+  const db = readFile();
+  db.spolekSubmissions = db.spolekSubmissions.filter((s) => s.id !== id);
+  writeFile(db);
 }

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ContentLayout from "@/components/ContentLayout";
-import { SPOLKY, spolekBySlug, spolkyByRegion, TYPE_LABEL } from "@/lib/spolky";
+import { SPOLKY, spolekBySlug, spolekMapsUrl, spolkyByRegion, TYPE_LABEL } from "@/lib/spolky";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -108,12 +108,12 @@ export default async function SpolekPage({
 
         <div className="mt-5 flex flex-wrap gap-2">
           <a
-            href={s.contactUrl}
+            href={s.contactUrl ?? spolekMapsUrl(s)}
             target="_blank"
             rel="noopener noreferrer"
             className="brand-gradient rounded-xl px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:brightness-105"
           >
-            {s.website ? "Web spolku" : "Kontakt a víc info"} →
+            {s.contactUrl ? (s.website ? "Web spolku" : "Kontakt a víc info") : "Zobrazit místo na mapě"} →
           </a>
           {s.contactPerson && (
             <span className="flex items-center rounded-xl border border-slate-200 px-4 py-2.5 text-sm text-slate-600">
@@ -141,13 +141,20 @@ export default async function SpolekPage({
       )}
 
       <p className="mt-6 text-xs leading-relaxed text-slate-400">
-        Údaje jsou kurátorované ručně z veřejného zdroje:{" "}
-        <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
-          {s.sourceName}
-        </a>
-        . Časy srazů, kontakty i aktivita party se mohou měnit – ověř si aktuální stav přímo u nich.
+        {s.sourceUrl ? (
+          <>
+            Údaje jsou kurátorované ručně z veřejného zdroje:{" "}
+            <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+              {s.sourceName}
+            </a>
+            .{" "}
+          </>
+        ) : (
+          <>Zdroj: {s.sourceName ?? "komunitní tip"} – bez veřejného odkazu k ověření. </>
+        )}
+        Časy srazů, kontakty i aktivita party se mohou měnit – ověř si aktuální stav přímo na místě.
         Vidíš chybu nebo znáš svou vlastní partu?{" "}
-        <Link href="/nahlasit" className="text-brand hover:underline">Napiš nám</Link>.
+        <Link href="/otuzovani/spolky/pridat" className="text-brand hover:underline">Přidej ji</Link>.
       </p>
     </ContentLayout>
   );
