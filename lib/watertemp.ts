@@ -37,3 +37,18 @@ export function nearestWaterTemp(
   }
   return best;
 }
+
+// Pro stránku „teplotní rekordy" – nejstudenější/nejteplejší aktuálně měřené
+// řeky v ČR. Řadí podle poslední hodnoty, ne podle stáří měření (to všechny
+// stanice aktualizují ~hodinově, takže rozdíl je zanedbatelný).
+export function coldestStations(n = 10): WaterTempStation[] {
+  return [...STATIONS].sort((a, b) => a.tempC - b.tempC).slice(0, n);
+}
+
+export function warmestStations(n = 10): WaterTempStation[] {
+  return [...STATIONS].sort((a, b) => b.tempC - a.tempC).slice(0, n);
+}
+
+export function allStationsCount(): number {
+  return STATIONS.length;
+}

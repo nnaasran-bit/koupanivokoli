@@ -3,6 +3,7 @@ import Link from "next/link";
 import ContentLayout from "@/components/ContentLayout";
 import { allLocations } from "@/lib/data";
 import { REGIONS } from "@/lib/regions";
+import { CITIES } from "@/lib/cities";
 
 export const metadata: Metadata = {
   title: "Koupání podle krajů ČR",
@@ -47,6 +48,20 @@ export default function KoupaniIndex() {
           </li>
         ))}
       </ul>
+
+      <h2 className="mt-10 text-lg font-bold text-slate-900">Top 10 podle většího města</h2>
+      <p className="mt-1 text-sm text-slate-500">Nejlépe hodnocená místa do 35 km od vybraného města.</p>
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        {CITIES.map((c) => (
+          <Link
+            key={c.slug}
+            href={`/nejlepsi-mista/${c.slug}`}
+            className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 hover:border-sky-300 hover:text-sky-700"
+          >
+            {c.name}
+          </Link>
+        ))}
+      </div>
     </ContentLayout>
   );
 }

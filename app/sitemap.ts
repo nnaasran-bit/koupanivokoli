@@ -3,6 +3,7 @@ import { allLocations } from "@/lib/data";
 import { REGIONS } from "@/lib/regions";
 import { SITE_URL } from "@/lib/site";
 import { SPOLKY } from "@/lib/spolky";
+import { CITIES } from "@/lib/cities";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -13,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/otuzovani/tipy-a-triky`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/otuzovani/spolky`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/kvalita-vody`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/teploty-vody`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
     { url: `${SITE_URL}/zebricek`, lastModified: now, changeFrequency: "daily", priority: 0.5 },
     { url: `${SITE_URL}/nahlasit`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/podminky`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
@@ -50,5 +52,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly",
     priority: 0.5,
   }));
-  return [...statics, ...regions, ...otuzovaniRegions, ...lists, ...locations, ...spolky];
+  const nejlepsi: MetadataRoute.Sitemap = CITIES.map((c) => ({
+    url: `${SITE_URL}/nejlepsi-mista/${c.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+  return [...statics, ...regions, ...otuzovaniRegions, ...lists, ...locations, ...spolky, ...nejlepsi];
 }

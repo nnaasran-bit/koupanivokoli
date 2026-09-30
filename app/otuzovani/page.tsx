@@ -98,6 +98,9 @@ export default function OtuzovaniPage() {
           <Link href="/otuzovani/tipy-a-triky" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
             10 tipů a triků
           </Link>
+          <Link href="/teploty-vody" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
+            🌡️ Teplotní rekordy ČR
+          </Link>
           <Link href="/kvalita-vody" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
             Jak číst kvalitu vody
           </Link>

@@ -2,6 +2,7 @@ import { allLocations } from "@/lib/data";
 import { REGIONS } from "@/lib/regions";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import { SPOLKY } from "@/lib/spolky";
+import { CITIES } from "@/lib/cities";
 
 // /llms.txt – standard pro AI/LLM crawlery (popis webu strojově čitelně).
 export function GET() {
@@ -21,6 +22,8 @@ a vždy uvádí zdroj a stáří informace.
   kombinace se saunou, časté chyby začátečníků
 - [Otužilecké spolky a party](${SITE_URL}/otuzovani/spolky): ${SPOLKY.length} komunitních part a
   registrovaných oddílů po celé ČR s dnem/časem srazu a kontaktem
+- [Teplota vody – rekordy](${SITE_URL}/teploty-vody): živý žebříček nejstudenější a nejteplejší
+  vody v ČR podle dat ČHMÚ
 - [Kvalita vody – vysvětlení](${SITE_URL}/kvalita-vody): význam barev a stupňů jakosti vody
 - [Žebříček komunity](${SITE_URL}/zebricek)
 - [Nahlásit stav vody nebo nové místo](${SITE_URL}/nahlasit)
@@ -35,6 +38,9 @@ ${REGIONS.map((r) => `- [Koupání v ${r.name}](${SITE_URL}/koupani/${r.slug})`)
 
 ## Otužování podle krajů
 ${REGIONS.map((r) => `- [Otužování v ${r.name}](${SITE_URL}/otuzovani/${r.slug})`).join("\n")}
+
+## Top 10 nejlepších míst podle většího města
+${CITIES.map((c) => `- [Nejlepší místa u ${c.name}](${SITE_URL}/nejlepsi-mista/${c.slug})`).join("\n")}
 
 ## Zdroje dat a licence
 - Oficiální kvalita vody: Ministerstvo zdravotnictví, SZÚ, krajské hygienické stanice (portál Koupací vody)
