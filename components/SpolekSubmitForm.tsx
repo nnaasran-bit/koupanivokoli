@@ -46,7 +46,7 @@ export default function SpolekSubmitForm() {
         <div className="text-4xl">🎉</div>
         <h2 className="mt-2 text-lg font-bold text-green-800">Díky!</h2>
         <p className="mt-1 text-green-700">
-          Vaše parta se objeví v seznamu se štítkem „od komunity" – ostatní ji uvidí hned, my ji
+          Vaše parta se objeví v seznamu se štítkem „od komunity&quot; – ostatní ji uvidí hned, my ji
           jen občas projdeme kvůli spamu.
         </p>
       </div>

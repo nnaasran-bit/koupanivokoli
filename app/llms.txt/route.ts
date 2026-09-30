@@ -22,6 +22,8 @@ a vždy uvádí zdroj a stáří informace.
   kombinace se saunou, časté chyby začátečníků
 - [Otužilecké spolky a party](${SITE_URL}/otuzovani/spolky): ${SPOLKY.length} komunitních part a
   registrovaných oddílů po celé ČR s dnem/časem srazu a kontaktem
+- [Sauny u vody](${SITE_URL}/otuzovani/sauny): sauny a wellness přímo u přírodní vody – kontrastní
+  koupel k otužování
 - [Teplota vody – rekordy](${SITE_URL}/teploty-vody): živý žebříček nejstudenější a nejteplejší
   vody v ČR podle dat ČHMÚ
 - [Kvalita vody – vysvětlení](${SITE_URL}/kvalita-vody): význam barev a stupňů jakosti vody
@@ -48,6 +50,8 @@ ${CITIES.map((c) => `- [Nejlepší místa u ${c.name}](${SITE_URL}/nejlepsi-mist
 - Počasí a hydrologie: ČHMÚ
 - Otužilecké spolky a party: ručně kurátorováno z otuzovani.eu a zimni-plavani.info
   (Česká otužilecká unie) – viz zdroj u každého záznamu
+- Sauny u vody: ručně kurátorováno z kudyznudy.cz, mujaltan.cz a oficiálních stránek – viz
+  zdroj u každého záznamu
 - Komunitní hlášení: orientační, moderovaná; nikdy nemění oficiální kvalitu vody
 
 ## Upozornění

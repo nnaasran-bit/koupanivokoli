@@ -109,8 +109,6 @@ async function main() {
       },
     );
 
-    const sid = (a.bathingWaterIdentifier || `i${idx}`).replace(/[^a-z0-9]/gi, "").toLowerCase().slice(-8);
-
     out.push({
       id: `eea-${a.bathingWaterIdentifier || idx}`,
       slug: slugify(name), // jednoznačnost dořeší scripts/clean-slugs.mjs

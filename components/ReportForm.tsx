@@ -197,7 +197,7 @@ export default function ReportForm({
       </button>
       <p className="mt-3 text-center text-xs text-zinc-400">
         Komunitní hlášení se moderuje a nemění oficiální kvalitu vody – jen vytvoří upozornění
-        „čeká na ověření".
+        „čeká na ověření&quot;.
       </p>
     </form>
   );

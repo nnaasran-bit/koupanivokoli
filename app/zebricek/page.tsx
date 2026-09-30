@@ -18,7 +18,7 @@ export default async function ZebricekPage() {
       <h2 className="mt-6 text-lg font-bold text-slate-900">🥾 Nejvíc navštívených míst</h2>
       {visitors.length === 0 ? (
         <p className="mt-2 text-sm text-slate-500">
-          Zatím nikdo. Označ „Byl jsem tady" u lomů a míst a začni soutěžit!
+          Zatím nikdo. Označ „Byl jsem tady&quot; u lomů a míst a začni soutěžit!
         </p>
       ) : (
         <ol className="mt-3 space-y-2">

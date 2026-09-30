@@ -321,7 +321,7 @@ export default function ReportWizard() {
         </>
       )}
       <p className="mt-3 text-center text-xs text-slate-400">
-        Hlášení se moderuje a nemění oficiální kvalitu vody – vytvoří upozornění „čeká na ověření".
+        Hlášení se moderuje a nemění oficiální kvalitu vody – vytvoří upozornění „čeká na ověření&quot;.
       </p>
     </div>
   );

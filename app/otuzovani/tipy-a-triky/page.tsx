@@ -154,6 +154,9 @@ export default function OtuzovaniTipyPage() {
           <Link href="/otuzovani" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
             Mapa míst k otužování
           </Link>
+          <Link href="/otuzovani/sauny" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
+            🔥 Sauny u vody
+          </Link>
           <Link href="/nahlasit" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
             Nahlásit led / otužování na místě
           </Link>

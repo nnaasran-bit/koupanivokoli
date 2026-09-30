@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import MapView from "./Map";
 import { allLocations } from "@/lib/data";
 import { DEFAULT_FILTERS, distanceKm, filterLocations, type Filters } from "@/lib/filters";
-import { ACCESS_LABELS, CAMP_COLOR, POOL_COLOR, QUALITY_COLORS, QUALITY_LABELS, TYPE_LABELS, freshness } from "@/lib/quality";
+import { ACCESS_LABELS, CAMP_COLOR, POOL_COLOR, QUALITY_COLORS, QUALITY_LABELS, TYPE_LABELS } from "@/lib/quality";
 import type { Location, LocationType } from "@/lib/types";
 
 const dotColor = (l: Location) =>

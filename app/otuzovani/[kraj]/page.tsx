@@ -5,7 +5,7 @@ import ContentLayout from "@/components/ContentLayout";
 import { allLocations } from "@/lib/data";
 import { otuzovaniLocations } from "@/lib/otuzovani";
 import { REGIONS, regionBySlug } from "@/lib/regions";
-import { SPOLKY, spolkyByRegion, TYPE_LABEL } from "@/lib/spolky";
+import { spolkyByRegion, TYPE_LABEL } from "@/lib/spolky";
 import { listSpolekSubmissions } from "@/lib/store";
 import { nearestWaterTemp } from "@/lib/watertemp";
 import { SITE_NAME, SITE_URL } from "@/lib/site";

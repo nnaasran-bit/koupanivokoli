@@ -98,6 +98,9 @@ export default function OtuzovaniPage() {
           <Link href="/otuzovani/tipy-a-triky" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
             10 tipů a triků
           </Link>
+          <Link href="/otuzovani/sauny" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
+            🔥 Sauny u vody
+          </Link>
           <Link href="/teploty-vody" className="rounded-full border border-sky-200 bg-white px-3.5 py-1.5 font-semibold text-sky-700 hover:bg-sky-50">
             🌡️ Teplotní rekordy ČR
           </Link>
@@ -158,7 +161,7 @@ export default function OtuzovaniPage() {
           <div className="font-semibold text-slate-900">4. Zahřátí hned po vylezení</div>
           <p className="mt-1 text-sm text-slate-600">
             Osuš se, obleč suché teplé vrstvy (čepice, rukavice, ponožky) a rozhýbej se. Tělo se
-            ještě chvíli po výstupu z vody dochlazuje ("after-drop") – proto suché oblečení a
+            ještě chvíli po výstupu z vody dochlazuje (&quot;after-drop&quot;) – proto suché oblečení a
             pohyb, ne horkou sprchu hned na místě.
           </p>
         </div>
