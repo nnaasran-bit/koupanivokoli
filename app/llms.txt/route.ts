@@ -36,13 +36,13 @@ a vždy uvádí zdroj a stáří informace.
 - Kompletní seznam URL: ${SITE_URL}/sitemap.xml
 
 ## Koupání podle krajů
-${REGIONS.map((r) => `- [Koupání v ${r.name}](${SITE_URL}/koupani/${r.slug})`).join("\n")}
+${REGIONS.map((r) => `- [Koupání v ${r.locative}](${SITE_URL}/koupani/${r.slug})`).join("\n")}
 
 ## Otužování podle krajů
-${REGIONS.map((r) => `- [Otužování v ${r.name}](${SITE_URL}/otuzovani/${r.slug})`).join("\n")}
+${REGIONS.map((r) => `- [Otužování v ${r.locative}](${SITE_URL}/otuzovani/${r.slug})`).join("\n")}
 
 ## Top 10 nejlepších míst podle většího města
-${CITIES.map((c) => `- [Nejlepší místa u ${c.name}](${SITE_URL}/nejlepsi-mista/${c.slug})`).join("\n")}
+${CITIES.map((c) => `- [Nejlepší místa u ${c.genitive}](${SITE_URL}/nejlepsi-mista/${c.slug})`).join("\n")}
 
 ## Zdroje dat a licence
 - Oficiální kvalita vody: Ministerstvo zdravotnictví, SZÚ, krajské hygienické stanice (portál Koupací vody)

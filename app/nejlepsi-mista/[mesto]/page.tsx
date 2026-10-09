@@ -39,8 +39,8 @@ export async function generateMetadata({
   const { mesto } = await params;
   const city = cityBySlug(mesto);
   if (!city) return { title: "Město nenalezeno" };
-  const title = `Nejlepší místa na koupání u ${city.name} – Top 10`;
-  const description = `Nejlépe hodnocená místa ke koupání do ${RADIUS_KM} km od ${city.name}: jezera, lomy, rybníky a přehrady seřazené podle hodnocení komunity.`;
+  const title = `Nejlepší místa na koupání u ${city.genitive} – Top 10`;
+  const description = `Nejlépe hodnocená místa ke koupání do ${RADIUS_KM} km od ${city.genitive}: jezera, lomy, rybníky a přehrady seřazené podle hodnocení komunity.`;
   return {
     title,
     description,
@@ -70,7 +70,7 @@ export default async function NejlepsiMistaPage({ params }: { params: Promise<{ 
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: SITE_NAME, item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: `Nejlepší místa u ${city.name}`, item: `${SITE_URL}/nejlepsi-mista/${city.slug}` },
+      { "@type": "ListItem", position: 2, name: `Nejlepší místa u ${city.genitive}`, item: `${SITE_URL}/nejlepsi-mista/${city.slug}` },
     ],
   };
   const itemListLd = {
@@ -90,16 +90,16 @@ export default async function NejlepsiMistaPage({ params }: { params: Promise<{ 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
 
       <nav className="mb-3 text-sm text-slate-500">
-        <Link href="/" className="hover:text-brand">Mapa</Link> · <span className="text-slate-700">Nejlepší místa u {city.name}</span>
+        <Link href="/" className="hover:text-brand">Mapa</Link> · <span className="text-slate-700">Nejlepší místa u {city.genitive}</span>
       </nav>
 
       <h1 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
-        Nejlepší místa na koupání u {city.name}
+        Nejlepší místa na koupání u {city.genitive}
       </h1>
       <p className="mt-2 text-slate-600">
         {ranked.length > 0
-          ? `Top ${ranked.length} míst do ${RADIUS_KM} km od ${city.name}, seřazeno podle hodnocení komunity.`
-          : `Zatím tu nemáme dost hodnocených míst do ${RADIUS_KM} km od ${city.name}.`}
+          ? `Top ${ranked.length} míst do ${RADIUS_KM} km od ${city.genitive}, seřazeno podle hodnocení komunity.`
+          : `Zatím tu nemáme dost hodnocených míst do ${RADIUS_KM} km od ${city.genitive}.`}
       </p>
 
       <ol className="mt-6 space-y-2">

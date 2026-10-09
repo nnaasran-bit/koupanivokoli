@@ -28,12 +28,12 @@ export async function generateMetadata({
   if (!region) return { title: "Kraj nenalezen" };
   const list = locationsIn(region.name);
   const monitored = list.filter((l) => l.monitored).length;
-  const description = `Koupání v ${region.name}: ${list.length} míst ke koupání, z toho ${monitored} oficiálně sledovaných. Kvalita vody, koupaliště, jezera, lomy a přehrady na mapě.`;
+  const description = `Koupání v ${region.locative}: ${list.length} míst ke koupání, z toho ${monitored} oficiálně sledovaných. Kvalita vody, koupaliště, jezera, lomy a přehrady na mapě.`;
   return {
     title: `Koupání – ${region.name}`,
     description,
     alternates: { canonical: `/koupani/${region.slug}` },
-    openGraph: { title: `Koupání v ${region.name}`, description, url: `${SITE_URL}/koupani/${region.slug}` },
+    openGraph: { title: `Koupání v ${region.locative}`, description, url: `${SITE_URL}/koupani/${region.slug}` },
   };
 }
 
@@ -58,7 +58,7 @@ export default async function RegionPage({ params }: { params: Promise<{ kraj: s
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: `Koupání v ${region.name}`,
+    name: `Koupání v ${region.locative}`,
     url: `${SITE_URL}/koupani/${region.slug}`,
     about: { "@type": "AdministrativeArea", name: region.name },
     mainEntity: {
@@ -96,12 +96,12 @@ export default async function RegionPage({ params }: { params: Promise<{ kraj: s
       </nav>
 
       <h1 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
-        Koupání v {region.name}
+        Koupání v {region.locative}
       </h1>
       <p className="mt-2 text-slate-600">
         Místa ke koupání v kraji – kvalita vody, koupaliště, jezera, lomy a přehrady.{" "}
         <Link href={`/otuzovani/${region.slug}`} className="font-semibold text-brand hover:underline">
-          ❄️ V zimě: otužování v {region.name}
+          ❄️ V zimě: otužování v {region.locative}
         </Link>
       </p>
 

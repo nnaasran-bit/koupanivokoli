@@ -6,6 +6,7 @@ import { allLocations } from "@/lib/data";
 import { otuzovaniLocations } from "@/lib/otuzovani";
 import { REGIONS, regionBySlug } from "@/lib/regions";
 import { spolkyByRegion, TYPE_LABEL } from "@/lib/spolky";
+import { pluralCz } from "@/lib/czech";
 import { listSpolekSubmissions } from "@/lib/store";
 import { nearestWaterTemp } from "@/lib/watertemp";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
@@ -29,12 +30,13 @@ export async function generateMetadata({
   if (!region) return { title: "Kraj nenalezen" };
   const list = otuzovaniLocations(allLocations).filter((l) => l.region === region.name);
   const spolky = spolkyByRegion(region.name);
-  const description = `Otužování v ${region.name}: ${list.length} přírodních míst vhodných k otužování a ${spolky.length} otužileckých part/oddílů v kraji.`;
+  const partyWord = pluralCz(spolky.length, "otužilecká parta/oddíl", "otužilecké party/oddíly", "otužileckých part/oddílů");
+  const description = `Otužování v ${region.locative}: ${list.length} přírodních míst vhodných k otužování a ${spolky.length} ${partyWord} v kraji.`;
   return {
     title: `Otužování – ${region.name}`,
     description,
     alternates: { canonical: `/otuzovani/${region.slug}` },
-    openGraph: { title: `Otužování v ${region.name}`, description, url: `${SITE_URL}/otuzovani/${region.slug}` },
+    openGraph: { title: `Otužování v ${region.locative}`, description, url: `${SITE_URL}/otuzovani/${region.slug}` },
   };
 }
 
@@ -61,7 +63,7 @@ export default async function OtuzovaniRegionPage({ params }: { params: Promise<
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: `Otužování v ${region.name}`,
+    name: `Otužování v ${region.locative}`,
     url: `${SITE_URL}/otuzovani/${region.slug}`,
     about: { "@type": "AdministrativeArea", name: region.name },
     mainEntity: {
@@ -97,7 +99,7 @@ export default async function OtuzovaniRegionPage({ params }: { params: Promise<
       </nav>
 
       <h1 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
-        ❄️ Otužování v {region.name}
+        ❄️ Otužování v {region.locative}
       </h1>
       <p className="mt-2 text-slate-600">
         Přírodní místa vhodná k otužování a otužilecké party/oddíly v kraji – vše na jednom místě.
@@ -105,7 +107,10 @@ export default async function OtuzovaniRegionPage({ params }: { params: Promise<
 
       <div className="mt-5 grid grid-cols-2 gap-3">
         <Stat value={list.length} label="míst k otužování" />
-        <Stat value={spolky.length + submissions.length} label="part a oddílů" />
+        <Stat
+          value={spolky.length + submissions.length}
+          label={pluralCz(spolky.length + submissions.length, "parta/oddíl", "party/oddíly", "part/oddílů")}
+        />
       </div>
 
       <h2 className="mt-8 text-lg font-bold text-slate-900">Kde se otužovat</h2>
@@ -190,7 +195,7 @@ export default async function OtuzovaniRegionPage({ params }: { params: Promise<
 
       <div className="mt-8 flex flex-wrap gap-2">
         <Link href="/otuzovani/spolky/pridat" className="brand-gradient rounded-xl px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:brightness-105">
-          ➕ Přidat partu z {region.name}
+          ➕ Přidat partu – {region.name}
         </Link>
         <Link href="/otuzovani/tipy-a-triky" className="rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-600 hover:border-sky-300 hover:text-sky-700">
           Tipy a triky na otužování
