@@ -43,6 +43,24 @@ export const TYPE_LABELS: Record<LocationType, string> = {
   neoficialni: "Neoficiální místo",
 };
 
+// Emoji podle typu místa – pro hezký prázdný stav u lokalit bez fotky
+// (PlacePhoto), ať to vypadá jako záměrný design, ne jako chybějící data.
+export const TYPE_EMOJI: Record<LocationType, string> = {
+  koupaliste: "🏊",
+  prirodni_koupaliste: "🏖️",
+  koupaci_oblast: "🏖️",
+  lom: "⛰️",
+  piskovna: "🏖️",
+  rybnik: "🐟",
+  jezero: "🌊",
+  prehrada: "🌊",
+  reka: "🏞️",
+  biotop: "🌿",
+  bazen: "🏊",
+  kemp: "⛺",
+  neoficialni: "📍",
+};
+
 // Bazény a aquaparky = umělá (chlorovaná) voda → odlišíme fialovou,
 // barvou, která se k přírodní vodě nehodí.
 export const POOL_COLOR = "#a855f7";

@@ -2,16 +2,22 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { TYPE_EMOJI } from "@/lib/quality";
+import type { LocationType } from "@/lib/types";
 
 export default function PlacePhoto({
   slug,
   name,
+  type,
+  color,
   officialPhoto,
   officialCredit,
   uncertain,
 }: {
   slug: string;
   name: string;
+  type: LocationType;
+  color: string;
   officialPhoto?: string;
   officialCredit?: string;
   uncertain?: boolean;
@@ -113,13 +119,17 @@ export default function PlacePhoto({
     );
   }
 
-  if (!loaded) return <div className="h-40 w-full animate-pulse bg-slate-100" />;
+  if (!loaded) return <div className="h-52 w-full animate-pulse bg-slate-100 sm:h-64" />;
 
-  // Žádná fotka → výzva k nahrání
+  // Žádná fotka → stejně velký jako fotka (ne menší!), tematický podle typu
+  // místa a barvy kvality, ať to vypadá jako záměrný design, ne díra v datech.
   return (
-    <div className="flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-sky-50 to-cyan-50 px-4 py-8 text-center">
-      <div className="text-3xl">📷</div>
-      <p className="text-sm font-medium text-slate-700">Tahle lokalita ještě nemá fotku.</p>
+    <div
+      className="flex h-52 w-full flex-col items-center justify-center gap-2 px-4 text-center sm:h-64"
+      style={{ background: `linear-gradient(135deg, ${color}26, ${color}0a)` }}
+    >
+      <div className="text-5xl drop-shadow-sm">{TYPE_EMOJI[type]}</div>
+      <p className="text-sm font-semibold text-slate-700">Buď první, kdo sem přidá fotku</p>
       {!showForm ? (
         <button
           onClick={() => setShowForm(true)}

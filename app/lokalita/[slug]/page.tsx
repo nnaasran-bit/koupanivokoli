@@ -160,6 +160,8 @@ export default async function LocationPage({
         <PlacePhoto
           slug={loc.slug}
           name={loc.name}
+          type={loc.type}
+          color={qColor}
           officialPhoto={loc.photoUrl}
           officialCredit={loc.photoCredit}
           uncertain={loc.photoUncertain}

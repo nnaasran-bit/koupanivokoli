@@ -17,6 +17,12 @@ const RADIUS_KM = 35;
 const EXCLUDE_TYPES = new Set(["bazen", "kemp"]);
 const EXCLUDE_QUALITY = new Set(["nevhodna", "zakaz_koupani"]);
 
+// Dokud místo nemá komunitní hodnocení (nový web, zatím skoro nikde), by se
+// řadilo čistě podle vzdálenosti – nesledovaná místa "na vlastní riziko" by
+// tak klidně předběhla kvalitní sledovanou vodu. Místo toho bez hodnocení
+// řadíme podle kvality/sledovanosti, teprve pak podle vzdálenosti.
+const QUALITY_RANK: Record<string, number> = { vyborna: 3, vhodna: 2, nesledovano: 1, zhorsena: 0 };
+
 export function generateStaticParams() {
   return CITIES.map((c) => ({ mesto: c.slug }));
 }
@@ -62,7 +68,14 @@ export default async function NejlepsiMistaPage({ params }: { params: Promise<{ 
       d: distanceKm(city, l),
       r: ratings.get(l.slug) ?? { avg: 0, count: 0 },
     }))
-    .sort((a, b) => b.r.avg - a.r.avg || b.r.count - a.r.count || a.d - b.d || a.l.name.localeCompare(b.l.name, "cs"))
+    .sort((a, b) =>
+      b.r.avg - a.r.avg ||
+      b.r.count - a.r.count ||
+      QUALITY_RANK[b.l.quality.class] - QUALITY_RANK[a.l.quality.class] ||
+      Number(b.l.monitored) - Number(a.l.monitored) ||
+      a.d - b.d ||
+      a.l.name.localeCompare(b.l.name, "cs"),
+    )
     .slice(0, 10);
 
   const breadcrumbLd = {
