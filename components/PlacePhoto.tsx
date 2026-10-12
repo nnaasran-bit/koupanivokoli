@@ -24,7 +24,11 @@ export default function PlacePhoto({
   uncertain?: boolean;
 }) {
   const [communityPhoto, setCommunityPhoto] = useState<{ url: string; nick: string } | null>(null);
-  const [loaded, setLoaded] = useState(false);
+  // Spolehlivou oficiální fotku známe už na serveru (je to statická data,
+  // ne fetch) – když na ni čekat přes useEffect jako na tu komunitní, SSR
+  // by vždy poslal jen prázdný skeleton a fotka (skoro jistě LCP prvek
+  // stránky) by se objevila až po hydrataci. Takhle je rovnou v HTML.
+  const [loaded, setLoaded] = useState(!!officialPhoto && !uncertain);
   const [showForm, setShowForm] = useState(false);
   const [url, setUrl] = useState("");
   const [needLogin, setNeedLogin] = useState(false);
@@ -32,11 +36,9 @@ export default function PlacePhoto({
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    // Spolehlivou oficiální fotku (z článku) nepřepisujeme komunitní.
-    if (officialPhoto && !uncertain) {
-      setLoaded(true);
-      return;
-    }
+    // Spolehlivou oficiální fotku (z článku) nepřepisujeme komunitní – ani
+    // se kvůli ní nemusíme ptát API (stav loaded už je true z initState).
+    if (officialPhoto && !uncertain) return;
     fetch(`/api/place-info?slug=${encodeURIComponent(slug)}`)
       .then((r) => r.json())
       .then((d) => {
