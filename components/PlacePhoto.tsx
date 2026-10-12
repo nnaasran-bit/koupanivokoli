@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { TYPE_EMOJI } from "@/lib/quality";
 import type { LocationType } from "@/lib/types";
@@ -82,9 +83,24 @@ export default function PlacePhoto({
 
   if (photo) {
     return (
-      <div className="relative">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={photo} alt={name} className="h-52 w-full object-cover sm:h-64" />
+      <div className="relative h-52 w-full sm:h-64">
+        {showCommunity ? (
+          // Komunitní fotka = libovolná doména, next/image to bez allowlistu
+          // neumí – zůstává obyčejný <img> (prohlížeč to dooptimalizuje sám).
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={photo} alt={name} className="h-full w-full object-cover" />
+        ) : (
+          // Oficiální fotka je vždy z Wikimedia Commons (next.config.ts) a je
+          // skoro jistě LCP prvek stránky lokality → next/image + priority.
+          <Image
+            src={photo}
+            alt={name}
+            fill
+            priority
+            sizes="(max-width: 640px) 100vw, 768px"
+            className="object-cover"
+          />
+        )}
         {credit && (
           <span className="absolute bottom-1 right-1 rounded bg-black/55 px-1.5 py-0.5 text-[10px] text-white">
             © {credit}

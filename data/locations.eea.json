@@ -489,7 +489,10 @@
       "wc",
       "stanek",
       "kemp"
-    ]
+    ],
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Milada_-_panoramio.jpg/1280px-Milada_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "photoCredit": "Petr Kraumann (CC BY 3.0) / Wikimedia Commons",
+    "photoUncertain": true
   },
   {
     "id": "eea-CZKO420903",
@@ -2683,7 +2686,8 @@
     "updatedAt": "2026-10-11",
     "amenities": [
       "stanek"
-    ]
+    ],
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C3%9A%C5%A1t%C4%9Bk,_n%C3%A1dra%C5%BE%C3%AD_II.jpg"
   },
   {
     "id": "eea-CZKO610201",
@@ -3703,7 +3707,11 @@
     "updatedAt": "2026-10-11",
     "amenities": [
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Velky_Rybnik_in_winter_-_panoramio.jpg/1280px-Velky_Rybnik_in_winter_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "photoCredit": "xxxflyer (CC BY 3.0) / Wikimedia Commons",
+    "photoUncertain": true,
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Velky_Rybnik_in_winter_-_panoramio.jpg"
   },
   {
     "id": "eea-CZKO810601",
@@ -4578,7 +4586,11 @@
       "obcerstveni",
       "kemp",
       "parkovani"
-    ]
+    ],
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Jezioro_w_okolicach_Chebu_-_panoramio.jpg/1280px-Jezioro_w_okolicach_Chebu_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "photoCredit": "Rafał Klisowski (CC BY-SA 3.0) / Wikimedia Commons",
+    "photoUncertain": true,
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:Jezioro_w_okolicach_Chebu_-_panoramio.jpg"
   },
   {
     "id": "eea-CZKO410202",
@@ -6330,7 +6342,8 @@
     "amenities": [
       "wc",
       "parkovani"
-    ]
+    ],
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:M%C4%9B%C5%99%C3%ADn_(Rabyn%C4%9B),_silnice.jpg"
   },
   {
     "id": "eea-CZKO210102",
@@ -6477,7 +6490,8 @@
       "kemp",
       "obcerstveni",
       "parkovani"
-    ]
+    ],
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:M%C4%9B%C5%99%C3%ADn_(Rabyn%C4%9B),_restaurace.jpg"
   },
   {
     "id": "eea-CZKO210701",
@@ -6957,7 +6971,8 @@
         "class": "vyborna"
       }
     ],
-    "updatedAt": "2026-10-11"
+    "updatedAt": "2026-10-11",
+    "wikiUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Cerven%C3%A1_%C5%98e%C4%8Dice,_most_p%C5%99es_Trnavu.jpg"
   },
   {
     "id": "eea-CZKO811201",
