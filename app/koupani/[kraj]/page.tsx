@@ -126,7 +126,7 @@ export default async function RegionPage({ params }: { params: Promise<{ kraj: s
                   {QUALITY_LABELS[l.quality.class]}
                 </span>
               </div>
-              <div className="mt-0.5 text-xs text-slate-400">
+              <div className="mt-0.5 text-xs text-slate-500">
                 {TYPE_LABELS[l.type]}
                 {l.monitored ? ` · ${freshness(l.quality.sampledAt).label}` : ""}
                 {l.access.status !== "povoleno" ? ` · ${ACCESS_LABELS[l.access.status]}` : ""}
@@ -135,7 +135,7 @@ export default async function RegionPage({ params }: { params: Promise<{ kraj: s
           </li>
         ))}
         {list.length === 0 && (
-          <li className="rounded-2xl border border-slate-200 bg-white px-4 py-10 text-center text-sm text-slate-400">
+          <li className="rounded-2xl border border-slate-200 bg-white px-4 py-10 text-center text-sm text-slate-500">
             Pro tento kraj zatím nemáme žádná místa.
           </li>
         )}

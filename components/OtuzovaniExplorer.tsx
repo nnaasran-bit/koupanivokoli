@@ -93,6 +93,7 @@ export default function OtuzovaniExplorer() {
       <div className="space-y-2.5 border-b border-slate-200 bg-white px-3 py-3">
         <div className="flex gap-2">
           <input
+            aria-label="Hledat lokalitu nebo obec"
             value={filters.query}
             onChange={(e) => set({ query: e.target.value })}
             placeholder="Hledat lokalitu nebo obec…"
@@ -122,11 +123,11 @@ export default function OtuzovaniExplorer() {
           <aside className="absolute bottom-3 left-3 top-3 z-10 flex w-[320px] max-w-[86vw] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white/95 shadow-xl ring-1 ring-black/5 backdrop-blur">
             <div className="flex items-center justify-between border-b border-slate-100 px-4 py-2.5">
               <span className="text-sm font-bold text-slate-800">
-                {listed.length} <span className="font-medium text-slate-400">míst</span>
+                {listed.length} <span className="font-medium text-slate-500">míst</span>
               </span>
               <button
                 onClick={() => setListOpen(false)}
-                className="rounded-lg px-2 py-1 text-xs font-medium text-slate-400 hover:bg-slate-100 hover:text-slate-700"
+                className="rounded-lg px-2 py-1 text-xs font-medium text-slate-500 hover:bg-slate-100 hover:text-slate-700"
               >
                 skrýt ✕
               </button>
@@ -161,7 +162,7 @@ export default function OtuzovaniExplorer() {
                       />
                       {TYPE_LABELS[l.type]}
                     </div>
-                    <div className="text-[11px] text-slate-400">
+                    <div className="text-[11px] text-slate-500">
                       {l.region || "ČR"}
                       {l.municipality ? ` · ${l.municipality}` : ""} · {QUALITY_LABELS[l.quality.class]}
                       {l.access.status !== "povoleno" ? ` · ${ACCESS_LABELS[l.access.status]}` : ""}
@@ -170,7 +171,7 @@ export default function OtuzovaniExplorer() {
                 </li>
               ))}
               {listed.length === 0 && (
-                <li className="px-4 py-10 text-center text-sm text-slate-400">
+                <li className="px-4 py-10 text-center text-sm text-slate-500">
                   Žádná lokalita neodpovídá filtrům.
                 </li>
               )}

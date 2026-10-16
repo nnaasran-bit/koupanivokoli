@@ -64,7 +64,7 @@ export default function CheckInButton({ slug, typeLabel }: { slug: string; typeL
         <button
           onClick={checkIn}
           disabled={busy || done}
-          className="rounded-xl bg-emerald-600 px-4 py-2.5 text-sm font-bold text-white hover:bg-emerald-700 disabled:opacity-60"
+          className="rounded-xl bg-emerald-700 px-4 py-2.5 text-sm font-bold text-white hover:bg-emerald-800 disabled:opacity-60"
         >
           {done ? "✓ Navštíveno" : busy ? "…" : "✅ Byl jsem tady (+15)"}
         </button>

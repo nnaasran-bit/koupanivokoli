@@ -60,7 +60,7 @@ export default async function ZebricekPage() {
                 className="flex items-center justify-between rounded-xl border border-zinc-200 bg-white px-4 py-3"
               >
                 <div className="flex items-center gap-3">
-                  <span className="w-7 text-center text-lg font-bold text-zinc-400">{medal}</span>
+                  <span className="w-7 text-center text-lg font-bold text-zinc-500">{medal}</span>
                   <div>
                     <div className="font-semibold text-zinc-900">{u.nick}</div>
                     <div className="text-xs text-zinc-500">

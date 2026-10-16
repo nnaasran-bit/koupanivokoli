@@ -63,15 +63,15 @@ export default function GpsNavigation({
       <div className="mb-4 rounded-xl bg-slate-50 p-4 font-mono text-sm">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
-            <span className="text-xs text-slate-400">Zeměpisná šířka</span>
+            <span className="text-xs text-slate-500">Zeměpisná šířka</span>
             <p className="text-base font-bold text-slate-900">{lat.toFixed(6)}</p>
           </div>
           <div>
-            <span className="text-xs text-slate-400">Zeměpisná délka</span>
+            <span className="text-xs text-slate-500">Zeměpisná délka</span>
             <p className="text-base font-bold text-slate-900">{lng.toFixed(6)}</p>
           </div>
           <div>
-            <span className="text-xs text-slate-400">Formát decimal</span>
+            <span className="text-xs text-slate-500">Formát decimal</span>
             <p className="text-base font-bold text-slate-900">{coords}</p>
           </div>
         </div>

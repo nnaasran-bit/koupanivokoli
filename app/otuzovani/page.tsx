@@ -184,7 +184,7 @@ export default function OtuzovaniPage() {
         nenahrazuje.
       </p>
 
-      <p className="mt-8 text-xs leading-relaxed text-zinc-400">
+      <p className="mt-8 text-xs leading-relaxed text-zinc-500">
         Místa jsme vytipovali podle typu vodní plochy (přírodní voda bez sezónního zákazu vstupu).
         Nejde o potvrzení, že je místo v danou chvíli bezpečné – led, proud i přístup se mohou
         měnit ze dne na den. Informace jsou orientační; rozhodující je vždy stav na místě a tvůj

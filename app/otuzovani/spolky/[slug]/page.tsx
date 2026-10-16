@@ -140,7 +140,7 @@ export default async function SpolekPage({
         </section>
       )}
 
-      <p className="mt-6 text-xs leading-relaxed text-slate-400">
+      <p className="mt-6 text-xs leading-relaxed text-slate-500">
         {s.sourceUrl ? (
           <>
             Údaje jsou kurátorované ručně z veřejného zdroje:{" "}

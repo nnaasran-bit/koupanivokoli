@@ -69,7 +69,7 @@ function StationRow({ s, accent }: { s: WaterTempStation; accent: string }) {
     >
       <div className="min-w-0">
         <div className="truncate font-bold text-slate-900">{s.name}</div>
-        <div className="truncate text-xs text-slate-400">
+        <div className="truncate text-xs text-slate-500">
           {s.river} · měřeno {formatDateCz(s.measuredAt)} ({f.label})
         </div>
       </div>
@@ -134,7 +134,7 @@ export default function TeplotyVodyPage() {
         </Link>
       </div>
 
-      <p className="mt-8 text-xs leading-relaxed text-zinc-400">
+      <p className="mt-8 text-xs leading-relaxed text-zinc-500">
         Teplota se měří na hydrologických profilech ČHMÚ na řekách, ne přímo na koupacích místech –
         u stojatých vod (jezera, lomy, rybníky, přehrady) jde o orientační odhad z nejbližší říční
         stanice. Zdroj: otevřená data ČHMÚ (opendata.chmi.cz).

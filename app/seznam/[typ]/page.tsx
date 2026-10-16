@@ -98,7 +98,7 @@ export default async function SeznamPage({ params }: { params: Promise<{ typ: st
             >
               <div className="min-w-0">
                 <div className="truncate font-bold text-slate-900">{l.name}</div>
-                <div className="truncate text-xs text-slate-400">
+                <div className="truncate text-xs text-slate-500">
                   {l.region || "ČR"}
                   {l.municipality ? ` · ${l.municipality}` : ""}
                   {l.type !== "bazen" && l.type !== "kemp" ? ` · ${QUALITY_LABELS[l.quality.class]}` : ""}
@@ -108,7 +108,7 @@ export default async function SeznamPage({ params }: { params: Promise<{ typ: st
                 {r.count > 0 ? (
                   <>
                     <div className="text-sm font-bold text-amber-500">★ {r.avg.toFixed(1)}</div>
-                    <div className="text-[11px] text-slate-400">{r.count}×</div>
+                    <div className="text-[11px] text-slate-500">{r.count}×</div>
                   </>
                 ) : (
                   <span className="text-[11px] text-slate-300">bez hodnocení</span>

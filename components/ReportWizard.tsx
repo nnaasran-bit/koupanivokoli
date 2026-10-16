@@ -161,8 +161,9 @@ export default function ReportWizard() {
   const sharedFields = (
     <>
       <div className="mt-3">
-        <label className="mb-1 block text-xs font-medium text-slate-600">Poznámka (nepovinné)</label>
+        <label htmlFor="rw-note" className="mb-1 block text-xs font-medium text-slate-600">Poznámka (nepovinné)</label>
         <textarea
+          id="rw-note"
           value={text}
           onChange={(e) => setText(e.target.value)}
           rows={3}
@@ -171,8 +172,9 @@ export default function ReportWizard() {
         />
       </div>
       <div className="mt-3">
-        <label className="mb-1 block text-xs font-medium text-slate-600">Odkaz na fotku (nepovinné)</label>
+        <label htmlFor="rw-photo" className="mb-1 block text-xs font-medium text-slate-600">Odkaz na fotku (nepovinné)</label>
         <input
+          id="rw-photo"
           value={photoUrl}
           onChange={(e) => setPhotoUrl(e.target.value)}
           inputMode="url"
@@ -194,8 +196,9 @@ export default function ReportWizard() {
         <h2 className="mt-2 text-lg font-bold text-slate-900">Navrhnout nové místo 📍</h2>
 
         <div className="mt-3">
-          <label className="mb-1 block text-xs font-medium text-slate-600">Název místa</label>
+          <label htmlFor="rw-new-name" className="mb-1 block text-xs font-medium text-slate-600">Název místa</label>
           <input
+            id="rw-new-name"
             value={newName}
             onChange={(e) => setNewName(e.target.value)}
             className="w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:border-sky-400"
@@ -204,12 +207,14 @@ export default function ReportWizard() {
         </div>
 
         <div className="mt-3">
-          <label className="mb-1 block text-xs font-medium text-slate-600">Typ</label>
-          <div className="flex flex-wrap gap-1.5">
+          <span id="rw-type-label" className="mb-1 block text-xs font-medium text-slate-600">Typ</span>
+          <div role="group" aria-labelledby="rw-type-label" className="flex flex-wrap gap-1.5">
             {NEW_TYPES.map((t) => (
               <button
                 key={t}
+                type="button"
                 onClick={() => setNewType(t)}
+                aria-pressed={newType === t}
                 className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${
                   newType === t ? "border-sky-600 bg-sky-600 text-white" : "border-slate-300 text-slate-700"
                 }`}
@@ -240,7 +245,7 @@ export default function ReportWizard() {
         >
           {busy ? "Odesílám…" : "Odeslat návrh (+25 bodů)"}
         </button>
-        {!coords && <p className="mt-2 text-center text-xs text-slate-400">Klikni na mapu a označ místo.</p>}
+        {!coords && <p className="mt-2 text-center text-xs text-slate-500">Klikni na mapu a označ místo.</p>}
       </div>
     );
   }
@@ -256,8 +261,9 @@ export default function ReportWizard() {
 
       {!picked ? (
         <div className="relative mt-3">
-          <label className="mb-1 block text-xs font-medium text-slate-600">Najdi místo</label>
+          <label htmlFor="rw-search" className="mb-1 block text-xs font-medium text-slate-600">Najdi místo</label>
           <input
+            id="rw-search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:border-sky-400"
@@ -272,7 +278,7 @@ export default function ReportWizard() {
                     className="flex w-full items-center gap-2 px-3 py-2 text-left hover:bg-slate-50"
                   >
                     <span className="truncate text-sm font-medium text-slate-900">{m.name}</span>
-                    <span className="ml-auto shrink-0 text-[11px] text-slate-400">
+                    <span className="ml-auto shrink-0 text-[11px] text-slate-500">
                       {TYPE_LABELS[m.type]}
                       {m.municipality ? ` · ${m.municipality}` : ""}
                     </span>
@@ -292,12 +298,14 @@ export default function ReportWizard() {
           </div>
 
           <div className="mt-3">
-            <label className="mb-1 block text-xs font-medium text-slate-600">Co hlásíš?</label>
-            <div className="flex flex-wrap gap-1.5">
+            <span id="rw-kind-label" className="mb-1 block text-xs font-medium text-slate-600">Co hlásíš?</span>
+            <div role="group" aria-labelledby="rw-kind-label" className="flex flex-wrap gap-1.5">
               {EXISTING_KINDS.map((k) => (
                 <button
                   key={k.id}
+                  type="button"
                   onClick={() => setKind(k.id)}
+                  aria-pressed={kind === k.id}
                   className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${
                     kind === k.id ? "border-sky-600 bg-sky-600 text-white" : "border-slate-300 text-slate-700"
                   }`}
@@ -320,7 +328,7 @@ export default function ReportWizard() {
           </button>
         </>
       )}
-      <p className="mt-3 text-center text-xs text-slate-400">
+      <p className="mt-3 text-center text-xs text-slate-500">
         Hlášení se moderuje a nemění oficiální kvalitu vody – vytvoří upozornění „čeká na ověření&quot;.
       </p>
     </div>

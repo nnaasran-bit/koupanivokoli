@@ -109,7 +109,7 @@ export default function KvalitaVodyPage() {
         (licence ODbL). Komunitní hlášení jsou orientační a nikdy nemění oficiální kvalitu vody.
       </p>
 
-      <p className="mt-6 text-xs leading-relaxed text-zinc-400">
+      <p className="mt-6 text-xs leading-relaxed text-zinc-500">
         Informace jsou orientační; rozhodující jsou vždy oficiální zdroje.
       </p>
     </ContentLayout>

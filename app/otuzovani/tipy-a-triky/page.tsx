@@ -166,7 +166,7 @@ export default function OtuzovaniTipyPage() {
         </div>
       </div>
 
-      <p className="mt-6 text-xs leading-relaxed text-zinc-400">
+      <p className="mt-6 text-xs leading-relaxed text-zinc-500">
         Tipy jsou obecné a nenahrazují lékařskou radu. Při zdravotních potížích nebo nejistotě se
         poraď s lékařem – viz kontraindikace na stránce otužování.
       </p>

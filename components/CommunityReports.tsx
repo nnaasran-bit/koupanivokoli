@@ -51,7 +51,7 @@ export default function CommunityReports({ slug, name }: { slug: string; name: s
       )}
 
       {reports === null ? (
-        <p className="mt-3 text-sm text-zinc-400">Načítám…</p>
+        <p className="mt-3 text-sm text-zinc-500">Načítám…</p>
       ) : reports.length === 0 ? (
         <p className="mt-3 text-sm text-zinc-500">
           Zatím žádné hlášení. Buď první a získej body! 🏆
@@ -65,7 +65,7 @@ export default function CommunityReports({ slug, name }: { slug: string; name: s
                 <span>{def?.emoji ?? "📝"}</span>
                 <div>
                   <span className="font-medium text-zinc-800">{def?.label ?? r.kind}</span>
-                  <span className="text-zinc-400">
+                  <span className="text-zinc-500">
                     {" "}
                     · {r.nick} · {new Date(r.createdAt).toLocaleDateString("cs-CZ")}
                   </span>
@@ -76,7 +76,7 @@ export default function CommunityReports({ slug, name }: { slug: string; name: s
           })}
         </ul>
       )}
-      <p className="mt-3 text-xs text-zinc-400">
+      <p className="mt-3 text-xs text-zinc-500">
         Hlášení od návštěvníků jsou orientační a nemění oficiální kvalitu vody.
       </p>
     </section>

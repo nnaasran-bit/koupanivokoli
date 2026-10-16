@@ -126,7 +126,7 @@ export default async function NejlepsiMistaPage({ params }: { params: Promise<{ 
               <span className="w-6 shrink-0 text-center text-lg font-extrabold text-slate-300">{i + 1}</span>
               <div className="min-w-0 flex-1">
                 <div className="truncate font-bold text-slate-900">{l.name}</div>
-                <div className="truncate text-xs text-slate-400">
+                <div className="truncate text-xs text-slate-500">
                   {TYPE_LABELS[l.type]} · {d.toFixed(0)} km · {QUALITY_LABELS[l.quality.class]}
                 </div>
               </div>
@@ -134,7 +134,7 @@ export default async function NejlepsiMistaPage({ params }: { params: Promise<{ 
                 {r.count > 0 ? (
                   <>
                     <div className="text-sm font-bold text-amber-500">★ {r.avg.toFixed(1)}</div>
-                    <div className="text-[11px] text-slate-400">{r.count}×</div>
+                    <div className="text-[11px] text-slate-500">{r.count}×</div>
                   </>
                 ) : (
                   <span className="text-[11px] text-slate-300">bez hodnocení</span>
@@ -158,7 +158,7 @@ export default async function NejlepsiMistaPage({ params }: { params: Promise<{ 
         ))}
       </div>
 
-      <p className="mt-8 text-xs leading-relaxed text-zinc-400">
+      <p className="mt-8 text-xs leading-relaxed text-zinc-500">
         Pořadí vychází z hodnocení návštěvníků webu (1 IP = 1 hlas u každého místa); místa bez
         hodnocení řadíme podle vzdálenosti. Ohodnoť místa, která znáš, na jejich detailu – pomůže to
         přesnosti žebříčku pro ostatní.

@@ -58,7 +58,7 @@ export default function SaunyPage() {
             <div className="font-bold text-slate-900">{s.name}</div>
             <div className="mt-0.5 text-sm text-slate-500">{s.city}</div>
             <p className="mt-1.5 text-sm text-slate-600">{s.desc}</p>
-            <div className="mt-2 text-xs text-slate-400">Zdroj: {s.sourceName} →</div>
+            <div className="mt-2 text-xs text-slate-500">Zdroj: {s.sourceName} →</div>
           </a>
         ))}
       </div>
@@ -72,7 +72,7 @@ export default function SaunyPage() {
         </Link>
       </div>
 
-      <p className="mt-8 text-xs leading-relaxed text-zinc-400">
+      <p className="mt-8 text-xs leading-relaxed text-zinc-500">
         Výběr je ručně kurátorovaný z veřejných zdrojů (u každého místa odkaz) – nejde o vlastní
         recenze ani placené umístění. Otevírací doby a ceny si ověř přímo u provozovatele. Znáš
         sauny u vody, co tu chybí? Napiš nám přes{" "}

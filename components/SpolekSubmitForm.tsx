@@ -69,8 +69,9 @@ export default function SpolekSubmitForm() {
 
       <div className="grid gap-3 sm:grid-cols-2">
         <div>
-          <label className="mb-1 block text-xs font-medium text-slate-600">Název party / spolku *</label>
+          <label htmlFor="sp-name" className="mb-1 block text-xs font-medium text-slate-600">Název party / spolku *</label>
           <input
+            id="sp-name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -80,8 +81,9 @@ export default function SpolekSubmitForm() {
           />
         </div>
         <div>
-          <label className="mb-1 block text-xs font-medium text-slate-600">Město *</label>
+          <label htmlFor="sp-city" className="mb-1 block text-xs font-medium text-slate-600">Město *</label>
           <input
+            id="sp-city"
             value={city}
             onChange={(e) => setCity(e.target.value)}
             required
@@ -94,8 +96,9 @@ export default function SpolekSubmitForm() {
 
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
         <div>
-          <label className="mb-1 block text-xs font-medium text-slate-600">Kraj *</label>
+          <label htmlFor="sp-region" className="mb-1 block text-xs font-medium text-slate-600">Kraj *</label>
           <select
+            id="sp-region"
             value={region}
             onChange={(e) => setRegion(e.target.value)}
             className="w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-sky-400"
@@ -106,8 +109,9 @@ export default function SpolekSubmitForm() {
           </select>
         </div>
         <div>
-          <label className="mb-1 block text-xs font-medium text-slate-600">Kdy se scházíte</label>
+          <label htmlFor="sp-schedule" className="mb-1 block text-xs font-medium text-slate-600">Kdy se scházíte</label>
           <input
+            id="sp-schedule"
             value={schedule}
             onChange={(e) => setSchedule(e.target.value)}
             maxLength={120}
@@ -118,8 +122,9 @@ export default function SpolekSubmitForm() {
       </div>
 
       <div className="mt-3">
-        <label className="mb-1 block text-xs font-medium text-slate-600">Kde přesně (místo srazu)</label>
+        <label htmlFor="sp-place" className="mb-1 block text-xs font-medium text-slate-600">Kde přesně (místo srazu)</label>
         <input
+          id="sp-place"
           value={place}
           onChange={(e) => setPlace(e.target.value)}
           maxLength={160}
@@ -129,8 +134,9 @@ export default function SpolekSubmitForm() {
       </div>
 
       <div className="mt-3">
-        <label className="mb-1 block text-xs font-medium text-slate-600">Pár slov o partě (nepovinné)</label>
+        <label htmlFor="sp-desc" className="mb-1 block text-xs font-medium text-slate-600">Pár slov o partě (nepovinné)</label>
         <textarea
+          id="sp-desc"
           value={desc}
           onChange={(e) => setDesc(e.target.value)}
           rows={3}
@@ -141,8 +147,9 @@ export default function SpolekSubmitForm() {
       </div>
 
       <div className="mt-3">
-        <label className="mb-1 block text-xs font-medium text-slate-600">Kontakt (FB skupina, telefon…)</label>
+        <label htmlFor="sp-contact" className="mb-1 block text-xs font-medium text-slate-600">Kontakt (FB skupina, telefon…)</label>
         <input
+          id="sp-contact"
           value={contact}
           onChange={(e) => setContact(e.target.value)}
           maxLength={200}
@@ -160,7 +167,7 @@ export default function SpolekSubmitForm() {
       >
         {busy ? "Odesílám…" : "Přidat naši partu"}
       </button>
-      <p className="mt-3 text-center text-xs text-slate-400">
+      <p className="mt-3 text-center text-xs text-slate-500">
         Bez registrace, jen se snažíme udržet seznam bez spamu.
       </p>
     </form>

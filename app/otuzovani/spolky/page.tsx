@@ -141,7 +141,7 @@ export default async function SpolkyPage() {
         ))}
       </div>
 
-      <p className="mt-8 text-xs leading-relaxed text-zinc-400">
+      <p className="mt-8 text-xs leading-relaxed text-zinc-500">
         Znáš partu, která tu chybí? <Link href="/otuzovani/spolky/pridat" className="text-brand hover:underline">Přidej ji</Link>{" "}
         rovnou bez registrace. Změnil se u některé čas srazu? Napiš nám přes{" "}
         <Link href="/nahlasit" className="text-brand hover:underline">formulář hlášení</Link>.

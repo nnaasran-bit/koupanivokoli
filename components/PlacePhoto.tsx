@@ -184,7 +184,7 @@ export default function PlacePhoto({
           </button>
         </form>
       )}
-      <p className="text-[11px] text-slate-400">Vlož odkaz na fotku z internetu (např. z tvého úložiště).</p>
+      <p className="text-[11px] text-slate-500">Vlož odkaz na fotku z internetu (např. z tvého úložiště).</p>
     </div>
   );
 }

@@ -138,7 +138,7 @@ export default async function OtuzovaniRegionPage({ params }: { params: Promise<
                     </span>
                   </span>
                 </div>
-                <div className="mt-0.5 text-xs text-slate-400">
+                <div className="mt-0.5 text-xs text-slate-500">
                   {TYPE_LABELS[l.type]}
                   {l.municipality ? ` · ${l.municipality}` : ""}
                 </div>
@@ -147,7 +147,7 @@ export default async function OtuzovaniRegionPage({ params }: { params: Promise<
           );
         })}
         {list.length === 0 && (
-          <li className="rounded-2xl border border-slate-200 bg-white px-4 py-10 text-center text-sm text-slate-400">
+          <li className="rounded-2xl border border-slate-200 bg-white px-4 py-10 text-center text-sm text-slate-500">
             Pro tento kraj zatím nemáme vytipovaná místa.
           </li>
         )}

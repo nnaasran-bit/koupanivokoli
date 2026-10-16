@@ -80,7 +80,7 @@ export default function PodminkyPage() {
           </p>
         </section>
 
-        <p className="text-xs text-slate-400">
+        <p className="text-xs text-slate-500">
           Tento dokument je vzorový a doporučujeme jej před ostrým provozem nechat zkontrolovat
           právníkem.
         </p>

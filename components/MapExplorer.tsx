@@ -206,8 +206,9 @@ export default function MapExplorer() {
       <div className="space-y-2.5 border-b border-slate-200 bg-white px-3 py-3">
         <div className="flex gap-2">
           <div className="relative flex-1">
-            <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">🔍</span>
+            <span aria-hidden="true" className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-500">🔍</span>
             <input
+              aria-label="Hledat lokalitu nebo obec"
               value={filters.query}
               onChange={(e) => {
                 set({ query: e.target.value });
@@ -231,7 +232,7 @@ export default function MapExplorer() {
                         style={{ borderLeftColor: dotColor(s.l) }}
                       >
                         <span className="truncate text-sm font-medium text-slate-900">{s.l.name}</span>
-                        <span className="ml-auto shrink-0 text-[11px] text-slate-400">
+                        <span className="ml-auto shrink-0 text-[11px] text-slate-500">
                           {TYPE_LABELS[s.l.type]}
                           {s.l.municipality ? ` · ${s.l.municipality}` : s.l.region ? ` · ${s.l.region}` : ""}
                         </span>
@@ -242,9 +243,9 @@ export default function MapExplorer() {
                         onClick={() => pickSuggestion(s)}
                         className="flex w-full items-center gap-2 px-3 py-2 text-left hover:bg-slate-50"
                       >
-                        <span className="shrink-0 text-slate-400">{s.isCity ? "🏙️" : "📍"}</span>
+                        <span className="shrink-0 text-slate-500">{s.isCity ? "🏙️" : "📍"}</span>
                         <span className="truncate text-sm text-slate-800">{s.name}</span>
-                        <span className="ml-auto shrink-0 text-[11px] text-slate-400">{s.detail}</span>
+                        <span className="ml-auto shrink-0 text-[11px] text-slate-500">{s.detail}</span>
                       </button>
                     )}
                   </li>
@@ -287,11 +288,11 @@ export default function MapExplorer() {
           <aside className="absolute bottom-3 left-3 top-3 z-10 flex w-[340px] max-w-[86vw] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white/95 shadow-xl ring-1 ring-black/5 backdrop-blur">
             <div className="flex items-center justify-between border-b border-slate-100 px-4 py-2.5">
               <span className="text-sm font-bold text-slate-800">
-                {listed.length} <span className="font-medium text-slate-400">míst</span>
+                {listed.length} <span className="font-medium text-slate-500">míst</span>
               </span>
               <button
                 onClick={() => setListOpen(false)}
-                className="rounded-lg px-2 py-1 text-xs font-medium text-slate-400 hover:bg-slate-100 hover:text-slate-700"
+                className="rounded-lg px-2 py-1 text-xs font-medium text-slate-500 hover:bg-slate-100 hover:text-slate-700"
               >
                 skrýt ✕
               </button>
@@ -323,7 +324,7 @@ export default function MapExplorer() {
                           ? "Kemp / tábořiště"
                           : QUALITY_LABELS[l.quality.class]}
                     </div>
-                    <div className="text-[11px] text-slate-400">
+                    <div className="text-[11px] text-slate-500">
                       {TYPE_LABELS[l.type]} · {l.region || "ČR"}
                       {l.access.status !== "povoleno" ? ` · ${ACCESS_LABELS[l.access.status]}` : ""}
                     </div>
@@ -331,7 +332,7 @@ export default function MapExplorer() {
                 </li>
               ))}
               {listed.length === 0 && (
-                <li className="px-4 py-10 text-center text-sm text-slate-400">
+                <li className="px-4 py-10 text-center text-sm text-slate-500">
                   Žádná lokalita neodpovídá filtrům.
                 </li>
               )}

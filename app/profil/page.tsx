@@ -121,12 +121,12 @@ async function Profile({
             <li key={r.id} className="flex items-center justify-between rounded-lg border border-zinc-100 px-3 py-2 text-sm">
               <span>
                 {def?.emoji} {def?.label}
-                <span className="text-zinc-400">
+                <span className="text-zinc-500">
                   {" "}
                   · {r.newPlaceName ?? r.locationName ?? "—"}
                 </span>
               </span>
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-500">
                 {r.status === "pending" ? "⏳ čeká" : r.status === "approved" ? "✅" : "✕"} +{r.points}
               </span>
             </li>

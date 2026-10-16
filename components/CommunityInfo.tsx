@@ -114,12 +114,13 @@ export default function CommunityInfo({ slug }: { slug: string }) {
         <ul className="space-y-1.5">
           {tips.map((t, i) => (
             <li key={i} className="text-sm text-zinc-700">
-              💬 {t.text} <span className="text-zinc-400">— {t.nick}</span>
+              💬 {t.text} <span className="text-zinc-500">— {t.nick}</span>
             </li>
           ))}
         </ul>
         <div className="mt-2 flex gap-2">
           <input
+            aria-label="Tvůj tip"
             value={tipText}
             onChange={(e) => setTipText(e.target.value)}
             placeholder="Tvůj tip (parkování, vstup, voda…)"
@@ -148,7 +149,7 @@ export default function CommunityInfo({ slug }: { slug: string }) {
           .
         </p>
       )}
-      <p className="mt-3 text-xs text-zinc-400">
+      <p className="mt-3 text-xs text-zinc-500">
         Komunitní informace jsou orientační a doplňují oficiální data.
       </p>
     </section>

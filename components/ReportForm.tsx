@@ -114,7 +114,7 @@ export default function ReportForm({
             }`}
           >
             {k.emoji} {k.label}{" "}
-            <span className={kind === k.id ? "text-blue-100" : "text-zinc-400"}>+{k.points}</span>
+            <span className={kind === k.id ? "text-blue-100" : "text-zinc-500"}>+{k.points}</span>
           </button>
         ))}
       </div>
@@ -195,7 +195,7 @@ export default function ReportForm({
       >
         {busy ? "Odesílám…" : `Odeslat hlášení (+${def.points} bodů)`}
       </button>
-      <p className="mt-3 text-center text-xs text-zinc-400">
+      <p className="mt-3 text-center text-xs text-zinc-500">
         Komunitní hlášení se moderuje a nemění oficiální kvalitu vody – jen vytvoří upozornění
         „čeká na ověření&quot;.
       </p>

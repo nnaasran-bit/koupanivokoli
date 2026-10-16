@@ -207,7 +207,7 @@ export default async function LocationPage({
                   <span className="font-medium text-slate-900">
                     {loc.quality.sampledAt ? formatDateCz(loc.quality.sampledAt) : "—"}
                   </span>{" "}
-                  <span className="text-slate-400">({f.label})</span>
+                  <span className="text-slate-500">({f.label})</span>
                 </div>
                 <div>Zdroj: <span className="font-medium text-slate-900">{loc.quality.source ?? "—"}</span></div>
               </div>
@@ -284,7 +284,7 @@ export default async function LocationPage({
               <div className="flex justify-between gap-2">
                 <dt className="text-slate-500">📞 Telefon</dt>
                 <dd className="text-right font-medium text-slate-900">
-                  <a href={`tel:${loc.phone.replace(/\s/g, "")}`} className="text-brand hover:underline">{loc.phone}</a>
+                  <a href={`tel:${loc.phone.replace(/\s/g, "")}`} className="text-brand underline">{loc.phone}</a>
                 </dd>
               </div>
             )}
@@ -298,7 +298,7 @@ export default async function LocationPage({
               <div className="flex justify-between gap-2">
                 <dt className="text-slate-500">🌐 Web</dt>
                 <dd className="text-right font-medium">
-                  <a href={loc.website} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+                  <a href={loc.website} target="_blank" rel="noopener noreferrer" className="text-brand underline">
                     oficiální stránky →
                   </a>
                 </dd>
@@ -313,8 +313,8 @@ export default async function LocationPage({
           )}
           {loc.amenities && loc.amenities.length > 0 && (
             <div className="mt-3">
-              <div className="text-xs font-semibold uppercase tracking-wide text-slate-400">
-                Vybavení na místě <span className="font-normal normal-case text-slate-400">(z OpenStreetMap)</span>
+              <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                Vybavení na místě <span className="font-normal normal-case text-slate-500">(z OpenStreetMap)</span>
               </div>
               <div className="mt-2 flex flex-wrap gap-2">
                 {loc.amenities.map((id) => {
@@ -373,11 +373,11 @@ export default async function LocationPage({
         <h2 className="text-sm font-bold text-slate-900">O lokalitě</h2>
         {loc.description && <p className="mt-2 text-sm leading-relaxed text-slate-700">{loc.description}</p>}
         <p className="mt-2 text-sm leading-relaxed text-slate-500">{describe(loc)}</p>
-        <div className="mt-3 space-y-1 text-xs text-slate-400">
+        <div className="mt-3 space-y-1 text-xs text-slate-500">
           {loc.wikiUrl && (
             <p>
               Zdroj popisu a fotky:{" "}
-              <a href={loc.wikiUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+              <a href={loc.wikiUrl} target="_blank" rel="noopener noreferrer" className="text-brand underline">
                 Wikipedie
               </a>{" "}
               (CC BY-SA)
@@ -386,7 +386,7 @@ export default async function LocationPage({
           {loc.quality.sourceUrl && (
             <p>
               Oficiální zdroj kvality vody:{" "}
-              <a href={loc.quality.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">
+              <a href={loc.quality.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-brand underline">
                 odkaz
               </a>
             </p>
@@ -399,7 +399,7 @@ export default async function LocationPage({
         </div>
       </section>
 
-      <p className="mt-6 text-xs leading-relaxed text-slate-400">
+      <p className="mt-6 text-xs leading-relaxed text-slate-500">
         Informace jsou orientační. Rozhodující jsou oficiální zdroje (KHS, SZÚ). U nesledovaných
         lokalit je koupání na vlastní riziko. Web nenese odpovědnost za porušení zákazů a
         nezveřejňuje návody k jejich obcházení.

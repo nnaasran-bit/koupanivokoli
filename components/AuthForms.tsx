@@ -77,7 +77,7 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
           <span className="text-base font-bold text-[#1877F2]">f</span> Facebook
         </a>
       </div>
-      <div className="my-4 flex items-center gap-3 text-xs text-slate-400">
+      <div className="my-4 flex items-center gap-3 text-xs text-slate-500">
         <span className="h-px flex-1 bg-slate-200" /> nebo e-mailem <span className="h-px flex-1 bg-slate-200" />
       </div>
 
@@ -95,8 +95,9 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
         />
         {mode === "register" && (
           <div>
-            <label className="mb-1 block text-xs font-medium text-slate-600">Přezdívka (zobrazí se ostatním)</label>
+            <label htmlFor="auth-nick" className="mb-1 block text-xs font-medium text-slate-600">Přezdívka (zobrazí se ostatním)</label>
             <input
+              id="auth-nick"
               value={nick}
               onChange={(e) => setNick(e.target.value)}
               autoComplete="username"
@@ -106,8 +107,9 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
           </div>
         )}
         <div>
-          <label className="mb-1 block text-xs font-medium text-slate-600">E-mail</label>
+          <label htmlFor="auth-email" className="mb-1 block text-xs font-medium text-slate-600">E-mail</label>
           <input
+            id="auth-email"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -117,8 +119,9 @@ export default function AuthForms({ redirectTo = "/profil" }: { redirectTo?: str
           />
         </div>
         <div>
-          <label className="mb-1 block text-xs font-medium text-slate-600">Heslo</label>
+          <label htmlFor="auth-password" className="mb-1 block text-xs font-medium text-slate-600">Heslo</label>
           <input
+            id="auth-password"
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}

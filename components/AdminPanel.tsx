@@ -62,8 +62,9 @@ export default function AdminPanel({
   if (!isAdmin) {
     return (
       <form onSubmit={login} className="max-w-sm rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <label className="mb-1 block text-xs font-medium text-slate-600">Admin heslo</label>
+        <label htmlFor="admin-password" className="mb-1 block text-xs font-medium text-slate-600">Admin heslo</label>
         <input
+          id="admin-password"
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
@@ -115,7 +116,7 @@ export default function AdminPanel({
                   {s.city} · {s.region}
                   {s.schedule ? ` · ${s.schedule}` : ""}
                 </div>
-                {s.desc && <div className="mt-0.5 text-xs text-slate-400">{s.desc}</div>}
+                {s.desc && <div className="mt-0.5 text-xs text-slate-500">{s.desc}</div>}
               </div>
               <button
                 onClick={() => removeSpolek(s.id)}
@@ -126,7 +127,7 @@ export default function AdminPanel({
             </li>
           ))}
           {submissions.length === 0 && (
-            <li className="py-6 text-center text-sm text-slate-400">Zatím žádné návrhy.</li>
+            <li className="py-6 text-center text-sm text-slate-500">Zatím žádné návrhy.</li>
           )}
         </ul>
       </div>
